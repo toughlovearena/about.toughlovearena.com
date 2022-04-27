@@ -5,7 +5,23 @@
   src: url('font.ttf?DidactGothic') format('truetype');
 }
 
-body {
+html {
   --font-family: 'Fightura';
+  --heart: rgb(234, 119, 248);
+}
+
+body {
   font-family: var(--font-family);
+  color: white;
+  background-color: #222;
+}
+
+body a {
+  color: var(--heart);
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  text-decoration: underline;
 }

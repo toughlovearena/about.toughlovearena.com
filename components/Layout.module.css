@@ -9,10 +9,14 @@
 .nav > * {
   margin: 0 1em;
 }
-.nav a {
-  text-decoration: none;
-}
 .nav img {
   height: 6em;
   width: auto;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.8em;
+  border-top: 1px solid white;
+  padding: 1em;
 }
