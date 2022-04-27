@@ -1,8 +1,15 @@
 import Link from 'next/link'
+import { ReactNode } from 'react';
 import { Column } from '../components/Column';
 import Layout from '../components/Layout'
 import { Articles, YouTubeVideos } from '../data/links';
 import { sortArrayOfObjects } from '../utils/list';
+
+const ExternalLink = (props: { children: ReactNode; }) => (
+  <div style={{ margin: '1em 0', }}>
+    {props.children}
+  </div>
+)
 
 const PressPage = () => {
   const articles = sortArrayOfObjects(Articles, art => art.date).reverse();
@@ -20,7 +27,7 @@ const PressPage = () => {
           Praise for Tough Love Arena
         </h2>
         {articles.map(ext => (
-          <p key={ext.url}>
+          <ExternalLink key={ext.url}>
             <div>
               {ext.author}
             </div>
@@ -32,7 +39,7 @@ const PressPage = () => {
             <div style={{fontSize: '0.8em',}}>
               {ext.date}
             </div>
-          </p>
+          </ExternalLink>
         ))}
         <h2>
           YouTube Videos featuring Tough Love Arena
@@ -45,7 +52,7 @@ const PressPage = () => {
             label: Math.floor(ext.timestamp / 60) + ':' + (ext.timestamp % 60).toString().padStart(2, '0'),
           } : undefined;
           return (
-            <p key={ext.vid}>
+            <ExternalLink key={ext.vid}>
               <div>
                 {ext.channel}
               </div>
@@ -62,7 +69,7 @@ const PressPage = () => {
               <div style={{fontSize: '0.8em',}}>
                 {ext.date}
               </div>
-            </p>
+            </ExternalLink>
           );
         })}
       </Column>
