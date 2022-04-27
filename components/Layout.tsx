@@ -34,17 +34,11 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
           <img src="/logo_vert.png" />
         </div>
         <div className={styles.navRight}>
-          <Link href="/users">
-            <a>Users List</a>
-          </Link>
-          <a href="/api/users">
-            Users API
-          </a>
           <Link href="/log">
             <a>Patch Notes</a>
           </Link>
           <a href="https://toughlovearena.com">
-            Play Now
+            Play Now!
           </a>
         </div>
       </nav>
