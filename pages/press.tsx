@@ -19,14 +19,18 @@ const PressPage = () => {
           Praise for Tough Love Arena
         </h2>
         {descending.map(ext => (
-          <p>
-            {ext.author}
-            <br />
-            <a href={ext.url} target="_blank">
-              {ext.label}
-            </a>
-            <br />
-            {ext.date}
+          <p key={ext.url}>
+            <div>
+              {ext.author}
+            </div>
+            <div>
+              <a href={ext.url} target="_blank">
+                {ext.label}
+              </a>
+            </div>
+            <div style={{fontSize: '0.8em',}}>
+              {ext.date}
+            </div>
           </p>
         ))}
       </Column>
