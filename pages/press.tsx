@@ -4,7 +4,6 @@ import { Column } from '../components/Column';
 import Layout from '../components/Layout'
 import { YouTubeGallery } from '../components/YouTubePreview';
 import { Articles, YouTubeVideos } from '../data/links';
-import { YouTubeLink } from '../interfaces';
 import { sortArrayOfObjects } from '../utils/list';
 
 const ExternalLink = (props: { children: ReactNode; }) => (
@@ -30,10 +29,11 @@ const PressPage = () => {
         {articles.map(ext => (
           <ExternalLink key={ext.url}>
             <div>
-              {ext.author}
+              {ext.site}
+              {ext.author ? ` / ${ext.author}` : ''}
             </div>
             <div>
-              <a href={ext.url} target="_blank" style={{fontSize: '1.5em',}}>
+              <a href={ext.url} target="_blank" style={{fontSize: '1.3em',}}>
                 {ext.title}
               </a>
             </div>

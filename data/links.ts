@@ -1,20 +1,35 @@
 import { ArticleLink, YouTubeLink } from "../interfaces";
 
 export const Articles: ArticleLink[] = [{
-  author: 'The Mary Sue',
+  date: '2022-04-27',
+  site: 'fanbyte',
+  author: 'Kenneth Shepard',
+  title: 'Six of the Coolest Games We Played at PAX East 2022',
+  url: 'https://www.fanbyte.com/features/six-of-the-coolest-games-we-played-at-pax-east-2022/',
+}, {
+  date: '2022-04-23',
+  site: 'The Mary Sue',
+  author: 'Ana Valens',
   title: `I Wish Tough Love Arena Was the First Fighting Game I Ever Played`,
   url: 'https://www.themarysue.com/i-wish-tough-love-arena-was-the-first-fighting-game-i-ever-played/',
-  date: '2022-04-23',
 }, {
-  author: 'frostilyte',
+  date: '2021-02-21',
+  site: 'frostilyte',
+  author: 'MRMKL',
   title: 'Fighting Games and Approachable Design',
   url: 'https://frostilyte.ca/2021/02/18/fighting-games-and-approachable-design-spaces/',
-  date: '2021-02-21',
 }, {
-  author: 'Vice',
+  date: '2021-02-08',
+  site: 'Vice',
+  author: 'Eric Van Allen',
   title: `Tough Love Arena Feels Like a Throwback to Computer Lab Emulator Bouts`,
   url: 'https://www.vice.com/en/article/epd8vk/tough-love-arena-browser-fighting-game-rollback-netcode',
-  date: '2021-02-08',
+}, {
+  date: '2021-01-06',
+  site: 'The Gamer',
+  author: 'Sam Butler',
+  title: 'Tough Love Arena Is A Free To Play Fighting Game With Rollback Netcode',
+  url: 'https://www.thegamer.com/tough-love-arena-free-to-play-fighting-game-rollback-netcode/',
 }];
 
 export const YouTubeVideos: YouTubeLink[] = [{
