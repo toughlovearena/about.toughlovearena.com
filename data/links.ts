@@ -24,6 +24,12 @@ export const YouTubeVideos: YouTubeLink[] = [{
   date: '2022-04-19',
 }, {
   channel: 'Sajam',
+  title: `Blame the Beasts (Amazing Fighting Game Combos) | "Will It Kill?"`,
+  vid: '5xAJRVFo4gU',
+  timestamp: 838,
+  date: '2022-03-26',
+}, {
+  channel: 'Sajam',
   title: `"Will it Kill?" Episode 11: The Black Friday Sale`,
   vid: 'TZY2tsJ4BSg',
   timestamp: 1963,
