@@ -1,0 +1,11 @@
+/* https://fonts.google.com/specimen/Didact+Gothic */
+/* DidactGothic-Regular */
+@font-face {
+  font-family: 'Fightura';
+  src: url('public/font.ttf?DidactGothic') format('truetype');
+}
+
+body {
+  --font-family: 'Fightura';
+  font-family: var(--font-family);
+}
