@@ -21,6 +21,10 @@ body a {
   color: var(--heart);
   text-decoration: none;
 }
+body a:hover {
+  color: white;
+  text-decoration: underline;
+}
 
 h1, h2, h3 {
   text-align: center;
