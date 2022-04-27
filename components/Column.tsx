@@ -7,7 +7,7 @@ interface Props {
 }
 export const Column = (props: Props) => (
   <div className={styles.column} style={{
-    maxWidth: `${props.width ?? 600}px`,
+    maxWidth: `${props.width ?? 800}px`,
   }}>
     {props.children}
   </div>

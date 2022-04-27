@@ -36,7 +36,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       </nav>
     </header>
     {children}
-    <Column>
+    <Column width={400}>
       <footer className={styles.footer}>
         {'© 2022 M. Paul Weeks & Amy Xu'}
       </footer>

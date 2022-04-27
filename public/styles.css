@@ -12,6 +12,7 @@ html {
 
 body {
   font-family: var(--font-family);
+  font-size: 18px;
   color: white;
   background-color: #222;
 }
