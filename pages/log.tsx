@@ -33,11 +33,21 @@ const LogPage = () => {
       <Column>
         <h1>Patch Notes</h1>
         {data ? (
-          data.versions.map(entry => {
-            <p key={entry.v}>
-              {JSON.stringify(entry)}
-            </p>
-          })
+          data.versions.map(entry => (
+            <div key={entry.v} style={{margin: '0.5em 0',}}>
+              <div>
+                {entry.v}
+              </div>
+              <div>
+                {entry.date}
+              </div>
+              {entry.notes.map((note, ni) => (
+                <div key={ni}>
+                  - {note}
+                </div>
+              ))}
+            </div>
+          ))
         ) : (
           'loading...'
         )}
