@@ -17,11 +17,13 @@ const PressPage = () => (
       </h2>
       {Articles.map(ext => (
         <p>
-          {ext.date}
+          {ext.author}
           <br />
-          <a href={ext.url} target={ext.newTab ? '_blank' : undefined}>
+          <a href={ext.url} target="_blank">
             {ext.label}
           </a>
+          <br />
+          {ext.date}
         </p>
       ))}
     </Column>

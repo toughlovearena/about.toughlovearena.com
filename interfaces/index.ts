@@ -11,9 +11,9 @@ export type User = {
   name: string
 }
 
-export interface ExternalLink {
+export interface ArticleLink {
+  author: string;
   label: React.ReactNode;
   url: string;
   date: string;
-  newTab: boolean;
 }
