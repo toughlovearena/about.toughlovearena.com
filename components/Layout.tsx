@@ -44,7 +44,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
             <a>Patch Notes</a>
           </Link>
           <a href="https://toughlovearena.com">
-            <a>Play Now</a>
+            Play Now
           </a>
         </div>
       </nav>
