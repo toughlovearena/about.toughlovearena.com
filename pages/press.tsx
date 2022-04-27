@@ -8,7 +8,7 @@ const PressPage = () => (
     <Column>
       <h1>Press</h1>
       <div>
-        <a href="presskit 2022-04-26.zip">
+        <a href="/presskit-toughlovearena-2022-04-26.zip">
           Download Presskit
         </a>
       </div>
