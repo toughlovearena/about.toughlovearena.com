@@ -1,4 +1,4 @@
-import { ArticleLink } from "../interfaces";
+import { ArticleLink, YouTubeLink } from "../interfaces";
 
 export const Articles: ArticleLink[] = [{
   author: 'The Mary Sue',
@@ -15,4 +15,17 @@ export const Articles: ArticleLink[] = [{
   label: `Tough Love Arena Feels Like a Throwback to Computer Lab Emulator Bouts`,
   url: 'https://www.vice.com/en/article/epd8vk/tough-love-arena-browser-fighting-game-rollback-netcode',
   date: '2021-02-08',
+}];
+
+export const YouTubeVideos: YouTubeLink[] = [{
+  channel: 'EllingtonReborn',
+  title: `Tough Love Arena & Character Overlap: a Case Study`,
+  vid: 'IOfN2jKnnKQ',
+  date: '2022-04-19',
+}, {
+  channel: 'Sajam',
+  title: `"Will it Kill?" Episode 11: The Black Friday Sale`,
+  vid: 'TZY2tsJ4BSg',
+  timestamp: 1963,
+  date: '2021-11-27',
 }];

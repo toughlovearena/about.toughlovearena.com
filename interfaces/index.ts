@@ -1,10 +1,4 @@
 // You can include shared interfaces/types in a separate file
-// and then use them in any component by importing them. For
-// example, to import the interface below do:
-//
-// import { User } from 'path/to/interfaces';
-
-import React from "react";
 
 export type User = {
   id: number
@@ -13,7 +7,15 @@ export type User = {
 
 export interface ArticleLink {
   author: string;
-  label: React.ReactNode;
+  label: string;
   url: string;
   date: string;
+}
+
+export interface YouTubeLink {
+  channel: string;
+  title: string;
+  vid: string;
+  timestamp?: number;
+  date: string
 }
