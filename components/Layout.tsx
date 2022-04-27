@@ -24,7 +24,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <nav className={styles.nav}>
         <div className={styles.navLeft}>
           <Link href="/">
-            <a>Home</a>
+            <a>About</a>
           </Link>
           <Link href="/press">
             <a>Press</a>
@@ -37,7 +37,15 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
           <Link href="/users">
             <a>Users List</a>
           </Link>
-          <a href="/api/users">Users API</a>
+          <a href="/api/users">
+            Users API
+          </a>
+          <Link href="/log">
+            <a>Patch Notes</a>
+          </Link>
+          <a href="https://toughlovearena.com">
+            <a>Play Now</a>
+          </a>
         </div>
       </nav>
     </header>
