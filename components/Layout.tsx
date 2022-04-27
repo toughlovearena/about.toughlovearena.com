@@ -22,17 +22,23 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     </Head>
     <header>
       <nav className={styles.nav}>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-        <Link href="/press">
-          <a>Press</a>
-        </Link>
-        <img src="/logo_vert.png" />
-        <Link href="/users">
-          <a>Users List</a>
-        </Link>
-        <a href="/api/users">Users API</a>
+        <div className={styles.navLeft}>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
+          <Link href="/press">
+            <a>Press</a>
+          </Link>
+        </div>
+        <div className={styles.navCenter}>
+          <img src="/logo_vert.png" />
+        </div>
+        <div className={styles.navRight}>
+          <Link href="/users">
+            <a>Users List</a>
+          </Link>
+          <a href="/api/users">Users API</a>
+        </div>
       </nav>
     </header>
     {children}

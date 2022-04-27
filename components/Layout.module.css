@@ -1,15 +1,31 @@
 .nav {
+  font-size: 2em;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
-  font-size: 2em;
 }
 .nav > * {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav > * > * {
   margin: 0 1em;
 }
-.nav img {
+.navLeft,
+.navRight {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.navLeft {
+  justify-content: right;
+}
+.navRight {
+  justify-content: left;
+}
+.navCenter img {
   height: 6em;
   width: auto;
 }
