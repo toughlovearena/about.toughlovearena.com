@@ -18,20 +18,32 @@ export const Articles: ArticleLink[] = [{
 }];
 
 export const YouTubeVideos: YouTubeLink[] = [{
+  date: '2022-04-19',
   channel: 'EllingtonReborn',
   title: `Tough Love Arena & Character Overlap: a Case Study`,
   vid: 'IOfN2jKnnKQ',
-  date: '2022-04-19',
 }, {
+  date: '2021-05-14',
+  channel: 'GekkoSquirrel',
+  title: `Why NOW Is The Best Time To Get Into Fighting Games`,
+  vid: 'omvbkap8jjY',
+  timestamp: 798,
+}, {
+  date: '2021-03-29',
+  channel: 'Stumblebee',
+  title: `The Broken Beauty of Flash Fighting Games`,
+  vid: '1M9qTB5eN9o',
+  timestamp: 888,
+}, {
+  date: '2022-03-26',
   channel: 'Sajam',
   title: `Blame the Beasts (Amazing Fighting Game Combos) | "Will It Kill?"`,
   vid: '5xAJRVFo4gU',
   timestamp: 838,
-  date: '2022-03-26',
 }, {
+  date: '2021-11-27',
   channel: 'Sajam',
   title: `"Will it Kill?" Episode 11: The Black Friday Sale`,
   vid: 'TZY2tsJ4BSg',
   timestamp: 1963,
-  date: '2021-11-27',
 }];
