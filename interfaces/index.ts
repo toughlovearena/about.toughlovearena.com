@@ -4,7 +4,16 @@
 //
 // import { User } from 'path/to/interfaces';
 
+import React from "react";
+
 export type User = {
   id: number
   name: string
+}
+
+export interface ExternalLink {
+  label: React.ReactNode;
+  url: string;
+  date: string;
+  newTab: boolean;
 }

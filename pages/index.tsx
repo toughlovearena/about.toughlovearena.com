@@ -2,12 +2,9 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
+  <Layout title="About | Tough Love Arena">
     <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
+      Tough Love Arena is a web-based, indie fighting game with rollback netcode that's 100% free to play!
     </p>
   </Layout>
 )
