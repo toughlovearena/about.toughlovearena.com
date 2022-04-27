@@ -7,7 +7,7 @@ export type User = {
 
 export interface ArticleLink {
   author: string;
-  label: string;
+  title: string;
   url: string;
   date: string;
 }
