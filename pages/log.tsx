@@ -19,7 +19,9 @@ const LogPage = () => {
 
   useEffect(() => {
     (async () => {
-      const resp = await fetch('https://toughlovearena.com/data/changelog.yaml');
+      // todo using api for temp cors workaround
+      const url = `https://us-central1-fighter-api.cloudfunctions.net/webApi/api/v1/proxy/changelog.yaml`;
+      const resp = await fetch(url);
       const text = await resp.text();
       const data = YAML.parse(text) as ChangelogData;
       setData(data);
