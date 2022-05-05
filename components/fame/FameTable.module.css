@@ -1,0 +1,87 @@
+.table {
+  font-size: 20px;
+}
+.tableHead {}
+.tableHead > * > * {
+  padding-left: 0;
+}
+.tableBody a {
+  color: white;
+}
+.tableBody > *:nth-child(odd) {
+  background: rgba(80, 80, 80, 0.5);
+}
+.tableBody > *:hover {
+  color: black;
+  background-color: var(--heart);
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cellBase {
+  box-sizing: border-box;
+  padding: 0.2em 1em;
+  padding-right: 0;
+  width: 8em;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cellDate {
+  width: 6em;
+}
+.cellName {
+  width: 15em;
+}
+.cellWinner {
+  width: 10em;
+}
+.cellEntrants {
+  width: 6em;
+}
+.cellEntrantsBody {
+  width: 6em;
+  justify-content: flex-end;
+}
+.cellCategory {
+  width: 6em;
+}
+.cellLinks {
+  width: 10em;
+  justify-content: flex-start;
+}
+.cellLinks a {
+  color: white;
+  margin-right: 0.5em;
+}
+.cellMobileInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  flex-grow: 1;
+}
+.cellMobileInfo > * {
+  margin: 0.3em 0;
+}
+.cellMobileEntrantsInfo {
+  width: auto;
+  justify-content: flex-end;
+  padding-right: 1em;
+}
+
+@media (max-width: 600px) {
+  .table {
+    font-size: 14px;
+    width: 100%;
+  }
+  .tableHead {
+    font-size: 20px;
+  }
+}

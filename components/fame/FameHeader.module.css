@@ -1,6 +1,7 @@
 .header {
   padding: 1em;
   text-align: center;
+  max-width: 800px;
   font-size: 1.5em;
 }
 .header a {
@@ -25,4 +26,11 @@
 
 .social {
   font-size: 0.8em;
+}
+
+@media (max-width: 600px) {
+  .header {
+    max-width: 100%;
+    font-size: 1em;
+  }
 }

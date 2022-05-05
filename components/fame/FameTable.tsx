@@ -1,114 +1,7 @@
 import { useCallback, useState } from 'react';
-import styled from 'styled-components';
 import { HallOfFameEntry, OptionName, ViewOption } from "../../interfaces";
 import { getNextInArray, sortArrayOfObjects } from '../../utils/list';
-
-const TableDiv = styled.div`
-${false
-  ? `
-  font-size: 14px;
-  width: 100%;
-`
-  : `
-  font-size: 20px;
-`}
-`;
-const LeaderboardHeader = styled.div`
-${false
-  ? `
-  font-size: 20px;
-`
-  : `
-`}
-& > * > * {
-  padding-left: 0;
-}
-`;
-const LeaderboardBody = styled.div`
-a {
-  color: white;
-}
-& > *:nth-child(odd) {
-  background: rgba(80, 80, 80, 0.5);
-}
-${false
-  ? `
-`
-  : `
-  & > *:hover {
-    color: black;
-    background-color: var(--heart);
-  }
-`}
-`;
-const FlexRow = styled.div`
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-`;
-const NormalCell = styled.div<{ isClickable?: boolean }>`
-box-sizing: border-box;
-padding: 0.2em 1em;
-padding-right: 0;
-width: 8em;
-
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-
-${(props) =>
-  props.isClickable
-    ? `
-  cursor: pointer;
-`
-    : ""}
-`;
-const DateCell = styled(NormalCell)`
-width: 6em;
-`;
-const NameCell = styled(NormalCell)`
-width: 15em;
-`;
-const ChampionCell = styled(NormalCell)`
-width: 10em;
-`;
-const EntrantsHeaderCell = styled(NormalCell)`
-width: 6em;
-`;
-const EntrantsBodyCell = styled(EntrantsHeaderCell)`
-justify-content: flex-end;
-`;
-const CategoryCell = styled(NormalCell)`
-width: 6em;
-`;
-const LinksCell = styled(NormalCell)`
-width: 10em;
-justify-content: flex-start;
-
-a {
-  color: white;
-  margin-right: 0.5em;
-}
-`;
-const MobileInfoCell = styled(NormalCell)`
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-
-flex-grow: 1;
-
-& > * {
-  margin: 0.3em 0;
-}
-`;
-const MobileEntrantsCell = styled(NormalCell)`
-width: auto;
-justify-content: flex-end;
-padding-right: 1em;
-`;
+import styles from './FameTable.module.css';
 
 enum SortBy {
 Date,
@@ -229,7 +122,7 @@ export const FameTable = (props: {
   //       <LeaderboardHeader>
   //         <FlexRow>
   //           <DateCell
-  //             isClickable={true}
+  //             style={{ cursor: 'pointer', }}
   //             onClick={() => updateSort(SortBy.Date)}
   //           >
   //             <div>
@@ -240,7 +133,7 @@ export const FameTable = (props: {
   //             <div>Tournament Info</div>
   //           </MobileInfoCell>
   //           <MobileEntrantsCell
-  //             isClickable={true}
+  //             style={{ cursor: 'pointer', }}
   //             onClick={() => updateSort(SortBy.EntrantNum)}
   //           >
   //             <div>
@@ -268,53 +161,58 @@ export const FameTable = (props: {
   // }
 
   return (
-    <TableDiv>
-      <LeaderboardHeader>
-        <FlexRow>
-          <DateCell isClickable={true} onClick={() => updateSort(SortBy.Date)}>
+    <div className={styles.table}>
+      <div className={styles.tableHead}>
+        <div className={styles.flexRow}>
+          <div
+            className={styles.cellDate}
+            style={{ cursor: 'pointer', }}
+            onClick={() => updateSort(SortBy.Date)}
+          >
             <div>
               <u>Date</u>
             </div>
             {renderSortIcon(sortBy === SortBy.Date, sortOrder)}
-          </DateCell>
-          <NameCell>
+          </div>
+          <div className={styles.cellName}>
             <u>Tournament</u>
-          </NameCell>
-          <ChampionCell>
+          </div>
+          <div className={styles.cellWinner}>
             <u>Champion</u>
-          </ChampionCell>
-          <EntrantsHeaderCell
-            isClickable={true}
+          </div>
+          <div
+            className={styles.cellEntrants}
+            style={{ cursor: 'pointer', }}
             onClick={() => updateSort(SortBy.EntrantNum)}
           >
             <div>
               <u>Entrants</u>
             </div>
             {renderSortIcon(sortBy === SortBy.EntrantNum, sortOrder)}
-          </EntrantsHeaderCell>
-          <CategoryCell>
+          </div>
+          <div className={styles.cellCategory}>
             <u>Type</u>
-          </CategoryCell>
-          <LinksCell>
+          </div>
+          <div className={styles.cellLinks}>
             <u>Links</u>
-          </LinksCell>
-        </FlexRow>
-      </LeaderboardHeader>
-      <LeaderboardBody>
+          </div>
+        </div>
+      </div>
+      <div className={styles.tableBody}>
         {rows.map((row, ri) => (
-          <FlexRow key={ri}>
-            <DateCell>{row.date}</DateCell>
-            <NameCell>{row.name}</NameCell>
-            <ChampionCell>{row.winner}</ChampionCell>
-            <EntrantsBodyCell>{row.entrants}</EntrantsBodyCell>
-            <CategoryCell>{OptionName(row.category)}</CategoryCell>
-            <LinksCell>
+          <div className={styles.flexRow} key={ri}>
+            <div className={styles.cellDate}>{row.date}</div>
+            <div className={styles.cellName}>{row.name}</div>
+            <div className={styles.cellChampion}>{row.winner}</div>
+            <div className={styles.cellEntrantsBody}>{row.entrants}</div>
+            <div className={styles.cellCategory}>{OptionName(row.category)}</div>
+            <div className={styles.cellLinks}>
               {renderChallonge(row.challonge)}
               {renderYouTube(row.youtube)}
-            </LinksCell>
-          </FlexRow>
+            </div>
+          </div>
         ))}
-      </LeaderboardBody>
-    </TableDiv>
+      </div>
+    </div>
   );
 }

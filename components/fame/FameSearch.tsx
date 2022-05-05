@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { HallOfFameEntry, OptionName, Options, ViewOption } from "../../interfaces";
+import styles from './FameSearch.module.css';
 
 const ResultsInfo = (props: { filtered: HallOfFameEntry[] }) => {
   const count = props.filtered.length.toString();
@@ -11,43 +11,6 @@ const ResultsInfo = (props: { filtered: HallOfFameEntry[] }) => {
   );
 }
 
-const SearchContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-
-  font-size: 1.3em;
-  margin: 0.5em;
-`;
-const CategorySelect = styled.div<{ highlight: boolean }>`
-  cursor: pointer;
-  font-size: 0.8em;
-
-  margin: 0.5em;
-  padding: 0.5em 1em;
-
-  border-radius: 2rem;
-  border: 1px solid white;
-
-  background-color: ${(props) => (props.highlight ? "white" : "black")};
-  color: ${(props) => (props.highlight ? "black" : "white")};
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-const SearchBar = styled.input`
-  font-size: 1em;
-  border-radius: 1em;
-  width: 10em;
-
-  margin: 0.5em;
-  padding: 0.4em 1em;
-`;
-
 export const FameSearch = (props: {
   filtered?: HallOfFameEntry[];
   view: ViewOption;
@@ -56,22 +19,30 @@ export const FameSearch = (props: {
   setQuery(query: string): void;
 }) => {
   return (
-    <SearchContainer>
+    <div className={styles.container}>
       {Options.map((vo) => (
-        <CategorySelect
+        <div
           key={vo}
-          highlight={vo === props.view}
+          className={styles.categorySelect}
+          style={vo === props.view ? {
+            color: 'black',
+            backgroundColor: 'white',
+          } : {
+            color: 'white',
+            backgroundColor: 'black',
+          }}
           onClick={() => props.setView(vo)}
         >
           {OptionName(vo)}
-        </CategorySelect>
+        </div>
       ))}
-      <SearchBar
+      <input
+        className={styles.searchBar}
         placeholder="Filter events"
         value={props.query}
         onChange={(e) => props.setQuery(e.target.value)}
       />
       <ResultsInfo filtered={props.filtered} />
-    </SearchContainer>
+    </div>
   );
 }
