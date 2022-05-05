@@ -9,14 +9,19 @@ import { InternalPages } from '../data/nav';
 
 type Props = {
   children: ReactNode;
-  page: InternalPageData;
+  title?: React.ReactNode;
+  page?: InternalPageData;
 }
 
-const Layout = ({ page, children, }: Props) => (
+const Layout = ({ title, page, children, }: Props) => (
   <div>
     <Head>
       <title>
-        {page.label ? `${page.label} | Tough Love Arena` : `Tough Love Arena`}
+        {(
+          title ||
+          (page?.label && `${page.label} | Tough Love Arena`) ||
+          `Tough Love Arena`
+        )}
       </title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -24,8 +29,8 @@ const Layout = ({ page, children, }: Props) => (
       <link rel="stylesheet" href="/styles.css" />
     </Head>
     <header className={styles.header}>
-      <NavDesktop currentHref={page.href} links={InternalPages} />
-      <NavMobile currentHref={page.href} links={InternalPages} />
+      <NavDesktop currentHref={page?.href} links={InternalPages} />
+      <NavMobile currentHref={page?.href} links={InternalPages} />
     </header>
     <section className={styles.section}>
       {children}

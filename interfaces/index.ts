@@ -11,7 +11,7 @@ export interface InternalPageData {
 }
 
 export interface NavProps {
-  readonly currentHref: string;
+  readonly currentHref?: string;
   readonly links: InternalPageData[];
 }
 
