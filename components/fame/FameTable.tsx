@@ -4,74 +4,77 @@ import { getNextInArray, sortArrayOfObjects } from '../../utils/list';
 import styles from './FameTable.module.css';
 
 enum SortBy {
-Date,
-TournamentName,
-WinnerName,
-EntrantNum,
+  Date,
+  TournamentName,
+  WinnerName,
+  EntrantNum,
 }
 enum SortOrder {
-Ascending,
-Descending,
+  Ascending,
+  Descending,
 }
 const DefaultOrder: Record<SortBy, SortOrder> = {
-[SortBy.Date]: SortOrder.Descending,
-[SortBy.TournamentName]: SortOrder.Ascending,
-[SortBy.WinnerName]: SortOrder.Ascending,
-[SortBy.EntrantNum]: SortOrder.Descending,
+  [SortBy.Date]: SortOrder.Descending,
+  [SortBy.TournamentName]: SortOrder.Ascending,
+  [SortBy.WinnerName]: SortOrder.Ascending,
+  [SortBy.EntrantNum]: SortOrder.Descending,
 };
 
-function renderChallonge(challonge?: string) {
-if (!challonge) {
-  return null;
-}
-const url = challonge.startsWith("https://")
-  ? challonge
-  : `https://challonge.com/${challonge}`;
-return (
-  <a target="_blank" rel="noopener noreferrer" href={url}>
-    Bracket
-  </a>
-);
-}
-function renderYouTube(youtube?: string) {
-if (!youtube) {
-  return null;
-}
-const url = `https://youtube.com/watch?v=${youtube}`;
-return (
-  <a target="_blank" rel="noopener noreferrer" href={url}>
-    YouTube
-  </a>
-);
-}
-function renderSortIcon(isCurrent: boolean, sortOrder: SortOrder) {
-const sortIcon = isCurrent
-  ? sortOrder === SortOrder.Ascending
-    ? "🔼"
-    : "🔽"
-  : "⏺️";
-return <div>{sortIcon}</div>;
-}
-
-function MobileLinkable(props: {
-event: HallOfFameEntry;
-children: JSX.Element;
-}) {
-const { event } = props;
-function getChallongeUrl(challonge: string) {
-  return challonge.startsWith("https://")
+function FameChallonge({challonge,}: {challonge?: string}) {
+  if (!challonge) {
+    return null;
+  }
+  const url = challonge.startsWith("https://")
     ? challonge
     : `https://challonge.com/${challonge}`;
+  return (
+    <a target="_blank" rel="noopener noreferrer" href={url}>
+      Bracket
+    </a>
+  );
 }
-const url =
-  (event.youtube && `https://youtube.com/watch?v=${event.youtube}`) ||
-  (event.challonge && getChallongeUrl(event.challonge)) ||
-  undefined;
+function FameYouTube({youtube}: {youtube?: string}) {
+  if (!youtube) {
+    return null;
+  }
+  const url = `https://youtube.com/watch?v=${youtube}`;
+  return (
+    <a target="_blank" rel="noopener noreferrer" href={url}>
+      YouTube
+    </a>
+  );
+}
+function FameSortIcon({isCurrent, sortOrder}: {
+  isCurrent: boolean,
+  sortOrder: SortOrder,
+}) {
+  const sortIcon = isCurrent
+    ? sortOrder === SortOrder.Ascending
+      ? "🔼"
+      : "🔽"
+    : "⏺️";
+  return <div>{sortIcon}</div>;
+}
 
-if (url) {
-  return <a href={url}>{props.children}</a>;
-}
-return props.children;
+function FameMobileLinkable(props: {
+  event: HallOfFameEntry;
+  children: JSX.Element;
+}) {
+  const { event } = props;
+  function getChallongeUrl(challonge: string) {
+    return challonge.startsWith("https://")
+      ? challonge
+      : `https://challonge.com/${challonge}`;
+  }
+  const url =
+    (event.youtube && `https://youtube.com/watch?v=${event.youtube}`) ||
+    (event.challonge && getChallongeUrl(event.challonge)) ||
+    undefined;
+
+  if (url) {
+    return <a href={url}>{props.children}</a>;
+  }
+  return props.children;
 }
 
 export const FameTable = (props: {
@@ -172,7 +175,7 @@ export const FameTable = (props: {
             <div>
               <u>Date</u>
             </div>
-            {renderSortIcon(sortBy === SortBy.Date, sortOrder)}
+            <FameSortIcon isCurrent={sortBy === SortBy.Date} sortOrder={sortOrder} />
           </div>
           <div className={styles.cellName}>
             <u>Tournament</u>
@@ -188,7 +191,7 @@ export const FameTable = (props: {
             <div>
               <u>Entrants</u>
             </div>
-            {renderSortIcon(sortBy === SortBy.EntrantNum, sortOrder)}
+            <FameSortIcon isCurrent={sortBy === SortBy.EntrantNum} sortOrder={sortOrder} />
           </div>
           <div className={styles.cellCategory}>
             <u>Type</u>
@@ -207,8 +210,8 @@ export const FameTable = (props: {
             <div className={styles.cellEntrantsBody}>{row.entrants}</div>
             <div className={styles.cellCategory}>{OptionName(row.category)}</div>
             <div className={styles.cellLinks}>
-              {renderChallonge(row.challonge)}
-              {renderYouTube(row.youtube)}
+              <FameChallonge {...row} />
+              <FameYouTube {...row} />
             </div>
           </div>
         ))}
