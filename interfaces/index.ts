@@ -1,5 +1,7 @@
 // You can include shared interfaces/types in a separate file
 
+export * from './fame';
+
 export type User = {
   id: number
   name: string

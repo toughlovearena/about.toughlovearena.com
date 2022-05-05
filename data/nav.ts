@@ -9,6 +9,10 @@ export const InternalPage = {
     href: "/log",
     label: 'Patch Notes',
   },
+  HallOfFame: {
+    href: "/fame",
+    label: 'Hall of Fame',
+  },
   Gallery: {
     href: "/gallery",
     label: 'Gallery',
@@ -20,6 +24,7 @@ export const InternalPage = {
 };
 export const InternalPages: InternalPageData[] = [
   InternalPage.PatchNotes,
+  InternalPage.HallOfFame,
   InternalPage.Gallery,
   InternalPage.Press,
 ];
