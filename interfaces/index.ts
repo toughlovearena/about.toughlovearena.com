@@ -5,6 +5,11 @@ export type User = {
   name: string
 }
 
+export interface NavLink {
+  readonly label: string;
+  readonly href: string;
+}
+
 export interface ArticleLink {
   site: string;
   author?: string;

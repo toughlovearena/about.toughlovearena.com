@@ -1,13 +1,25 @@
 import React, { ReactNode } from 'react'
-import Link from 'next/link'
 import Head from 'next/head'
 import styles from './Layout.module.css';
 import { Column } from './Column';
+import NavDesktop from './NavDesktop';
+import { NavLink } from '../interfaces';
 
 type Props = {
   children?: ReactNode
   title?: string
 }
+
+const NavInternalLinks: NavLink[] = [{
+  href: "/log",
+  label: 'Patch Notes',
+}, {
+  href: "/gallery",
+  label: 'Gallery',
+}, {
+  href: "/press",
+  label: 'Press',
+}];
 
 const Layout = ({ children, title = 'This is the default title' }: Props) => (
   <div>
@@ -21,35 +33,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <link rel="stylesheet" href="/styles.css" />
     </Head>
     <header className={styles.header}>
-      <nav className={styles.nav}>
-        <div className={styles.navLeft}>
-          <Link href="/">
-            <img src="/logo_v01.png" />
-          </Link>
-        </div>
-        <div className={styles.navRight}>
-          <Link href="/log">
-            <div className={styles.navLink}>
-              Patch Notes
-            </div>
-          </Link>
-          <Link href="/gallery">
-            <div className={styles.navLink}>
-              Gallery
-            </div>
-          </Link>
-          <Link href="/press">
-            <div className={styles.navLink}>
-              Press
-            </div>
-          </Link>
-          <a className={styles.navAnchor} href="https://toughlovearena.com">
-            <div className={styles.navLink}>
-              Play Now!
-            </div>
-          </a>
-        </div>
-      </nav>
+      <NavDesktop links={NavInternalLinks} />
     </header>
     <section className={styles.section}>
       {children}

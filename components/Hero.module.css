@@ -32,3 +32,12 @@
   height: 120%;
   transform: translate(-50%, -50%);
 }
+
+@media (max-width: 600px) {
+  .hero {
+    height: 20rem;
+  }
+  .content {
+    font-size: 1rem;
+  }
+}
