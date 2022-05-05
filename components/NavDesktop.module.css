@@ -46,7 +46,7 @@
   background-color: none;
 
   transition-property: color background-color;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 .navLink:hover {
   color: var(--back);

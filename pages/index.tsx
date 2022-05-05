@@ -2,9 +2,10 @@ import Link from 'next/link'
 import { Column } from '../components/Column'
 import Hero from '../components/Hero'
 import Layout from '../components/Layout'
+import { InternalPage } from '../data/pages'
 
 const IndexPage = () => (
-  <Layout title="About">
+  <Layout page={InternalPage.About}>
     <Hero />
     <Column>
       <h3>Testing, please ignore</h3>

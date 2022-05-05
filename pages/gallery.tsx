@@ -1,5 +1,6 @@
 import { Column } from '../components/Column';
 import Layout from '../components/Layout'
+import { InternalPage } from '../data/pages';
 import styles from './gallery.module.css'
 
 interface GalleryItem {
@@ -88,14 +89,8 @@ const GalleryPage = () => {
     url: `/asset/${item.url}`,
   }));
   return (
-    <Layout title="Gallery">
+    <Layout page={InternalPage.Gallery}>
       <Column>
-        <h1>
-          Gallery
-        </h1>
-        <div style={{ textAlign: 'center', }}>
-          Click on an image to open in a new tab
-        </div>
         <div className={styles.gallery}>
           {gallery.map((item, i) => (
             <GalleryPreview key={i} item={item} />

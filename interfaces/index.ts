@@ -5,9 +5,14 @@ export type User = {
   name: string
 }
 
-export interface NavLink {
+export interface InternalPageData {
   readonly label: string;
   readonly href: string;
+}
+
+export interface NavProps {
+  readonly currentHref: string;
+  readonly links: InternalPageData[];
 }
 
 export interface ArticleLink {

@@ -5,6 +5,7 @@ import { Column } from '../components/Column';
 import Layout from '../components/Layout'
 import YAML from 'yaml';
 import styles from './log.module.css';
+import { InternalPage } from '../data/pages';
 
 interface VersionLog {
   v: string;
@@ -69,7 +70,7 @@ const LogPage = () => {
   }, [setData]);
 
   return (
-    <Layout title="Patch Notes">
+    <Layout page={InternalPage.PatchNotes}>
       <h1>Patch Notes</h1>
       <div className={styles.log}>
         {data ? (

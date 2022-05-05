@@ -3,30 +3,20 @@ import Head from 'next/head'
 import styles from './Layout.module.css';
 import { Column } from './Column';
 import NavDesktop from './NavDesktop';
-import { NavLink } from '../interfaces';
+import { InternalPageData } from '../interfaces';
 import NavMobile from './NavMobile';
+import { InternalPages } from '../data/pages';
 
 type Props = {
-  children?: ReactNode
-  title?: string
+  children: ReactNode;
+  page: InternalPageData;
 }
 
-const NavInternalLinks: NavLink[] = [{
-  href: "/log",
-  label: 'Patch Notes',
-}, {
-  href: "/gallery",
-  label: 'Gallery',
-}, {
-  href: "/press",
-  label: 'Press',
-}];
-
-const Layout = ({ children, title = 'This is the default title' }: Props) => (
+const Layout = ({ page, children, }: Props) => (
   <div>
     <Head>
       <title>
-        {title ? `${title} | Tough Love Arena` : `Tough Love Arena`}
+        {page.label ? `${page.label} | Tough Love Arena` : `Tough Love Arena`}
       </title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -34,8 +24,8 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <link rel="stylesheet" href="/styles.css" />
     </Head>
     <header className={styles.header}>
-      <NavDesktop links={NavInternalLinks} />
-      <NavMobile links={NavInternalLinks} />
+      <NavDesktop currentHref={page.href} links={InternalPages} />
+      <NavMobile currentHref={page.href} links={InternalPages} />
     </header>
     <section className={styles.section}>
       {children}

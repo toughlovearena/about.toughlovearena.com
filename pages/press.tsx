@@ -4,6 +4,7 @@ import { Column } from '../components/Column';
 import Layout from '../components/Layout'
 import { YouTubeGallery } from '../components/YouTubePreview';
 import { Articles, YouTubeVideos } from '../data/links';
+import { InternalPage } from '../data/pages';
 import { sortArrayOfObjects } from '../utils/list';
 
 const ExternalLink = (props: { children: ReactNode; }) => (
@@ -16,7 +17,7 @@ const PressPage = () => {
   const articles = sortArrayOfObjects(Articles, art => art.date).reverse();
   const videos = sortArrayOfObjects(YouTubeVideos, art => art.date).reverse();
   return (
-    <Layout title="Press">
+    <Layout page={InternalPage.Press}>
       <Column>
         <div style={{textAlign: 'center',}}>
           Download the <a href="/presskit-toughlovearena-2022-04-26.zip">

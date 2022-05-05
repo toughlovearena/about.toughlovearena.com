@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import { NavLink } from '../interfaces';
+import { NavProps } from '../interfaces';
 import styles from './NavDesktop.module.css';
 
-export default ({ links, }: { links: NavLink[], }) => (
+export default ({ currentHref, links, }: NavProps) => (
   <div className={styles.container}>
     <div className={styles.spacer}></div>
     <nav className={styles.nav}>
@@ -15,7 +15,11 @@ export default ({ links, }: { links: NavLink[], }) => (
         {links.map((li, i) => (
           <Link key={i} href={li.href}>
             <div className={styles.navLink}>
-              {li.label}
+              {currentHref === li.href ? (
+                <b>{li.label}</b>
+              ) : (
+                <span>{li.label}</span>
+              )}
             </div>
           </Link>
         ))}
