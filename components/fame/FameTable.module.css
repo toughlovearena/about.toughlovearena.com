@@ -1,12 +1,15 @@
 .table {
   font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 .tableHead {}
 .tableHead > * > * {
   padding-left: 0;
-}
-.tableBody a {
-  color: white;
 }
 .tableBody > *:nth-child(odd) {
   background: rgba(80, 80, 80, 0.5);
@@ -21,7 +24,15 @@
   justify-content: flex-start;
   align-items: center;
 }
-.cellBase {
+.cellDate,
+.cellName,
+.cellWinner,
+.cellEntrants,
+.cellEntrantsBody,
+.cellCategory,
+.cellLinks,
+.cellMobileInfo,
+.cellMobileEntrantsInfo {
   box-sizing: border-box;
   padding: 0.2em 1em;
   padding-right: 0;
@@ -56,7 +67,6 @@
   justify-content: flex-start;
 }
 .cellLinks a {
-  color: white;
   margin-right: 0.5em;
 }
 .cellMobileInfo {

@@ -206,7 +206,7 @@ export const FameTable = (props: {
           <div className={styles.flexRow} key={ri}>
             <div className={styles.cellDate}>{row.date}</div>
             <div className={styles.cellName}>{row.name}</div>
-            <div className={styles.cellChampion}>{row.winner}</div>
+            <div className={styles.cellWinner}>{row.winner}</div>
             <div className={styles.cellEntrantsBody}>{row.entrants}</div>
             <div className={styles.cellCategory}>{OptionName(row.category)}</div>
             <div className={styles.cellLinks}>

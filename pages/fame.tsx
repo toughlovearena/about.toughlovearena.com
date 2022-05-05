@@ -55,8 +55,8 @@ const FamePage = (props: Props) => {
           setView={setView}
           setQuery={setQuery}
         />
-        <FameTable filtered={filtered} view={view} query={query} />
       </Column>
+      <FameTable filtered={filtered} view={view} query={query} />
     </Layout>
   )
 }
