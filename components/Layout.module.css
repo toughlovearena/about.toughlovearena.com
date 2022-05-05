@@ -5,6 +5,9 @@
   left: 0;
   width: 100%;
   height: var(--navHeight);
+  box-sizing: border-box;
+  padding: 0 1em;
+
   background: var(--back);
   border-bottom: 1px solid var(--fore);
 
@@ -25,7 +28,6 @@
 }
 
 .nav {
-  font-size: 1.4em;
   width: 100%;
   height: 100%;
   display: flex;
@@ -39,9 +41,6 @@
   justify-content: center;
   align-items: center;
 }
-.navRight > * {
-  margin: 0 1em;
-}
 .navRight {
   flex-grow: 1;
   flex-basis: 0;
@@ -49,20 +48,29 @@
 .navRight {
   justify-content: right;
 }
+
+.navLink {
+  cursor: pointer;
+  font-size: 1em;
+  padding: 1em 2em;
+  margin: 0 1em;
+  border-radius: 1em;
+
+  color: var(--fore);
+  background-color: none;
+
+  transition-property: color background-color;
+  transition-duration: 1s;
+}
+.navLink:hover {
+  color: var(--back);
+  background-color: var(--heart);
+}
+.navAnchor {
+  text-decoration: none;
+}
 .nav img {
   cursor: pointer;
   height: 3rem;
   width: auto;
-  padding: 0 0.5em;
-  border: 1px solid var(--back);
-}
-.nav img:hover {
-  border: 1px solid black;
-}
-.nav a {
-  color: var(--fore);
-  text-decoration: none;
-}
-.nav a:hover {
-  text-decoration: underline;
 }
