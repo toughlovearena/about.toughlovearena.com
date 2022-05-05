@@ -1,0 +1,28 @@
+.header {
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
+}
+.header a {
+  color: var(--heart);
+}
+
+.title {
+  font-size: 2em;
+}
+
+.subtitle {
+  font-size: 1em;
+  margin: 1em 0;
+}
+
+.updated {
+  width: 100%;
+  text-align: right;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.social {
+  font-size: 0.8em;
+}
