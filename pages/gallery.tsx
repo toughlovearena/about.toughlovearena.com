@@ -1,10 +1,6 @@
-import Link from 'next/link'
-import { ReactNode } from 'react';
 import { Column } from '../components/Column';
 import Layout from '../components/Layout'
-import { YouTubeGallery } from '../components/YouTubePreview';
-import { Articles, YouTubeVideos } from '../data/links';
-import { sortArrayOfObjects } from '../utils/list';
+import styles from './gallery.module.css'
 
 interface GalleryItem {
   url: string;
@@ -15,11 +11,12 @@ const GalleryPreview = (props: { item: GalleryItem; }) => (
   <div style={{
     textAlign: 'center',
     margin: '1em',
+    width: '350px',
   }}>
     <a href={props.item.url} target="_blank">
       <img src={props.item.url} style={{
-        height: '20em',
-        width: 'auto',
+        height: 'auto',
+        width: '100%',
       }} />
     </a>
     <div>
@@ -99,9 +96,11 @@ const GalleryPage = () => {
         <div style={{ textAlign: 'center', }}>
           Click on an image to open in a new tab
         </div>
-        {gallery.map((item, i) => (
-          <GalleryPreview key={i} item={item} />
-        ))}
+        <div className={styles.gallery}>
+          {gallery.map((item, i) => (
+            <GalleryPreview key={i} item={item} />
+          ))}
+        </div>
       </Column>
     </Layout>
   );
