@@ -20,7 +20,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <link rel="icon" href="/favicon.png" />
       <link rel="stylesheet" href="/styles.css" />
     </Head>
-    <header>
+    <header className={styles.header}>
       <nav className={styles.nav}>
         <div className={styles.navLeft}>
           <Link href="/">
@@ -31,7 +31,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
           </Link>
         </div>
         <div className={styles.navCenter}>
-          <img src="/logo_vert.png" />
+          <img src="/logo_v01.png" />
         </div>
         <div className={styles.navRight}>
           <Link href="/log">
@@ -43,7 +43,9 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
         </div>
       </nav>
     </header>
-    {children}
+    <section className={styles.section}>
+      {children}
+    </section>
     <Column width={400}>
       <footer className={styles.footer}>
         {'© 2022 M. Paul Weeks & Amy Xu'}

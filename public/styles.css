@@ -6,25 +6,30 @@
 }
 
 html {
-  --font-family: 'Fightura';
+  /* --font-family: 'Fightura'; */
+  font-family: Helvetica, Arial, sans-serif;
+  --fore: #222;
+  --back: #eee;
   --heart: rgb(234, 119, 248);
 }
 
 body {
   font-family: var(--font-family);
-  font-size: 18px;
-  color: white;
-  background-color: #222;
+  font-size: 16px;
+  color: var(--fore);
+  background-color: var(--back);
 }
 
+/*
 body a {
   color: var(--heart);
   text-decoration: none;
 }
 body a:hover {
-  color: white;
+  color: var(--fore);
   text-decoration: underline;
 }
+*/
 
 h1, h2, h3 {
   text-align: center;
