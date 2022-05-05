@@ -4,6 +4,7 @@ import styles from './Layout.module.css';
 import { Column } from './Column';
 import NavDesktop from './NavDesktop';
 import { NavLink } from '../interfaces';
+import NavMobile from './NavMobile';
 
 type Props = {
   children?: ReactNode
@@ -34,6 +35,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     </Head>
     <header className={styles.header}>
       <NavDesktop links={NavInternalLinks} />
+      <NavMobile links={NavInternalLinks} />
     </header>
     <section className={styles.section}>
       {children}

@@ -1,0 +1,39 @@
+.container {
+  padding: 0.5em;
+  border-bottom: 1px solid var(--fore);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navLogo {
+  text-align: center;
+}
+.navLogo img {
+  cursor: pointer;
+  height: auto;
+  width: 80%;
+}
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navLink {
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0.5em 1em;
+}
+.navAnchor {
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  .container {
+    display: none;
+  }
+}
