@@ -24,16 +24,13 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <nav className={styles.nav}>
         <div className={styles.navLeft}>
           <Link href="/">
-            <a>About</a>
+            <img src="/logo_v01.png" />
           </Link>
+        </div>
+        <div className={styles.navRight}>
           <Link href="/press">
             <a>Press</a>
           </Link>
-        </div>
-        <div className={styles.navCenter}>
-          <img src="/logo_v01.png" />
-        </div>
-        <div className={styles.navRight}>
           <Link href="/log">
             <a>Patch Notes</a>
           </Link>
