@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Column } from '../components/Column'
 import Hero from '../components/Hero'
 import Layout from '../components/Layout'
-import { InternalPage } from '../data/pages'
+import { InternalPage } from '../data/nav'
 
 const IndexPage = () => (
   <Layout page={InternalPage.About}>

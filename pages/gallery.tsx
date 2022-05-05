@@ -1,6 +1,6 @@
 import { Column } from '../components/Column';
 import Layout from '../components/Layout'
-import { InternalPage } from '../data/pages';
+import { InternalPage } from '../data/nav';
 import styles from './gallery.module.css'
 
 interface GalleryItem {

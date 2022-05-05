@@ -5,7 +5,7 @@ import { Column } from './Column';
 import NavDesktop from './NavDesktop';
 import { InternalPageData } from '../interfaces';
 import NavMobile from './NavMobile';
-import { InternalPages } from '../data/pages';
+import { InternalPages } from '../data/nav';
 
 type Props = {
   children: ReactNode;

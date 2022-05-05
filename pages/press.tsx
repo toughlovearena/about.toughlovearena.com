@@ -4,7 +4,7 @@ import { Column } from '../components/Column';
 import Layout from '../components/Layout'
 import { YouTubeGallery } from '../components/YouTubePreview';
 import { Articles, YouTubeVideos } from '../data/links';
-import { InternalPage } from '../data/pages';
+import { InternalPage } from '../data/nav';
 import { sortArrayOfObjects } from '../utils/list';
 
 const ExternalLink = (props: { children: ReactNode; }) => (

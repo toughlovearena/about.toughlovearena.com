@@ -5,7 +5,7 @@ import { Column } from '../components/Column';
 import Layout from '../components/Layout'
 import YAML from 'yaml';
 import styles from './log.module.css';
-import { InternalPage } from '../data/pages';
+import { InternalPage } from '../data/nav';
 
 interface VersionLog {
   v: string;
