@@ -1,13 +1,12 @@
 import Link from 'next/link'
 import { Column } from '../components/Column'
+import Hero from '../components/Hero'
 import Layout from '../components/Layout'
 
 const IndexPage = () => (
   <Layout title="About">
+    <Hero />
     <Column>
-      <p>
-        Tough Love Arena is a web-based, indie fighting game with rollback netcode that's 100% free to play!
-      </p>
       <h3>Testing, please ignore</h3>
       <div>
         <Link href="/users">
