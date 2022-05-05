@@ -25,3 +25,16 @@ export function sortArray(arr: string[]): string[];
 export function sortArray(arr: any[]): any[] {
   return sortArrayOfObjects(arr, elm => elm);
 }
+
+export function getNextInArray<T>(
+  elm: T,
+  arr: T[],
+  matcher?: (a: T, b: T) => boolean,
+): T {
+  const matchingElm = matcher
+    ? arr.filter((e) => matcher(e, elm))[0]
+    : undefined;
+  const index = arr.indexOf(matchingElm ?? elm);
+  const newIndex = (arr.length + index + 1) % arr.length;
+  return arr[newIndex];
+}
