@@ -8,8 +8,8 @@
 html {
   /* --font-family: 'Fightura'; */
   font-family: Helvetica, Arial, sans-serif;
-  --fore: #222;
-  --back: #eee;
+  --fore: black;
+  --back: white;
   --heart: rgb(234, 119, 248);
 }
 
