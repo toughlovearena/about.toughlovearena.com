@@ -9,20 +9,24 @@
   margin: 0.5em;
 }
 
-.categorySelect {
+.category {
   cursor: pointer;
   font-size: 0.8em;
 
   margin: 0.5em;
   padding: 0.5em 1em;
 
+  border: 1px solid var(--fore);
   border-radius: 2rem;
-  border: 1px solid white;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.categorySelected {
+  color: var(--back);
+  background-color: var(--fore);
 }
 
 .searchBar {

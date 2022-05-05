@@ -23,14 +23,9 @@ export const FameSearch = (props: {
       {Options.map((vo) => (
         <div
           key={vo}
-          className={styles.categorySelect}
-          style={vo === props.view ? {
-            color: 'black',
-            backgroundColor: 'white',
-          } : {
-            color: 'white',
-            backgroundColor: 'black',
-          }}
+          className={[styles.category, (
+            vo === props.view ? styles.categorySelected : ''
+          )].join(' ')}
           onClick={() => props.setView(vo)}
         >
           {OptionName(vo)}
