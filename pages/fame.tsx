@@ -15,7 +15,7 @@ interface Props {
 }
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const path = `public/fame.yaml`;
+  const path = `public/data/fame.yaml`;
   const file = await fs.promises.readFile(path);
   const data = YAML.parse(file.toString()) as HallOfFameData;
   return { props: { fame: data, }, };
