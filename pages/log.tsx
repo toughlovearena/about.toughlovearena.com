@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react';
+import Linkify from 'react-linkify';
 import { Column } from '../components/Column';
 import Layout from '../components/Layout'
-import { Articles } from '../data/links';
 import YAML from 'yaml';
+import styles from './log.module.css';
 
 interface VersionLog {
   v: string;
@@ -12,6 +13,40 @@ interface VersionLog {
 }
 interface ChangelogData {
   versions: VersionLog[];
+}
+
+function VersionRow ({ log }: { log: VersionLog, }) {
+  const anchorId = log.v; // for scrolling
+  const isPatchZero = log.v.split('.').pop() === '0';
+  return (
+    <div>
+      <a className={styles.anchor} id={anchorId}></a>
+      <div className={styles.version}>
+        <a href={'#' + log.v} className={isPatchZero ? styles.minor : styles.patch}>
+          {log.v}
+        </a>
+        {log.date && (
+          <span className={styles.date}>
+            {log.date}
+          </span>
+        )}
+      </div>
+      {renderNotes(log.notes)}
+    </div>
+  );
+}
+function renderNotes(notes: React.ReactNode[]) {
+  return (
+    <ul>
+      {notes.map((n, i) => (
+        <li key={i}>
+          <Linkify>
+            {n}
+          </Linkify>
+        </li>
+      ))}
+    </ul>
+  );
 }
 
 const LogPage = () => {
@@ -25,33 +60,26 @@ const LogPage = () => {
       const text = await resp.text();
       const data = YAML.parse(text) as ChangelogData;
       setData(data);
+      const { hash } = window.location;
+      if (hash) {
+        const id = hash.slice(1);
+        setTimeout(() => document.getElementById(id)?.scrollIntoView(), 500);
+      }
     })();
   }, [setData]);
 
   return (
     <Layout title="Patch Notes">
-      <Column>
-        <h1>Patch Notes</h1>
+      <h1>Patch Notes</h1>
+      <div className={styles.log}>
         {data ? (
-          data.versions.map(entry => (
-            <div key={entry.v} style={{margin: '0.5em 0',}}>
-              <div>
-                {entry.v}
-              </div>
-              <div>
-                {entry.date}
-              </div>
-              {entry.notes.map((note, ni) => (
-                <div key={ni}>
-                  - {note}
-                </div>
-              ))}
-            </div>
+          data.versions.map(log => (
+            <VersionRow key={log.v} log={log} />
           ))
         ) : (
           'loading...'
         )}
-      </Column>
+      </div>
     </Layout>
   );
 }
