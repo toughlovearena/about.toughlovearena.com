@@ -28,11 +28,14 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
           </Link>
         </div>
         <div className={styles.navRight}>
-          <Link href="/press">
-            <a>Press</a>
-          </Link>
           <Link href="/log">
             <a>Patch Notes</a>
+          </Link>
+          <Link href="/gallery">
+            <a>Gallery</a>
+          </Link>
+          <Link href="/press">
+            <a>Press</a>
           </Link>
           <a href="https://toughlovearena.com">
             Play Now!
