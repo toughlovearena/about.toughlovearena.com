@@ -1,11 +1,9 @@
-import Link from 'next/link'
-import { useEffect, useState } from 'react';
 import Linkify from 'react-linkify';
-import { Column } from '../components/Column';
 import Layout from '../components/Layout'
 import YAML from 'yaml';
 import styles from './log.module.css';
 import { InternalPage } from '../data/nav';
+import { GetStaticProps } from 'next';
 
 interface VersionLog {
   v: string;
@@ -14,6 +12,18 @@ interface VersionLog {
 }
 interface ChangelogData {
   versions: VersionLog[];
+}
+
+interface Props {
+  changelog: ChangelogData;
+}
+
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const url = 'https://toughlovearena.com/data/changelog.yaml';
+  const resp = await fetch(url);
+  const text = await resp.text();
+  const data = YAML.parse(text) as ChangelogData;
+  return { props: { changelog: data, }, };
 }
 
 function VersionRow ({ log }: { log: VersionLog, }) {
@@ -50,36 +60,14 @@ function renderNotes(notes: React.ReactNode[]) {
   );
 }
 
-const LogPage = () => {
-  const [data, setData] = useState<ChangelogData | undefined>();
-
-  useEffect(() => {
-    (async () => {
-      // todo using api for temp cors workaround
-      const url = `https://us-central1-fighter-api.cloudfunctions.net/webApi/api/v1/proxy/changelog.yaml`;
-      const resp = await fetch(url);
-      const text = await resp.text();
-      const data = YAML.parse(text) as ChangelogData;
-      setData(data);
-      const { hash } = window.location;
-      if (hash) {
-        const id = hash.slice(1);
-        setTimeout(() => document.getElementById(id)?.scrollIntoView(), 500);
-      }
-    })();
-  }, [setData]);
-
+const LogPage = (props: Props) => {
   return (
     <Layout page={InternalPage.PatchNotes}>
       <h1>Patch Notes</h1>
       <div className={styles.log}>
-        {data ? (
-          data.versions.map(log => (
-            <VersionRow key={log.v} log={log} />
-          ))
-        ) : (
-          'loading...'
-        )}
+        {props.changelog.versions.map(log => (
+          <VersionRow key={log.v} log={log} />
+        ))}
       </div>
     </Layout>
   );
