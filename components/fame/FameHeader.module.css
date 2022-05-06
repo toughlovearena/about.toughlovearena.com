@@ -1,28 +1,16 @@
 .header {
-  padding: 1em;
   text-align: center;
   max-width: 800px;
   font-size: 1.5em;
 }
 
-.title {
-  font-size: 2em;
-}
-
 .subtitle {
   font-size: 1em;
-  margin: 1em 0;
-}
-
-.updated {
-  width: 100%;
-  text-align: right;
-  font-style: italic;
-  font-size: 0.8em;
 }
 
 .social {
   font-size: 0.8em;
+  margin: 1em 0;
 }
 
 @media (max-width: 600px) {

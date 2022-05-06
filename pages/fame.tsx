@@ -9,6 +9,7 @@ import { useState } from "react";
 import { FameTable } from "../components/fame/FameTable";
 import { FameSearch } from "../components/fame/FameSearch";
 import { FameHeader } from "../components/fame/FameHeader";
+import { SectionTitle } from "../components/SectionTitle";
 
 interface Props {
   fame: HallOfFameData;

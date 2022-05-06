@@ -4,6 +4,7 @@ import { InternalPage } from '../data/nav';
 import { GetStaticProps } from 'next';
 import { ChangelogData } from '../interfaces/changelog';
 import Changelog from '../components/changelog/Changelog';
+import { SectionTitle } from '../components/SectionTitle';
 
 interface Props {
   changelog: ChangelogData;
@@ -19,7 +20,6 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 const LogPage = (props: Props) => {
   return (
     <Layout page={InternalPage.PatchNotes}>
-      <h1>Patch Notes</h1>
       <Changelog data={props.changelog} />
     </Layout>
   );

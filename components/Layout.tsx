@@ -6,6 +6,7 @@ import NavDesktop from './NavDesktop';
 import { InternalPageData } from '../interfaces';
 import NavMobile from './NavMobile';
 import { InternalPages } from '../data/nav';
+import { SectionTitle } from './SectionTitle';
 
 type Props = {
   children: ReactNode;
@@ -33,6 +34,11 @@ const Layout = ({ title, page, children, }: Props) => (
       <NavMobile currentHref={page?.href} links={InternalPages} />
     </header>
     <section className={styles.section}>
+      {page && (
+        <SectionTitle>
+          {page.label}
+        </SectionTitle>
+      )}
       {children}
     </section>
     <Column width={400}>
