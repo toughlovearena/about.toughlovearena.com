@@ -2,9 +2,9 @@
 
 export * from './fame';
 
-export type User = {
-  id: number
-  name: string
+export interface GalleryItem {
+  url: string;
+  description: string;
 }
 
 export interface InternalPageData {
