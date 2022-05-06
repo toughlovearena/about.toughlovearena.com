@@ -46,11 +46,11 @@
   background-color: none;
 
   transition-property: color background-color;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
 }
 .navLink:hover {
   color: var(--back);
-  background-color: var(--heart);
+  background-color: var(--fore);
 }
 .navAnchor {
   text-decoration: none;
