@@ -1,8 +1,15 @@
 /* https://fonts.google.com/specimen/Didact+Gothic */
 /* DidactGothic-Regular */
 @font-face {
-  font-family: 'Fightura';
-  src: url('font.ttf?DidactGothic') format('truetype');
+  font-family: 'DidactGothic';
+  src: url('fonts/DidactGothic-Regular.ttf') format('truetype');
+}
+
+/* https://fonts.google.com/specimen/Didact+Gothic */
+/* DidactGothic-Regular */
+@font-face {
+  font-family: 'Exo2';
+  src: url('fonts/Exo2-VariableFont_wght.ttf') format('truetype');
 }
 
 html {
