@@ -5,7 +5,6 @@ import { InternalPage } from '../data/nav';
 import { GetStaticProps } from 'next';
 import { ChangelogData } from '../interfaces/changelog';
 import Changelog from '../components/changelog/Changelog';
-import { SectionTitle } from '../components/SectionTitle';
 
 interface Props {
   changelog: ChangelogData;
