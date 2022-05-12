@@ -1,4 +1,5 @@
 import Layout from '../components/Layout'
+import fs from 'fs';
 import YAML from 'yaml';
 import { InternalPage } from '../data/nav';
 import { GetStaticProps } from 'next';
@@ -11,10 +12,9 @@ interface Props {
 }
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const url = 'https://toughlovearena.com/data/changelog.yaml';
-  const resp = await fetch(url);
-  const text = await resp.text();
-  const data = YAML.parse(text) as ChangelogData;
+  const path = `public/data/changelog.yaml`;
+  const file = await fs.promises.readFile(path);
+  const data = YAML.parse(file.toString()) as ChangelogData;
   return { props: { changelog: data, }, };
 }
 const LogPage = (props: Props) => {
