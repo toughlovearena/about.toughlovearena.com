@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.91.10
+    date: 2022/05/12
+    notes:
+      - "Steam: Added unique assets for the welcome screen and game title"
   - v: 0.91.9
     date: 2022/05/11
     notes:
