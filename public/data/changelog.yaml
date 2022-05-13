@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.91.11
+    date: 2022/05/12
+    notes:
+      - "Maintenance: Fixed bug with Feature Flag caching"
+      - "Maintenance: Centralize and standardize debug tools"
   - v: 0.91.10
     date: 2022/05/12
     notes:
