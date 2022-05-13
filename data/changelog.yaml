@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.91.13
+    date: 2022/05/13
+    notes:
+      - "Character Select: Fixed bug where unlocked flavors could not be chosen"
   - v: 0.91.12
     date: 2022/05/13
     notes:
