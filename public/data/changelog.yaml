@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.91.12
+    date: 2022/05/13
+    notes:
+      - "Character Select: Restyled the flavor select to include the flavor name and a wider preview"
+      - "Character Select: You now see all of the flavors all the time. Locked flavors are visible but unselectable"
+      - "Character Select: Locked flavors now include text telling you how to unlock them"
+      - "Character Select: All locks are removed when playing certain offline game modes (Local Vs, Training, Event)"
   - v: 0.91.11
     date: 2022/05/12
     notes:
