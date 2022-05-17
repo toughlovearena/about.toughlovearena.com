@@ -19,9 +19,6 @@ export const GalleryAssets: GalleryItem[] = [{
   url: 'welcomepage_bday.jpg',
   description: 'Birthday 2022',
 }, {
-  url: 'welcomepage_bday.jpg',
-  description: 'Birthday 2022',
-}, {
   url: '2021_promo_6month1.jpg',
   description: 'Promo art for 6month Anniversary Tournament',
 }, {
