@@ -22,9 +22,13 @@
   align-items: center;
 }
 .pitch {
-  font-size: 4rem;
-  margin: 1rem;
+  font-size: 3rem;
   text-shadow: 0.05em 0.05em 0px var(--heart);
+
+  min-height: calc((100vh - var(--navHeight)) / 3);
+  padding: 1rem;
+  box-sizing: border-box;
+
 
   display: flex;
   flex-direction: column;
@@ -33,8 +37,10 @@
 }
 .quote {
   flex: 1;
-  margin: 1rem;
-  max-width: 100vh;
+  padding: 2rem;
+  max-width: 50em;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
 
   display: flex;
   flex-direction: column;
@@ -45,7 +51,7 @@
   transition-delay: 0s;
 }
 .quoteSnippet {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-style: italic;
 }
 .quoteAuthor {
