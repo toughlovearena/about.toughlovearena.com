@@ -41,6 +41,7 @@ export default () => {
     transitionDuration: transitionMs + 'ms',
     ...(visible ? {} : {
       opacity: 0,
+      transform: 'translate(0%, 1em)',
     })
   };
 
