@@ -46,9 +46,6 @@ export const GalleryAssets: GalleryItem[] = [{
   url: '2022_promo_bday.jpg',
   description: 'Promo art for Birthday Tournament',
 }, {
-  url: '2022_promo_bday_textless.jpg',
-  description: 'Promo art for Birthday Tournament (textless)',
-}, {
   url: '2022_promo_normal_tournament.jpeg',
   description: 'Promo art for April Fools Tournament',
 }, {
