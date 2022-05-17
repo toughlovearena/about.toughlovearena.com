@@ -32,9 +32,14 @@ function Version ({ log }: { log: VersionLog, }) {
 }
 
 export default (props: { data: ChangelogData }) => (
-  <div className={styles.log}>
-    {props.data.versions.map(log => (
-      <Version key={log.v} log={log} />
-    ))}
+  <div>
+    <div className={styles.subtitle}>
+      Every game update since the launch of the public beta in January 2021
+    </div>
+    <div className={styles.log}>
+      {props.data.versions.map(log => (
+        <Version key={log.v} log={log} />
+        ))}
+    </div>
   </div>
 );
