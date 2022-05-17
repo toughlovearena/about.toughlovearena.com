@@ -53,7 +53,7 @@ export default () => {
         </div>
         <div className={styles.quote} style={quoteStyle}>
           <div className={styles.quoteSnippet} onClick={() => cycle()}>
-            "{article.quote}"
+            {article.quote}
           </div>
           <div className={styles.quoteAuthor}>
             - {article.author} [<a href={article.url}>{article.site}</a>]
