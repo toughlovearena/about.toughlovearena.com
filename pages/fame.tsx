@@ -47,7 +47,7 @@ const FamePage = (props: Props) => {
   return (
     <Layout page={InternalPage.HallOfFame}>
       <Column>
-        <FameHeader {...props} />
+        <FameHeader />
         <FameSearch
           filtered={filtered}
           view={view}
