@@ -54,6 +54,9 @@ export const GalleryAssets: GalleryItem[] = [{
 }, {
   url: '2022_promo_paxeast.jpg',
   description: 'Promo art for PAX East',
+}, {
+  url: '2022_promo_combobreaker.jpg',
+  description: 'Promo art for Combo Breaker',
 }].map(item => ({
   ...item,
   url: `/asset/${item.url}`,
