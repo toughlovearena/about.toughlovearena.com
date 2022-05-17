@@ -19,10 +19,11 @@ export interface NavProps {
 
 export interface ArticleLink {
   site: string;
-  author?: string;
+  author: string;
   title: string;
   url: string;
   date: string;
+  quote: string;
 }
 
 export interface YouTubeLink {

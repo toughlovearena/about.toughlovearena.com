@@ -11,16 +11,50 @@
   width: 100%;
 
   text-align: center;
-  font-size: 3rem;
-  padding: 3em;
   box-sizing: border-box;
   color: white;
   background: rgba(0, 0, 0, 0.5);
+  padding: 5rem;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.pitch {
+  font-size: 4rem;
+  margin: 1rem;
+  text-shadow: 0.05em 0.05em 0px var(--heart);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quote {
+  flex: 1;
+  margin: 1rem;
+  max-width: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition-property: opacity margin;
+  transition-delay: 0s;
+}
+.quoteSnippet {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+.quoteAuthor {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  align-self: flex-end;
+}
+.quoteAuthor a {
+  color: white;
 }
 
 .video {
