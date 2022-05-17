@@ -1,4 +1,4 @@
-import { CSSProperties, useEffect, useState } from 'react';
+import { CSSProperties, useCallback, useEffect, useState } from 'react';
 import { Articles } from '../data/links';
 import { sleep } from '../utils/async';
 import { getNextInArray, shuffleArray } from '../utils/list';
@@ -12,17 +12,20 @@ export default () => {
   const transitionMs = 500;
   const activeMs = 10 * 1000;
 
-  useEffect(() => {
-    const loop = async () => {
+  const cycle = useCallback(() => {
+    (async () => {
       setVisible(false);
       // give time for animation
       await sleep(2 * transitionMs);
       setVisible(true);
-    }
-    const intervalId = setInterval(loop, activeMs);
+    })();
+  }, [setVisible]);
+
+  useEffect(() => {
+    // todo store intervalId in ref and manage this lifecycle when clicking
+    const intervalId = setInterval(cycle, activeMs);
     return () => clearInterval(intervalId);
   }, [setArticle]);
-
   useEffect(() => {
     (async () => {
       if (!visible) {
@@ -48,7 +51,7 @@ export default () => {
           Tough Love Arena is a web-based, indie fighting game with rollback netcode that's 100% free to play!
         </div>
         <div className={styles.quote} style={quoteStyle}>
-          <div className={styles.quoteSnippet}>
+          <div className={styles.quoteSnippet} onClick={() => cycle()}>
             "{article.quote}"
           </div>
           <div className={styles.quoteAuthor}>
