@@ -12,9 +12,10 @@ type Props = {
   children: ReactNode;
   title?: React.ReactNode;
   page?: InternalPageData;
+  hideFooter?: boolean;
 }
 
-const Layout = ({ title, page, children, }: Props) => (
+const Layout = ({ children, title, page, hideFooter, }: Props) => (
   <div>
     <Head>
       <title>
@@ -41,11 +42,13 @@ const Layout = ({ title, page, children, }: Props) => (
       )}
       {children}
     </section>
-    <Column width={400}>
-      <footer className={styles.footer}>
-        {'© 2022 M. Paul Weeks & Amy Xu'}
-      </footer>
-    </Column>
+    {!hideFooter && (
+      <Column width={400}>
+        <footer className={styles.footer}>
+          {'© 2022 M. Paul Weeks & Amy Xu'}
+        </footer>
+      </Column>
+    )}
   </div>
 )
 
