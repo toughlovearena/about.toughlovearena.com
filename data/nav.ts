@@ -1,7 +1,7 @@
 import { InternalPageData } from "../interfaces";
 
 export const InternalPage = {
-  About: {
+  Home: {
     href: "/",
     label: '',
   },
@@ -17,14 +17,19 @@ export const InternalPage = {
     href: "/gallery",
     label: 'Gallery',
   },
-  Press: {
-    href: "/press",
-    label: 'Press',
+  Community: {
+    href: "/community",
+    label: 'Community',
+  },
+  About: {
+    href: "/about",
+    label: 'About',
   },
 };
 export const InternalPages: InternalPageData[] = [
   InternalPage.PatchNotes,
   InternalPage.HallOfFame,
   InternalPage.Gallery,
-  InternalPage.Press,
+  InternalPage.Community,
+  InternalPage.About,
 ];

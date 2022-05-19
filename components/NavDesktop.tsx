@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { InternalPage } from '../data/nav';
 import { NavProps } from '../interfaces';
 import styles from './NavDesktop.module.css';
 
@@ -7,7 +8,7 @@ export default ({ currentHref, links, }: NavProps) => (
     <div className={styles.spacer}></div>
     <nav className={styles.nav}>
       <div className={styles.navLeft}>
-        <Link href="/">
+        <Link href={InternalPage.Home}>
           <img src="/logo_v01.png" />
         </Link>
       </div>

@@ -1,11 +1,12 @@
 import Link from 'next/link'
+import { InternalPage } from '../data/nav';
 import { NavProps } from '../interfaces';
 import styles from './NavMobile.module.css';
 
 export default ({ currentHref, links, }: NavProps) => (
   <nav className={styles.container}>
     <div className={styles.navLogo}>
-      <Link href="/">
+      <Link href={InternalPage.Home}>
         <img src="/logo_v01.png" />
       </Link>
     </div>
