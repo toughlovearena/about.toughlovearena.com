@@ -8,10 +8,12 @@ export const InternalPage = {
   PatchNotes: {
     href: "/log",
     label: 'Patch Notes',
+    subtitle: `Every game update since the launch of the public beta in January 2021`,
   },
   HallOfFame: {
     href: "/fame",
     label: 'Hall of Fame',
+    subtitle: `Here we celebrate and immortalize all of the Tough Love Arena champions`,
   },
   Gallery: {
     href: "/gallery",

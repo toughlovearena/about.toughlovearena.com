@@ -1,5 +1,7 @@
 // You can include shared interfaces/types in a separate file
 
+import React from 'react';
+
 export * from './fame';
 
 export interface GalleryItem {
@@ -9,6 +11,7 @@ export interface GalleryItem {
 
 export interface InternalPageData {
   readonly label: string;
+  readonly subtitle?: React.ReactNode;
   readonly href: string;
 }
 

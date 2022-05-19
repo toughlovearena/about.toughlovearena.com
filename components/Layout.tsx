@@ -7,6 +7,7 @@ import { InternalPageData } from '../interfaces';
 import NavMobile from './NavMobile';
 import { InternalPages } from '../data/nav';
 import { SectionTitle } from './SectionTitle';
+import { Subtitle } from './Subtitle';
 
 type Props = {
   children: ReactNode;
@@ -39,6 +40,11 @@ const Layout = ({ children, title, page, hideFooter, }: Props) => (
         <SectionTitle>
           {page.label}
         </SectionTitle>
+      )}
+      {page?.subtitle && (
+        <Subtitle>
+          {page.subtitle}
+        </Subtitle>
       )}
       {children}
     </section>
