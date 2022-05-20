@@ -6,6 +6,14 @@ export function range(length: number): number[] {
   return out;
 }
 
+export function flatten<T>(arr: T[][]): T[] {
+  // dumb polyfill for jest
+  // https://github.com/kulshekhar/ts-jest/issues/828
+  const out = [] as T[];
+  arr.forEach(subArr => out.push(...subArr));
+  return out;
+}
+
 type Comparable = number | string;
 type CompareOut = -1 | 0 | 1;
 function compare(a: number, b: number): CompareOut;
@@ -32,6 +40,12 @@ export function sortArray(arr: number[]): number[];
 export function sortArray(arr: string[]): string[];
 export function sortArray(arr: any[]): any[] {
   return sortArrayOfObjects(arr, elm => elm);
+}
+
+export function removeUndefined<T extends Record<string, any>>(obj: T) {
+  const clone = { ...obj };
+  Object.keys(clone).forEach(key => clone[key] === undefined && delete clone[key]);
+  return clone;
 }
 
 export function getNextInArray<T>(

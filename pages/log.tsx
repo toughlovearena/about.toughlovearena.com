@@ -3,7 +3,7 @@ import fs from 'fs';
 import YAML from 'yaml';
 import { InternalPage } from '../data/nav';
 import { GetStaticProps } from 'next';
-import { ChangelogData } from '../interfaces/changelog';
+import { ChangelogData } from '../interfaces';
 import Changelog from '../components/changelog/Changelog';
 
 interface Props {

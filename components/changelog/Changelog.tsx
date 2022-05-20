@@ -1,4 +1,4 @@
-import { ChangelogData, VersionLog } from "../../interfaces/changelog";
+import { ChangelogData, VersionLog } from "../../interfaces";
 import Linkify from 'react-linkify';
 import styles from './Changelog.module.css';
 import { Column } from "../Column";

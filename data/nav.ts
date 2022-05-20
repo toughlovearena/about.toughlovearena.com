@@ -10,6 +10,10 @@ export const InternalPage = {
     label: 'Patch Notes',
     subtitle: `Every game update since the launch of the public beta in January 2021`,
   },
+  Events: {
+    href: "/Events",
+    label: 'Events',
+  },
   HallOfFame: {
     href: "/fame",
     label: 'Hall of Fame',

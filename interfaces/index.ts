@@ -2,6 +2,8 @@
 
 import React from 'react';
 
+export * from './changelog';
+export * from './events';
 export * from './fame';
 
 export interface GalleryItem {
