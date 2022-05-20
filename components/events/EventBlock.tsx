@@ -85,7 +85,7 @@ export function EventBlock(props: { event: EventData }) {
       {event.image && (
         <img
           className={styles.brand}
-          src={'images/' + event.image}
+          src={'/asset/events/' + event.image}
         />
       )}
     </div>
