@@ -7,6 +7,7 @@ export * from './fame';
 export interface GalleryItem {
   url: string;
   description: string;
+  when?: string;
 }
 
 export interface InternalPageData {

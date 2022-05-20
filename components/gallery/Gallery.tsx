@@ -19,7 +19,10 @@ const GalleryPreview = (props: {
           backgroundImage: `url(${props.item.url})`,
         }}></div>
         <div className={styles.description}>
-          {props.item.description}
+          <div>{props.item.description}</div>
+          {props.item.when && (
+            <div>{props.item.when}</div>
+          )}
         </div>
       </div>
     </a>
