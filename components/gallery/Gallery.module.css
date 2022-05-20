@@ -9,6 +9,7 @@
 .preview {
   position: relative;
   overflow: hidden;
+  --duration: 300ms;
 }
 
 .background {
@@ -17,9 +18,10 @@
   background-position: center;
   background-size: cover;
 
-  transition-property: transform;
-  transition-duration: 100ms;
   transform: scale(1.0);
+  transition-property: transform;
+  transition-duration: var(--duration);
+  transition-timing-function: ease-in;
 }
 .preview:hover .background {
   transform: scale(1.2);
@@ -27,7 +29,6 @@
 
 .description {
   position: absolute;
-  opacity: 0;
   top: 0;
   left: 0;
   width: 100%;
@@ -44,8 +45,10 @@
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 
+  opacity: 0;
   transition-property: opacity;
-  transition-duration: 100ms;
+  transition-duration: var(--duration);
+  transition-timing-function: ease-in;
 }
 
 .preview:hover .description {
