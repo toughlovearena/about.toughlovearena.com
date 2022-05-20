@@ -24,7 +24,7 @@
   transition-timing-function: ease-in;
 }
 .preview:hover .background {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .description {
