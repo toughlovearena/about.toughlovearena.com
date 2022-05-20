@@ -1,14 +1,26 @@
 import { GalleryItem } from "../interfaces";
 
 export const GalleryAssets: GalleryItem[] = [{
-  file: 'welcomepage_beta.jpg',
-  description: 'Beta splash screen',
-}, {
   file: 'gameplay1.jpg',
   description: 'Gameplay of Beef vs Noodle',
 }, {
   file: 'gameplay2.jpg',
   description: 'Gameplay of Rice vs Pork',
+}, {
+  file: 'welcomepage_beta.jpg',
+  description: 'Beta splash screen',
+}, {
+  file: 'stage_notebook.jpg',
+  description: 'Notebook Stage',
+}, {
+  file: 'stage_playground.jpg',
+  description: 'Playground Stage',
+}, {
+  file: 'stage_grocery.jpg',
+  description: 'Grocery Store Stage',
+}, {
+  file: 'stage_parkinglot.jpg',
+  description: 'Parking Lot Stage',
 }, {
   file: '2022_promo_combobreaker.jpg',
   description: 'Promo art for Combo Breaker',
