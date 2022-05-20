@@ -1,14 +1,6 @@
-.header {}
-.section {}
-.footer {
-  text-align: center;
-  font-size: 0.8em;
-  border-top: 1px solid var(--fore);
-  margin-top: 1rem;
-  padding: 1em;
-}
-
-main.pattern {
+.container {}
+.container.pattern {
+  /* using flex forces child to only be as wide as necessary */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -20,8 +12,20 @@ main.pattern {
   /* background-repeat: repeat; */
   /* background-size: 14rem auto; */
 }
-main .inner {
-  padding: 0 5rem;
+.container.pattern .inner {
   background-color: white;
+  padding: 0 5rem;
   min-height: 100vh;
+  box-sizing: border-box;
 }
+
+.header {}
+.main {}
+.footer {
+  text-align: center;
+  font-size: 0.8em;
+  border-top: 1px solid var(--fore);
+  margin-top: 1rem;
+  padding: 1em;
+}
+

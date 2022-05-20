@@ -8,7 +8,7 @@ export default ({ currentHref, links, }: NavProps) => (
     <div className={styles.spacer}></div>
     <nav className={styles.nav}>
       <div className={styles.navLeft}>
-        <Link href={InternalPage.Home}>
+        <Link href={InternalPage.Home.href}>
           <img src="/logo_v01.png" />
         </Link>
       </div>

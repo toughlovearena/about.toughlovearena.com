@@ -66,7 +66,7 @@ export default () => {
         muted={true}
         loop={true}
       >
-        <source src="asset/demo_480p.mp4" type="video/mp4"></source>
+        <source src="/asset/demo_480p.mp4" type="video/mp4"></source>
       </video>
     </div>
   );

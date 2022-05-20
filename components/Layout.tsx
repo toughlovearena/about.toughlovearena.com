@@ -32,13 +32,13 @@ const Layout = (props: Props) => (
       <link rel="icon" href="/favicon.png" />
       <link rel="stylesheet" href="/styles.css" />
     </Head>
-    <main className={props.pattern ? styles.pattern : ''}>
+    <div className={[styles.container, props.pattern ? styles.pattern : ''].join(' ')}>
       <div className={styles.inner}>
         <header className={styles.header}>
           <NavDesktop currentHref={props.page?.href} links={InternalPages} />
           <NavMobile currentHref={props.page?.href} links={InternalPages} />
         </header>
-        <section className={styles.section}>
+        <main className={styles.main}>
           {props.page && (
             <SectionTitle>
               {props.page.label}
@@ -50,7 +50,7 @@ const Layout = (props: Props) => (
             </Subtitle>
           )}
           {props.children}
-        </section>
+        </main>
         {!props.hideFooter && (
           <Column width={400}>
             <footer className={styles.footer}>
@@ -59,7 +59,7 @@ const Layout = (props: Props) => (
           </Column>
         )}
       </div>
-    </main>
+    </div>
   </div>
 )
 
