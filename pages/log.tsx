@@ -18,7 +18,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 }
 const LogPage = (props: Props) => {
   return (
-    <Layout page={InternalPage.PatchNotes}>
+    <Layout page={InternalPage.PatchNotes} pattern={true}>
       <Changelog data={props.changelog} />
     </Layout>
   );

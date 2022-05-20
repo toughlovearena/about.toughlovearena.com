@@ -1,6 +1,7 @@
 import { ChangelogData, VersionLog } from "../../interfaces/changelog";
 import Linkify from 'react-linkify';
 import styles from './Changelog.module.css';
+import { Column } from "../Column";
 
 function Version ({ log }: { log: VersionLog, }) {
   const anchorId = log.v; // for scrolling
@@ -32,9 +33,11 @@ function Version ({ log }: { log: VersionLog, }) {
 }
 
 export default (props: { data: ChangelogData }) => (
-  <div className={styles.log}>
-    {props.data.versions.map(log => (
-      <Version key={log.v} log={log} />
-    ))}
-  </div>
+  <Column>
+    <div className={styles.log}>
+      {props.data.versions.map(log => (
+        <Version key={log.v} log={log} />
+      ))}
+    </div>
+  </Column>
 );

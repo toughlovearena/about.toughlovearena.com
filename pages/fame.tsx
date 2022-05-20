@@ -45,7 +45,7 @@ const FamePage = (props: Props) => {
   const filtered = filteredBySearch;
 
   return (
-    <Layout page={InternalPage.HallOfFame}>
+    <Layout page={InternalPage.HallOfFame} pattern={true}>
       <Column>
         <FameHeader />
         <FameSearch

@@ -7,3 +7,21 @@
   margin-top: 1rem;
   padding: 1em;
 }
+
+main.pattern {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #ebdd7a;
+  /* background-image: url('/pattern.png'); */
+  /* background-position: center; */
+  /* background-repeat: repeat; */
+  /* background-size: 14rem auto; */
+}
+main .inner {
+  padding: 0 5rem;
+  background-color: white;
+  min-height: 100vh;
+}

@@ -5,7 +5,7 @@ import { InternalPage } from '../data/nav';
 
 const AboutPage = () => {
   return (
-    <Layout page={InternalPage.About}>
+    <Layout page={InternalPage.About} pattern={true}>
       <AboutInfo />
     </Layout>
   );

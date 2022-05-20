@@ -14,15 +14,16 @@ type Props = {
   title?: React.ReactNode;
   page?: InternalPageData;
   hideFooter?: boolean;
+  pattern?: boolean;
 }
 
-const Layout = ({ children, title, page, hideFooter, }: Props) => (
+const Layout = (props: Props) => (
   <div>
     <Head>
       <title>
         {(
-          title ||
-          (page?.label && `${page.label} | Tough Love Arena`) ||
+          props.title ||
+          (props.page?.label && `${props.page.label} | Tough Love Arena`) ||
           `Tough Love Arena`
         )}
       </title>
@@ -31,30 +32,34 @@ const Layout = ({ children, title, page, hideFooter, }: Props) => (
       <link rel="icon" href="/favicon.png" />
       <link rel="stylesheet" href="/styles.css" />
     </Head>
-    <header className={styles.header}>
-      <NavDesktop currentHref={page?.href} links={InternalPages} />
-      <NavMobile currentHref={page?.href} links={InternalPages} />
-    </header>
-    <section className={styles.section}>
-      {page && (
-        <SectionTitle>
-          {page.label}
-        </SectionTitle>
-      )}
-      {page?.subtitle && (
-        <Subtitle>
-          {page.subtitle}
-        </Subtitle>
-      )}
-      {children}
-    </section>
-    {!hideFooter && (
-      <Column width={400}>
-        <footer className={styles.footer}>
-          {'© 2022 M. Paul Weeks & Amy Xu'}
-        </footer>
-      </Column>
-    )}
+    <main className={props.pattern ? styles.pattern : ''}>
+      <div className={styles.inner}>
+        <header className={styles.header}>
+          <NavDesktop currentHref={props.page?.href} links={InternalPages} />
+          <NavMobile currentHref={props.page?.href} links={InternalPages} />
+        </header>
+        <section className={styles.section}>
+          {props.page && (
+            <SectionTitle>
+              {props.page.label}
+            </SectionTitle>
+          )}
+          {props.page?.subtitle && (
+            <Subtitle>
+              {props.page.subtitle}
+            </Subtitle>
+          )}
+          {props.children}
+        </section>
+        {!props.hideFooter && (
+          <Column width={400}>
+            <footer className={styles.footer}>
+              {'© 2022 M. Paul Weeks & Amy Xu'}
+            </footer>
+          </Column>
+        )}
+      </div>
+    </main>
   </div>
 )
 
