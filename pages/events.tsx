@@ -1,11 +1,12 @@
 import fs from 'fs';
 import YAML from 'yaml';
 import { GetStaticProps } from "next";
-import { AllEvents, EventDTO, EventsYaml } from "../interfaces";
+import { EventDTO, EventsYaml } from "../interfaces";
 import { unpackEvents } from '../utils/events';
 import Layout from '../components/Layout';
 import { InternalPage } from '../data/nav';
 import { Column } from '../components/Column';
+import { EventBlock } from '../components/events/EventBlock';
 
 interface Props {
   events: EventDTO[];
@@ -23,10 +24,11 @@ const EventsPage = (props: Props) => {
   return (
     <Layout page={InternalPage.HallOfFame} pattern={true}>
       <Column>
-        {data.all.map(evt => (
-          <div>
-            {evt.title}
-          </div>
+        {data.all.map((evt, ei) => (
+          <EventBlock
+            key={ei}
+            event={evt}
+          />
         ))}
       </Column>
     </Layout>
