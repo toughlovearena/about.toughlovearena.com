@@ -1,7 +1,6 @@
 import React, { ReactNode } from 'react'
 import Head from 'next/head'
 import styles from './Layout.module.css';
-import { Column } from './Column';
 import NavDesktop from './NavDesktop';
 import { InternalPageData } from '../interfaces';
 import NavMobile from './NavMobile';
@@ -14,7 +13,6 @@ type Props = {
   title?: React.ReactNode;
   page?: InternalPageData;
   hideTitle?: boolean;
-  hideFooter?: boolean;
   pattern?: boolean;
 }
 
@@ -52,13 +50,6 @@ const Layout = (props: Props) => (
           )}
           {props.children}
         </main>
-        {!props.hideFooter && (
-          <Column width={400}>
-            <footer className={styles.footer}>
-              {'© 2022 M. Paul Weeks & Amy Xu'}
-            </footer>
-          </Column>
-        )}
       </div>
     </div>
   </div>
