@@ -1,6 +1,13 @@
 import { ArticleLink, YouTubeLink } from "../interfaces";
 
 export const Articles: ArticleLink[] = [{
+  date: '2022-05-07',
+  site: 'Steam Reviews',
+  author: 'EllingtonReborn',
+  title: 'Steam Review',
+  url: 'https://steamcommunity.com/id/notacockyname/recommended/1807330/',
+  quote: 'Tough Love Arena is the best beginner fighting game experience.',
+}, {
   date: '2022-04-27',
   site: 'fanbyte',
   author: 'Kenneth Shepard',
