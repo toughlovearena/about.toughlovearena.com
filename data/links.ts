@@ -4,7 +4,7 @@ export const Articles: ArticleLink[] = [{
   date: '2022-05-07',
   site: 'Steam Reviews',
   author: 'EllingtonReborn',
-  title: 'Steam Review',
+  title: 'Steam Reviews',
   url: 'https://steamcommunity.com/id/notacockyname/recommended/1807330/',
   quote: 'Tough Love Arena is the best beginner fighting game experience.',
 }, {
