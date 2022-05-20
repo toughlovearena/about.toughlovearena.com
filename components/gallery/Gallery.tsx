@@ -14,8 +14,10 @@ const GalleryPreview = (props: {
       <div className={styles.preview} style={{
         width: `${width}px`,
         height: `${height}px`,
-        backgroundImage: `url(${props.item.url})`
       }}>
+        <div className={styles.background} style={{
+          backgroundImage: `url(${props.item.url})`,
+        }}></div>
         <div className={styles.description}>
           {props.item.description}
         </div>
