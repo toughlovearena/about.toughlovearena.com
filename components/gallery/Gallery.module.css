@@ -9,7 +9,7 @@
 .preview {
   position: relative;
   overflow: hidden;
-  --duration: 300ms;
+  --duration: 200ms;
 }
 
 .background {
