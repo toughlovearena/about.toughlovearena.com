@@ -5,7 +5,8 @@ import React from 'react';
 export * from './fame';
 
 export interface GalleryItem {
-  url: string;
+  original: string;
+  preview: string;
   description: string;
   when?: string;
 }

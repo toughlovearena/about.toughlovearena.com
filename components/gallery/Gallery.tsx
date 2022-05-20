@@ -10,13 +10,13 @@ const GalleryPreview = (props: {
   const width = Math.floor(props.galleryWidth / props.columns);
   const height = Math.floor(width / (16 / 9));
   return (
-    <a href={props.item.url} target="_blank">
+    <a href={props.item.original} target="_blank">
       <div className={styles.preview} style={{
         width: `${width}px`,
         height: `${height}px`,
       }}>
         <div className={styles.background} style={{
-          backgroundImage: `url(${props.item.url})`,
+          backgroundImage: `url(${props.item.preview})`,
         }}></div>
         <div className={styles.description}>
           <div>{props.item.description}</div>
