@@ -13,6 +13,7 @@ type Props = {
   children: ReactNode;
   title?: React.ReactNode;
   page?: InternalPageData;
+  hideTitle?: boolean;
   hideFooter?: boolean;
   pattern?: boolean;
 }
@@ -39,7 +40,7 @@ const Layout = (props: Props) => (
           <NavMobile currentHref={props.page?.href} links={InternalPages} />
         </header>
         <main className={styles.main}>
-          {props.page && (
+          {props.page && !props.hideTitle && (
             <SectionTitle>
               {props.page.label}
             </SectionTitle>

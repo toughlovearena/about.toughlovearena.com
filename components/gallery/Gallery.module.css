@@ -5,3 +5,32 @@
   align-items: flex-start;
   flex-wrap: wrap;
 }
+
+.preview {
+  background-position: center;
+  background-size: cover;
+}
+
+.description {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  border: 0.2em solid white;
+  box-sizing: border-box;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  transition-property: opacity;
+  transition-duration: 100ms;
+}
+
+.preview:hover .description {
+  opacity: 1;
+}
