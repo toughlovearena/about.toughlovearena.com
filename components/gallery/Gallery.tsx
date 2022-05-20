@@ -8,7 +8,7 @@ const GalleryPreview = (props: {
   galleryWidth: number;
 }) => {
   const width = Math.floor(props.galleryWidth / props.columns);
-  const height = Math.floor(width * (3 / 4));
+  const height = Math.floor(width / (16 / 9));
   return (
     <a href={props.item.url} target="_blank">
       <div className={styles.preview} style={{
@@ -27,7 +27,6 @@ const GalleryPreview = (props: {
 }
 
 const Gallery = ({ data }: { data: GalleryItem[], }) => {
-  const columns = 3;
   const [width, setWidth] = useState(100);
 
   const updateWidth = useCallback(() => {
@@ -43,6 +42,9 @@ const Gallery = ({ data }: { data: GalleryItem[], }) => {
   useEffect(() => {
     updateWidth();
   }, []);
+
+  const minWidth = 600;
+  const columns = Math.ceil(width / minWidth);
 
   return (
     <div className={styles.gallery}>
