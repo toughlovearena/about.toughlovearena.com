@@ -7,8 +7,8 @@ const GalleryPreview = (props: {
   columns: number;
   galleryWidth: number;
 }) => {
-  const width = props.galleryWidth / props.columns;
-  const height = width * (3 / 4);
+  const width = Math.floor(props.galleryWidth / props.columns);
+  const height = Math.floor(width * (3 / 4));
   return (
     <a href={props.item.url} target="_blank">
       <div className={styles.preview} style={{
