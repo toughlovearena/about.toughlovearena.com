@@ -15,12 +15,10 @@ export default ({ currentHref, links, }: NavProps) => (
       <div className={styles.navRight}>
         {links.map((li, i) => (
           <Link key={i} href={li.href}>
-            <div className={styles.navLink}>
-              {currentHref === li.href ? (
-                <b>{li.label}</b>
-              ) : (
-                <span>{li.label}</span>
-              )}
+            <div className={styles.navLink} style={currentHref === li.href ? {
+              fontWeight: 'bold',
+            } : {}}>
+              {li.label}
             </div>
           </Link>
         ))}

@@ -47,7 +47,8 @@ const Gallery = ({ data }: { data: GalleryItem[], }) => {
   }, []);
 
   const minWidth = 600;
-  const columns = Math.ceil(width / minWidth);
+  const maxColumns = 3;
+  const columns = Math.min(maxColumns, Math.ceil(width / minWidth));
 
   return (
     <div className={styles.gallery}>
