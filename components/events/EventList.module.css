@@ -10,7 +10,8 @@
 }
 
 .filterSelect {
-  --filterMargin: 0.3rem;
+  --filterBorder: 0.15rem;
+  --filterMargin: 0.4rem;
   margin: var(--filterMargin) 0;
 
   display: flex;
@@ -25,21 +26,25 @@
 }
 .filterButton {
   cursor: pointer;
+  border-radius: 0.8rem;
 
   flex: 0.25;
   margin-left: calc(2 * var(--filterMargin));
-  border-radius: 1em;
   padding: 0.5em 0;
-  border: 0.2em solid black;
+  border: var(--filterBorder) solid black;
 }
 .filterPast {
   /* .filterButton overrides */
   flex: 0.5;
   margin-left: 0;
 
-  /* 0.5 extra padding = 0.2 for border + 0.6/2 for margin */
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  font-size: 0.8em;
+  background-color: lightgrey;
+  border-color: lightgrey;
+
+  /* 0.55 extra padding = 0.15 for border + 0.8/2 for margin */
+  padding-left: 0.55rem;
+  padding-right: 0.55rem;
 }
 .filterButtonGap:first-child {
   margin-right: calc(2 * var(--filterMargin));
@@ -51,7 +56,7 @@
   visibility: hidden;
   flex: 0.25;
   padding: 0.5em 0;
-  border: 0.2em solid black;
+  border: var(--filterBorder) solid black;
 }
 
 .list {
