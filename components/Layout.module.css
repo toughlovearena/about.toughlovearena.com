@@ -6,11 +6,11 @@
   justify-content: flex-start;
   align-items: center;
 
-  background-color: #ebdd7a;
-  /* background-image: url('/pattern.png'); */
-  /* background-position: center; */
-  /* background-repeat: repeat; */
-  /* background-size: 14rem auto; */
+  background-color: #f2efe1;
+  background-image: url('/lemon_pattern.png');
+  background-position: center top;
+  background-repeat: repeat;
+  background-size: 14rem auto;
 }
 .container.pattern .inner {
   background-color: white;
