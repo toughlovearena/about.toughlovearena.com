@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react';
-import { HallOfFameEntry, OptionName, ViewOption } from "../../interfaces";
+import { HallOfFameEntry, OptionAbbr, OptionName, ViewOption } from "../../interfaces";
 import { getNextInArray, sortArrayOfObjects } from '../../utils/list';
 import styles from './FameTable.module.css';
 
@@ -40,7 +40,7 @@ function FameYouTube({youtube}: {youtube?: string}) {
   const url = `https://youtube.com/watch?v=${youtube}`;
   return (
     <a target="_blank" rel="noopener noreferrer" href={url}>
-      YouTube
+      Video
     </a>
   );
 }
@@ -180,11 +180,11 @@ export const FameTable = (props: {
           <div className={styles.cellName}>
             <u>Tournament</u>
           </div>
-          <div className={styles.cellWinner}>
+          <div className={styles.cellWinnerHead}>
             <u>Champion</u>
           </div>
           <div
-            className={styles.cellEntrants}
+            className={styles.cellEntrantsHead}
             style={{ cursor: 'pointer', }}
             onClick={() => updateSort(SortBy.EntrantNum)}
           >
@@ -206,9 +206,9 @@ export const FameTable = (props: {
           <div className={styles.flexRow} key={ri}>
             <div className={styles.cellDate}>{row.date}</div>
             <div className={styles.cellName}>{row.name}</div>
-            <div className={styles.cellWinner}>{row.winner}</div>
+            <div className={styles.cellWinnerBody}>{row.winner}</div>
             <div className={styles.cellEntrantsBody}>{row.entrants}</div>
-            <div className={styles.cellCategory}>{OptionName(row.category)}</div>
+            <div className={styles.cellCategory}>{OptionAbbr(row.category)}</div>
             <div className={styles.cellLinks}>
               <FameChallonge {...row} />
               <FameYouTube {...row} />

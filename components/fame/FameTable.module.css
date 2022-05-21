@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: nowrap;
 }
 .tableHead {}
@@ -26,13 +26,15 @@
 }
 .cellDate,
 .cellName,
-.cellWinner,
-.cellEntrants,
+.cellWinnerHead,
+.cellWinnerBody,
+.cellEntrantsHead,
 .cellEntrantsBody,
 .cellCategory,
 .cellLinks,
 .cellMobileInfo,
 .cellMobileEntrantsInfo {
+  /* border: 1px solid pink; */
   box-sizing: border-box;
   padding: 0.2em 1em;
   padding-right: 0;
@@ -44,26 +46,29 @@
   align-items: center;
 }
 .cellDate {
-  width: 6em;
+  width: 7em;
 }
 .cellName {
-  width: 15em;
+  width: 16em;
 }
-.cellWinner {
+.cellWinnerHead {
+  width: 6em;
+}
+.cellWinnerBody {
   width: 10em;
 }
-.cellEntrants {
-  width: 6em;
+.cellEntrantsHead {
+  width: 6.5em;
 }
 .cellEntrantsBody {
-  width: 6em;
+  width: 2.5em;
   justify-content: flex-end;
 }
 .cellCategory {
-  width: 6em;
+  width: 4em;
 }
 .cellLinks {
-  width: 10em;
+  width: 8em;
   justify-content: flex-start;
 }
 .cellLinks a {

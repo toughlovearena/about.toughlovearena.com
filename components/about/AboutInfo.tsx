@@ -45,8 +45,7 @@ export const AboutInfo = () => (
       </section>
 
       <section>
-        Download the <a href="/presskit-toughlovearena-2022-04-26.zip">
-          Presskit
+        download the <a href="/presskit-toughlovearena-2022-04-26.zip"> presskit
         </a>
       </section>
     </Column>
