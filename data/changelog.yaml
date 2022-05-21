@@ -1,10 +1,15 @@
 ---
 versions:
+  - v: 0.91.15
+    date: 2022/05/21
+    notes:
+      - "Maintenance: Migrate Hall of Fame data to new host and new format"
   - v: 0.91.14
     date: 2022/05/15
     notes:
       - "Nerfed Onion/Garlic: Sweep can no longer cancel into Trip on block"
       - 'Accounts: Fixed "Favorite Character" to no longer break when we push new skins (existing favorites have been reset)'
+      - "Modding: Upgraded engine to 14"
       - "Modding: FlavorConfig.fid added (unique property to help with replay/favorite tracking)"
       - 'NOTE: One of the main goals of 0.91.0 was diversifying offense. Adding "Sweep > Trip on block" inadvertently made it more simple. It also introduced undesirable play patterns in the form of long, pseudo-true blockstrings against Pork. Therefore, this buff has been reverted'
   - v: 0.91.13
