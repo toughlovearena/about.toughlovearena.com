@@ -28,7 +28,8 @@
 }
 .pitch {
   font-size: 3rem;
-  text-shadow: 0.05em 0.05em 0px var(--heart);
+  font-weight: 500;
+  text-shadow: 0px 0.1em 0px black;
 
   min-height: calc((100vh - var(--navHeight)) / 3);
   padding: 1rem;
