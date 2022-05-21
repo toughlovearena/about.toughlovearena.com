@@ -63,32 +63,36 @@ export function EventBlock(props: { event: EventData }) {
   }
 
   return (
-    <div className={styles.container} style={{ borderColor: getEventColor(event.type), }}>
+    <div className={styles.container}>
       <div className={styles.brand}>
-      <img
-        src={'/asset/events/' + imageSrc}
-      />
+        <img
+          src={'/asset/events/' + imageSrc}
+        />
       </div>
-      <div className={styles.info}>
+      <div className={styles.info} style={{ borderColor: getEventColor(event.type), }}>
         <div className={styles.title}>
           {event.title}
         </div>
-        <div>
+        <div className={styles.description}>
           {event.description}
         </div>
-        {links.length ? (
-          <div>
-            {links.map((link, index) => (
-              <span key={index} >
-                {index > 0 && ' / '}
-                <a rel="noreferrer" target="_blank" href={link.url}>{link.name}</a>
-              </span>
-            ))}
-          </div>
-        ) : undefined}
         <div className={styles.time}>
           <div className={styles.start}>
             {event.start.toLocaleString()}
+          </div>
+        </div>
+        <div className={styles.links}>
+          <div>
+            {links.length ? (
+              <div>
+                {links.map((link, index) => (
+                  <span key={index} >
+                    {index > 0 && ' / '}
+                    <a rel="noreferrer" target="_blank" href={link.url}>{link.name}</a>
+                  </span>
+                ))}
+              </div>
+            ) : undefined}
           </div>
           <div>
             <a rel="noreferrer" target="_blank" href={calendarLink.google(calEvent)}>gcal</a>

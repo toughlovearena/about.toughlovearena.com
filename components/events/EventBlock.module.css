@@ -1,26 +1,32 @@
 .container {
-  margin: 1rem 0;
-  border-radius: 1rem 0 1rem 1rem;
-  border: 0.5em solid black;
-  overflow: hidden;
+  margin: 1em 0;
 
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
 }
 
 .container .brand {
-  height: 12em;
+  padding: 0 1em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 .container .brand img {
-  height: 100%;
+  height: 6em;
   width: auto;
+  border-radius: 1em;
 }
 
 .container .info {
-  padding: 0.5rem 1rem;
   width: 400px;
+  padding: 1em;
+  border-radius: 1em 0 1em 1em;
+  border: 0.5em solid black;
+  overflow: hidden;
 
   text-align: left;
   display: flex;
@@ -32,11 +38,17 @@
 .container .title {
   font-size: 1.5em;
   text-decoration: underline;
-  margin: 0.5rem 0;
+}
+.container .description {
+  margin: 0.5em 0;
 }
 .container .start {
+  text-align: right;
   font-size: 1.3em;
 }
-.container .time {
-  text-align: right;
+.container .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
