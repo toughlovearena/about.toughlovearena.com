@@ -1,6 +1,7 @@
 import { EventData, EventType } from "../../interfaces";
 import * as calendarLink from "calendar-link";
 import styles from './EventBlock.module.css';
+import { CSSProperties } from "react";
 
 const EventColor = {
   [EventType.Stream]: '#9747ff',
@@ -62,17 +63,21 @@ export function EventBlock(props: { event: EventData }) {
     imageSrc = 'toughlovegauntlet.jpg';
   }
 
+  const boxStyle: CSSProperties = {
+    border: `2px solid ${getEventColor(event.type)}`,
+    boxShadow: `4px 4px ${getEventColor(event.type)}`,
+    borderRadius: '8px',
+    overflow: 'hidden',
+  }
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={boxStyle}>
       <div className={styles.brand}>
         <img
           src={'/asset/events/' + imageSrc}
         />
       </div>
-      <div className={styles.info} style={{
-        border: `2px solid ${getEventColor(event.type)}`,
-        boxShadow: `4px 4px ${getEventColor(event.type)}`,
-      }}>
+      <div className={styles.info}>
         <div className={styles.title}>
           {event.title}
         </div>

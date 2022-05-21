@@ -59,21 +59,15 @@ export const EventList = (props: { events: AllEvents; }) => {
           Switch to {showPast ? 'Upcoming' : 'Past'} Events
         </div>
       </div>
-      {events ? (
-        events.length ? (
-          <div>
-            {events.map((e, ei) => (
-              <EventBlock key={ei} event={e} />
-            ))}
-          </div>
-        ) : (
-          <div>
-            <i>no events found</i>
-          </div>
-        )
+      {events.length ? (
+        <div className={styles.list}>
+          {events.map((e, ei) => (
+            <EventBlock key={ei} event={e} />
+          ))}
+        </div>
       ) : (
         <div>
-          <i>loading...</i>
+          <i>no events found</i>
         </div>
       )}
     </div>

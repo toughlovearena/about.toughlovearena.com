@@ -23,3 +23,12 @@
   border-radius: 1em;
   border: 0.2em solid black;
 }
+
+.list {
+  max-width: 600px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}

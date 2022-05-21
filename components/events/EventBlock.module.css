@@ -8,24 +8,23 @@
 }
 
 .container .brand {
-  padding: 0 1em;
+  padding: 1.5em;
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 .container .brand img {
   height: 6em;
   width: auto;
-  border-radius: 1em;
+  border-radius: 0.5em;
 }
 
 .container .info {
-  width: 400px;
-  padding: 1em;
-  border-radius: 1em;
-  overflow: hidden;
+  flex: 1;
+  margin: 1em;
+  margin-left: 0;
 
   text-align: left;
   display: flex;
@@ -36,7 +35,7 @@
 
 .container .title {
   font-size: 1.5em;
-  text-decoration: underline;
+  font-weight: 500;
 }
 .container .description {
   margin: 0.5em 0;
