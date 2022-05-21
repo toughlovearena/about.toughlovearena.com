@@ -1,19 +1,17 @@
 import { CSSProperties, useState } from "react";
 import { AllEvents, EventType } from "../../interfaces";
-import { EventBlock, getEventColor } from "./EventBlock";
+import { EventBlock, getEventColor, getEventLabel } from "./EventBlock";
 import styles from './EventList.module.css';
 
 function FilterLabel(props: {
   filter: EventType | undefined,
   setFilter(eventType: EventType | undefined): void;
   eventType: EventType | undefined,
-  label: string,
 }) {
   const {
     filter,
     setFilter,
     eventType,
-    label,
   } = props;
   const selected = filter === eventType;
   const style: CSSProperties = {
@@ -24,10 +22,10 @@ function FilterLabel(props: {
   };
   return (
     <div
-      className={styles.category}
+      className={styles.filterButton}
       style={style}
       onClick={() => setFilter(eventType)}
-    >{label}</div>
+    >{getEventLabel(props.eventType)}</div>
   )
 }
 
@@ -37,19 +35,20 @@ export const EventList = (props: { events: AllEvents; }) => {
 
   const toFilter = showPast ? props.events.past : props.events.upcoming;
   const events = filter ? toFilter.filter(e => e.type === filter) : toFilter;
+  const filterProps = { filter, setFilter, };
 
   return (
     <div className={styles.container}>
       {/* todo add link to google form for submission */}
-      <div className={styles.categories}>
-        <FilterLabel filter={filter} setFilter={setFilter} eventType={undefined} label='All'></FilterLabel>
-        <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Tournament} label='Tournament'></FilterLabel>
-        <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Stream} label='Stream'></FilterLabel>
-        <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Meetup} label='Offline'></FilterLabel>
+      <div className={styles.filterSelect}>
+        <FilterLabel {...filterProps} eventType={undefined}></FilterLabel>
+        <FilterLabel {...filterProps} eventType={EventType.Tournament}></FilterLabel>
+        <FilterLabel {...filterProps} eventType={EventType.Stream}></FilterLabel>
+        <FilterLabel {...filterProps} eventType={EventType.Meetup}></FilterLabel>
       </div>
-      <div className={styles.categories}>
+      <div className={styles.filterSelect}>
         <div
-          className={styles.category}
+          className={styles.filterButton}
           style={{
             borderColor: 'seagreen',
             width: '20em',

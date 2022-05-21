@@ -3,11 +3,20 @@ import * as calendarLink from "calendar-link";
 import styles from './EventBlock.module.css';
 import { CSSProperties } from "react";
 
+const EventLabel = {
+  [EventType.Tournament]: 'Tournament',
+  [EventType.Stream]: 'Stream',
+  [EventType.Meetup]: 'Offline',
+};
+export function getEventLabel(type: EventType | undefined) {
+  return (type && EventLabel[type]) ?? 'All';
+}
 const EventColor = {
   [EventType.Stream]: '#9747ff',
   [EventType.Tournament]: '#ff870f',
   [EventType.Meetup]: '#ed1c40',
 };
+
 export function getEventColor(type: EventType | undefined) {
   return (type && EventColor[type]) ?? '#707070';
 }
@@ -65,8 +74,9 @@ export function EventBlock(props: { event: EventData }) {
 
   const boxStyle: CSSProperties = {
     border: `2px solid ${getEventColor(event.type)}`,
-    boxShadow: `4px 4px ${getEventColor(event.type)}`,
     borderRadius: '8px',
+    boxShadow: `4px 4px ${getEventColor(event.type)}`,
+    marginRight: '4px', // needs to match boxShadow
     overflow: 'hidden',
   }
 

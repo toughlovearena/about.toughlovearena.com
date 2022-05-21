@@ -1,12 +1,15 @@
 .container {
+  max-width: 600px;
+  margin: 0 auto;
+
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
 }
 
-.categories {
+.filterSelect {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -14,19 +17,22 @@
   flex-wrap: wrap;
 }
 
-.category {
-  cursor: pointer;
+.filterButton:first-child {
+  margin-left: 0;
+}
+.filterButton {
+  flex: 1;
   margin: 0.3em;
+
+  cursor: pointer;
   padding: 0.5em;
   box-sizing: border-box;
-  width: 7em;
+
   border-radius: 1em;
   border: 0.2em solid black;
 }
 
 .list {
-  max-width: 600px;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
