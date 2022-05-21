@@ -17,8 +17,12 @@ function FilterLabel(props: {
   const style: CSSProperties = {
     borderColor: getEventColor(eventType),
     ...(selected ? {
+      padding: '0.3em',
       borderWidth: '0.4em',
-    } : {}),
+    } : {
+      padding: '0.5em',
+      borderWidth: '0.2em',
+    }),
   };
   return (
     <div
@@ -47,16 +51,20 @@ export const EventList = (props: { events: AllEvents; }) => {
         <FilterLabel {...filterProps} eventType={EventType.Meetup}></FilterLabel>
       </div>
       <div className={styles.filterSelect}>
+        <div className={styles.filterButtonGap}></div>
         <div
           className={styles.filterButton}
           style={{
             borderColor: 'seagreen',
-            width: '20em',
+            flex: 0.5,
+            margin: 0,
+            padding: '0.5em 1.0em',
           }}
           onClick={() => setShowPast(!showPast)}
         >
           Switch to {showPast ? 'Upcoming' : 'Past'} Events
         </div>
+        <div className={styles.filterButtonGap}></div>
       </div>
       {events.length ? (
         <div className={styles.list}>
