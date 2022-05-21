@@ -119,103 +119,112 @@ export const FameTable = (props: {
       ? sortedAscending
       : sortedAscending.reverse();
 
-  // if (false) {
-  //   return (
-  //     <TableDiv>
-  //       <LeaderboardHeader>
-  //         <FlexRow>
-  //           <DateCell
-  //             style={{ cursor: 'pointer', }}
-  //             onClick={() => updateSort(SortBy.Date)}
-  //           >
-  //             <div>
-  //               <u>Date</u>
-  //             </div>
-  //           </DateCell>
-  //           <MobileInfoCell>
-  //             <div>Tournament Info</div>
-  //           </MobileInfoCell>
-  //           <MobileEntrantsCell
-  //             style={{ cursor: 'pointer', }}
-  //             onClick={() => updateSort(SortBy.EntrantNum)}
-  //           >
-  //             <div>
-  //               <u>#</u>
-  //             </div>
-  //           </MobileEntrantsCell>
-  //         </FlexRow>
-  //       </LeaderboardHeader>
-  //       <LeaderboardBody>
-  //         {rows.map((row, ri) => (
-  //           <FlexRow key={ri}>
-  //             <DateCell>{row.date}</DateCell>
-  //             <MobileInfoCell>
-  //               <MobileLinkable event={row}>
-  //                 <div>{row.name}</div>
-  //               </MobileLinkable>
-  //               <div>{row.winner}</div>
-  //             </MobileInfoCell>
-  //             <MobileEntrantsCell>{row.entrants}</MobileEntrantsCell>
-  //           </FlexRow>
-  //         ))}
-  //       </LeaderboardBody>
-  //     </TableDiv>
-  //   );
-  // }
-
   return (
-    <div className={styles.table}>
-      <div className={styles.tableHead}>
-        <div className={styles.flexRow}>
-          <div
-            className={styles.cellDate}
-            style={{ cursor: 'pointer', }}
-            onClick={() => updateSort(SortBy.Date)}
-          >
-            <div>
-              <u>Date</u>
+    <div className={styles.container}>
+      <div className={styles.mobile}>
+        <div className={styles.mobileHead}>
+          <div className={styles.flexRow}>
+            <div
+              className={styles.cellDate}
+              style={{ cursor: 'pointer', }}
+              onClick={() => updateSort(SortBy.Date)}
+            >
+              <div>
+                <u>Date</u>
+              </div>
             </div>
-            <FameSortIcon isCurrent={sortBy === SortBy.Date} sortOrder={sortOrder} />
-          </div>
-          <div className={styles.cellName}>
-            <u>Tournament</u>
-          </div>
-          <div className={styles.cellWinnerHead}>
-            <u>Champion</u>
-          </div>
-          <div
-            className={styles.cellEntrantsHead}
-            style={{ cursor: 'pointer', }}
-            onClick={() => updateSort(SortBy.EntrantNum)}
-          >
-            <div>
-              <u>Entrants</u>
+            <div className={styles.mobileInfo}>
+              <u>Tournament Info</u>
             </div>
-            <FameSortIcon isCurrent={sortBy === SortBy.EntrantNum} sortOrder={sortOrder} />
-          </div>
-          <div className={styles.cellLinks}>
-            <u>Links</u>
+            <div
+              className={styles.mobileEntrants}
+              style={{ cursor: 'pointer', }}
+              onClick={() => updateSort(SortBy.EntrantNum)}
+            >
+              <div>
+                <u>#</u>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div className={styles.tableBody}>
-        {rows.map((row, ri) => (
-          <div className={styles.flexRow} key={ri}>
-            <div className={styles.cellDate}>{row.date}</div>
-            <div className={styles.cellName}>
-              {row.category === HallOfFameType.Official && (
-                '🍋 '
-              )}
-              {row.name}
+        <div className={styles.tableBody}>
+          {rows.map((row, ri) => (
+            <div className={styles.flexRow} key={ri}>
+              <div className={styles.cellDate}>{row.date}</div>
+              <div className={styles.mobileInfo}>
+                <div>
+                  {row.category === HallOfFameType.Official && (
+                    '🍋 '
+                  )}
+                  {row.name}
+                </div>
+                <div>
+                  {row.winner}
+                </div>
+                <div>
+                  <FameChallonge {...row} />
+                  {' '}
+                  <FameYouTube {...row} />
+                </div>
+              </div>
+              <div className={styles.mobileEntrants}>{row.entrants}</div>
             </div>
-            <div className={styles.cellWinnerBody}>{row.winner}</div>
-            <div className={styles.cellEntrantsBody}>{row.entrants}</div>
+          ))}
+        </div>
+      </div>
+      <div className={styles.desktop}>
+        <div className={styles.tableHead}>
+          <div className={styles.flexRow}>
+            <div
+              className={styles.cellDate}
+              style={{ cursor: 'pointer', }}
+              onClick={() => updateSort(SortBy.Date)}
+            >
+              <div>
+                <u>Date</u>
+              </div>
+              <FameSortIcon isCurrent={sortBy === SortBy.Date} sortOrder={sortOrder} />
+            </div>
+            <div className={styles.cellName}>
+              <u>Tournament</u>
+            </div>
+            <div className={styles.cellWinnerHead}>
+              <u>Champion</u>
+            </div>
+            <div
+              className={styles.cellEntrantsHead}
+              style={{ cursor: 'pointer', }}
+              onClick={() => updateSort(SortBy.EntrantNum)}
+            >
+              <div>
+                <u>Entrants</u>
+              </div>
+              <FameSortIcon isCurrent={sortBy === SortBy.EntrantNum} sortOrder={sortOrder} />
+            </div>
             <div className={styles.cellLinks}>
-              <FameChallonge {...row} />
-              <FameYouTube {...row} />
+              <u>Links</u>
             </div>
           </div>
-        ))}
+        </div>
+        <div className={styles.tableBody}>
+          {rows.map((row, ri) => (
+            <div className={styles.flexRow} key={ri}>
+              <div className={styles.cellDate}>{row.date}</div>
+              <div className={styles.cellName}>
+                {row.category === HallOfFameType.Official && (
+                  '🍋 '
+                )}
+                {row.name}
+              </div>
+              <div className={styles.cellWinnerBody}>{row.winner}</div>
+              <div className={styles.cellEntrantsBody}>{row.entrants}</div>
+              <div className={styles.cellLinks}>
+                <FameChallonge {...row} />
+                <FameYouTube {...row} />
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
