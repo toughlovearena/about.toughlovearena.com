@@ -38,6 +38,6 @@ export const InternalPages: InternalPageData[] = [
   InternalPage.Events,
   InternalPage.HallOfFame,
   InternalPage.Gallery,
-  InternalPage.Community,
+  // InternalPage.Community,
   InternalPage.About,
 ];
