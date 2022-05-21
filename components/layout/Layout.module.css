@@ -12,7 +12,7 @@
   background-repeat: repeat;
   background-size: 14rem auto;
 }
-.inner {
+.pattern .inner {
   background-color: white;
   padding: 0 4rem;
   min-height: 100vh;
@@ -23,7 +23,7 @@
 .main {}
 
 @media (max-width: 800px) {
-  .inner {
+  .pattern .inner {
     padding: 0;
   }
 }
