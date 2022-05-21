@@ -1,5 +1,5 @@
 import Gallery from '../components/gallery/Gallery';
-import Layout from '../components/Layout'
+import Layout from '../components/layout/Layout'
 import { GalleryAssets } from '../data/gallery';
 import { InternalPage } from '../data/nav';
 

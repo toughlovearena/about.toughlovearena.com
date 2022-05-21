@@ -3,7 +3,7 @@ import YAML from 'yaml';
 import { GetStaticProps } from "next";
 import { EventDTO, EventsYaml } from "../interfaces";
 import { unpackEvents } from '../utils/events';
-import Layout from '../components/Layout';
+import Layout from '../components/layout/Layout';
 import { InternalPage } from '../data/nav';
 import { EventList } from '../components/events/EventList';
 

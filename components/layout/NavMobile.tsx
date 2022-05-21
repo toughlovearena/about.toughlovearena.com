@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { InternalPage } from '../data/nav';
-import { NavProps } from '../interfaces';
+import { InternalPage } from '../../data/nav';
+import { NavProps } from '../../interfaces';
 import styles from './NavMobile.module.css';
 
 export default ({ currentHref, links, }: NavProps) => (

@@ -1,5 +1,5 @@
 import { GetStaticProps } from "next";
-import Layout from "../components/Layout";
+import Layout from "../components/layout/Layout";
 import { InternalPage } from "../data/nav";
 import YAML from 'yaml';
 import { HallOfFameData, ViewAll, ViewOption } from "../interfaces";

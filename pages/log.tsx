@@ -1,4 +1,4 @@
-import Layout from '../components/Layout'
+import Layout from '../components/layout/Layout'
 import fs from 'fs';
 import YAML from 'yaml';
 import { InternalPage } from '../data/nav';

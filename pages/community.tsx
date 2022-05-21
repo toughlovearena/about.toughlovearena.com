@@ -1,5 +1,5 @@
 import { Column } from '../components/Column';
-import Layout from '../components/Layout'
+import Layout from '../components/layout/Layout'
 import { YouTubeGallery } from '../components/YouTubePreview';
 import { YouTubeVideos } from '../data/links';
 import { InternalPage } from '../data/nav';

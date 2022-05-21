@@ -1,12 +1,12 @@
 import React, { ReactNode } from 'react'
 import Head from 'next/head'
-import styles from './Layout.module.css';
 import NavDesktop from './NavDesktop';
-import { InternalPageData } from '../interfaces';
+import { InternalPageData } from '../../interfaces';
 import NavMobile from './NavMobile';
-import { InternalPages } from '../data/nav';
+import { InternalPages } from '../../data/nav';
 import { SectionTitle } from './SectionTitle';
 import { Subtitle } from './Subtitle';
+import styles from './Layout.module.css';
 
 type Props = {
   children: ReactNode;
