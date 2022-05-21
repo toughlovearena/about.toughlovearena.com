@@ -2,7 +2,7 @@ import { GetStaticProps } from "next";
 import Layout from "../components/layout/Layout";
 import { InternalPage } from "../data/nav";
 import YAML from 'yaml';
-import { HallOfFameData, ViewAll, ViewOption } from "../interfaces";
+import { DefaultHallOfFameType, HallOfFameData, ViewAll, ViewOption } from "../interfaces";
 import fs from 'fs';
 import { Column } from "../components/Column";
 import { useState } from "react";
@@ -30,7 +30,9 @@ const FamePage = (props: Props) => {
   const filteredByCategory =
     view === ViewAll
       ? events
-      : events.filter((entry) => entry.category === view);
+      : events.filter((entry) => view === (
+        entry.category ?? DefaultHallOfFameType
+      ));
   const filteredBySearch = query
     ? filteredByCategory.filter((entry) => {
         const toMatch = [

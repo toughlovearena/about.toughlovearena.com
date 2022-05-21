@@ -2,6 +2,7 @@ export enum HallOfFameType {
   Official = "official",
   Community = "community",
 }
+export const DefaultHallOfFameType = HallOfFameType.Community;
 
 export interface HallOfFameLink {
   label: string;
@@ -13,7 +14,7 @@ export interface HallOfFameEntry {
   name: string;
   entrants: number;
   winner: string;
-  category: HallOfFameType;
+  category?: HallOfFameType;
   challonge?: string;
   youtube?: string;
   links?: HallOfFameLink[];
