@@ -52,42 +52,53 @@ export function EventBlock(props: { event: EventData }) {
     start: event.start,
     end: event.end,
   };
+  let imageSrc = event.image ?? 'unknown.png';
+
+  // todo temp workaround
+  if (imageSrc === 'fruitisle.png') {
+    imageSrc = 'fruitisle.jpg';
+  }
+  if (imageSrc === 'tng.png') {
+    imageSrc = 'toughlovegauntlet.jpg';
+  }
+
   return (
     <div className={styles.container} style={{ borderColor: getEventColor(event.type), }}>
-      <div className={styles.title}>
-        {event.title}
+      <div className={styles.brand}>
+      <img
+        src={'/asset/events/' + imageSrc}
+      />
       </div>
-      <div>
-        {event.description}
-      </div>
-      {links.length ? (
-        <div>
-          {links.map((link, index) => (
-            <span key={index} >
-              {index > 0 && ' / '}
-              <a rel="noreferrer" target="_blank" href={link.url}>{link.name}</a>
-            </span>
-          ))}
-        </div>
-      ) : undefined}
-      <div className={styles.time}>
-        <div className={styles.start}>
-          {event.start.toLocaleString()}
+      <div className={styles.info}>
+        <div className={styles.title}>
+          {event.title}
         </div>
         <div>
-          <a rel="noreferrer" target="_blank" href={calendarLink.google(calEvent)}>gcal</a>
-          &nbsp;/&nbsp;
-          <a rel="noreferrer" target="_blank" href={calendarLink.ics(calEvent)}>ics</a>
-          &nbsp;/&nbsp;
-          <a rel="noreferrer" target="_blank" href={calendarLink.outlook(calEvent)}>outlook</a>
+          {event.description}
+        </div>
+        {links.length ? (
+          <div>
+            {links.map((link, index) => (
+              <span key={index} >
+                {index > 0 && ' / '}
+                <a rel="noreferrer" target="_blank" href={link.url}>{link.name}</a>
+              </span>
+            ))}
+          </div>
+        ) : undefined}
+        <div className={styles.time}>
+          <div className={styles.start}>
+            {event.start.toLocaleString()}
+          </div>
+          <div>
+            <a rel="noreferrer" target="_blank" href={calendarLink.google(calEvent)}>gcal</a>
+            &nbsp;/&nbsp;
+            <a rel="noreferrer" target="_blank" href={calendarLink.ics(calEvent)}>ics</a>
+            &nbsp;/&nbsp;
+            <a rel="noreferrer" target="_blank" href={calendarLink.outlook(calEvent)}>outlook</a>
+          </div>
         </div>
       </div>
-      {event.image && (
-        <img
-          className={styles.brand}
-          src={'/asset/events/' + event.image}
-        />
-      )}
     </div>
   );
 }

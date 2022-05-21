@@ -1,14 +1,26 @@
 .container {
-  max-width: 500px;
   margin: 1rem 0;
-  padding: 0.5rem 1rem;
   border-radius: 1rem 0 1rem 1rem;
   border: 0.5em solid black;
+  overflow: hidden;
 
-  /* image */
-  position: relative;
-  background: none;
-  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container .brand {
+  height: 12em;
+}
+.container .brand img {
+  height: 100%;
+  width: auto;
+}
+
+.container .info {
+  padding: 0.5rem 1rem;
+  width: 400px;
 
   text-align: left;
   display: flex;
@@ -27,13 +39,4 @@
 }
 .container .time {
   text-align: right;
-}
-
-img.brand {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: auto;
-  height: 3.5rem;
-  z-index: 1;
 }
