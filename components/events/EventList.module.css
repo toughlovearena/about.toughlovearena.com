@@ -65,3 +65,7 @@
   justify-content: flex-start;
   align-items: stretch;
 }
+.empty {
+  margin: 1em;
+  font-style: italic;
+}

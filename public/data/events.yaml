@@ -239,7 +239,6 @@ events:
   - title: "FLOGNAR WORLD CUP #1"
     description:
     type: tournament
-    image: tng.png
     challonge: 1wpze627
     when:
       - date: 2022/03/03

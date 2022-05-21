@@ -66,8 +66,10 @@ export const EventList = (props: { events: AllEvents; }) => {
           ))}
         </div>
       ) : (
-        <div>
-          <i>no events found</i>
+        <div className={styles.empty}>
+          no events found
+          <br/>
+          please try a different filter
         </div>
       )}
     </div>
