@@ -24,8 +24,7 @@
 .container .info {
   width: 400px;
   padding: 1em;
-  border-radius: 1em 0 1em 1em;
-  border: 0.5em solid black;
+  border-radius: 1em;
   overflow: hidden;
 
   text-align: left;

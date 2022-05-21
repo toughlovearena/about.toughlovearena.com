@@ -69,7 +69,10 @@ export function EventBlock(props: { event: EventData }) {
           src={'/asset/events/' + imageSrc}
         />
       </div>
-      <div className={styles.info} style={{ borderColor: getEventColor(event.type), }}>
+      <div className={styles.info} style={{
+        border: `2px solid ${getEventColor(event.type)}`,
+        boxShadow: `4px 4px ${getEventColor(event.type)}`,
+      }}>
         <div className={styles.title}>
           {event.title}
         </div>
