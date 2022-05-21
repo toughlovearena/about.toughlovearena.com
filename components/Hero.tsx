@@ -48,15 +48,20 @@ export default () => {
   return (
     <div className={styles.hero}>
       <div className={styles.content}>
-        <div className={styles.pitch}>
-          Tough Love Arena is a web-based, indie fighting game with rollback netcode that's 100% free to play!
-        </div>
-        <div className={styles.quote} style={quoteStyle}>
-          <div className={styles.quoteSnippet} onClick={() => cycle()}>
-            {article.quote}
+        <div className={styles.top}></div>
+        <div className={styles.middle}>
+          <div className={styles.pitch}>
+            Tough Love Arena is a web-based, indie fighting game with rollback netcode that's 100% free to play!
           </div>
-          <div className={styles.quoteAuthor}>
-            {article.author} [<a href={article.url}>{article.site}</a>]
+        </div>
+        <div className={styles.bottom}>
+          <div className={styles.quote} style={quoteStyle}>
+            <div className={styles.quoteSnippet} onClick={() => cycle()}>
+              {article.quote}
+            </div>
+            <div className={styles.quoteAuthor}>
+              {article.author} [<a href={article.url}>{article.site}</a>]
+            </div>
           </div>
         </div>
       </div>
