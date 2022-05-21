@@ -14,7 +14,7 @@
 }
 .container.pattern .inner {
   background-color: white;
-  padding: 0 2rem;
+  padding: 0 4rem;
   min-height: 100vh;
   box-sizing: border-box;
 }
