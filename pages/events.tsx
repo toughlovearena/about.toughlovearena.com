@@ -5,8 +5,7 @@ import { EventDTO, EventsYaml } from "../interfaces";
 import { unpackEvents } from '../utils/events';
 import Layout from '../components/Layout';
 import { InternalPage } from '../data/nav';
-import { Column } from '../components/Column';
-import { EventBlock } from '../components/events/EventBlock';
+import { EventList } from '../components/events/EventList';
 
 interface Props {
   events: EventDTO[];
@@ -22,15 +21,8 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 const EventsPage = (props: Props) => {
   const data = unpackEvents(props.events);
   return (
-    <Layout page={InternalPage.HallOfFame} pattern={true}>
-      <Column>
-        {data.all.map((evt, ei) => (
-          <EventBlock
-            key={ei}
-            event={evt}
-          />
-        ))}
-      </Column>
+    <Layout page={InternalPage.Events} pattern={true}>
+      <EventList events={data} />
     </Layout>
   )
 }

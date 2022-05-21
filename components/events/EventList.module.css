@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.category {
+  cursor: pointer;
+  margin: 0.3em;
+  padding: 0.5em;
+  box-sizing: border-box;
+  width: 7em;
+  border-radius: 1em;
+  border: 0.2em solid black;
+}

@@ -13,6 +13,7 @@ export const InternalPage = {
   Events: {
     href: "/Events",
     label: 'Events',
+    subtitle: `All dates and times are displayed in your local timezone`,
   },
   HallOfFame: {
     href: "/fame",
