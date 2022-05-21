@@ -11,7 +11,7 @@ export const InternalPage = {
     subtitle: `Every game update since the launch of the public beta in January 2021`,
   },
   Events: {
-    href: "/Events",
+    href: "/events",
     label: 'Events',
     subtitle: `All dates and times are displayed in your local timezone`,
   },
