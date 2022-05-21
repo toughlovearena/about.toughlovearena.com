@@ -14,15 +14,14 @@ function FilterLabel(props: {
     eventType,
   } = props;
   const selected = filter === eventType;
-  const style: CSSProperties = {
+  const style: CSSProperties = selected ? {
+    color: 'white',
+    backgroundColor: getEventColor(eventType),
     borderColor: getEventColor(eventType),
-    ...(selected ? {
-      padding: '0.3em',
-      borderWidth: '0.4em',
-    } : {
-      padding: '0.5em',
-      borderWidth: '0.2em',
-    }),
+  } : {
+    color: 'black',
+    backgroundColor: 'white',
+    borderColor: 'black',
   };
   return (
     <div
@@ -53,13 +52,7 @@ export const EventList = (props: { events: AllEvents; }) => {
       <div className={styles.filterSelect}>
         <div className={styles.filterButtonGap}></div>
         <div
-          className={styles.filterButton}
-          style={{
-            borderColor: 'seagreen',
-            flex: 0.5,
-            margin: 0,
-            padding: '0.5em 1.0em',
-          }}
+          className={[styles.filterButton, styles.filterPast].join(' ')}
           onClick={() => setShowPast(!showPast)}
         >
           Switch to {showPast ? 'Upcoming' : 'Past'} Events

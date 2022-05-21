@@ -10,6 +10,9 @@
 }
 
 .filterSelect {
+  --filterMargin: 0.3rem;
+  margin: var(--filterMargin) 0;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -21,23 +24,34 @@
   margin-left: 0;
 }
 .filterButton {
-  flex: 1;
-  margin: 0.3em 0;
-  margin-left: 0.6em;
-
   cursor: pointer;
-  border-radius: 1em;
-  border: 0px solid black;
 
-  /* override in js */
-  padding: 0.5em;
-  border-width: 0.2em;
+  flex: 0.25;
+  margin-left: calc(2 * var(--filterMargin));
+  border-radius: 1em;
+  padding: 0.5em 0;
+  border: 0.2em solid black;
+}
+.filterPast {
+  /* .filterButton overrides */
+  flex: 0.5;
+  margin-left: 0;
+
+  /* 0.5 extra padding = 0.2 for border + 0.6/2 for margin */
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.filterButtonGap:first-child {
+  margin-right: calc(2 * var(--filterMargin));
+}
+.filterButtonGap:last-child {
+  margin-left: calc(2 * var(--filterMargin));
 }
 .filterButtonGap {
+  visibility: hidden;
   flex: 0.25;
-  margin: 0.15em;
-  padding: 0.5em;
-  border-width: 0.2em;
+  padding: 0.5em 0;
+  border: 0.2em solid black;
 }
 
 .list {
