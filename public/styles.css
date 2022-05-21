@@ -5,9 +5,20 @@
   src: url('font.ttf?DidactGothic') format('truetype');
 }
 
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  src: url('Exo2-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  src: url('Exo2-Italic-VariableFont_wght.ttf');
+}
+
 html {
   /* --font-family: 'Fightura'; */
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Exo 2';
   --fore: black;
   --back: white;
   --heart: rgb(234, 119, 248);
