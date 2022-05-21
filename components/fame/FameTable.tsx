@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react';
-import { HallOfFameEntry, OptionAbbr, OptionName, ViewOption } from "../../interfaces";
+import { HallOfFameEntry, HallOfFameType, ViewOption } from "../../interfaces";
 import { getNextInArray, sortArrayOfObjects } from '../../utils/list';
 import styles from './FameTable.module.css';
 
@@ -193,9 +193,6 @@ export const FameTable = (props: {
             </div>
             <FameSortIcon isCurrent={sortBy === SortBy.EntrantNum} sortOrder={sortOrder} />
           </div>
-          <div className={styles.cellCategory}>
-            <u>Type</u>
-          </div>
           <div className={styles.cellLinks}>
             <u>Links</u>
           </div>
@@ -205,10 +202,14 @@ export const FameTable = (props: {
         {rows.map((row, ri) => (
           <div className={styles.flexRow} key={ri}>
             <div className={styles.cellDate}>{row.date}</div>
-            <div className={styles.cellName}>{row.name}</div>
+            <div className={styles.cellName}>
+              {row.category === HallOfFameType.Official && (
+                '🍋 '
+              )}
+              {row.name}
+            </div>
             <div className={styles.cellWinnerBody}>{row.winner}</div>
             <div className={styles.cellEntrantsBody}>{row.entrants}</div>
-            <div className={styles.cellCategory}>{OptionAbbr(row.category)}</div>
             <div className={styles.cellLinks}>
               <FameChallonge {...row} />
               <FameYouTube {...row} />

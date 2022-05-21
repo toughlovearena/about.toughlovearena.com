@@ -38,14 +38,7 @@ export function OptionName(vo: ViewOption) {
     return "All";
   }
   return {
-    [HallOfFameType.Official]: "Official",
+    [HallOfFameType.Official]: "🍋 Official",
     [HallOfFameType.Community]: "Community",
-  }[vo];
-}
-
-export function OptionAbbr(vo: HallOfFameType) {
-  return {
-    [HallOfFameType.Official]: "Official",
-    [HallOfFameType.Community]: "Comm",
   }[vo];
 }
