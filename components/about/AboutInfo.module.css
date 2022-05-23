@@ -5,6 +5,12 @@
   margin: 1em;
 }
 
+img.team {
+  max-width: 400px;
+  width: auto;
+  height: auto;
+}
+
 .large {
   font-size: 1.6em;
 }

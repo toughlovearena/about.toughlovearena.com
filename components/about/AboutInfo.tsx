@@ -24,6 +24,13 @@ export const AboutInfo = () => (
   <div className={styles.container}>
     <Column>
       <section>
+        <img
+          className={styles.team}
+          src="/asset/team.jpg"
+          alt="dev team portrait"
+        />
+      </section>
+      <section>
         <div className={styles.large}>
           coding and game design by M. Paul Weeks
           <br/>
