@@ -11,4 +11,5 @@ div.column {
 div.text {
   text-align: center;
   margin: 0.5em 1em;
+  margin-top: 0;
 }

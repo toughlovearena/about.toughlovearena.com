@@ -32,22 +32,28 @@ export const AboutInfo = () => (
       </section>
       <section>
         <div className={styles.large}>
-          coding and game design by M. Paul Weeks
+          Coding and game design by M. Paul Weeks
           <br/>
-          art and animation by Amy Xu
+          Art and animation by Amy Xu
         </div>
+      </section>
+      <section>
         <div className={styles.medium}>
-          original music and sound design by Josie Brechner and M Gewehr
+          Original music and sound design by Josie Brechner and M Gewehr
         </div>
       </section>
 
       <section>
-        <div className={styles.medium}>
-          alpha playtesters
+        <div className={styles.large}>
+          Alpha Playtesters
         </div>
+      </section>
+      <section>
         <TextColumns text={playtesters} />
-        <div>
-          special thanks to David "UltraDavid" Graham and shygybeats
+      </section>
+      <section>
+        <div className={styles.medium}>
+          Special thanks to David "UltraDavid" Graham and shygybeats
         </div>
       </section>
 
