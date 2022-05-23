@@ -15,6 +15,7 @@ function FilterLabel(props: {
   } = props;
   const selected = filter === eventType;
   const style: CSSProperties = selected ? {
+    fontWeight: 600,
     color: 'white',
     backgroundColor: getEventColor(eventType),
     borderColor: getEventColor(eventType),
