@@ -1,4 +1,10 @@
 .container {}
+@media (max-width: 1100px) {
+  .container {
+    display: none;
+  }
+}
+
 .spacer {
   height: var(--navHeight);
   background-color: #444;
@@ -59,10 +65,4 @@
   cursor: pointer;
   height: 3rem;
   width: auto;
-}
-
-@media (max-width: 1100px) {
-  .container {
-    display: none;
-  }
 }

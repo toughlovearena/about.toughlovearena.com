@@ -1,3 +1,10 @@
+.container {}
+@media (min-width: 1101px) {
+  .container {
+    display: none;
+  }
+}
+
 .nav {
   height: var(--navHeight);
   box-sizing: border-box;
@@ -31,10 +38,4 @@
 }
 .navAnchor {
   text-decoration: none;
-}
-
-@media (min-width: 1101px) {
-  .container {
-    display: none;
-  }
 }
