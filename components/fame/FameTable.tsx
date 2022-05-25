@@ -125,7 +125,7 @@ export const FameTable = (props: {
         <div className={styles.mobileHead}>
           <div className={styles.flexRow}>
             <div
-              className={styles.cellDate}
+              className={styles.mobileDate}
               style={{ cursor: 'pointer', }}
               onClick={() => updateSort(SortBy.Date)}
             >
@@ -150,7 +150,9 @@ export const FameTable = (props: {
         <div className={styles.tableBody}>
           {rows.map((row, ri) => (
             <div className={styles.flexRow} key={ri}>
-              <div className={styles.cellDate}>{row.date}</div>
+              <div className={styles.mobileDate}>
+                {row.date.split('/').slice(1).join('/')}
+              </div>
               <div className={styles.mobileInfo}>
                 <div>
                   {row.category === HallOfFameType.Official && (

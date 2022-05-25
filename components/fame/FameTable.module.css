@@ -33,6 +33,7 @@
 .cellEntrantsHead,
 .cellEntrantsBody,
 .cellLinks,
+.mobileDate,
 .mobileInfo,
 .mobileEntrants {
   /* border: 1px solid pink; */
@@ -81,6 +82,10 @@
   justify-content: flex-start;
   align-items: stretch;
   flex-wrap: nowrap;
+}
+.mobileDate {
+  width: auto;
+  padding: 0 1em;
 }
 .mobileInfo {
   flex: 1;
