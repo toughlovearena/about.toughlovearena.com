@@ -14,7 +14,7 @@ ${"```"}
 `.trim();
 
   logSteam = (log: VersionLog) => `
-You can find the full changelog at [url=https://toughlovearena.com?changelog#${log.v}]toughlovearena.com?changelog[/url]
+You can find the full changelog at [url=https://about.toughlovearena.com/log#${log.v}]about.toughlovearena.com/log[/url]
 
 [list]
 ${log.notes.map(line => `[*] ${line}`).join('\n')}
@@ -26,6 +26,6 @@ ${log.v}
 
 ${log.notes.map(line => `- ${line}`).join('\n')}
 
-Log: https://toughlovearena.com?changelog#${log.v}
+Log: https://about.toughlovearena.com/log#${log.v}
 `.trim();
 }
