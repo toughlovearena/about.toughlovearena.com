@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.91.16
+    date: 2022/05/24
+    notes:
+      - "Character Select: The clickable back button now acts like pressing Heavy instead of instantly backing all the way out"
+      - "Replays: Fixed bug where the Load menu would sometimes load the replay but then get stuck on the menu"
+      - "Steam: Changed application icon from flexing Beef to the heart spikeball from the logo (better at low resolution)"
   - v: 0.91.15
     date: 2022/05/21
     notes:
