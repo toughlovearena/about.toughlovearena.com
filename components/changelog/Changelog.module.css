@@ -31,6 +31,9 @@
   font-style: italic;
   margin-left: 0.5em;
 }
+.socialLink {
+  padding-left: 1em;
+}
 
 .notes a {
   color: #444;

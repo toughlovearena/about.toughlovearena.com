@@ -9,6 +9,7 @@
   "dependencies": {
     "@types/yaml": "^1.9.7",
     "calendar-link": "^2.2.0",
+    "copy-to-clipboard": "^3.3.1",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
