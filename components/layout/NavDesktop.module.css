@@ -1,6 +1,6 @@
 .container {}
 .spacer {
-  height: 4em;
+  height: var(--navHeight);
   background-color: #444;
 }
 .nav {

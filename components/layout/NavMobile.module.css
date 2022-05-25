@@ -1,5 +1,6 @@
-.container {
-  padding: 0.5em;
+.nav {
+  height: var(--navHeight);
+  box-sizing: border-box;
   border-bottom: 1px solid var(--fore);
 
   display: flex;

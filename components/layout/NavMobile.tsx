@@ -4,7 +4,7 @@ import { NavProps } from '../../interfaces';
 import styles from './NavMobile.module.css';
 
 export default ({ currentHref, links, }: NavProps) => (
-  <nav className={styles.container}>
+  <nav className={styles.nav}>
     <div className={styles.navLogo}>
       <Link href={InternalPage.Home.href}>
         <img src="/logo_v01.png" />
