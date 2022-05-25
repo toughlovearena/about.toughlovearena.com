@@ -25,6 +25,12 @@ html {
   --navHeight: 4rem;
 }
 
+@media (max-width: 1100px) {
+  html {
+    --navHeight: 8rem;
+  }
+}
+
 body {
   margin: 0;
   font-family: var(--font-family);
