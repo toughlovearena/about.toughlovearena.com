@@ -16,7 +16,8 @@
   color: var(--fore);
   text-decoration: none;
 }
-.version a:hover {
+.version a:hover,
+.version .socialLink:hover {
   text-decoration: underline;
 }
 .minor {
@@ -32,6 +33,7 @@
   margin-left: 0.5em;
 }
 .socialLink {
+  cursor: pointer;
   padding-left: 1em;
 }
 

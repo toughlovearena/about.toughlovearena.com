@@ -1,5 +1,6 @@
 import { ChangelogData, VersionLog } from "../../interfaces";
 import Linkify from 'react-linkify';
+import copyToClipboard from 'copy-to-clipboard';
 import styles from './Changelog.module.css';
 import { Column } from "../Column";
 import { useKeyPress } from "../../utils/useKeyPress";
@@ -17,7 +18,11 @@ function Version ({ log, showSocialLinks }: {
     <div>
       <a className={styles.anchor} id={anchorId}></a>
       <div className={styles.version}>
-        <a href={'#' + log.v} className={isPatchZero ? styles.minor : styles.patch}>
+        <a
+          className={isPatchZero ? styles.minor : styles.patch}
+          href={'#' + log.v}
+          onClick={() => copyToClipboard(window.location.href.split('#')[0] + '#' + log.v)}
+        >
           {log.v}
         </a>
         {log.date && (
@@ -27,9 +32,32 @@ function Version ({ log, showSocialLinks }: {
         )}
         {showSocialLinks && (
           <span>
-            <a className={styles.socialLink} target="_blank" href={utils.linkTwitter(utils.logTwitter(log))}>Twitter</a>
-            {/* <span className={styles.socialLink} onClick={() => new ChangelogUtils().copyDiscord(log)}>Discord</span> */}
-            {/* <span className={styles.socialLink} onClick={() => new ChangelogUtils().copySteam(log)}>Steam</span> */}
+            {/* link to prewritten */}
+            <a
+              className={styles.socialLink}
+              target="_blank"
+              href={utils.linkTwitter(utils.logTwitter(log))}
+            >
+              Twitter
+            </a>
+
+            {/* link + copy to clipboard */}
+            <a
+              className={styles.socialLink}
+              target="_blank"
+              href={utils.linkDiscord()}
+              onClick={() => copyToClipboard(utils.logDiscord(log))}
+            >
+                Discord
+            </a>
+
+            {/* copy to clipboard */}
+            <span
+              className={styles.socialLink}
+              onClick={() => copyToClipboard(utils.logSteam(log))}
+            >
+              Steam
+            </span>
           </span>
         )}
       </div>
