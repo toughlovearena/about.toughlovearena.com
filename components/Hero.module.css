@@ -58,9 +58,10 @@
 .quote {
   padding: 2em;
   max-width: 40em;
+  box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 1em;
-  text-align: right;
+  text-align: left;
 
   display: flex;
   flex-direction: column;
