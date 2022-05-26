@@ -1,7 +1,7 @@
 import { Column } from "../Column";
 import { TextColumns } from "./TextColumns";
 import styles from './AboutInfo.module.css';
-import { useCallback, useEffect, useState } from "react";
+import { useDocumentSize } from "../../utils/useDocumentSize";
 
 const playtesters = [
   'Adam Heart',
@@ -22,23 +22,7 @@ const playtesters = [
 ].sort();
 
 export const AboutInfo = () => {
-  // todo dedupe width tracking from here + Gallery into hook
-  const [width, setWidth] = useState(100);
-
-  const updateWidth = useCallback(() => {
-    setWidth(document.body.clientWidth);
-  }, [setWidth]);
-
-  useEffect(() => {
-    window.addEventListener('resize', updateWidth);
-    return () => window.removeEventListener('resize', updateWidth);
-  }, [updateWidth]);
-
-  // init
-  useEffect(() => {
-    updateWidth();
-  }, []);
-
+  const { width } = useDocumentSize();
   const minWidth = 150;
   const maxColumns = 4;
   const columns = Math.min(maxColumns, Math.floor(width / minWidth));

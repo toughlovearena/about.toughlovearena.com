@@ -1,5 +1,5 @@
-import { useCallback, useEffect, useState } from 'react';
 import { GalleryItem } from '../../interfaces';
+import { useDocumentSize } from '../../utils/useDocumentSize';
 import styles from './Gallery.module.css'
 
 const GalleryPreview = (props: {
@@ -30,22 +30,7 @@ const GalleryPreview = (props: {
 }
 
 const Gallery = ({ data }: { data: GalleryItem[], }) => {
-  const [width, setWidth] = useState(100);
-
-  const updateWidth = useCallback(() => {
-    setWidth(document.body.clientWidth);
-  }, [setWidth]);
-
-  useEffect(() => {
-    window.addEventListener('resize', updateWidth);
-    return () => window.removeEventListener('resize', updateWidth);
-  }, [updateWidth]);
-
-  // init
-  useEffect(() => {
-    updateWidth();
-  }, []);
-
+  const { width } = useDocumentSize();
   const minWidth = 300;
   const maxColumns = 3;
   const columns = Math.min(maxColumns, Math.floor(width / minWidth));
