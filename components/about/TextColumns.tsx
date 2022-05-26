@@ -3,13 +3,13 @@ import styles from './TextColumns.module.css';
 
 export const TextColumns = (props: {
   text: string[];
+  columns: number;
 }) => {
-  const columns = 4; // todo base on screen
   return (
     <div className={styles.container}>
-      {range(columns).map(ci => (
+      {range(props.columns).map(ci => (
         <div className={styles.column}>
-          {props.text.filter((_, ni) => ni % columns === ci).map((name, ni) => (
+          {props.text.filter((_, ni) => ni % props.columns === ci).map((name, ni) => (
             <div key={ni} className={styles.text}>
               {name}
             </div>
