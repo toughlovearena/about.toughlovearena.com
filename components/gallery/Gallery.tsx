@@ -1,5 +1,5 @@
 import { GalleryItem } from '../../interfaces';
-import { useDocumentSize } from '../../utils/useDocumentSize';
+import { useDocumentSize } from '../../hooks/useDocumentSize';
 import styles from './Gallery.module.css'
 
 const GalleryPreview = (props: {

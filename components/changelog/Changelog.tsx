@@ -3,7 +3,7 @@ import Linkify from 'react-linkify';
 import copyToClipboard from 'copy-to-clipboard';
 import styles from './Changelog.module.css';
 import { Column } from "../Column";
-import { useKeyPress } from "../../utils/useKeyPress";
+import { useKeyPress } from "../../hooks/useKeyPress";
 import { ChangelogUtils } from "../../utils/changelog";
 
 const utils = new ChangelogUtils();

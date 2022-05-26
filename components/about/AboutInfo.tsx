@@ -1,7 +1,7 @@
 import { Column } from "../Column";
 import { TextColumns } from "./TextColumns";
 import styles from './AboutInfo.module.css';
-import { useDocumentSize } from "../../utils/useDocumentSize";
+import { useDocumentSize } from "../../hooks/useDocumentSize";
 
 const playtesters = [
   'Adam Heart',
