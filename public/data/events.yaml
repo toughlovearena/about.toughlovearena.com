@@ -16,6 +16,15 @@ events:
 
   # 2022
 
+  - title: "Foolish Fighters #01"
+    description: "Missed the April Fools tournaments in April? Don’t worry as you can have another chance to fight foolishly in Foolish Fighters #01!"
+    type: tournament
+    challonge: FoolishFighters01
+    when:
+      - date: 2022/06/01
+        time: 17:00
+        hours: 2
+
   - title: Tough Love Gauntlet Modded 025
     description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
     type: tournament
