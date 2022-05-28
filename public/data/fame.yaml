@@ -235,6 +235,11 @@ events:
     challonge: gqvuatu5
 
   # TLG MODDED
+  - date: 2022/05/28
+    name: TLGModded 026
+    entrants: 8
+    winner: ESGR
+    challonge: TLGMOD026
   - date: 2022/05/21
     name: TLGModded 025
     entrants: 6
@@ -357,6 +362,11 @@ events:
     youtube: CH33vf9s8sw
 
   # TLG (NA)
+  - date: 2022/05/27
+    name: "Tough Love Gauntlet #65"
+    entrants: 15
+    winner: Table
+    challonge: ToughLoveGauntlet065
   - date: 2022/05/20
     name: "Tough Love Gauntlet #64"
     entrants: 11
