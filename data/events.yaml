@@ -16,13 +16,26 @@ events:
 
   # 2022
 
-  - title: "Foolish Fighters #01"
-    description: "Missed the April Fools tournaments in April? Don’t worry as you can have another chance to fight foolishly in Foolish Fighters #01!"
+  - title: Tough Love Gauntlet Modded 027
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
     type: tournament
-    challonge: FoolishFighters01
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD027
     when:
-      - date: 2022/06/01
-        time: 17:00
+      - date: 2022/06/04
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 066
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet066
+    when:
+      - date: 2022/06/03
+        time: 18:30
         hours: 2
 
   - title: Tough Love Gauntlet Modded 026
