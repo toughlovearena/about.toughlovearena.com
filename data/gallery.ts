@@ -13,6 +13,9 @@ export const GalleryAssets: GalleryItem[] = [{
   file: 'stage_notebook.jpg',
   description: 'Notebook Stage',
 }, {
+  file: 'stage_apartment.jpg',
+  description: 'Apartment Stage',
+}, {
   file: 'stage_playground.jpg',
   description: 'Playground Stage',
 }, {
