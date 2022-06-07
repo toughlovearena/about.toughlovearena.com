@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.92.0
+    date: 2022/06/07
+    notes:
+      - 'Added new stage "Apartment"'
   - v: 0.91.19
     date: 2022/06/01
     notes:
