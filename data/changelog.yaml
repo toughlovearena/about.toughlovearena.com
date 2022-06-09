@@ -1,5 +1,13 @@
 ---
 versions:
+  - v: 0.92.1
+    date: 2022/06/09
+    notes:
+      - "Throw recovery on whiff increased 10 > 20 frames"
+      - "Buffed Noodle: Soup launches slightly higher, making followups a little easier"
+      - "Nerfed Rice: Swat no longer has armor during startup, but retains armor during active to prevent trades"
+      - "Nerfed Rice: Swat active frames reduced 5 > 1"
+      - "Nerfed Rice: Swat total duration on whiff net increased by 5 frames"
   - v: 0.92.0
     date: 2022/06/07
     notes:
