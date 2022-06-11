@@ -25,6 +25,15 @@ events:
   #       time: 18:00
   #       hours: 2
 
+  - title: Rainbow Cup
+    description: "For players of all skill levels (18+ only)"
+    type: tournament
+    twitch: sy1v3
+    when:
+      - date: 2022/06/11
+        time: 17:00
+        hours: 3
+
   - title: Tough Love Gauntlet Modded 028
     description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
     type: tournament
