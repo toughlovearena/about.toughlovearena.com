@@ -62,15 +62,6 @@ export function EventBlock(props: { event: EventData }) {
     start: event.start,
     end: event.end,
   };
-  let imageSrc = event.image ?? 'unknown.png';
-
-  // todo temp workaround
-  if (imageSrc === 'fruitisle.png') {
-    imageSrc = 'fruitisle.jpg';
-  }
-  if (imageSrc === 'tng.png') {
-    imageSrc = 'toughlovegauntlet.jpg';
-  }
 
   const boxStyle: CSSProperties = {
     border: `2px solid ${getEventColor(event.type)}`,
@@ -84,7 +75,7 @@ export function EventBlock(props: { event: EventData }) {
     <div className={styles.container} style={boxStyle}>
       <div className={styles.brand}>
         <img
-          src={'/asset/events/' + imageSrc}
+          src={'/asset/events/' + event.image ?? 'unknown.png'}
         />
       </div>
       <div className={styles.info}>
