@@ -62,8 +62,8 @@ export const EventList = (props: { events: AllEvents; }) => {
       </div>
       {events.length ? (
         <div className={styles.list}>
-          {events.map((e, ei) => (
-            <EventBlock key={ei} event={e} />
+          {events.map(e => (
+            <EventBlock key={e.eid} event={e} />
           ))}
         </div>
       ) : (

@@ -11,12 +11,14 @@ function dateWithTimeZone(timeZone: string, year: number, month: number, day: nu
   return date;
 };
 function convertEventDTO(dto: EventDTO): EventData[] {
-  return dto.when.map(w => {
+  return dto.when.map<EventData>(w => {
     const [yyyy, mm, dd] = w.date.split('/').map(s => parseFloat(s));
     const [hour, min] = w.time.split(':').map(s => parseFloat(s));
     const start = dateWithTimeZone('America/New_York', yyyy, mm, dd, hour, min, 0);
     const end = new Date(start.getTime() + (w.hours * 60 * 60 * 1000));
     return {
+      eid: `${start.toISOString()}-${dto.title}`,
+
       title: dto.title,
       type: dto.type,
       description: dto.description,

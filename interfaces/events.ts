@@ -6,6 +6,8 @@ export enum EventType {
 };
 
 export interface EventData {
+  eid: string;
+
   title: string;
   description: string;
   type: EventType;
