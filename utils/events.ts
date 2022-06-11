@@ -34,19 +34,7 @@ function convertEventDTO(dto: EventDTO): EventData[] {
     };
   });
 }
-function sortEvents(events: EventData[]): EventData[] {
-  return sortArrayOfObjects(events.concat(), e => e.start.getTime());
-}
 
-export function unpackEvents(dtos: EventDTO[]): AllEvents {
-  const now = new Date();
-  const events = flatten(dtos.map(convertEventDTO));
-  const all = sortEvents(events);
-  const past = all.filter(e => e.end <= now).reverse();
-  const upcoming = all.filter(e => e.end > now);
-  return {
-    past,
-    upcoming,
-    all,
-  };
+export function unpackEvents(dtos: EventDTO[]): EventData[] {
+  return flatten(dtos.map(convertEventDTO));
 }

@@ -1,5 +1,6 @@
-import { CSSProperties, useState } from "react";
-import { AllEvents, EventType } from "../../interfaces";
+import { CSSProperties, useEffect, useState } from "react";
+import { AllEvents, EventData, EventType } from "../../interfaces";
+import { sortArrayOfObjects } from "../../utils/list";
 import { EventBlock, getEventColor, getEventLabel } from "./EventBlock";
 import styles from './EventList.module.css';
 
@@ -33,11 +34,22 @@ function FilterLabel(props: {
   )
 }
 
-export const EventList = (props: { events: AllEvents; }) => {
+export const EventList = (props: { events: EventData[]; }) => {
   const [showPast, setShowPast] = useState(false);
-  const [filter, setFilter] = useState(undefined as EventType | undefined);
+  const [filter, setFilter] = useState<EventType | undefined>();
 
-  const toFilter = showPast ? props.events.past : props.events.upcoming;
+  // now needs to start as undefined due to Server Side Render
+  const [now, setNow] = useState<Date | undefined>();
+
+  useEffect(() => {
+    setTimeout(() => setNow(new Date()), 0);
+  }, [setNow]);
+
+  let toFilter: EventData[] = [];
+  if (now !== undefined) {
+    const all = sortArrayOfObjects(props.events, ed => ed.start.getTime());
+    toFilter = showPast ? all.filter(e => e.end <= now).reverse() : all.filter(e => e.end > now);
+  }
   const events = filter ? toFilter.filter(e => e.type === filter) : toFilter;
   const filterProps = { filter, setFilter, };
 
@@ -68,9 +80,13 @@ export const EventList = (props: { events: AllEvents; }) => {
         </div>
       ) : (
         <div className={styles.empty}>
-          no events found
-          <br/>
-          please try a different filter
+          {now === undefined ? 'loading...' : (
+            <div>
+              no events found
+              <br/>
+              please try a different filter
+            </div>
+          )}
         </div>
       )}
     </div>
