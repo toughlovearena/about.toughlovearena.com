@@ -75,7 +75,7 @@ export function EventBlock(props: { event: EventData }) {
     <div className={styles.container} style={boxStyle}>
       <div className={styles.brand}>
         <img
-          src={'/asset/events/' + event.image ?? 'unknown.png'}
+          src={'/asset/events/' + (event.image ?? 'unknown.png')}
         />
       </div>
       <div className={styles.info}>
