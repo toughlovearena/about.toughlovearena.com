@@ -1,5 +1,23 @@
 ---
 events:
+  # recent
+  - date: 2022/06/11
+    name: Rainbow Cup
+    entrants: 10
+    winner: Rose
+    challonge: Rainbow7TLA
+  - date: 2022/06/11
+    name: TLGModded 028
+    entrants: 7
+    winner: ESGR
+    challonge: TLGMOD028
+  - date: 2022/06/10
+    name: "Tough Love Gauntlet #67"
+    entrants: 18
+    winner: Table
+    challonge: ToughLoveGauntlet067
+    youtube: 8NIJ9zwaiuE
+
   # official
   - date: 2022/04/02
     name: Completely Normal Tournament
