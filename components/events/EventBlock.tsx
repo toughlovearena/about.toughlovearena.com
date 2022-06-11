@@ -55,6 +55,10 @@ export function EventBlock(props: { event: EventData }) {
     });
     calEventDescription += `${url}\n`;
   }
+  links.push(...event.links.map(linkdto => ({
+    name: linkdto.label,
+    url: linkdto.url,
+  })));
 
   const calEvent: calendarLink.CalendarEvent = {
     title: event.title,

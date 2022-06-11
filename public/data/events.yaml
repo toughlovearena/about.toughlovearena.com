@@ -11,6 +11,9 @@ events:
   # optional fields
   #   twitch: twitchname
   #   challonge: eventname
+  #   links:
+  #     - label: tweet
+  #       url: https://twitter.com/...
 
   # please put new events at the top of the file
 
@@ -29,6 +32,9 @@ events:
     description: "For players of all skill levels (18+ only)"
     type: tournament
     twitch: sy1v3
+    links:
+      - label: tweet
+        url: https://twitter.com/boywithwindmill/status/1533861110222311424
     when:
       - date: 2022/06/11
         time: 17:00

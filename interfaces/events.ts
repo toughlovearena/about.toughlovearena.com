@@ -16,6 +16,7 @@ export interface EventData {
   twitch?: string;
   challonge?: string;
   matcherino?: string;
+  links: LinkDTO[];
 
   start: Date;
   end: Date;
@@ -32,6 +33,10 @@ interface EventWhenDTO {
   time: string;
   hours: number;
 }
+interface LinkDTO {
+  label: string;
+  url: string;
+}
 export interface EventDTO {
   title: string;
   description: string;
@@ -41,6 +46,7 @@ export interface EventDTO {
   twitch?: string;
   challonge?: string;
   matcherino?: string;
+  links?: LinkDTO[];
 
   when: EventWhenDTO[];
 }

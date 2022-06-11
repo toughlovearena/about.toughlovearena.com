@@ -27,6 +27,7 @@ function convertEventDTO(dto: EventDTO): EventData[] {
       twitch: dto.twitch,
       challonge: dto.challonge,
       matcherino: dto.matcherino,
+      links: dto.links ?? [],
 
       start,
       end,
