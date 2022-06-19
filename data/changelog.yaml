@@ -1,5 +1,14 @@
 ---
 versions:
+  - v: 0.93.0
+    date: 2022/06/19
+    notes:
+      - 'Gameplay: Rewrote game loop to save up to 4.5ms every frame, dramatically improving performance on slower devices'
+      - 'Gameplay: Removed RDR counter from the top right of the screen. Current settings are now represented in the FPS label'
+      - 'Options: Replaced RenderFPS with new option "Frame Rate"'
+      - 'Frame Rate: The options are 60 FPS, 30 FPS, and Dynamic'
+      - 'Frame Rate: Dynamic is the default setting for non-mobile devices'
+      - 'Frame Rate: 30 FPS is the default setting for mobile devices and recommended for slower devices'
   - v: 0.92.2
     date: 2022/06/19
     notes:
