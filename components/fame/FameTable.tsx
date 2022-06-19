@@ -1,6 +1,7 @@
 import { useCallback, useState } from 'react';
 import { HallOfFameEntry, HallOfFameType, ViewOption } from "../../interfaces";
 import { getNextInArray, sortArrayOfObjects } from '../../utils/list';
+import { ExternalLink } from '../ExternalLink';
 import styles from './FameTable.module.css';
 
 enum SortBy {
@@ -28,9 +29,9 @@ function FameChallonge({challonge,}: {challonge?: string}) {
     ? challonge
     : `https://challonge.com/${challonge}`;
   return (
-    <a target="_blank" rel="noopener noreferrer" href={url}>
+    <ExternalLink href={url}>
       Bracket
-    </a>
+    </ExternalLink>
   );
 }
 function FameYouTube({youtube}: {youtube?: string}) {
@@ -39,9 +40,9 @@ function FameYouTube({youtube}: {youtube?: string}) {
   }
   const url = `https://youtube.com/watch?v=${youtube}`;
   return (
-    <a target="_blank" rel="noopener noreferrer" href={url}>
+    <ExternalLink href={url}>
       Video
-    </a>
+    </ExternalLink>
   );
 }
 function FameSortIcon({isCurrent, sortOrder}: {
@@ -72,7 +73,7 @@ function FameMobileLinkable(props: {
     undefined;
 
   if (url) {
-    return <a href={url}>{props.children}</a>;
+    return <ExternalLink href={url}>{props.children}</ExternalLink>;
   }
   return props.children;
 }

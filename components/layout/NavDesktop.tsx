@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { InternalPage } from '../../data/nav';
 import { NavProps } from '../../interfaces';
+import { ExternalLink } from '../ExternalLink';
 import styles from './NavDesktop.module.css';
 
 export default ({ currentHref, links, }: NavProps) => (
@@ -22,11 +23,11 @@ export default ({ currentHref, links, }: NavProps) => (
             </div>
           </Link>
         ))}
-        <a className={styles.navAnchor} href="https://toughlovearena.com">
+        <ExternalLink className={styles.navAnchor} href="https://toughlovearena.com">
           <div className={styles.navLink}>
             Play Now!
           </div>
-        </a>
+        </ExternalLink>
       </div>
     </nav>
   </div>

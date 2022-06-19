@@ -2,6 +2,7 @@ import { EventData, EventType } from "../../interfaces";
 import * as calendarLink from "calendar-link";
 import styles from './EventBlock.module.css';
 import { CSSProperties } from "react";
+import { ExternalLink } from "../ExternalLink";
 
 const EventLabel = {
   [EventType.Tournament]: 'Tournament',
@@ -101,18 +102,18 @@ export function EventBlock(props: { event: EventData }) {
                 {links.map((link, index) => (
                   <span key={index} >
                     {index > 0 && ' / '}
-                    <a rel="noreferrer" target="_blank" href={link.url}>{link.name}</a>
+                    <ExternalLink href={link.url}>{link.name}</ExternalLink>
                   </span>
                 ))}
               </div>
             ) : undefined}
           </div>
           <div>
-            <a rel="noreferrer" target="_blank" href={calendarLink.google(calEvent)}>gcal</a>
+            <ExternalLink href={calendarLink.google(calEvent)}>gcal</ExternalLink>
             &nbsp;/&nbsp;
-            <a rel="noreferrer" target="_blank" href={calendarLink.ics(calEvent)}>ics</a>
+            <ExternalLink href={calendarLink.ics(calEvent)}>ics</ExternalLink>
             &nbsp;/&nbsp;
-            <a rel="noreferrer" target="_blank" href={calendarLink.outlook(calEvent)}>outlook</a>
+            <ExternalLink href={calendarLink.outlook(calEvent)}>outlook</ExternalLink>
           </div>
         </div>
       </div>

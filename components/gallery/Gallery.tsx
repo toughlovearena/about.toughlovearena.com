@@ -1,6 +1,7 @@
 import { GalleryItem } from '../../interfaces';
 import { useDocumentSize } from '../../hooks/useDocumentSize';
 import styles from './Gallery.module.css'
+import { ExternalLink } from '../ExternalLink';
 
 const GalleryPreview = (props: {
   item: GalleryItem;
@@ -10,7 +11,7 @@ const GalleryPreview = (props: {
   const width = Math.floor(props.galleryWidth / props.columns);
   const height = Math.floor(width / (16 / 9));
   return (
-    <a href={props.item.original} target="_blank">
+    <ExternalLink href={props.item.original}>
       <div className={styles.preview} style={{
         width: `${width}px`,
         height: `${height}px`,
@@ -25,7 +26,7 @@ const GalleryPreview = (props: {
           )}
         </div>
       </div>
-    </a>
+    </ExternalLink>
   );
 }
 

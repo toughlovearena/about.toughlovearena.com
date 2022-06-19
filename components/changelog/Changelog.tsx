@@ -5,6 +5,7 @@ import styles from './Changelog.module.css';
 import { Column } from "../Column";
 import { useKeyPress } from "../../hooks/useKeyPress";
 import { ChangelogUtils } from "../../utils/changelog";
+import { ExternalLink } from "../ExternalLink";
 
 const utils = new ChangelogUtils();
 
@@ -33,23 +34,21 @@ function Version ({ log, showSocialLinks }: {
         {showSocialLinks && (
           <span>
             {/* link to prewritten */}
-            <a
+            <ExternalLink
               className={styles.socialLink}
-              target="_blank"
               href={utils.linkTwitter(utils.logTwitter(log))}
             >
               Twitter
-            </a>
+            </ExternalLink>
 
             {/* link + copy to clipboard */}
-            <a
+            <ExternalLink
               className={styles.socialLink}
-              target="_blank"
               href={utils.linkDiscord()}
               onClick={() => copyToClipboard(utils.logDiscord(log))}
             >
                 Discord
-            </a>
+            </ExternalLink>
 
             {/* copy to clipboard */}
             <span

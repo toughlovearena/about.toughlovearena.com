@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { YouTubeLink } from "../interfaces";
+import { ExternalLink } from "./ExternalLink";
 import styles from './YouTubePreview.module.css';
 
 const YouTubeEmbed = (props: { url: string; }) => {
@@ -31,15 +32,15 @@ const YouTubePreview = (props: { link: YouTubeLink; }) => {
           {props.link.channel}
         </div>
         <div>
-          <a href={url} target="_blank" style={{fontSize: '1.5em',}}>
+          <ExternalLink href={url} style={{fontSize: '1.5em',}}>
             {props.link.title}
-          </a>
+          </ExternalLink>
         </div>
         <br/>
         {timestamp ? (
           <>
             <div>
-              Jump to (<a href={timestamp.url} target="_blank">{timestamp.label}</a>)
+              Jump to (<ExternalLink href={timestamp.url}>{timestamp.label}</ExternalLink>)
             </div>
             <br/>
           </>
