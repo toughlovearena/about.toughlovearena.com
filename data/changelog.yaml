@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.92.2
+    date: 2022/06/19
+    notes:
+      - 'Pause Menu: Fixed UI bug where the button would scroll with the page'
+      - 'Maintenance: Centralized and simplified z-index layering'
+      - 'Maintenance: Added more automated tests'
   - v: 0.92.1
     date: 2022/06/09
     notes:
