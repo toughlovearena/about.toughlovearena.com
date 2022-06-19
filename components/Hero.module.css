@@ -2,7 +2,8 @@
   position: relative;
   height: calc(100vh - var(--navHeight));
   width: 100%;
-  background-color: black;
+  background-position: center;
+  background-size: cover;
 
   overflow: hidden;
 }

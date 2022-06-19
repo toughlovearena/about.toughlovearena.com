@@ -9,6 +9,7 @@ export default () => {
   const shuffled = useRef(shuffleArray(Articles));
   const [article, setArticle] = useState(Articles[0]);
   const [visible, setVisible] = useState(true);
+  const [videoLoaded, setVideoLoaded] = useState(false);
 
   const transitionMs = 300;
   const activeMs = 10 * 1000;
@@ -38,6 +39,11 @@ export default () => {
     })();
   }, [shuffled, visible]);
 
+  const heroBackground: CSSProperties = videoLoaded ? {
+    backgroundColor: 'black',
+  } : {
+    backgroundImage: 'url(asset/gallery/720p/gameplay1.jpg)',
+  }
   const quoteStyle: CSSProperties = {
     transitionDuration: transitionMs + 'ms',
     ...(visible ? {} : {
@@ -47,7 +53,7 @@ export default () => {
   };
 
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} style={heroBackground}>
       <div className={styles.content}>
         <div className={styles.top}></div>
         <div className={styles.middle}>
@@ -71,6 +77,7 @@ export default () => {
         autoPlay={true}
         muted={true}
         loop={true}
+        onTimeUpdate={() => setVideoLoaded(true)}
       >
         <source src="/asset/demo_480p.mp4" type="video/mp4"></source>
       </video>
