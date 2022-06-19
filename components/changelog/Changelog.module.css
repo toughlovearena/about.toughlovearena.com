@@ -40,3 +40,7 @@
 .notes a {
   color: #444;
 }
+.note {
+  padding: 0.2em 0.5em;
+  overflow-wrap: break-word;
+}

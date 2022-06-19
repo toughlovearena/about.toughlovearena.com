@@ -15,7 +15,7 @@ function Version ({ log, showSocialLinks }: {
   const anchorId = log.v; // for scrolling
   const isPatchZero = log.v.split('.').pop() === '0';
   return (
-    <div>
+    <div className={styles.entry}>
       <a className={styles.anchor} id={anchorId}></a>
       <div className={styles.version}>
         <a
@@ -61,7 +61,7 @@ function Version ({ log, showSocialLinks }: {
           </span>
         )}
       </div>
-      <ul>
+      {/* <ul>
         {log.notes.map((n, i) => (
           <li key={i}>
             <Linkify>
@@ -69,7 +69,15 @@ function Version ({ log, showSocialLinks }: {
             </Linkify>
           </li>
         ))}
-      </ul>
+      </ul> */}
+
+      {log.notes.map((n, i) => (
+          <div key={i} className={styles.note}>
+            <Linkify>
+              {n}
+            </Linkify>
+          </div>
+        ))}
     </div>
   );
 }
