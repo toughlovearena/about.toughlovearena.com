@@ -27,6 +27,37 @@ events:
   #     - date: 2022/06/08
   #       time: 18:00
   #       hours: 2
+
+  - title: TLA @ PAX West
+    description: "Come meet the developers at PAX West"
+    type: meetup
+    when:
+      - date: 2022/09/02
+        time: 10:00
+        hours: 8
+      - date: 2022/09/03
+        time: 10:00
+        hours: 8
+      - date: 2022/09/04
+        time: 10:00
+        hours: 8
+      - date: 2022/09/05
+        time: 10:00
+        hours: 8
+
+  - title: TLA @ EVO
+    description: "Come meet the developers at EVO"
+    type: meetup
+    when:
+      - date: 2022/08/05
+        time: 10:00
+        hours: 8
+      - date: 2022/08/06
+        time: 10:00
+        hours: 8
+      - date: 2022/08/07
+        time: 10:00
+        hours: 8
   
   - title: Official Game Dev Stream
     description: Watch the game development process and chat with the creators of TLA
