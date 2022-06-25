@@ -1,6 +1,23 @@
 ---
 events:
   # recent
+  - date: 2022/06/24
+    name: "Tough Love Gauntlet #69"
+    entrants: 26
+    winner: Table
+    challonge: ToughLoveGauntlet069
+    youtube: ylafJ-0yRfQ
+  - date: 2022/06/18
+    name: TLGModded 029
+    entrants: 7
+    winner: ESGR
+    challonge: TLGMOD029
+  - date: 2022/06/17
+    name: "Tough Love Gauntlet #68"
+    entrants: 10
+    winner: Table
+    challonge: ToughLoveGauntlet068
+    youtube: heeb70KL1PQ
   - date: 2022/06/11
     name: Rainbow Cup
     entrants: 10
