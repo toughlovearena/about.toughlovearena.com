@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.93.1
+    date: 2022/06/27
+    notes:
+      - 'Performance: Added warning to the menu when using a browser with poor performance (e.g. Firefox)'
+      - 'FAQ: Updated sections on improving frame rate'
+      - 'Maintenance: Improved usability of performance debugging tool'
   - v: 0.93.0
     date: 2022/06/19
     notes:
