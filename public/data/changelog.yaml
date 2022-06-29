@@ -3,36 +3,36 @@ versions:
   - v: 0.93.2
     date: 2022/06/28
     notes:
-      - 'Buffed Garlic: Backflip can now cancel it's landing frames directly into Jump or Roundhouse by pressing Light or Heavy respectively'
-      - 'Gameplay: Reduced the height of all jumping attack hurtboxes to cleanly beat attacks not designed to be anti-airs'
-      - 'Noodle: Adjusted Trample hitbox height to better match the animation (slight buff to juggles)'
-      - 'Beef/Pork: Adjusted Gutpunch hitbox height to better match the animation (slight buff to juggles)'
-      - 'Beef/Pork: Adjusted Jump Attack (Dropkick) hitbox height to better match the animation (gameplay unaffected)'
-      - 'Beef: Adjusted BEEFCAKE hitbox height to better match the animation (gameplay unaffected)'
-      - 'Pork: Adjusted Chop hitbox height to better match the animation (gameplay unaffected)'
-      - 'Onion/Garlic: Adjusted Flick hitbox height to better match the animation (less disjointed, but still a great anti-air)'
-      - 'Onion: Adjusted Hopkick hitbox height to better match the animation (gameplay unaffected)'
+      - "Buffed Garlic: Backflip can now cancel it's landing frames directly into Jump or Roundhouse by pressing Light or Heavy respectively"
+      - "Gameplay: Reduced the height of all jumping attack hurtboxes to cleanly beat attacks not designed to be anti-airs"
+      - "Noodle: Adjusted Trample hitbox height to better match the animation (slight buff to juggles)"
+      - "Beef/Pork: Adjusted Gutpunch hitbox height to better match the animation (slight buff to juggles)"
+      - "Beef/Pork: Adjusted Jump Attack (Dropkick) hitbox height to better match the animation (gameplay unaffected)"
+      - "Beef: Adjusted BEEFCAKE hitbox height to better match the animation (gameplay unaffected)"
+      - "Pork: Adjusted Chop hitbox height to better match the animation (gameplay unaffected)"
+      - "Onion/Garlic: Adjusted Flick hitbox height to better match the animation (less disjointed, but still a great anti-air)"
+      - "Onion: Adjusted Hopkick hitbox height to better match the animation (gameplay unaffected)"
   - v: 0.93.1
     date: 2022/06/27
     notes:
-      - 'Performance: Added warning to the menu when using a browser with poor performance (e.g. Firefox)'
-      - 'FAQ: Updated sections on improving frame rate'
-      - 'Maintenance: Improved usability of performance debugging tool'
+      - "Performance: Added warning to the menu when using a browser with poor performance (e.g. Firefox)"
+      - "FAQ: Updated sections on improving frame rate"
+      - "Maintenance: Improved usability of performance debugging tool"
   - v: 0.93.0
     date: 2022/06/19
     notes:
-      - 'Gameplay: Rewrote game loop to save up to 4.5ms every frame, dramatically improving performance on slower devices'
-      - 'Gameplay: Removed RDR counter from the top right of the screen. Current settings are now represented in the FPS label'
+      - "Gameplay: Rewrote game loop to save up to 4.5ms every frame, dramatically improving performance on slower devices"
+      - "Gameplay: Removed RDR counter from the top right of the screen. Current settings are now represented in the FPS label"
       - 'Options: Replaced RenderFPS with new option "Frame Rate"'
-      - 'Frame Rate: The options are 60 FPS, 30 FPS, and Dynamic'
-      - 'Frame Rate: Dynamic is the default setting for non-mobile devices'
-      - 'Frame Rate: 30 FPS is the default setting for mobile devices and recommended for slower devices'
+      - "Frame Rate: The options are 60 FPS, 30 FPS, and Dynamic"
+      - "Frame Rate: Dynamic is the default setting for non-mobile devices"
+      - "Frame Rate: 30 FPS is the default setting for mobile devices and recommended for slower devices"
   - v: 0.92.2
     date: 2022/06/19
     notes:
-      - 'Pause Menu: Fixed UI bug where the button would scroll with the page'
-      - 'Maintenance: Centralized and simplified z-index layering'
-      - 'Maintenance: Added more automated tests'
+      - "Pause Menu: Fixed UI bug where the button would scroll with the page"
+      - "Maintenance: Centralized and simplified z-index layering"
+      - "Maintenance: Added more automated tests"
   - v: 0.92.1
     date: 2022/06/09
     notes:
