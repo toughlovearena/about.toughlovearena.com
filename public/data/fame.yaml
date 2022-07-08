@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2022/07/01
+    name: "Tough Love Gauntlet #70"
+    entrants: 18
+    winner: Table
+    challonge: ToughLoveGauntlet070
   - date: 2022/06/24
     name: "Tough Love Gauntlet #69"
     entrants: 26
