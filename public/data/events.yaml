@@ -99,28 +99,25 @@ events:
     twitch: mpaulweeks
     when:
       - date: 2022/07/07
-        time: 14:00
-        hours: 3
-      - date: 2022/07/11
-        time: 14:00
+        time: 19:00
         hours: 3
       - date: 2022/07/14
-        time: 14:00
+        time: 19:00
         hours: 3
       - date: 2022/07/18
-        time: 14:00
+        time: 19:00
         hours: 3
       - date: 2022/07/21
-        time: 14:00
+        time: 19:00
         hours: 3
       - date: 2022/07/25
-        time: 14:00
+        time: 19:00
         hours: 3
       - date: 2022/07/28
-        time: 14:00
+        time: 19:00
         hours: 3
       - date: 2022/08/01
-        time: 14:00
+        time: 19:00
         hours: 3
 
   - title: Tough Love Gauntlet 069
