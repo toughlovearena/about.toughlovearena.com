@@ -1,6 +1,16 @@
 ---
 events:
   # recent
+  - date: 2022/07/09
+    name: TLGModded 030
+    entrants: 4
+    winner: ShyNinja
+    challonge: TLGMOD030
+  - date: 2022/07/08
+    name: "Tough Love Gauntlet #71"
+    entrants: 13
+    winner: fredruary
+    challonge: ToughLoveGauntlet071
   - date: 2022/07/01
     name: "Tough Love Gauntlet #70"
     entrants: 18
