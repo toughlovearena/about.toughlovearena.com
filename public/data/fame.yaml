@@ -2,6 +2,10 @@
 events:
   # recent
   - date: 2022/07/09
+    name: The Iron Fist Tournament of Lanwar 68
+    entrants: 34
+    winner: Samurai Xenji
+  - date: 2022/07/09
     name: TLGModded 030
     entrants: 4
     winner: ShyNinja
