@@ -1,4 +1,4 @@
-import { ArticleLink, YouTubeLink } from "../interfaces";
+import { ArticleLink, SimpleLink, YouTubeLink } from "../interfaces";
 
 export const Articles: ArticleLink[] = [{
   date: '2022-05-07',
@@ -73,4 +73,21 @@ export const YouTubeVideos: YouTubeLink[] = [{
   title: `"Will it Kill?" Episode 11: The Black Friday Sale`,
   vid: 'TZY2tsJ4BSg',
   timestamp: 1963,
+}];
+
+export const CommunityResources: SimpleLink[] = [{
+  title: 'mizuumi fan wiki',
+  url: 'https://wiki.gbl.gg/w/Tough_Love_Arena',
+}, {
+  title: 'noodle guide',
+  url: 'https://docs.google.com/document/d/16EAEVcxAdcfaMcQqge7M0r_oVPYUaYTdaCV23ABT1mY/edit',
+}, {
+  title: 'pork guide',
+  url: 'https://docs.google.com/document/d/1WRnX8grhdyfRDoOtZfTj9J_olK2Vuovrv6mxLBAqTus/edit',
+}, {
+  title: 'rice guide',
+  url: 'https://docs.google.com/document/d/1PxAiY9saMQbgItin6LUMe5ddAkkVZYnxynNlS6LWcWY/edit',
+}, {
+  title: 'garlic guide',
+  url: 'https://docs.google.com/document/d/1oFL65WhxvC5vlNYkmV2VVaij1XYFFoyzTkOAYuVyh2I/edit',
 }];

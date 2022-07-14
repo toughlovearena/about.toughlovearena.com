@@ -24,11 +24,14 @@ export interface NavProps {
   readonly links: InternalPageData[];
 }
 
-export interface ArticleLink {
+export interface SimpleLink {
+  url: string;
+  title: string;
+}
+
+export interface ArticleLink extends SimpleLink {
   site: string;
   author: string;
-  title: string;
-  url: string;
   date: string;
   quote: string;
 }
