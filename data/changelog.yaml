@@ -1,5 +1,33 @@
 ---
 versions:
+  - v: 0.94.0
+    date: 2022/07/16
+    notes:
+      - "Added 4th button: the Throw button! Press Throw to attempt a throw"
+      - "All throw active frames (including Pork's Caber Toss) have been increased 5 > 10 frames"
+      - "Walking forward is no longer throw invulnerable"
+      - "You cannot be thrown for 3 frames after exiting hitstun, blockstun, juggling, or knockdown"
+      - "This 3 frame window provides extra time to start an attack and beat a meaty throw"
+      - "Doing anything besides standing or walking will immediately end this window of throw invulnerability"
+      - "Therefore, doing an armored attack or parry makes you immediately throwable"
+      - "Throwable hurtboxes are now tracked separately vs strike hurtboxes"
+      - "Walking backwards slightly increases the width of your throwable hurtbox"
+      - "RAPID has been moved from Forward Special to Forward Throw"
+      - "BURST has been moved from Backward Special to Backward Throw"
+      - "REJECTION has been moved from Back Light to Forward Throw"
+      - "Modding: Upgraded engine to 15"
+      - 'Modding: You can use "d" to map inputs to the fourth button (eg "4d": "SomeAttack")'
+      - "Modding: FighterSetupConfig.commands added (customize the inputs for Throw/Rapid/Burst/Reject)"
+      - "Modding: SequenceConfig.palindromeAnimation added (backfill to make hitstun/blockstun work)"
+      - "Modding: ActionConfig.throwStart active frame duration changed 5 > 10 to make meaty throws easier"
+      - "Modding: ActionConfig.throwCheck removed"
+      - "Modding: Hurtboxes can now be customized for strikes vs throws"
+      - "Modding: DefaultConfig.strikeHurtboxes and DefaultConfig.throwHurtboxes added"
+      - "Modding: SequenceConfig.strikeHurtboxes and SequenceConfig.throwHurtboxes added"
+      - "Modding: FrameConfig.strikeHurtboxes and FrameConfig.throwHurtboxes added"
+      - "Modding: SequenceConfig.hurtboxes and FrameConfig.hurtboxes are still available as a shorthand for both strike/throw"
+      - "Modding: Existing hurtbox changes have been ported to strikeHurtbox so as to not extend the throwHurtbox automatically"
+      - "Modding: Places where hurtboxes were set to empty have been preserved"
   - v: 0.93.4
     date: 2022/06/28
     notes:
