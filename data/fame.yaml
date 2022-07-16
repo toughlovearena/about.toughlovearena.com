@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2022/07/15
+    name: "Tough Love Gauntlet #72"
+    entrants: 17
+    winner: LungsterX
+    challonge: ToughLoveGauntlet072
   - date: 2022/07/09
     name: The Iron Fist Tournament of Lanwar 68
     entrants: 34
