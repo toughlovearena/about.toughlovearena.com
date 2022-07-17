@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.94.1
+    date: 2022/07/16
+    notes:
+      - "Gameplay: Throw recovery on whiff decreased 20 > 10 frames"
+      - "Buffed Pork: Caber Toss recovery on whiff decreased 20 > 10 frames"
+      - "How to Play: Fixed outdated instructions for RAPID/BURST/REJECTION"
   - v: 0.94.0
     date: 2022/07/16
     notes:
