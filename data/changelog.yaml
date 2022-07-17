@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.94.3
+    date: 2022/07/16
+    notes:
+      - "Gameplay: Fixed bug where the extended hurtboxes during Onion/Garlic's Sweep were throwable"
   - v: 0.94.2
     date: 2022/07/16
     notes:
