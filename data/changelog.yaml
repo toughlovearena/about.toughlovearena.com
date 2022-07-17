@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.94.2
+    date: 2022/07/16
+    notes:
+      - "Pause Menu: Custom Controls updated during Gameplay will now take effect immediately"
+      - "Pause Menu: Custom Controls now shows both P1 and P2 when opened from Training Mode"
   - v: 0.94.1
     date: 2022/07/16
     notes:
