@@ -28,15 +28,13 @@ events:
   #       time: 18:00
   #       hours: 2
 
-  - title: Tough Love Gauntlet Modded 031
-    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+  - title: Mid Tier 007
+    description: "Free online tournament for beginners"
     type: tournament
-    image: toughlovegauntlet.jpg
-    twitch: theapexcollective
-    challonge: TLGMOD031
+    challonge: MidTier007
     when:
-      - date: 2022/07/16
-        time: 14:00
+      - date: 2022/06/17
+        time: 15:00
         hours: 2
 
   - title: Tough Love Gauntlet 072
