@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.94.5
+    date: 2022/07/19
+    notes:
+      - "Gameplay: You can no longer be hit by other attacks (e.g. projectiles) while being thrown"
+      - "Training: StunPhase (if present) is displayed as text on hitboxes and hurtboxes"
+      - "Modding: AttackConfig.stunPhase added (only hits opponents in the matching phase)"
+      - "Modding: AttackConfig.setStunPhase added (sets the opponent's phase, making them only hittable by attacks with the same phase)"
   - v: 0.94.4
     date: 2022/07/17
     notes:
