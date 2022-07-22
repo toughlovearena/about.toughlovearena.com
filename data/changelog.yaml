@@ -1,5 +1,32 @@
 ---
 versions:
+  - v: 0.95.0
+    date: 2022/07/21
+    notes:
+      - "Buffed Beef/Pork: Palm disadvantage on block decreased -9 > -8"
+      - "Nerfed Beef/Pork: Reverted 0.83.0 buff that made Jump > Spike scale as 1 hit, now it's back to 2"
+      - "Buffed Noodle/Rice: Increased the juggle height when Slap anti-airs to make hitting with both Slaps less likely"
+      - "Buffed Noodle/Rice: Getting hit inbetween the two attacks of Slap no longer registers as a counterhit"
+      - 'Buffed Noodle/Rice: Whip hitbox is now uniformly taller, making juggles easier and removing the "sweet spot" at the end'
+      - "Buffed Noodle/Rice: Whip Splash startup reduced by 3 frames (makes Slap > Whip Splash juggles more reliable)"
+      - "Nerfed Noodle/Rice: Reduced horizontal range of Slap's first hitbox by 17%"
+      - "Nerfed Noodle/Rice: Reverted 0.91.0 buff to horizontal range of Slap's second hitbox"
+      - "Nerfed Noodle/Rice: Reverted 0.91.0 buff to Slap's pushback"
+      - "Nerfed Noodle/Rice: Slap's total animation is slightly longer, making it easier to whiff punish"
+      - "Nerfed Noodle/Rice: Reduced cancel window of Slap's second hit 8 > 6 frames"
+      - "Nerfed Noodle/Rice: Reduced cancel window of Whip Pounce 8 > 6 frames"
+      - "Nerfed Noodle/Rice: Increased recovery of Whip Pounce by 5 frames. It has the same advantage on hit/block, but now it gives the opponent more time to react to no cancels"
+      - "Buffed Rice: Reverted 0.83.0 nerf to Swat damage, effectively increasing 20,80 > 50,100"
+      - "Buffed Rice: Swat juggles higher, making it effectively +9 on hit"
+      - "Buffed Rice: Swat can now juggle into Slap in the corner"
+      - "Nerfed Rice: Swat can no longer cancel into Whip Back"
+      - "Nerfed Rice: Reverted 0.83.0 buff that make Swat scale as 1 hit, now it's back to 2"
+      - "Adjusted Rice: Swipe now hits a second time if the opponent is close"
+      - "Swipe used to hit once and was +7 on hit and -9 on block"
+      - "Swipe's first hit is now -2 on hit and -8 on block"
+      - "Swipe's new second hit is +7 on hit and -2 on block"
+      - "Like most 2-hit moves, Swipe's meter gain is now distributed across both hits"
+      - "Swipe can no longer hit an airborne opponent, making Jump a hard counter to Swipe"
   - v: 0.94.5
     date: 2022/07/19
     notes:
