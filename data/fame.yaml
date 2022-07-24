@@ -1,6 +1,16 @@
 ---
 events:
   # recent
+  - date: 2022/07/23
+    name: TLGModded 032
+    entrants: 6
+    winner: ESGR
+    challonge: TLGMOD032
+  - date: 2022/07/22
+    name: "Tough Love Gauntlet #73"
+    entrants: 16
+    winner: RetroDot
+    challonge: ToughLoveGauntlet073
   - date: 2022/07/17
     name: Mid Tier 7
     entrants: 8
