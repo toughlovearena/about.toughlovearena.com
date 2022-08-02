@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.95.1
+    date: 2022/08/02
+    notes:
+      - 'Options: Removed "Unload Stale Sprites" until it can be further tested and debugged'
+      - 'Debug Tools: Merged public and private debug tools into one ugly menu'
   - v: 0.95.0
     date: 2022/07/21
     notes:
