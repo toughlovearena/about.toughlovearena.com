@@ -760,7 +760,16 @@ events:
       - date: 2022/08/01
         time: 20:00
         hours: 2
-      - date: 2022/09/05
+      - date: 2022/09/12
+        time: 20:00
+        hours: 2
+      - date: 2022/10/03
+        time: 20:00
+        hours: 2
+      - date: 2022/11/07
+        time: 20:00
+        hours: 2
+      - date: 2022/12/05
         time: 20:00
         hours: 2
 
