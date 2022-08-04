@@ -152,16 +152,16 @@ events:
     type: meetup
     when:
       - date: 2022/09/02
-        time: 10:00
+        time: 13:00
         hours: 8
       - date: 2022/09/03
-        time: 10:00
+        time: 13:00
         hours: 8
       - date: 2022/09/04
-        time: 10:00
+        time: 13:00
         hours: 8
       - date: 2022/09/05
-        time: 10:00
+        time: 13:00
         hours: 8
 
   - title: TLA @ EVO
@@ -169,14 +169,11 @@ events:
     type: meetup
     when:
       - date: 2022/08/05
-        time: 10:00
-        hours: 8
+        time: 12:00
+        hours: 9
       - date: 2022/08/06
-        time: 10:00
-        hours: 8
-      - date: 2022/08/07
-        time: 10:00
-        hours: 8
+        time: 12:00
+        hours: 9
 
   - title: Official Game Dev Stream
     description: Watch the game development process and chat with the creators of TLA
