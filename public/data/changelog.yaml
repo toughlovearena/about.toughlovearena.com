@@ -1,10 +1,18 @@
 ---
 versions:
+  - v: 0.95.2
+    date: 2022/08/04
+    notes:
+      - "Gameplay: Fixed hitstop on REJECT, now there is a slight freeze when it connects"
+      - "Gameplay: It is now impossible to combo after a landing a REJECT"
+      - "Buffed Pork: Caber Toss is now unburstable until the first hit, making Caber > Jump or Caber > Chop guaranteed. Longer combos can still be bursted"
+      - "Training: With hitboxes on, you can now see how many juggle points remain during a combo"
+      - "Debug Tools: Fixed issue with inner menu navigation"
   - v: 0.95.1
     date: 2022/08/02
     notes:
       - 'Options: Removed "Unload Stale Sprites" until it can be further tested and debugged'
-      - 'Debug Tools: Merged public and private debug tools into one ugly menu'
+      - "Debug Tools: Merged public and private debug tools into one ugly menu"
   - v: 0.95.0
     date: 2022/07/21
     notes:
