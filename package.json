@@ -1,10 +1,7 @@
 {
   "name": "about.toughlovearena.com",
   "scripts": {
-    "dev": "next",
-    "build": "next build && next export",
-    "start": "next start",
-    "type-check": "tsc"
+    "start": "nps"
   },
   "dependencies": {
     "calendar-link": "^2.2.0",
