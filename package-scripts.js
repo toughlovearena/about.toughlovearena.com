@@ -1,9 +1,15 @@
 module.exports = {
+  // npm start [key]
   scripts: {
-    dev: 'next',
-    build: 'next build && next export',
+    // server
     default: 'next start',
+    dev: 'next',
+
+    // build
+    build: 'next build && next export',
     typeCheck: 'tsc',
+
+    // tools
     update: 'npx npm-check-updates -u',
   },
 };
