@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.95.3
+    date: 2022/08/10
+    notes:
+      - "Menu: Music box in the top right now remembers your music preference"
+      - "Attract Mode: No longer saves replays"
+      - "Maintenance: Migrated deployment scripts to more maintainable framework"
   - v: 0.95.2
     date: 2022/08/04
     notes:
