@@ -1,6 +1,21 @@
 ---
 events:
   # recent
+  - date: 2022/08/13
+    name: TLGModded 034
+    entrants: 4
+    winner: ESGR
+    challonge: TLGMOD034
+  - date: 2022/08/12
+    name: "Tough Love Gauntlet #76"
+    entrants: 13
+    winner: Table
+    challonge: ToughLoveGauntlet076
+  - date: 2022/08/05
+    name: "Tough Love Gauntlet #75"
+    entrants: 16
+    winner: Table
+    challonge: ToughLoveGauntlet075
   - date: 2022/07/30
     name: TLGModded 033
     entrants: 6
