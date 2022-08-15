@@ -2,8 +2,6 @@ import { Column } from "../Column";
 import { TextColumns } from "./TextColumns";
 import styles from './AboutInfo.module.css';
 import { useDocumentSize } from "../../hooks/useDocumentSize";
-import { CommunityResources } from "../../data/links";
-import { ExternalLink } from "../ExternalLink";
 
 const playtesters = [
   'Adam Heart',
@@ -51,19 +49,6 @@ export const AboutInfo = () => {
           <div className={styles.medium}>
             Original music and sound design by Josie Brechner and M Gewehr
           </div>
-        </section>
-
-        <section>
-          <div className={styles.large}>
-            Community Resources
-          </div>
-        </section>
-        <section>
-          {CommunityResources.map(link => (
-            <div>
-              <ExternalLink href={link.url}>{link.title}</ExternalLink>
-            </div>
-          ))}
         </section>
 
         <section>

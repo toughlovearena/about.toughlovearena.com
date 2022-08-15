@@ -1,0 +1,10 @@
+.container {
+  text-align: center;
+}
+.container section {
+  margin: 0.8em;
+}
+
+.large {
+  font-size: 1.6em;
+}
