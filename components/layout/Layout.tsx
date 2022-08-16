@@ -28,7 +28,21 @@ const Layout = (props: Props) => (
       </title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <link rel="icon" href="/favicon.png" />
+
+      {/* meta */}
+      <meta name="description"
+        content="Tough Love Arena is a web-based, indie fighting game with rollback netcode that's 100% free to play." />
+      <link rel="shortcut icon" href="/favicon.png" />
+      <link rel="apple-touch-icon" href="/favicon.png" />
+      <meta name="theme-color" content="#000000" />
+
+      {/* Open Graph https://ogp.me/ */}
+      <meta property="og:title" content="Tough Love Arena" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://about.toughlovearena.com/" />
+      <meta property="og:image" content="https://about.toughlovearena.com/favicon.png" />
+
+      {/* stylesheets */}
       <link rel="stylesheet" href="/styles.css" />
     </Head>
     <div className={[styles.container, props.pattern ? styles.pattern : ''].join(' ')}>
