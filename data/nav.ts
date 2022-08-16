@@ -37,7 +37,7 @@ export const InternalPages: InternalPageData[] = [
   InternalPage.PatchNotes,
   InternalPage.Events,
   InternalPage.HallOfFame,
+  InternalPage.Community,
   InternalPage.Gallery,
-  // InternalPage.Community,
   InternalPage.About,
 ];

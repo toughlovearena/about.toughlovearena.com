@@ -1,5 +1,28 @@
 import { ArticleLink, SimpleLink, YouTubeLink } from "../interfaces";
 
+export const Social: {
+  imageSrc: string;
+  url: string;
+}[] = [{
+  imageSrc: "/asset/social/bandcamp.png",
+  url: "https://visager.bandcamp.com/album/tough-love-arena-original-game-soundtrack",
+}, {
+  imageSrc: "/asset/social/discord.png",
+  url: "https://discord.gg/gMBRaUPDT7",
+}, {
+  imageSrc: "/asset/social/patreon.png",
+  url: "https://www.patreon.com/toughlovearena",
+}, {
+  imageSrc: "/asset/social/redbubble.png",
+  url: "https://www.redbubble.com/people/toughlovearena",
+}, {
+  imageSrc: "/asset/social/twitch.png",
+  url: "https://twitch.tv/mpaulweeks",
+}, {
+  imageSrc: "/asset/social/twitter.png",
+  url: "https://twitter.com/ToughLoveArena",
+}];
+
 export const Articles: ArticleLink[] = [{
   date: '2022-05-07',
   site: 'Steam Reviews',
@@ -43,6 +66,13 @@ export const Articles: ArticleLink[] = [{
   url: 'https://www.thegamer.com/tough-love-arena-free-to-play-fighting-game-rollback-netcode/',
   quote: `It is a simple game to get into, with the depth to explore expected from a fighting game. Its unique visuals and style should set it apart from the other fighting games, and having rollback netcode will help with smooth online matches.`,
 }];
+
+export const Documentary: YouTubeLink = {
+  date: '2022-08-03',
+  channel: 'Hold Back to Block',
+  title: 'A Fighting Game You Can Play ANYWHERE!? - Tough Love Arena',
+  vid: '4p1uCwywgj4',
+};
 
 export const YouTubeVideos: YouTubeLink[] = [{
   date: '2022-04-19',

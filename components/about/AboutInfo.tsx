@@ -2,8 +2,9 @@ import { Column } from "../Column";
 import { TextColumns } from "./TextColumns";
 import styles from './AboutInfo.module.css';
 import { useDocumentSize } from "../../hooks/useDocumentSize";
-import { CommunityResources } from "../../data/links";
-import { ExternalLink } from "../ExternalLink";
+import { YouTubePreview } from "../YouTubePreview";
+import { Documentary, Social } from "../../data/links";
+import { SocialButton } from "../SocialButton";
 
 const playtesters = [
   'Adam Heart',
@@ -54,16 +55,13 @@ export const AboutInfo = () => {
         </section>
 
         <section>
-          <div className={styles.large}>
-            Community Resources
+          <div className={styles.social}>
+            {Social.map(link => <SocialButton img={link.imageSrc} url={link.url} />)}
           </div>
         </section>
+
         <section>
-          {CommunityResources.map(link => (
-            <div>
-              <ExternalLink href={link.url}>{link.title}</ExternalLink>
-            </div>
-          ))}
+          <YouTubePreview link={Documentary} />
         </section>
 
         <section>

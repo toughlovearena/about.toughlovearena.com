@@ -1,5 +1,5 @@
 .container {}
-@media (min-width: 1101px) {
+@media (min-width: 1151px) {
   .container {
     display: none;
   }

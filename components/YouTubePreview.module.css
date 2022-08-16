@@ -1,18 +1,11 @@
-.gallery {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
 .block {
   position: relative;
-  width: 600px;
-  height: 337px;
-  margin: 0.5em 0;
-  border: 2px solid white;
+  width: auto;
+  aspect-ratio: 16 / 9;
   box-sizing: border-box;
+
+  /* to remove annoying white gap */
+  font-size: 0;
 }
 
 .iframe {
@@ -21,6 +14,9 @@
 }
 
 .overlay {
+  /* restore after setting to 0 for the white gap */
+  font-size: 1rem;
+
   opacity: 0;
   transition: opacity 1s;
 
@@ -33,6 +29,7 @@
   width: 100%;
   height: 100%;
   padding: 3em;
+  border: 2px solid white;
   box-sizing: border-box;
   text-align: center;
 
