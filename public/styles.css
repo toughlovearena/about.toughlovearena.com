@@ -25,7 +25,7 @@ html {
   --navHeight: 4rem;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
   html {
     --navHeight: 8rem;
   }
