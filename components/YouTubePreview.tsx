@@ -19,9 +19,7 @@ const YouTubeEmbed = (props: { url: string; }) => {
 
 export const YouTubePreview = (props: {
   link: YouTubeLink;
-  blockStyle?: {
-    width: number;
-  };
+  blockStyle?: CSSProperties;
 }) => {
   const url = `https://www.youtube.com/watch?v=${props.link.vid}`;
   const timeArg = props.link.timestamp !== undefined ? `&t=${props.link.timestamp}` : '';
@@ -29,10 +27,7 @@ export const YouTubePreview = (props: {
     url: `${url}${timeArg}`,
     label: Math.floor(props.link.timestamp / 60) + ':' + (props.link.timestamp % 60).toString().padStart(2, '0'),
   } : undefined;
-  const blockStyle: CSSProperties = props.blockStyle ? {
-    width: `${props.blockStyle.width}px`,
-    height: `${Math.floor(props.blockStyle.width / ( 16 / 9 ))}px`,
-  } : {};
+  const blockStyle: CSSProperties = props.blockStyle ?? {};
   return (
     <div className={styles.block} style={blockStyle}>
       <YouTubeEmbed url={timestamp?.url ?? url} />

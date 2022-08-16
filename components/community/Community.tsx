@@ -29,7 +29,7 @@ export const Community = () => {
         </section>
         <section>
           <div className={styles.youtube}>
-            {videos.map(link => <YouTubePreview key={link.vid} link={link} blockStyle={{width: 380,}} />)}
+            {videos.map(link => <YouTubePreview key={link.vid} link={link} blockStyle={{width: '50%',}} />)}
           </div>
         </section>
       </Column>

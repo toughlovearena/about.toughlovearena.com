@@ -1,8 +1,11 @@
 .block {
   position: relative;
-  width: 600px;
-  height: 337px;
+  width: auto;
+  aspect-ratio: 16 / 9;
   box-sizing: border-box;
+
+  /* to remove annoying white gap */
+  font-size: 0;
 }
 
 .iframe {
@@ -11,6 +14,9 @@
 }
 
 .overlay {
+  /* restore after setting to 0 for the white gap */
+  font-size: 1rem;
+
   opacity: 0;
   transition: opacity 1s;
 
