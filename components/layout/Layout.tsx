@@ -16,6 +16,11 @@ type Props = {
   pattern?: boolean;
 }
 
+const Meta = {
+  Favicon: '/favicon.png',
+  Description: "Tough Love Arena is a web-based, indie fighting game with rollback netcode that's 100% free to play.",
+} as const;
+
 const Layout = (props: Props) => (
   <div>
     <Head>
@@ -30,14 +35,14 @@ const Layout = (props: Props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
       {/* meta */}
-      <meta name="description"
-        content="Tough Love Arena is a web-based, indie fighting game with rollback netcode that's 100% free to play." />
-      <link rel="shortcut icon" href="/favicon.png" />
-      <link rel="apple-touch-icon" href="/favicon.png" />
+      <meta name="description" content={Meta.Description} />
+      <link rel="shortcut icon" href={Meta.Favicon} />
+      <link rel="apple-touch-icon" href={Meta.Favicon} />
       <meta name="theme-color" content="#000000" />
 
       {/* Open Graph https://ogp.me/ */}
       <meta property="og:title" content="Tough Love Arena" />
+      <meta property="og:description" content={Meta.Description} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://about.toughlovearena.com/" />
       <meta property="og:image" content="https://about.toughlovearena.com/favicon.png" />
