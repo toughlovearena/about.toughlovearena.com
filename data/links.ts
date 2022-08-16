@@ -1,5 +1,28 @@
 import { ArticleLink, SimpleLink, YouTubeLink } from "../interfaces";
 
+export const Social: {
+  imageSrc: string;
+  url: string;
+}[] = [{
+  imageSrc: "/asset/social/bandcamp.png",
+  url: "https://visager.bandcamp.com/album/tough-love-arena-original-game-soundtrack",
+}, {
+  imageSrc: "/asset/social/discord.png",
+  url: "https://discord.gg/gMBRaUPDT7",
+}, {
+  imageSrc: "/asset/social/patreon.png",
+  url: "https://www.patreon.com/toughlovearena",
+}, {
+  imageSrc: "/asset/social/redbubble.png",
+  url: "https://www.redbubble.com/people/toughlovearena",
+}, {
+  imageSrc: "/asset/social/twitch.png",
+  url: "https://twitch.tv/mpaulweeks",
+}, {
+  imageSrc: "/asset/social/twitter.png",
+  url: "https://twitter.com/ToughLoveArena",
+}];
+
 export const Articles: ArticleLink[] = [{
   date: '2022-05-07',
   site: 'Steam Reviews',

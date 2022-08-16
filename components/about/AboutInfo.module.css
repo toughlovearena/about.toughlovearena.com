@@ -11,6 +11,17 @@ img.team {
   height: auto;
 }
 
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.social > * {
+  margin: 0 0.5em;
+}
+
 .large {
   font-size: 1.6em;
 }

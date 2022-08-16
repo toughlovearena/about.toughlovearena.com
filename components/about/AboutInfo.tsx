@@ -3,7 +3,8 @@ import { TextColumns } from "./TextColumns";
 import styles from './AboutInfo.module.css';
 import { useDocumentSize } from "../../hooks/useDocumentSize";
 import { YouTubePreview } from "../YouTubePreview";
-import { Documentary } from "../../data/links";
+import { Documentary, Social } from "../../data/links";
+import { SocialButton } from "../SocialButton";
 
 const playtesters = [
   'Adam Heart',
@@ -50,6 +51,12 @@ export const AboutInfo = () => {
         <section>
           <div className={styles.medium}>
             Original music and sound design by Josie Brechner and M Gewehr
+          </div>
+        </section>
+
+        <section>
+          <div className={styles.social}>
+            {Social.map(link => <SocialButton img={link.imageSrc} url={link.url} />)}
           </div>
         </section>
 
