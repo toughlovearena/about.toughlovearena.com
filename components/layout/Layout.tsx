@@ -22,6 +22,10 @@ const Layout = (props: Props) => {
       (props.page?.label && `${props.page.label} | Tough Love Arena`) ||
       `Tough Love Arena`
     ),
+    Url: (
+      (props.page?.href && `https://about.toughlovearena.com${props.page.href}/`) ||
+      'https://about.toughlovearena.com/'
+    ),
     Favicon: '/favicon.png',
     Description: "Tough Love Arena is a web-based, indie fighting game with rollback netcode that's 100% free to play.",
   } as const;
@@ -42,7 +46,7 @@ const Layout = (props: Props) => {
         <meta property="og:title" content={Meta.Title} />
         <meta property="og:description" content={Meta.Description} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://about.toughlovearena.com/" />
+        <meta property="og:url" content={Meta.Url} />
         <meta property="og:image" content="https://about.toughlovearena.com/favicon.png" />
 
         {/* stylesheets */}
