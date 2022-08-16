@@ -12,7 +12,7 @@ export const Community = () => {
       <Column>
         <section>
           <div className={styles.large}>
-            Community Resources
+            Community Made Guides and Resources
           </div>
         </section>
         <section>
@@ -21,6 +21,11 @@ export const Community = () => {
               <ExternalLink href={link.url}>{link.title}</ExternalLink>
             </div>
           ))}
+        </section>
+        <section>
+          <div className={styles.large}>
+            YouTube videos featuring Tough Love Arena
+          </div>
         </section>
         <YouTubeGallery links={videos} />
       </Column>
