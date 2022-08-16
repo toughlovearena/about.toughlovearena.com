@@ -44,6 +44,13 @@ export const Articles: ArticleLink[] = [{
   quote: `It is a simple game to get into, with the depth to explore expected from a fighting game. Its unique visuals and style should set it apart from the other fighting games, and having rollback netcode will help with smooth online matches.`,
 }];
 
+export const Documentary: YouTubeLink = {
+  date: '2022-08-03',
+  channel: 'Hold Back to Block',
+  title: 'A Fighting Game You Can Play ANYWHERE!? - Tough Love Arena',
+  vid: '4p1uCwywgj4',
+};
+
 export const YouTubeVideos: YouTubeLink[] = [{
   date: '2022-04-19',
   channel: 'EllingtonReborn',

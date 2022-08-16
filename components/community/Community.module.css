@@ -8,3 +8,10 @@
 .large {
   font-size: 1.6em;
 }
+.youtube {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

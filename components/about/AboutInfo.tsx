@@ -2,6 +2,8 @@ import { Column } from "../Column";
 import { TextColumns } from "./TextColumns";
 import styles from './AboutInfo.module.css';
 import { useDocumentSize } from "../../hooks/useDocumentSize";
+import { YouTubePreview } from "../YouTubePreview";
+import { Documentary } from "../../data/links";
 
 const playtesters = [
   'Adam Heart',
@@ -49,6 +51,10 @@ export const AboutInfo = () => {
           <div className={styles.medium}>
             Original music and sound design by Josie Brechner and M Gewehr
           </div>
+        </section>
+
+        <section>
+          <YouTubePreview link={Documentary} />
         </section>
 
         <section>

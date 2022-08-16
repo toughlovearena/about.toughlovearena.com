@@ -1,15 +1,7 @@
-.gallery {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
 .block {
   position: relative;
-  width: 400px;
-  height: 225px;
+  width: 600px;
+  height: 337px;
   box-sizing: border-box;
 }
 

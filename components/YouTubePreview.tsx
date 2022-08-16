@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { CSSProperties, ReactNode } from "react";
 import { YouTubeLink } from "../interfaces";
 import { ExternalLink } from "./ExternalLink";
 import styles from './YouTubePreview.module.css';
@@ -17,22 +17,31 @@ const YouTubeEmbed = (props: { url: string; }) => {
   )
 };
 
-const YouTubePreview = (props: { link: YouTubeLink; }) => {
+export const YouTubePreview = (props: {
+  link: YouTubeLink;
+  blockStyle?: {
+    width: number;
+  };
+}) => {
   const url = `https://www.youtube.com/watch?v=${props.link.vid}`;
   const timeArg = props.link.timestamp !== undefined ? `&t=${props.link.timestamp}` : '';
   const timestamp = timeArg ? {
     url: `${url}${timeArg}`,
     label: Math.floor(props.link.timestamp / 60) + ':' + (props.link.timestamp % 60).toString().padStart(2, '0'),
   } : undefined;
+  const blockStyle: CSSProperties = props.blockStyle ? {
+    width: `${props.blockStyle.width}px`,
+    height: `${Math.floor(props.blockStyle.width / ( 16 / 9 ))}px`,
+  } : {};
   return (
-    <div className={styles.block}>
+    <div className={styles.block} style={blockStyle}>
       <YouTubeEmbed url={timestamp?.url ?? url} />
       <div className={styles.overlay}>
         <div>
           {props.link.channel}
         </div>
         <div>
-          <ExternalLink href={url} style={{fontSize: '1.5em',}}>
+          <ExternalLink href={url} style={{fontSize: '1.2em',}}>
             {props.link.title}
           </ExternalLink>
         </div>
@@ -52,11 +61,3 @@ const YouTubePreview = (props: { link: YouTubeLink; }) => {
     </div>
   );
 };
-
-export const YouTubeGallery = (props: { links: YouTubeLink[]; }) => {
-  return (
-    <div className={styles.gallery}>
-      {props.links.map(link => <YouTubePreview key={link.vid} link={link} />)}
-    </div>
-  )
-}

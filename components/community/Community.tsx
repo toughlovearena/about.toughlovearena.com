@@ -2,7 +2,7 @@ import { CommunityResources, YouTubeVideos } from "../../data/links";
 import { sortArrayOfObjects } from "../../utils/list";
 import { Column } from "../Column";
 import { ExternalLink } from "../ExternalLink";
-import { YouTubeGallery } from "../YouTubePreview";
+import { YouTubePreview } from "../YouTubePreview";
 import styles from './Community.module.css';
 
 export const Community = () => {
@@ -27,7 +27,11 @@ export const Community = () => {
             YouTube videos featuring Tough Love Arena
           </div>
         </section>
-        <YouTubeGallery links={videos} />
+        <section>
+          <div className={styles.youtube}>
+            {videos.map(link => <YouTubePreview key={link.vid} link={link} blockStyle={{width: 380,}} />)}
+          </div>
+        </section>
       </Column>
     </div>
   );
