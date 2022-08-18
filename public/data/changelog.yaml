@@ -1,5 +1,14 @@
 ---
 versions:
+  - v: 0.95.4
+    date: 2022/08/17
+    notes:
+      - "Controls: You can now map ShiftLeft and Spacebar"
+      - "Controls: Functional keys (F1, F2, etc) are now completely ignored"
+      - "How to Play: Fixed typo in Rice strategy"
+      - "About: Fixed links pointing to events and the Hall of Fame"
+      - "About: Removed community links (now available at about.toughlovearena.com)"
+      - "Maintenance: Fixed meta tags so that sharing TLA on social media will now look nicer"
   - v: 0.95.3
     date: 2022/08/10
     notes:
