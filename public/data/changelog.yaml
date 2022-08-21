@@ -1,5 +1,16 @@
 ---
 versions:
+  - v: 0.95.6
+    date: 2022/08/20
+    notes:
+      - "Attract Mode: Added quick loading animation when exiting Attract Mode (used to be instant and jarring)"
+      - "Event Mode: Added inner menu where you can choose between 2P or 1P vs Random CPU"
+      - "Event Mode: You now need to hold Pause for all areas of Event Mode (to reduce accidental pausing)"
+      - "Event Mode: Pressing Heavy at the inner menu takes you to Attract Mode (removed from Pause Menu)"
+      - "Event Mode: Idling at the inner menu for 30 seconds will refresh the app"
+      - "The refresh will load directly back to the Event Menu and show Attract Mode"
+      - "Previously, running Event Mode on the desktop version for 3+ hours could randomly crash the game"
+      - "This refresh mechanism is a workaround while we investigate this difficult to reproduce bug"
   - v: 0.95.5
     date: 2022/08/20
     notes:
