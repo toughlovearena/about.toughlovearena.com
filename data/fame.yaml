@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2022/08/19
+    name: "Tough Love Gauntlet #77"
+    entrants: 16
+    winner: LungsterX
+    challonge: ToughLoveGauntlet077
   - date: 2022/08/13
     name: TLGModded 034
     entrants: 4
