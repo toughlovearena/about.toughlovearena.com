@@ -35,8 +35,19 @@ events:
     twitch: theapexcollective
     challonge: TLGMOD035
     when:
-      - date: 2022/08/20
+      - date: 2022/08/27
         time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 078
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet078
+    when:
+      - date: 2022/08/26
+        time: 18:30
         hours: 2
 
   - title: Tough Love Gauntlet 077
