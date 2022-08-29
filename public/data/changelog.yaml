@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.95.8
+    date: 2022/08/28
+    notes:
+      - "Pause Menu: You can now hold any 1 key/button to switch from Single Player to Two Players controls"
+      - "Pause Menu: You can now hold any 2 keys/buttons to exit without saving"
+      - "Event Mode: Rebooting exits fullscreen. As a workaround, after it reboots to the Welcome/Attract Screen, when you press anything to proceed it will also go fullscreen"
   - v: 0.95.7
     date: 2022/08/27
     notes:
