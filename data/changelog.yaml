@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.95.9
+    date: 2022/09/01
+    notes:
+      - "Attract Mode: The setting to enable this is now enabled by default if playing on desktop"
+      - "Attract Mode: You can now exit by clicking, just like the Welcome screen"
+      - "Event Mode: Fixed bug where rebooting would immediately play music"
+      - "Event Mode: Enable all flavors when playing Human VS CPU"
   - v: 0.95.8
     date: 2022/08/28
     notes:
