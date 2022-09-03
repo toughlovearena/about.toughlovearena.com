@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.95.10
+    date: 2022/09/02
+    notes:
+      - "Menu: Pressing Throw works the same as pressing Light on most menus"
+      - "Training Mode: Toggling hitbox display while gameplay is frozen will now update immediately, rather than requiring a frame step"
+      - "Event Mode: You can toggle hitbox display from the Pause Menu (this is tracked separately from Training Mode)"
+      - "Event Mode: There is now a controller preview on the main menu (this is temporary for an offline event)"
   - v: 0.95.9
     date: 2022/09/01
     notes:
