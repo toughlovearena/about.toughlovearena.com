@@ -10,17 +10,21 @@ export default ({ currentHref, links, }: NavProps) => (
     <nav className={styles.nav}>
       <div className={styles.navLeft}>
         <Link href={InternalPage.Home.href}>
-          <img src="/logo_v01.png" />
+          <a className={styles.navAnchor}>
+            <img src="/logo_v01.png" />
+          </a>
         </Link>
       </div>
       <div className={styles.navRight}>
         {links.map((li, i) => (
           <Link key={i} href={li.href}>
-            <div className={styles.navLink} style={currentHref === li.href ? {
-              fontWeight: 'bold',
-            } : {}}>
-              {li.label}
-            </div>
+            <a className={styles.navAnchor}>
+              <div className={styles.navLink} style={currentHref === li.href ? {
+                fontWeight: 'bold',
+              } : {}}>
+                {li.label}
+              </div>
+            </a>
           </Link>
         ))}
         <ExternalLink className={styles.navAnchor} href="https://toughlovearena.com">
