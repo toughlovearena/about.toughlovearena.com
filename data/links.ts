@@ -21,6 +21,9 @@ export const Social: {
 }, {
   imageSrc: "/asset/social/twitter.png",
   url: "https://twitter.com/ToughLoveArena",
+}, {
+  imageSrc: "/asset/social/youtube.png",
+  url: "https://youtube.com/c/ToughLoveArena",
 }];
 
 export const Articles: ArticleLink[] = [{
