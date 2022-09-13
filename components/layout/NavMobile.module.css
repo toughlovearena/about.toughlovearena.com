@@ -15,6 +15,9 @@
   justify-content: center;
   align-items: center;
 }
+.nav a {
+  color: inherit;
+}
 .navLogo {
   text-align: center;
 }
