@@ -1,4 +1,5 @@
 import { CSSProperties, useState } from "react";
+import { ExternalLink } from "./ExternalLink";
 import styles from './SocialButton.module.css';
 
 export const SocialButton = (props: {
@@ -15,13 +16,15 @@ export const SocialButton = (props: {
     backgroundImage: `url(${props.img})`,
   };
   return (
-    <a className={styles.container} href={props.url}>
-      <div
-        className={styles.button}
-        style={buttonStyle}
-        onMouseEnter={() => setHighlight(true)}
-        onMouseLeave={() => setHighlight(false)}
-      />
-    </a>
+    <ExternalLink href={props.url}>
+      <span className={styles.container}>
+        <div
+          className={styles.button}
+          style={buttonStyle}
+          onMouseEnter={() => setHighlight(true)}
+          onMouseLeave={() => setHighlight(false)}
+        />
+      </span>
+    </ExternalLink>
   );
 }
