@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2022/09/16
+    name: Colosseum of Foods
+    entrants: 10
+    winner: Table
+    challonge: llipfhzf
   - date: 2022/09/10
     name: TLGModded 037
     entrants: 4
