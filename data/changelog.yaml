@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.96.1
+    date: 2022/09/22
+    notes:
+      - "Nerfed Noodle: BuzzSaw meter gain nerfed 600 > 300 on hit, 480 > 240 on block"
+      - "Replays: Fixed bug introduced in 0.95.10 where you couldn't disable hitbox display"
+      - "How to Play: Updated phrasing in Slap tutorial for Noodle/Rice"
+      - "Leaderboard: Fixed issue with displaying long names"
   - v: 0.96.0
     date: 2022/09/21
     notes:
