@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.96.2
+    date: 2022/09/23
+    notes:
+      - "Beef/Pork: Fixed bug where they counted as airborne during certain landing frames"
+      - "Rice: Hitstop on Jump Drill increased 10 > 12"
+      - "Training: Hitbox display now includes text showing if a frame is considered airborne"
+      - "Modding: Fixed bug where setting FrameConfig.isAirborne to false wouldn't override SequenceConfig.isAirborne"
   - v: 0.96.1
     date: 2022/09/22
     notes:
@@ -18,7 +25,7 @@ versions:
       - 'Pork: Added "Empty Jump". Skip your attack and surprise your opponent with a delayed ground attack or sudden throw'
       - 'Onion: Added "Long Jump". Cover extra ground to try and get in'
       - 'Garlic: Added "Jump Roundhouse". Teleport to the ground to punish their anti-air with a Roundhouse'
-      - 'Garlic: Changed Backflip > Jump cancel from Light to Special, to make mashing Light after Backflip easier'
+      - "Garlic: Changed Backflip > Jump cancel from Light to Special, to make mashing Light after Backflip easier"
       - "Gameplay: Hurtboxes are slightly wider during landing frames, so whiff punishing a jump attack as they land is now easier"
       - "Fixed Beef/Pork: Jump's rising attack now has armor vs air attacks AND projectiles (to handle Air Lemon)"
       - "Fixed Rice: Swat can no longer trade with projectiles"
