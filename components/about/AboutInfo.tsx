@@ -5,6 +5,7 @@ import { useDocumentSize } from "../../hooks/useDocumentSize";
 import { YouTubePreview } from "../YouTubePreview";
 import { Documentary, Social } from "../../data/links";
 import { SocialButton } from "../SocialButton";
+import { ExternalLink } from "../ExternalLink";
 
 const playtesters = [
   'Adam Heart',
@@ -62,6 +63,28 @@ export const AboutInfo = () => {
 
         <section>
           <YouTubePreview link={Documentary} />
+        </section>
+
+        {/* mirrors */}
+        <section>
+          <div>
+            If you suspect that
+            &nbsp;
+            <ExternalLink href="https://toughlovearena.com">
+              toughlovearena.com
+            </ExternalLink>
+            &nbsp;
+            is blocked on your network,
+            <br/>
+            try out these mirror sites!
+          </div>
+          <br/>
+          <div>
+            <ExternalLink href="https://mirror.toughlovearena.com">
+              mirror.toughlovearena.com
+            </ExternalLink>
+          </div>
+
         </section>
 
         <section>
