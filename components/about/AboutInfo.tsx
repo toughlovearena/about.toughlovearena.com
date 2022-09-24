@@ -80,8 +80,18 @@ export const AboutInfo = () => {
           </div>
           <br/>
           <div>
+            <span style={{textDecoration: 'line-through',}}>
+              beefnoodlestew.site
+            </span>
+          </div>
+          <div>
             <ExternalLink href="https://mirror.toughlovearena.com">
               mirror.toughlovearena.com
+            </ExternalLink>
+          </div>
+          <div>
+            <ExternalLink href="https://toughlove.space">
+              toughlove.space
             </ExternalLink>
           </div>
 
