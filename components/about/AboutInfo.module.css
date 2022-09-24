@@ -4,6 +4,12 @@
 .container section {
   margin: 0.8em;
 }
+.container .gap {
+  height: 0;
+  width: 50%;
+  border-top: 1px solid black;
+  margin: 1em auto;
+}
 
 img.team {
   max-width: 80%;

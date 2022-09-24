@@ -2,8 +2,7 @@ import { Column } from "../Column";
 import { TextColumns } from "./TextColumns";
 import styles from './AboutInfo.module.css';
 import { useDocumentSize } from "../../hooks/useDocumentSize";
-import { YouTubePreview } from "../YouTubePreview";
-import { Documentary, Social } from "../../data/links";
+import { Social } from "../../data/links";
 import { SocialButton } from "../SocialButton";
 import { ExternalLink } from "../ExternalLink";
 
@@ -61,22 +60,23 @@ export const AboutInfo = () => {
           </div>
         </section>
 
-        <section>
-          <YouTubePreview link={Documentary} />
-        </section>
+        <div className={styles.gap}></div>
 
         {/* mirrors */}
         <section>
+          <div className={styles.large}>
+            Mirrors and Proxies
+          </div>
+        </section>
+        <section>
           <div>
-            If you suspect that
-            &nbsp;
+            {'If you suspect that '}
             <ExternalLink href="https://toughlovearena.com">
               toughlovearena.com
             </ExternalLink>
-            &nbsp;
-            is blocked on your network,
+            {' is blocked '}
             <br/>
-            try out these mirror sites!
+            on your network, try out these other URLs!
           </div>
           <br/>
           <div>
@@ -94,8 +94,9 @@ export const AboutInfo = () => {
               toughlove.space
             </ExternalLink>
           </div>
-
         </section>
+
+        <div className={styles.gap}></div>
 
         <section>
           <div className={styles.large}>

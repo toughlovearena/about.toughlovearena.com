@@ -1,4 +1,4 @@
-import { CommunityResources, YouTubeVideos } from "../../data/links";
+import { CommunityResources, Documentary, YouTubeVideos } from "../../data/links";
 import { sortArrayOfObjects } from "../../utils/list";
 import { Column } from "../Column";
 import { ExternalLink } from "../ExternalLink";
@@ -22,6 +22,16 @@ export const Community = () => {
             </div>
           ))}
         </section>
+
+        <section>
+          <div className={styles.large}>
+            Documentary by Hold Back to Block
+          </div>
+        </section>
+        <section>
+          <YouTubePreview link={Documentary} />
+        </section>
+
         <section>
           <div className={styles.large}>
             YouTube videos featuring Tough Love Arena
