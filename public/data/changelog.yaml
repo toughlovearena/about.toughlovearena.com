@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.96.4
+    date: 2022/10/02
+    notes:
+      - 'Lobbies: Added support for setting a "Nickname". This makes it easier to identify yourself within a lobby, with the fail-safe that if you pick an unsuitable nickname, the host can always kick you'
+      - 'Lobbies: Nicknames are saved as a local setting. To remove your nickname, simply set it to empty and save'
+      - "Lobbies: Fixed bug where the Pause Menu would open while updating the Lobby Message"
   - v: 0.96.3
     date: 2022/10/02
     notes:
