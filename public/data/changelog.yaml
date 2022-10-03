@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.96.3
+    date: 2022/10/02
+    notes:
+      - "Menu: Moved the game version on the splash screen to the corner for easier reference"
+      - "Menu: You can now exit the EULA in Advanced Extras by pressing Light Attack"
+      - "Maintenance: Added tooling and documentation around deploying to mirror/proxy URLs"
   - v: 0.96.2
     date: 2022/09/23
     notes:
