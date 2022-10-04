@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.97.0
+    date: 2022/10/03
+    notes:
+      - "Animation: Onion has been fully animated and polished"
+      - "Animation: Onion has new options for alternate colors"
+      - "Modding: Upgraded engine to 16"
+      - "Modding: Onion mods made before engine 16 will be upgraded to use new sprites"
   - v: 0.96.4
     date: 2022/10/02
     notes:
