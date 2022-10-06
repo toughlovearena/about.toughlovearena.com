@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.97.1
+    date: 2022/10/05
+    notes:
+      - "Gameplay: Fixed bug where throws could trade with armored attacks. Armored attacks are back to beating throws during active frames"
+      - "Modding: Fixed bug introduced in 0.97.0 where Onion and Garlic mods with projectiles wouldn't load"
+      - "Todo: Updated TODO"
   - v: 0.97.0
     date: 2022/10/03
     notes:
