@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2022/09/30
+    name: "Tough Love Gauntlet #82"
+    entrants: 14
+    winner: ESGR
+    challonge: ToughLoveGauntlet082
   - date: 2022/09/25
     name: Heaven or Hell - Tough Luck
     entrants: 12
