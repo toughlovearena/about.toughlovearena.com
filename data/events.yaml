@@ -27,6 +27,17 @@ events:
   #     - date: 2022/06/08
   #       time: 18:00
   #       hours: 2
+
+  - title: TLA Halloween Tournament
+    description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tlahalloween22
+    when:
+      - date: 2022/10/28
+        time: 19:00
+        hours: 3
         
   - title: Tough Love Gauntlet 083
     description: Free online tournament every Friday night
