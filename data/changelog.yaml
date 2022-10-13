@@ -1,5 +1,14 @@
 ---
 versions:
+  - v: 0.97.2
+    date: 2022/10/12
+    notes:
+      - "Buffed Rice: Swat now has armor frames 6 - 10, making it more reliable as an anti-air"
+      - "Nerfed Beef: Air Lemon has 6 more frames of startup, ensuring that no parry timing covers both Jump Attack and Air Lemon"
+      - "Nerfed Beef: Air Lemon has a shallower arc, making it as easy to antiair as their normal Jump Attack"
+      - "Buffed Pork: Removed landing recovery from Empty Jump and now it auto-cancels to Caber Toss"
+      - "Nerfed Onion/Garlic: Jump cancel is now 5 frames earlier to allow for a lower jump arc (nerf because it is now harder to execute)"
+      - "Nerfed Onion: Long Jump has a shallower arc, making it as easy to antiair as their normal Jump Attack"
   - v: 0.97.1
     date: 2022/10/05
     notes:
