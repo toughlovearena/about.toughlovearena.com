@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2022/10/14
+    name: "Tough Love Gauntlet #84"
+    entrants: 14
+    winner: Table
+    challonge: ToughLoveGauntlet084
   - date: 2022/10/07
     name: "Tough Love Gauntlet #83"
     entrants: 24
