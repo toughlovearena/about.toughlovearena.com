@@ -43,7 +43,7 @@ events:
     description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
     type: tournament
     image: toughlovegauntlet.jpg
-    twitch: theapexcollective
+    twitch: shygybeats
     challonge: TLGMOD039
     when:
       - date: 2022/10/15
@@ -54,7 +54,7 @@ events:
     description: Free online tournament every Friday night
     type: tournament
     image: toughlovegauntlet.jpg
-    twitch: theapexcollective
+    twitch: shygybeats
     challonge: ToughLoveGauntlet084
     when:
       - date: 2022/10/14
