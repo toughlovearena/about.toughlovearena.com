@@ -46,8 +46,19 @@ events:
     twitch: shygybeats
     challonge: TLGMOD039
     when:
-      - date: 2022/10/15
+      - date: 2022/10/22
         time: 14:00
+        hours: 2
+        
+  - title: Tough Love Gauntlet 085
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: shygybeats
+    challonge: ToughLoveGauntlet085
+    when:
+      - date: 2022/10/21
+        time: 18:30
         hours: 2
 
   - title: Tough Love Gauntlet 084
