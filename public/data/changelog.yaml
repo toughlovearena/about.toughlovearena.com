@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.97.3
+    date: 2022/10/24
+    notes:
+      - Halloween patch!
+      - Tough Love Arena is getting spooky to celebrate the official tournament happening October 28
+      - While the patch is active, the halloween skins are unlocked for all players
+      - This patch will be reverted on November 1
   - v: 0.97.2
     date: 2022/10/12
     notes:
