@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2022/10/21
+    name: "Tough Love Gauntlet #85"
+    entrants: 15
+    winner: BlueIcyDasani
+    challonge: ToughLoveGauntlet085
   - date: 2022/10/14
     name: "Tough Love Gauntlet #84"
     entrants: 14
