@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.97.5
+    date: 2022/10/30
+    notes:
+      - "Lobbies: Added HOST button to allow the host to promote someone else w/o leaving the lobby"
+      - "Lobbies: The SWITCH button has been removed and replaced with clicking on the status (e.g. WAITING, SPECTATING)"
+      - "Lobbies: You can now press Enter/Escape to save/cancel when editing the lobby message or your nickname"
   - v: 0.97.4
     date: 2022/10/30
     notes:
