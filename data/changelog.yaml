@@ -1,5 +1,14 @@
 ---
 versions:
+  - v: 0.97.4
+    date: 2022/10/30
+    notes:
+      - "Secret Spice: Added afterimage effect"
+      - "Training: Fixed bug where Random Counterhit could trigger mid-throw"
+      - "Maintenance: Added deployment tooling for WIP mobile apps"
+      - "Modding: FrameConfig.afterimages added (for specific frames)"
+      - "Modding: SequenceConfig.afterimages added (for all frames in a sequence)"
+      - "Modding: DefaultConfig.afterimages added (for every sequence)"
   - v: 0.97.3
     date: 2022/10/24
     notes:
