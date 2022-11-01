@@ -1,5 +1,17 @@
 ---
 versions:
+  - v: 0.98.0
+    date: 2022/10/31
+    notes:
+      - "Gameplay: Throws (including Caber Toss) are now throwable during startup"
+      - "Buffed Beef/Pork: Heavy Punch damage increased 80 > 90"
+      - "Adjusted Beef/Pork: Heavy Punch pushback reduced 0.3 > 0.2, Palm pushback increased 0.3 > 0.4"
+      - "Nerfed Beef/Pork: Heavy Punch advantage on hit reduced +7 > +5 (removes Heavy Punch > Gutpunch link)"
+      - "Nerfed Beef/Pork: Uppercut now slides forward during recovery, making it easier to punish optimally on block"
+      - "Nerfed Beef/Pork: Uppercut recovery increased 30 > 34 to prevent new forward slide from enabling certain mid-screen juggles"
+      - "Nerfed Onion/Garlic: Walk backward speed decreased 0.06 > 0.05 (Meat is 0.04 and Carb is 0.035)"
+      - "Adjusted Garlic: Sneak now dives in at an angle, landing closer to the opponent and preventing whiffs"
+      - "Combo Trials: Beef and Pork have been updated"
   - v: 0.97.5
     date: 2022/10/30
     notes:
