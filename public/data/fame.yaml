@@ -1,12 +1,6 @@
 ---
 events:
   # recent
-  - date: 2022/10/28
-    name: TLA Halloween Tournament 2022
-    entrants: 45
-    winner: Handsome Phil
-    challonge: tlahalloween22
-    youtube: IeofuZwCUNI
   - date: 2022/10/21
     name: "Tough Love Gauntlet #85"
     entrants: 15
@@ -179,6 +173,13 @@ events:
     youtube: 8NIJ9zwaiuE
 
   # official
+  - date: 2022/10/28
+    name: Halloween Tournament 2022
+    entrants: 45
+    winner: Handsome Phil
+    category: official
+    challonge: tlahalloween22
+    youtube: IeofuZwCUNI
   - date: 2022/04/02
     name: Completely Normal Tournament
     entrants: 82
