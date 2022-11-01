@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.98.1
+    date: 2022/11/01
+    notes:
+      - Removed Halloween patch
+      - "Maintenance: Added more options to asset loading for WIP mobile apps"
   - v: 0.98.0
     date: 2022/10/31
     notes:
