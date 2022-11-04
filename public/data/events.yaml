@@ -225,6 +225,22 @@ events:
       - date: 2022/08/24
         time: 20:00
         hours: 2
+      - date: 2022/11/14
+        time: 20:00
+        hours: 2
+      - date: 2022/11/21
+        time: 20:00
+        hours: 2
+      - date: 2022/11/28
+        time: 20:00
+        hours: 2
+      - date: 2022/12/12
+        time: 20:00
+        hours: 2
+      - date: 2022/12/19
+        time: 20:00
+        hours: 2
+        
 
   - title: Tough Love Gauntlet 075
     description: Free online tournament every Friday night
