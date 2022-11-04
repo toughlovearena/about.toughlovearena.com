@@ -27,6 +27,17 @@ events:
   #     - date: 2022/06/08
   #       time: 18:00
   #       hours: 2
+        
+  - title: Tough Love Gauntlet 086
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: shygybeats
+    challonge: ToughLoveGauntlet086
+    when:
+      - date: 2022/11/04
+        time: 18:30
+        hours: 2
 
   - title: TLA Halloween Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
