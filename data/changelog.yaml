@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.98.3
+    date: 2022/11/06
+    notes:
+      - "Controls: You can now map a combination of keys/buttons to an action"
+      - "This allows you play with a three button controller (e.g. map Throw to Light + Heavy)"
+      - "To do this, while setting controls, hold the first button and then press the second"
+      - "NOTE: The feature is still experimental and needs polishing. Use at your own risk"
   - v: 0.98.2
     date: 2022/11/06
     notes:
