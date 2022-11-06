@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.98.2
+    date: 2022/11/06
+    notes:
+      - "Gameplay: Throws can no longer counterhit (e.g. vs Frenzy startup)"
+      - "Maintenance: Rewrote platform detection and behavior for WIP mobile apps"
   - v: 0.98.1
     date: 2022/11/01
     notes:
