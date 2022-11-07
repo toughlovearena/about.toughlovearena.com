@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.98.4
+    date: 2022/11/07
+    notes:
+      - "Gameplay: Kara canceling is disabled if the starting move has armor frames that take a hit"
   - v: 0.98.3
     date: 2022/11/06
     notes:
