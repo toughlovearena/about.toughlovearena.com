@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.98.5
+    date: 2022/11/07
+    notes:
+      - "Controls: You can now map the number keys"
+      - "Controls: Mapping a number key for either P1 or P2 disables that shortcut for emotes and Training"
   - v: 0.98.4
     date: 2022/11/07
     notes:
