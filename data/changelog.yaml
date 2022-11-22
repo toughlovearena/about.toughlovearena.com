@@ -1,5 +1,13 @@
 ---
 versions:
+  - v: 0.99.1
+    date: 2022/11/21
+    notes:
+      - "Steam: The game now boots in fullscreen"
+      - "Steam: To exit fullscreen: Use F11 on Windows, Cmd+Ctrl+F on Mac"
+      - "Event Mode: Removed behavior where the game would auto-fullscreen on first user action (replaced with new app-level fullscreen)"
+      - 'Event Mode: Fixed bug where clicking "Load Recommended Event Settings" wiped the dipswitch'
+      - "Event Mode: Hide the News"
   - v: 0.99.0
     date: 2022/11/21
     notes:
