@@ -1,5 +1,13 @@
 ---
 versions:
+  - v: 0.99.0
+    date: 2022/11/21
+    notes:
+      - "Event Mode has been revamped"
+      - "Entering Event Mode will now persist if you refresh"
+      - "To exit Event Mode, you need to use the Pause menu (clickable [P] in the bottom right)"
+      - "Extras > Advanced Extras > Debug Tools > \"Event Mode DIP Switch\" added"
+      - "This provides precise control over esoteric settings that only apply while in Event Mode"
   - v: 0.98.5
     date: 2022/11/07
     notes:
