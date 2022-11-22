@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2022/11/18
+    name: "Tough Love Gauntlet #88"
+    entrants: 14
+    winner: Askadoodle
+    challonge: ToughLoveGauntlet088
   - date: 2022/11/12
     name: TLGModded 040
     entrants: 8
