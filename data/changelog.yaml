@@ -1,5 +1,14 @@
 ---
 versions:
+  - v: 0.99.2
+    date: 2022/11/28
+    notes:
+      - "Gameplay: The first round in a set now plays a short falling in animation"
+      - "Play Online: Added quick fading animation when quitting back to Character Select"
+      - "Play Online: Now when you are disconnected, there is a 2 second window where inputs are ignored so you can see the error w/o exiting accidentally"
+      - "Welcome: The splash screen only has a minimum load time the first time, and afterwards will go the menu ASAP"
+      - "Event Mode: Pressing Heavy at Character Select bounces back to Welcome screen (previously did nothing)"
+      - "Event Mode: Added instructions to Debug Tools > Event Mode DIP Switch"
   - v: 0.99.1
     date: 2022/11/21
     notes:
