@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2022/11/25
+    name: "Tough Love Gauntlet #89"
+    entrants: 13
+    winner: Hitakaaa
+    challonge: ToughLoveGauntlet089
   - date: 2022/11/18
     name: "Tough Love Gauntlet #88"
     entrants: 14
