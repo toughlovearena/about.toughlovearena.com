@@ -1,6 +1,16 @@
 ---
 events:
   # recent
+  - date: 2022/12/09
+    name: "Tough Love Gauntlet #91"
+    entrants: 15
+    winner: BlueIcyDasani
+    challonge: ToughLoveGauntlet091
+  - date: 2022/12/02
+    name: "Tough Love Gauntlet #90"
+    entrants: 18
+    winner: freduary
+    challonge: ToughLoveGauntlet090
   - date: 2022/11/25
     name: "Tough Love Gauntlet #89"
     entrants: 13
@@ -376,7 +386,7 @@ events:
   - date: 2022/01/09
     name: Mid Tier 004
     entrants: 14
-    winner: BlueIceDasani
+    winner: BlueIcyDasani
     challonge: MidTier004
   - date: 2021/12/12
     name: Mid Tier 003
