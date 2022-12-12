@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.99.3
+    date: 2022/12/11
+    notes:
+      - 'Gameplay: Fixed bug where the "READY" sfx would not play after Round 1'
   - v: 0.99.2
     date: 2022/11/28
     notes:
@@ -23,7 +27,7 @@ versions:
       - "Event Mode has been revamped"
       - "Entering Event Mode will now persist if you refresh"
       - "To exit Event Mode, you need to use the Pause menu (clickable [P] in the bottom right)"
-      - "Extras > Advanced Extras > Debug Tools > \"Event Mode DIP Switch\" added"
+      - 'Extras > Advanced Extras > Debug Tools > "Event Mode DIP Switch" added'
       - "This provides precise control over esoteric settings that only apply while in Event Mode"
   - v: 0.98.5
     date: 2022/11/07
@@ -111,7 +115,7 @@ versions:
     date: 2022/10/02
     notes:
       - 'Lobbies: Added support for setting a "Nickname". This makes it easier to identify yourself within a lobby, with the fail-safe that if you pick an unsuitable nickname, the host can always kick you'
-      - 'Lobbies: Nicknames are saved as a local setting. To remove your nickname, simply set it to empty and save'
+      - "Lobbies: Nicknames are saved as a local setting. To remove your nickname, simply set it to empty and save"
       - "Lobbies: Fixed bug where the Pause Menu would open while updating the Lobby Message"
   - v: 0.96.3
     date: 2022/10/02
