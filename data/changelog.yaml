@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.100.0
+    date: 2022/12/18
+    notes:
+      - "Pork: Caber Toss now has shorter range, but after a brief pause, runs forward for a hug"
+      - "Pork: Caber Toss active frames increased 10 > 64"
+      - "Pork: Caber Toss recovery frames increased 10 > 15"
+      - "Pork: Caber Toss reach changed from 0.6 to a starting range of 0.2 and max range of 3.85 (about half screen)"
   - v: 0.99.3
     date: 2022/12/11
     notes:
