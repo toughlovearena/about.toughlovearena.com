@@ -39,6 +39,17 @@ events:
         time: 19:00
         hours: 4
         
+  - title: Tough Love Gauntlet 092
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: shygybeats
+    challonge: ToughLoveGauntlet092
+    when:
+      - date: 2022/12/23
+        time: 18:30
+        hours: 2
+        
   - title: Tough Love Gauntlet 091
     description: Free online tournament every Friday night
     type: tournament
