@@ -28,6 +28,20 @@ events:
   #       time: 18:00
   #       hours: 2
 
+  - title: TLA @ Frosty Faustings
+    description: "Come meet the developers at Frosty Faustings"
+    type: meetup
+    when:
+      - date: 2023/02/03
+        time: 10:00
+        hours: 8
+      - date: 2023/02/04
+        time: 10:00
+        hours: 8
+      - date: 2023/02/05
+        time: 10:00
+        hours: 8
+
   - title: State of the Game
     description: The first Monday of every month, the dev team discusses recent production + community progress and lays out upcoming work
     type: stream
