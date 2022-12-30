@@ -1,6 +1,16 @@
 ---
 events:
   # recent
+  - date: 2022/12/25
+    name: "Impromptu Christmas Bash"
+    entrants: 7
+    winner: freduary
+    challonge: ICB000
+  - date: 2022/12/23
+    name: "Tough Love Gauntlet #92"
+    entrants: 17
+    winner: Table
+    challonge: ToughLoveGauntlet092
   - date: 2022/12/09
     name: "Tough Love Gauntlet #91"
     entrants: 15
