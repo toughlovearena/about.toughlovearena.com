@@ -28,6 +28,22 @@ events:
   #       time: 18:00
   #       hours: 2
 
+  - title: State of the Game
+    description: The first Monday of every month, the dev team discusses recent production + community progress and lays out upcoming work
+    type: stream
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    when:
+      - date: 2023/01/02
+        time: 20:00
+        hours: 2
+      - date: 2023/02/06
+        time: 20:00
+        hours: 2
+      - date: 2023/03/06
+        time: 20:00
+        hours: 2
+
   - title: TLA Birthday Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
     type: tournament
