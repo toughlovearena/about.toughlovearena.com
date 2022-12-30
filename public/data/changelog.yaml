@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.100.1
+    date: 2022/12/30
+    notes:
+      - "Seasonal themes (Birthday, April Fools, Halloween) will now be automatically turned on/off by the calendar rather than requiring manual updates"
+      - "When a Theme is active, the splash screen is changed and that theme's flavors are unlocked and made the default choice"
+      - "Additional behavioral changes (e.g. April Fools balance changes) will still require manual patching"
   - v: 0.100.0
     date: 2022/12/18
     notes:
