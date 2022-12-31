@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2022/12/30
+    name: "Tough Love Gauntlet #93"
+    entrants: 13
+    winner: Table
+    challonge: ToughLoveGauntlet093
   - date: 2022/12/25
     name: "Impromptu Christmas Bash"
     entrants: 7
