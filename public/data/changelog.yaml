@@ -1,5 +1,13 @@
 ---
 versions:
+  - v: 0.101.0
+    date: 2023/01/01
+    notes:
+      - "Beef/Pork: Palm has been moved from Heavy > Special to Heavy > Light"
+      - "Beef/Pork: You can now cancel both your Light and Heavy attacks into Special for your neutral Special move"
+      - "Rice: Swat now has airborne invulnerability frames 5-11 instead of a mix of armor and invuln"
+      - "Rice: Teleport now has armor for the first 10 frames instead of full invulnerability"
+      - "Rice: Jump Drill is now -1 on both hit and block when connecting on the first frame"
   - v: 0.100.1
     date: 2022/12/30
     notes:
