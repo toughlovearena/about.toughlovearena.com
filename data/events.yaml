@@ -28,6 +28,14 @@ events:
   #       time: 18:00
   #       hours: 2
 
+  - title: TLA @ Wonderville
+    description: "Come meet the developers at Wonderville"
+    type: meetup
+    when:
+      - date: 2023/01/14
+        time: 19:00
+        hours: 4
+
   - title: TLA @ Frosty Faustings
     description: "Come meet the developers at Frosty Faustings"
     type: meetup
