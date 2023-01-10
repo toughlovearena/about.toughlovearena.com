@@ -28,7 +28,7 @@ export interface AllEvents {
   all: EventData[];
 }
 
-interface EventWhenDTO {
+export interface EventWhenDTO {
   date: string;
   time: string;
   hours: number;
@@ -49,6 +49,7 @@ export interface EventDTO {
   links?: LinkDTO[];
 
   when: EventWhenDTO[];
+  repeat?: string[];
 }
 export interface EventsYaml {
   events: EventDTO[];

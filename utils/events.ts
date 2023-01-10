@@ -1,4 +1,4 @@
-import { AllEvents, EventData, EventDTO } from '../interfaces';
+import { AllEvents, EventData, EventDTO, EventWhenDTO } from '../interfaces';
 import { flatten, sortArrayOfObjects } from './list';
 
 // https://stackoverflow.com/a/57842203
@@ -10,13 +10,17 @@ function dateWithTimeZone(timeZone: string, year: number, month: number, day: nu
   date.setTime(date.getTime() + offset);
   return date;
 };
+function parseEventWhen(dto: EventWhenDTO): { start: Date, end: Date } {
+  const [yyyy, mm, dd] = dto.date.split('/').map(s => parseFloat(s));
+  const [hour, min] = dto.time.split(':').map(s => parseFloat(s));
+  const start = dateWithTimeZone('America/New_York', yyyy, mm, dd, hour, min, 0);
+  const end = new Date(start.getTime() + (dto.hours * 60 * 60 * 1000));
+  return { start, end };
+}
 function convertEventDTO(dto: EventDTO): EventData[] {
-  return dto.when.map<EventData>(w => {
-    const [yyyy, mm, dd] = w.date.split('/').map(s => parseFloat(s));
-    const [hour, min] = w.time.split(':').map(s => parseFloat(s));
-    const start = dateWithTimeZone('America/New_York', yyyy, mm, dd, hour, min, 0);
-    const end = new Date(start.getTime() + (w.hours * 60 * 60 * 1000));
-    return {
+  return flatten(dto.when.map<EventData[]>(w => {
+    const { start, end } = parseEventWhen(w);
+    const eventData: EventData = {
       eid: `${start.toISOString()}-${dto.title}`,
 
       title: dto.title,
@@ -32,7 +36,22 @@ function convertEventDTO(dto: EventDTO): EventData[] {
       start,
       end,
     };
-  });
+
+    const repeats = (dto.repeat ?? []).map<EventData>(dateStr => {
+      const { start, end } = parseEventWhen({
+        ...w,
+        date: dateStr,
+      });
+      return {
+        ...eventData,
+        eid: `${start.toISOString()}-${dto.title}`,
+        start,
+        end,
+      };
+    });
+
+    return [eventData, ...repeats];
+  }));
 }
 
 export function unpackEvents(dtos: EventDTO[]): EventData[] {
