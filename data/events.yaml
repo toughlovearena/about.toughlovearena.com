@@ -28,16 +28,30 @@ events:
   #       time: 18:00
   #       hours: 2
 
+  - title: Tough Love Gauntlet 094
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: shygybeats
+    challonge: ToughLoveGauntlet094
+    when:
+      - date: 2023/01/13
+        time: 18:30
+        hours: 2
+
   - title: TLA @ Wonderville
-    description: "Come meet the developers at Wonderville"
+    description: "Come meet the devs at Wonderville in Brooklyn, NY"
     type: meetup
     when:
       - date: 2023/01/14
         time: 19:00
         hours: 4
+    links:
+      - label: RSVP
+        url: https://www.wonderville.nyc/events/tough-love-arena-launch-1-14-23
 
   - title: TLA @ Frosty Faustings
-    description: "Come meet the developers at Frosty Faustings"
+    description: "Come meet the devs at Frosty Faustings in Lombard, IL"
     type: meetup
     when:
       - date: 2023/02/03
@@ -49,6 +63,9 @@ events:
       - date: 2023/02/05
         time: 10:00
         hours: 8
+    links:
+      - label: website
+        url: https://frostyfaustings.com/
 
   - title: State of the Game
     description: The first Monday of every month, the dev team discusses recent production + community progress and lays out upcoming work
@@ -66,6 +83,67 @@ events:
         time: 20:00
         hours: 2
 
+  - title: Official Game Dev Stream
+    description: Watch the game development process and chat with the creators of TLA
+    type: stream
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    when:
+      - date: 2023/01/09
+        time: 20:00
+        hours: 2
+    repeat:
+      - 2023/01/16
+      - 2023/01/23
+      - 2023/01/30
+      # - 2023/02/06
+      - 2023/02/13
+      - 2023/02/20
+      - 2023/02/27
+      # - 2023/03/06
+      - 2023/03/13
+      - 2023/03/20
+      - 2023/03/27
+      # - 2023/04/03
+      - 2023/04/10
+      - 2023/04/17
+      - 2023/04/24
+      # - 2023/05/01
+      - 2023/05/08
+      - 2023/05/15
+      - 2023/05/22
+      - 2023/05/29
+      # - 2023/06/05
+      - 2023/06/12
+      - 2023/06/19
+      - 2023/06/26
+      # - 2023/07/03
+      - 2023/07/10
+      - 2023/07/17
+      - 2023/07/24
+      - 2023/07/31
+      # - 2023/08/07
+      - 2023/08/14
+      - 2023/08/21
+      - 2023/08/28
+      # - 2023/09/04
+      - 2023/09/11
+      - 2023/09/18
+      - 2023/09/25
+      # - 2023/10/02
+      - 2023/10/09
+      - 2023/10/16
+      - 2023/10/23
+      - 2023/10/30
+      # - 2023/11/06
+      - 2023/11/13
+      - 2023/11/20
+      - 2023/11/27
+      # - 2023/12/04
+      - 2023/12/11
+      - 2023/12/18
+      - 2023/12/25
+
   - title: TLA Birthday Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
     type: tournament
@@ -76,7 +154,7 @@ events:
       - date: 2023/01/06
         time: 19:00
         hours: 4
-        
+
   - title: Tough Love Gauntlet 093
     description: Free online tournament every Friday night
     type: tournament
@@ -87,7 +165,7 @@ events:
       - date: 2022/12/30
         time: 18:30
         hours: 2
-        
+
   - title: Tough Love Gauntlet 092
     description: Free online tournament every Friday night
     type: tournament
@@ -98,7 +176,7 @@ events:
       - date: 2022/12/23
         time: 18:30
         hours: 2
-        
+
   - title: Tough Love Gauntlet 091
     description: Free online tournament every Friday night
     type: tournament
@@ -109,7 +187,7 @@ events:
       - date: 2022/12/09
         time: 18:30
         hours: 2
-        
+
   - title: Tough Love Gauntlet 090
     description: Free online tournament every Friday night
     type: tournament
@@ -120,7 +198,7 @@ events:
       - date: 2022/12/02
         time: 18:30
         hours: 2
-        
+
   - title: Tough Love Gauntlet 089
     description: Free online tournament every Friday night
     type: tournament
@@ -131,7 +209,7 @@ events:
       - date: 2022/11/25
         time: 18:30
         hours: 2
-        
+
   - title: Tough Love Gauntlet 088
     description: Free online tournament every Friday night
     type: tournament
@@ -153,7 +231,7 @@ events:
       - date: 2022/11/12
         time: 14:00
         hours: 2
-        
+
   - title: Tough Love Gauntlet 087
     description: Free online tournament every Friday night
     type: tournament
@@ -164,7 +242,7 @@ events:
       - date: 2022/11/11
         time: 18:30
         hours: 2
-        
+
   - title: Tough Love Gauntlet 086
     description: Free online tournament every Friday night
     type: tournament
@@ -197,7 +275,7 @@ events:
       - date: 2022/10/22
         time: 14:00
         hours: 2
-        
+
   - title: Tough Love Gauntlet 085
     description: Free online tournament every Friday night
     type: tournament
@@ -219,7 +297,7 @@ events:
       - date: 2022/10/14
         time: 18:30
         hours: 2
-        
+
   - title: Tough Love Gauntlet 083
     description: Free online tournament every Friday night
     type: tournament
@@ -377,7 +455,7 @@ events:
       - date: 2022/12/19
         time: 20:00
         hours: 2
-        
+
 
   - title: Tough Love Gauntlet 075
     description: Free online tournament every Friday night
