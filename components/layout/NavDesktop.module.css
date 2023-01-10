@@ -7,7 +7,6 @@
 
 .spacer {
   height: var(--navHeight);
-  background-color: #444;
 }
 .nav {
   z-index: 9;
