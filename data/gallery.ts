@@ -28,6 +28,10 @@ export const GalleryAssets: GalleryItem[] = [{
   file: 'stage_random.jpg',
   description: 'Random Stage',
 }, {
+  file: '2023_promo_wonderville.jpg',
+  description: 'Promo art for Wonderville',
+  when: 'January 2023',
+}, {
   file: '2022_promo_evo.jpg',
   description: 'Promo art for EVO',
   when: 'August 2022',
