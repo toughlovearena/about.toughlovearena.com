@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.101.2
+    date: 2023/01/16
+    notes:
+      - "Modding: Negative damage now heals the opponent"
+      - "Modding: Default hitstop and meter gain now scale off the absolute value of damage"
+      - "Modding: FrameConfig.opacity added"
+      - "Modding: FighterSetupConfig.introSequence added"
   - v: 0.101.1
     date: 2023/01/16
     notes:
