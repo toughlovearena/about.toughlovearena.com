@@ -1,5 +1,13 @@
 ---
 versions:
+  - v: 0.101.1
+    date: 2023/01/16
+    notes:
+      - "Added Push Notifications for matchmaking"
+      - "When you search for a match, your browser will prompt you to allow push notifications"
+      - "If enabled, you will receive a notification if/when you find a match"
+      - "Push notifications are currently only available on Desktop Web"
+      - "Maintenance: Refactored character config files to make future development easier"
   - v: 0.101.0
     date: 2023/01/01
     notes:
