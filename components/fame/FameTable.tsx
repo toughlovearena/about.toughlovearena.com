@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react';
-import { HallOfFameEntry, HallOfFameType, ViewOption } from "../../interfaces";
+import { HallOfFameEntry, HallOfFameLink, HallOfFameType, ViewOption } from "../../interfaces";
 import { getNextInArray, sortArrayOfObjects } from '../../utils/list';
 import { ExternalLink } from '../ExternalLink';
 import styles from './FameTable.module.css';
@@ -224,6 +224,11 @@ export const FameTable = (props: {
               <div className={styles.cellLinks}>
                 <FameChallonge {...row} />
                 <FameYouTube {...row} />
+                {row.links?.map((link, li) => (
+                  <ExternalLink key={li} href={link.url}>
+                    {link.label}
+                  </ExternalLink>
+                ))}
               </div>
             </div>
           ))}
