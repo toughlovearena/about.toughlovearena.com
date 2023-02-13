@@ -253,6 +253,9 @@ events:
     entrants: 11
     winner: DawnAtNite
     category: official
+    links:
+      - label: Bracket
+        url: "https://www.start.gg/tournament/official-side-events-at-frosty-faustings-xv-2023/events/tough-love-arena-saturday-10-00-am-start-5-entry/brackets/1266656/1942740/standings"
   - date: 2023/01/06
     name: 2nd Birthday Tournament
     entrants: 42
