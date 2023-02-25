@@ -1,6 +1,16 @@
 ---
 events:
   # recent
+  - date: 2023/02/24
+    name: "Tough Love Gauntlet #100"
+    entrants: 36
+    winner: Askadoodle
+    challonge: ToughLoveGauntlet100
+  - date: 2023/02/17
+    name: "Tough Love Gauntlet #99"
+    entrants: 13
+    winner: BlueIcyDasani
+    challonge: ToughLoveGauntlet099
   - date: 2023/02/10
     name: "Tough Love Gauntlet #98"
     entrants: 19
