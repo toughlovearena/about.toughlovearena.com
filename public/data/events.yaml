@@ -28,6 +28,17 @@ events:
   #       time: 18:00
   #       hours: 2
 
+  - title: Tough Love Gauntlet 105
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: shygybeats
+    challonge: ToughLoveGauntlet105
+    when:
+      - date: 2023/03/31
+        time: 18:30
+        hours: 2
+
   - title: Tough Love Gauntlet 104
     description: Free online tournament every Friday night
     type: tournament
