@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.101.6
+    date: 2023/03/31
+    notes:
+      - "Maintenance: Engine changes in prep for upcoming April Fools event"
   - v: 0.101.5
     date: 2023/03/29
     notes:
