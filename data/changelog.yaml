@@ -1,5 +1,14 @@
 ---
 versions:
+  - v: 0.102.0
+    date: 2022/04/01
+    notes:
+      - April Fools patch!
+      - Gameplay and balance changes have been made to the entire cast
+      - "We will let the players figure out what changes have been made :)"
+      - Some menus and game modes have been temporarily disabled. No spoilers!
+      - While the patch is active, the "normal" skins are unlocked for all players
+      - This patch will be reverted after the tournmanet on April 7
   - v: 0.101.6
     date: 2023/03/31
     notes:
