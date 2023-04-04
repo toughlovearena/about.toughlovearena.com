@@ -1,5 +1,16 @@
 ---
 versions:
+  - v: 0.102.1
+    date: 2023/04/03
+    notes:
+      - "Made some secret balance changes"
+      - "Enabled Frame Data, Modding and Debug Ref menus"
+      - "Modding: SequenceConfig.onLand added"
+      - "Modding: InstallConfig added"
+      - "Modding: FrameConfig.setInstall added"
+      - "Modding: FrameConfig.exitInstall added"
+      - "Modding: SequenceConfig.requireInstall added"
+      - "Maintenance: Fixed copyright date"
   - v: 0.102.0
     date: 2023/04/01
     notes:
