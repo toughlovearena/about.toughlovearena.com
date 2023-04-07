@@ -1,5 +1,13 @@
 ---
 versions:
+  - v: 0.102.3
+    date: 2023/04/07
+    notes:
+      - "Noodle: Added SFX to Fist"
+      - "Pork: Nerfed damage on Chop1 and Chop2 but removed the scaling penalty on Chop1, for net higher damage"
+      - "Garlic: Clones can no longer be hit, but will still disappear if Garlic is hit"
+      - "Garlic: Special Clones spawn with slightly different locations and speeds, removing the infinite combo in the corner"
+      - "Lobbies: Re-enabled the setting for allowing mods"
   - v: 0.102.2
     date: 2023/04/03
     notes:
