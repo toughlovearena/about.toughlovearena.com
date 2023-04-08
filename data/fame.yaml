@@ -1,6 +1,21 @@
 ---
 events:
   # recent
+  - date: 2023/03/31
+    name: "Tough Love Gauntlet #105"
+    entrants: 10
+    winner: ESGR
+    challonge: ToughLoveGauntlet105
+  - date: 2023/03/24
+    name: "Tough Love Gauntlet #104"
+    entrants: 11
+    winner: Table
+    challonge: ToughLoveGauntlet104
+  - date: 2023/03/17
+    name: "Tough Love Gauntlet #103"
+    entrants: 15
+    winner: Askadoodle
+    challonge: ToughLoveGauntlet103
   - date: 2023/03/10
     name: "Tough Love Gauntlet #102"
     entrants: 9
@@ -268,6 +283,12 @@ events:
     youtube: 8NIJ9zwaiuE
 
   # official
+  - date: 2023/04/07
+    name: April Fools Tournament
+    entrants: 34
+    winner: The Grum
+    category: official
+    challonge: tlafools23
   - date: 2023/02/04
     name: Frosty Faustings
     entrants: 11
