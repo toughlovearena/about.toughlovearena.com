@@ -19,6 +19,28 @@ events:
 
   # 2022
 
+  - title: Tough Love Gauntlet 108
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: shygybeats
+    challonge: ToughLoveGauntlet108
+    when:
+      - date: 2023/04/28
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet 107
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: shygybeats
+    challonge: ToughLoveGauntlet107
+    when:
+      - date: 2023/04/21
+        time: 18:30
+        hours: 2
+
   # - title: "Foolish Fighters #01.1"
   #   description: "Missed the April Fools tournaments in April? Don’t worry as you can have another chance to fight foolishly in Foolish Fighters #01!"
   #   type: tournament
