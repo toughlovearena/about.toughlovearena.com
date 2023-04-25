@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.103.1
+    date: 2023/04/24
+    notes:
+      - "Onion: Fixed animation glitch where the some colors would flicker while standing"
+      - "Maintenance: Improved tooling for enabling/disabling event features"
   - v: 0.103.0
     date: 2023/04/08
     notes:
@@ -50,12 +55,12 @@ versions:
   - v: 0.101.4
     date: 2023/02/20
     notes:
-      - 'Noodle: Reduced advantage on block for Buzzsaw +2 > +1'
-      - 'Noodle: Reduced chip on Buzzsaw 120 > 90'
-      - 'Rice: Reduced damage on Swat 50,100 > 40,80'
-      - 'Beef/Pork: Uppercut now forces knockdown on airborne opponents'
-      - 'Pork: Caber Toss can empty cancel before running forward'
-      - 'Event Mode: Added buttons to custom controls to save and load presets'
+      - "Noodle: Reduced advantage on block for Buzzsaw +2 > +1"
+      - "Noodle: Reduced chip on Buzzsaw 120 > 90"
+      - "Rice: Reduced damage on Swat 50,100 > 40,80"
+      - "Beef/Pork: Uppercut now forces knockdown on airborne opponents"
+      - "Pork: Caber Toss can empty cancel before running forward"
+      - "Event Mode: Added buttons to custom controls to save and load presets"
   - v: 0.101.3
     date: 2023/01/24
     notes:
