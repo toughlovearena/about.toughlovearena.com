@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2023/04/28
+    name: "Tough Love Gauntlet #108"
+    entrants: 19
+    winner: Table
+    challonge: ToughLoveGauntlet108
   - date: 2023/04/23
     name: KOx4MT2
     entrants: 13
