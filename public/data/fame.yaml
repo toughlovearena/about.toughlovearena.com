@@ -434,6 +434,26 @@ events:
     youtube: HLoUDo7UlMc
 
   # Misc Discord
+  - date: 2023/04/29
+    name: Roundjoro
+    entrants: 8
+    winner: ESGR
+    challonge: roundjoro
+    youtube: rKKtD_XiAFE
+  - date: 2023/04/29
+    name: Roundkevin 2
+    entrants: 7
+    winner: ESGR
+    challonge: roundkevin2
+    youtube: MPldkgB8nzU
+  - date: 2023/04/29
+    name: Roundhorsin 11
+    entrants: 5
+    winner: ESGR
+    challonge: roundhorsin11
+    links:
+      - label: Twitch
+        url: https://www.twitch.tv/videos/1807107924
   - date: 2023/02/18
     name: ROUNDHORSIN 9 I THINK
     entrants: 10
