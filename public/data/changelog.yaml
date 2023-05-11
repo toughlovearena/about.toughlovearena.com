@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.103.2
+    date: 2023/05/11
+    notes:
+      - "Maintenance: Added more automated testing and cleanup noisy logging"
   - v: 0.103.1
     date: 2023/04/24
     notes:
