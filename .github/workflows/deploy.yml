@@ -18,7 +18,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version-file: .nvmrc
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
