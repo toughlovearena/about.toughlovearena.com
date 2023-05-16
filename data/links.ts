@@ -78,6 +78,11 @@ export const Documentary: YouTubeLink = {
 };
 
 export const YouTubeVideos: YouTubeLink[] = [{
+  date: '2023-05-13',
+  channel: 'Meep',
+  title: `Tough Love Arena CMV 「Good Life」`,
+  vid: 'MitNyQut6cA',
+}, {
   date: '2022-04-19',
   channel: 'EllingtonReborn',
   title: `Tough Love Arena & Character Overlap: a Case Study`,
