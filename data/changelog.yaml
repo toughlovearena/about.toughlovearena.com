@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.103.3
+    date: 2023/05/15
+    notes:
+      - "Modding: Any details that are filled out (version, author, description) will now be displayed when uploading and selecting mods"
   - v: 0.103.2
     date: 2023/05/11
     notes:
