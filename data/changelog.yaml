@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.103.4
+    date: 2023/05/21
+    notes:
+      - "Maintenance: Refactored a lot of menu components and added more automated testing"
   - v: 0.103.3
     date: 2023/05/15
     notes:
