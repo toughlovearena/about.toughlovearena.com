@@ -16,6 +16,10 @@
   position: relative;
   overflow: hidden;
   --duration: 200ms;
+
+  aspect-ratio: 16 / 9;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .background {

@@ -6,16 +6,12 @@ import { ExternalLink } from '../ExternalLink';
 const GalleryPreview = (props: {
   item: GalleryItem;
   columns: number;
-  galleryWidth: number;
 }) => {
-  const width = Math.floor(props.galleryWidth / props.columns);
-  const height = Math.floor(width / (16 / 9));
   return (
-    <ExternalLink href={props.item.original}>
-      <div className={styles.preview} style={{
-        width: `${width}px`,
-        height: `${height}px`,
-      }}>
+    <ExternalLink href={props.item.original} style={{
+      flexBasis: `${100 / props.columns}%`,
+    }}>
+      <div className={styles.preview}>
         <div className={styles.background} style={{
           backgroundImage: `url(${props.item.preview})`,
         }}></div>
@@ -43,7 +39,6 @@ const Gallery = ({ data }: { data: GalleryItem[], }) => {
           key={i}
           item={item}
           columns={columns}
-          galleryWidth={width}
         />
       ))}
     </div>
