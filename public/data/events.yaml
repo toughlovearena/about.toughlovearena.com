@@ -17,7 +17,34 @@ events:
 
   # please put new events at the top of the file
 
-  # 2022
+  # 2023
+  
+  - title: TLA @ Combo Breaker
+    description: "Come meet the devs at Combo Breaker"
+    type: meetup
+    when:
+      - date: 2023/05/26
+        time: 11:00
+        hours: 8
+      - date: 2023/05/27
+        time: 11:00
+        hours: 8
+      - date: 2023/05/28
+        time: 11:00
+        hours: 8
+    links:
+      - label: website
+        url: https://combobreaker.org/
+  
+  - title: Side Tournament @ Combo Breaker
+    type: tournament
+    when:
+      - date: 2023/05/27
+        time: 14:30
+        hours: 4
+    links:
+      - label: bracket
+        url: https://www.start.gg/tournament/all-in-together-community-tournaments-at-cb2023/event/tough-love-arena
 
   - title: Tough Love Gauntlet 112
     description: Free online tournament every Friday night
