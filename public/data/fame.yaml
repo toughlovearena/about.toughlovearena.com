@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2023/05/21
+    name: "Smuckers’ Birthday Bash"
+    entrants: 6
+    winner: Table
+    challonge: smuckersbirthdaybash
   - date: 2023/05/19
     name: "Tough Love Gauntlet #111"
     entrants: 11
