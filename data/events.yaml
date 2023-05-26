@@ -46,6 +46,17 @@ events:
       - label: bracket
         url: https://www.start.gg/tournament/all-in-together-community-tournaments-at-cb2023/event/tough-love-arena
 
+  - title: Tough Love Gauntlet 113
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: shygybeats
+    challonge: ToughLoveGauntlet113
+    when:
+      - date: 2023/06/02
+        time: 18:30
+        hours: 3
+
   - title: Tough Love Gauntlet 112
     description: Free online tournament every Friday night
     type: tournament
