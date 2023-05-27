@@ -37,12 +37,13 @@ events:
         url: https://combobreaker.org/
   
   - title: Side Tournament @ Combo Breaker
-    description: "Come play at the booth! Top4 will be on stream"
+    description: "Come play at the booth! Top4 will be on stream at 4pm CST"
     type: tournament
+    twitch: netbattles
     when:
       - date: 2023/05/27
         time: 14:30
-        hours: 4
+        hours: 3.5
     links:
       - label: bracket
         url: https://www.start.gg/tournament/all-in-together-community-tournaments-at-cb2023/event/tough-love-arena
