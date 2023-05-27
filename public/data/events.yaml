@@ -37,6 +37,7 @@ events:
         url: https://combobreaker.org/
   
   - title: Side Tournament @ Combo Breaker
+    description: "Come play at the booth! Top4 will be on stream"
     type: tournament
     when:
       - date: 2023/05/27
