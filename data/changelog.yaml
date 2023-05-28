@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.103.6
+    date: 2023/05/28
+    notes:
+      - Redeployed 0.103.6
   - v: 0.103.5
     date: 2023/05/28
     notes:
