@@ -1,9 +1,17 @@
 ---
 versions:
+  - v: 0.103.8
+    date: 2023/05/28
+    notes:
+      - Redeployed 0.103.7
+  - v: 0.103.7
+    date: 2023/05/28
+    notes:
+      - 'Event Mode: Changed "unlock bosses" cheat code to persist across refreshes'
   - v: 0.103.6
     date: 2023/05/28
     notes:
-      - Redeployed 0.103.6
+      - Redeployed 0.103.5
   - v: 0.103.5
     date: 2023/05/28
     notes:
