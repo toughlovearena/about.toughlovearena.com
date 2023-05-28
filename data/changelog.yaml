@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.103.5
+    date: 2023/05/28
+    notes:
+      - "Win Screen: Pressing Throw acts the same as pressing Light (to match other menus)"
+      - "Maintenance: Updated Node (v14 > v16) and various dependencies"
   - v: 0.103.4
     date: 2023/05/21
     notes:
