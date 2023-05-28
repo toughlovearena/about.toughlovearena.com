@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.103.9
+    date: 2023/05/28
+    notes:
+      - "Accounts: Fixed login bug caused by JWT tooling"
+      - "Maintenance: Changed tool used for copying lobby/replay codes to clipboard"
   - v: 0.103.8
     date: 2023/05/28
     notes:
