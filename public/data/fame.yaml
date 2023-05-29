@@ -329,17 +329,27 @@ events:
     youtube: 8NIJ9zwaiuE
 
   # official
+  - date: 2023/05/28
+    name: Combo Breaker
+    entrants: 19
+    winner: Handsome Phil
+    category: official
+    links:
+      - label: Bracket
+        url: "https://www.start.gg/tournament/all-in-together-community-tournaments-at-cb2023/event/tough-love-arena/standings"
   - date: 2023/04/07
     name: April Fools Tournament
     entrants: 34
     winner: The Grum
     category: official
     challonge: tlafools23
+    youtube: UTPm1w5tHAY
   - date: 2023/02/04
     name: Frosty Faustings
     entrants: 11
     winner: DawnAtNite
     category: official
+    youtube: VmJk1PJMdmU
     links:
       - label: Bracket
         url: "https://www.start.gg/tournament/official-side-events-at-frosty-faustings-xv-2023/events/tough-love-arena-saturday-10-00-am-start-5-entry/brackets/1266656/1942740/standings"
