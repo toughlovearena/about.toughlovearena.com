@@ -5,7 +5,7 @@ const ResultsInfo = (props: { filtered: HallOfFameEntry[] }) => {
   const count = props.filtered.length.toString();
   const label = count === "1" ? "tournament" : "tournaments";
   return (
-    <div style={{ width: "12em" }}>
+    <div>
       Showing {count} {label}
     </div>
   );
