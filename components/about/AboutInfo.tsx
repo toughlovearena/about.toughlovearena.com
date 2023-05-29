@@ -24,6 +24,12 @@ const playtesters = [
   'Tony Pietra',
 ].sort();
 
+const specialThanks = [
+  'shygybeats',
+  'Phil Cogar',
+  'David "UltraDavid" Graham',
+];
+
 export const AboutInfo = () => {
   const { width } = useDocumentSize();
   const minWidth = 150;
@@ -107,9 +113,12 @@ export const AboutInfo = () => {
           <TextColumns columns={columns} text={playtesters} />
         </section>
         <section>
-          <div className={styles.medium}>
-            Special thanks to David "UltraDavid" Graham and shygybeats
+          <div className={styles.large}>
+            Special Thanks
           </div>
+        </section>
+        <section className={styles.medium}>
+          <TextColumns columns={1} text={specialThanks} />
         </section>
 
         <section>
