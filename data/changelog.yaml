@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.103.10
+    date: 2023/05/29
+    notes:
+      - "Boss Characters: The version you unlock has normal health values to make them more fair in casual play"
+      - "Maintenance: Cleaned up dependencies and refactored dev tools"
   - v: 0.103.9
     date: 2023/05/28
     notes:
