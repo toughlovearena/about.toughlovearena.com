@@ -18,6 +18,28 @@ events:
   # please put new events at the top of the file
 
   # 2023
+
+  - title: Tough Love Gauntlet 115
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: shygybeats
+    challonge: ToughLoveGauntlet115
+    when:
+      - date: 2023/06/16
+        time: 18:30
+        hours: 3
+
+  - title: Tough Love Gauntlet 114
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: shygybeats
+    challonge: ToughLoveGauntlet114
+    when:
+      - date: 2023/06/09
+        time: 18:30
+        hours: 3
   
   - title: TLA @ Combo Breaker
     description: "Come meet the devs at Combo Breaker"
