@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.103.11
+    date: 2023/06/10
+    notes:
+      - "Boss Characters: Fixed bugs caused by real Boss and playable Boss having the same backend ID"
   - v: 0.103.10
     date: 2023/05/29
     notes:
