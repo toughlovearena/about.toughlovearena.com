@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.103.12
+    date: 2023/06/26
+    notes:
+      - "Boss Characters: Fixed bug where Boss Characters weren't selectable after being unlocked"
   - v: 0.103.11
     date: 2023/06/10
     notes:
