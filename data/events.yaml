@@ -25,7 +25,7 @@ events:
     when:
       - date: 2023/08/04
         time: 13:00
-        hours: 72
+        hours: 60
 
   - title: TLA @ Defend the North
     description: "Come meet the developers at Defend the North"
@@ -33,7 +33,7 @@ events:
     when:
       - date: 2023/07/14
         time: 10:00
-        hours: 72
+        hours: 60
 
   - title: Tough Love Gauntlet 118
     description: Free online tournament every Friday night
