@@ -27,6 +27,17 @@ events:
         time: 13:00
         hours: 60
 
+  - title: TLA Summer Tournament
+    description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tlasummer
+    when:
+      - date: 2023/07/28
+        time: 19:00
+        hours: 4
+
   - title: TLA @ Defend the North
     description: "Come meet the developers at Defend the North"
     type: meetup
