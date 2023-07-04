@@ -78,6 +78,11 @@ export const Documentary: YouTubeLink = {
 };
 
 export const YouTubeVideos: YouTubeLink[] = [{
+  date: '2023-06-17',
+  channel: 'Meep',
+  title: `Tough Love Arena CMV 「Man with the Hex」`,
+  vid: 'WpXuDwY1gPk',
+}, {
   date: '2023-05-13',
   channel: 'Meep',
   title: `Tough Love Arena CMV 「Good Life」`,
