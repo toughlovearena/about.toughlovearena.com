@@ -66,6 +66,10 @@ export const AboutInfo = () => {
           </div>
         </section>
 
+        <section>
+          Send emails to <b>hello (at) toughlovearena (dot) com</b>
+        </section>
+
         <div className={styles.gap}></div>
 
         {/* mirrors */}
