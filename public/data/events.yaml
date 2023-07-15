@@ -27,6 +27,17 @@ events:
         time: 13:00
         hours: 60
 
+  - title: Tough Love Gauntlet 121
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: shygybeats
+    challonge: ToughLoveGauntlet121
+    when:
+      - date: 2023/08/04
+        time: 18:30
+        hours: 3
+
   - title: TLA Summer Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
     type: tournament
@@ -37,6 +48,17 @@ events:
       - date: 2023/07/28
         time: 19:00
         hours: 4
+
+  - title: Tough Love Gauntlet 120
+    description: Free online tournament every Friday night
+    type: tournament
+    image: toughlovegauntlet.jpg
+    twitch: shygybeats
+    challonge: ToughLoveGauntlet120
+    when:
+      - date: 2023/07/21
+        time: 18:30
+        hours: 3
 
   - title: TLA @ Defend the North
     description: "Come meet the developers at Defend the North"
