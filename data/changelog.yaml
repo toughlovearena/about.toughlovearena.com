@@ -1,5 +1,16 @@
 ---
 versions:
+  - v: 0.103.13
+    date: 2023/07/21
+    notes:
+      - "Beef/Pork: Heavy Punch damage decreaseed 90 > 80"
+      - "Beef/Pork: Palm damage increased 60 > 70"
+      - "Beef/Pork: Jump knee hitbox slightly reduced to better match animation"
+      - "Beef/Pork: Hitting airborne Tackle relaunches with 1 juggle points (always combos into Uppercut)"
+      - "Pork: Jump Cancel changed back from Caber Run to an empty jump"
+      - "Onion: Followup parries (for multihit moves) has been moved to Light, removing accidental cancels"
+      - "Secret Spice: Limit afterimage animation to only attacks"
+      - "Maintenance: Added features to Canary test site"
   - v: 0.103.12
     date: 2023/06/26
     notes:
