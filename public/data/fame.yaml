@@ -1,6 +1,16 @@
 ---
 events:
   # recent
+  - date: 2023/07/21
+    name: "Tough Love Gauntlet #120"
+    entrants: 15
+    winner: Table
+    challonge: ToughLoveGauntlet120
+  - date: 2023/07/14
+    name: "Tough Love Gauntlet #119"
+    entrants: 14
+    winner: Table
+    challonge: ToughLoveGauntlet119
   - date: 2023/07/07
     name: "Tough Love Gauntlet #118"
     entrants: 14
