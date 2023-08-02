@@ -1,5 +1,9 @@
 ---
-draft:
+versions:
+  - v: 0.104.1
+    date: 2023/08/01
+    notes:
+      - 'Menu: Fixed bug where the "Patch Notes" displayed on launch were out of date'
   - v: 0.104.0
     date: 2023/08/01
     notes:
@@ -10,7 +14,6 @@ draft:
       - "If a throw connects on the same frame as an attack, the throw wins"
       - "Noodle: Fixed bug where Soup could be hit by throw hitboxes"
       - "Gameplay: Removed ability to kara cancel up the attack chain (L > H > S > T)"
-versions:
   - v: 0.103.13
     date: 2023/07/21
     notes:
