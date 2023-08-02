@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.104.2
+    date: 2023/08/02
+    notes:
+      - "Modding: Fixed bug where particles were trying to load from the wrong folder"
   - v: 0.104.1
     date: 2023/08/01
     notes:
