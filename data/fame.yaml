@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2023/08/04
+    name: "Tough Love Gauntlet #121"
+    entrants: 16
+    winner: Table
+    challonge: ToughLoveGauntlet121
   - date: 2023/07/21
     name: "Tough Love Gauntlet #120"
     entrants: 15
@@ -380,6 +385,13 @@ events:
     youtube: 8NIJ9zwaiuE
 
   # official
+  - date: 2023/07/28
+    name: Summer Tournament
+    entrants: 33
+    winner: Askadoodle
+    category: official
+    challonge: tlasummer
+    youtube: 8zpouX02WL8
   - date: 2023/05/28
     name: Combo Breaker
     entrants: 19
