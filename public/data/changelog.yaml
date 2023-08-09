@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.104.3
+    date: 2023/08/08
+    notes:
+      - "Pork: If Pork is grabbed during Caber run, they will now automatically tech the throw"
+      - "Rice: Swipe can now hit vs airborne, opening up new AA combos"
   - v: 0.104.2
     date: 2023/08/02
     notes:
