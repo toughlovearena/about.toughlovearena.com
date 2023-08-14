@@ -78,6 +78,16 @@ export const Documentary: YouTubeLink = {
 };
 
 export const YouTubeVideos: YouTubeLink[] = [{
+  date: '2022-08-05',
+  channel: 'EVO',
+  title: 'Tough Love Arena - Developer Panel - EVO 2022',
+  vid: 'AyYXqth8RZg',
+}, {
+  date: '2022-08-05',
+  channel: 'EVO',
+  title: 'State of the Indie FGC Panel - EVO 2022',
+  vid: 'rMWO6PFLWT8',
+}, {
   date: '2023-06-17',
   channel: 'Meep',
   title: `Tough Love Arena CMV 「Man with the Hex」`,
