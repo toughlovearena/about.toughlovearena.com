@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2023/08/11
+    name: "Tough Love Gauntlet #122"
+    entrants: 16
+    winner: Table
+    challonge: ToughLoveGauntlet122
   - date: 2023/08/04
     name: "Tough Love Gauntlet #121"
     entrants: 16
