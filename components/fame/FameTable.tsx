@@ -20,31 +20,25 @@ const DefaultOrder: Record<SortBy, SortOrder> = {
   [SortBy.WinnerName]: SortOrder.Ascending,
   [SortBy.EntrantNum]: SortOrder.Descending,
 };
+function collectLinks(entry: HallOfFameEntry): HallOfFameLink[] {
+  const links = (entry.links ?? []).concat();
+  if (entry.challonge) {
+    links.push({
+      label: 'Bracket',
+      url: entry.challonge.startsWith("https://")
+        ? entry.challonge
+        : `https://challonge.com/${entry.challonge}`,
+    });
+  }
+  if (entry.youtube) {
+    links.push({
+      label: 'Video',
+      url: `https://youtube.com/watch?v=${entry.youtube}`,
+    });
+  }
+  return sortArrayOfObjects(links, link => link.label);
+}
 
-function FameChallonge({challonge,}: {challonge?: string}) {
-  if (!challonge) {
-    return null;
-  }
-  const url = challonge.startsWith("https://")
-    ? challonge
-    : `https://challonge.com/${challonge}`;
-  return (
-    <ExternalLink href={url}>
-      Bracket
-    </ExternalLink>
-  );
-}
-function FameYouTube({youtube}: {youtube?: string}) {
-  if (!youtube) {
-    return null;
-  }
-  const url = `https://youtube.com/watch?v=${youtube}`;
-  return (
-    <ExternalLink href={url}>
-      Video
-    </ExternalLink>
-  );
-}
 function FameSortIcon({isCurrent, sortOrder}: {
   isCurrent: boolean,
   sortOrder: SortOrder,
@@ -165,9 +159,11 @@ export const FameTable = (props: {
                   {row.winner}
                 </div>
                 <div>
-                  <FameChallonge {...row} />
-                  {' '}
-                  <FameYouTube {...row} />
+                  {collectLinks(row).map(link => (
+                    <ExternalLink key={['mobile', link.url].join('-')} href={link.url}>
+                      {link.label}
+                    </ExternalLink>
+                  ))}
                 </div>
               </div>
               <div className={styles.mobileEntrants}>{row.entrants}</div>
@@ -222,10 +218,8 @@ export const FameTable = (props: {
               <div className={styles.cellWinnerBody}>{row.winner}</div>
               <div className={styles.cellEntrantsBody}>{row.entrants}</div>
               <div className={styles.cellLinks}>
-                <FameChallonge {...row} />
-                <FameYouTube {...row} />
-                {row.links?.map((link, li) => (
-                  <ExternalLink key={li} href={link.url}>
+                {collectLinks(row).map(link => (
+                  <ExternalLink key={['desktop', link.url].join('-')} href={link.url}>
                     {link.label}
                   </ExternalLink>
                 ))}

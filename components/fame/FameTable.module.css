@@ -97,6 +97,9 @@
 
   flex-grow: 1;
 }
+.mobileInfo a {
+  margin-right: 0.5em;
+}
 .mobileInfo > * {
   margin: 0.3em 0;
 }
