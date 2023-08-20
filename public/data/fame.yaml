@@ -1,6 +1,17 @@
 ---
 events:
   # recent
+  - date: 2023/08/14
+    name: "TLA Footsies"
+    entrants: 6
+    winner: SquidSlash
+    challonge: TLAFootsies
+    youtube: 1g1dqGQVuco
+  - date: 2023/08/18
+    name: "Tough Love Gauntlet #123"
+    entrants: 16
+    winner: cheeseeater
+    challonge: ToughLoveGauntlet123
   - date: 2023/08/11
     name: "Tough Love Gauntlet #122"
     entrants: 16
