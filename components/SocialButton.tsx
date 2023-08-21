@@ -1,11 +1,11 @@
-import { CSSProperties, useState } from "react";
+import { CSSProperties, HTMLAttributes, useState } from "react";
 import { ExternalLink } from "./ExternalLink";
 import styles from './SocialButton.module.css';
 
-export const SocialButton = (props: {
+export function SocialButton(props: {
   url: string;
   img: string;
-}) => {
+} & Pick<HTMLAttributes<HTMLAnchorElement>, 'className'>) {
   const [highlight, setHighlight] = useState(false);
 
   const buttonStyle: CSSProperties = {
@@ -16,7 +16,7 @@ export const SocialButton = (props: {
     backgroundImage: `url(${props.img})`,
   };
   return (
-    <ExternalLink href={props.url}>
+    <ExternalLink href={props.url} className={props.className}>
       <span className={styles.container}>
         <div
           className={styles.button}

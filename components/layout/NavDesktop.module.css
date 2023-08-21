@@ -42,6 +42,9 @@
 .navRight {
   justify-content: right;
 }
+.navSocial {
+  margin: 0 0.2em;
+}
 
 .navLink {
   cursor: pointer;

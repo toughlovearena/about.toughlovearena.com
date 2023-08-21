@@ -62,7 +62,7 @@ export const AboutInfo = () => {
 
         <section>
           <div className={styles.social}>
-            {Social.map(link => <SocialButton img={link.imageSrc} url={link.url} />)}
+            {Social.map(link => <SocialButton key={link.url} img={link.imageSrc} url={link.url} />)}
           </div>
         </section>
 

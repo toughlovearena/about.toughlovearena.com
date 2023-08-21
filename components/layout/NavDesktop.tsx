@@ -3,6 +3,8 @@ import { InternalPage } from '../../data/nav';
 import { NavProps } from '../../interfaces';
 import { ExternalLink } from '../ExternalLink';
 import styles from './NavDesktop.module.css';
+import { Social } from '../../data/links';
+import { SocialButton } from '../SocialButton';
 
 export default ({ currentHref, links, }: NavProps) => (
   <div className={styles.container}>
@@ -14,6 +16,14 @@ export default ({ currentHref, links, }: NavProps) => (
             <img src="/logo_v01.png" />
           </a>
         </Link>
+        {Social.map(link =>
+          <SocialButton
+            key={link.url}
+            className={styles.navSocial}
+            img={link.imageSrc}
+            url={link.url}
+          />
+        )}
       </div>
       <div className={styles.navRight}>
         {links.map((li, i) => (
