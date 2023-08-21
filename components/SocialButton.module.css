@@ -3,7 +3,7 @@
 }
 
 .container .button {
-  background-color: black;
+  background-color: white;
   background-size: auto 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,9 +11,13 @@
   border-radius: 200%;
   box-sizing: border-box;
 
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 
-  width: 3em;
-  height: 3em;
+  width: 1em;
+  height: 1em;
+}
+
+.button:hover {
+  filter: invert(100%);
 }
