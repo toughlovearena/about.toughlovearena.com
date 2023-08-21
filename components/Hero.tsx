@@ -60,6 +60,11 @@ export default () => {
           <div className={styles.pitch}>
             Tough Love Arena is a web-based, indie fighting game with rollback netcode that's 100% free to play!
           </div>
+          <div className={styles.pitch}>
+            Try it out now with no installation required at
+            <br/>
+            <ExternalLink href="https://toughlovearena.com">toughlovearena.com</ExternalLink>
+          </div>
         </div>
         <div className={styles.bottom}>
           <div className={styles.quote} style={quoteStyle}>

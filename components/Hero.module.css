@@ -55,6 +55,9 @@
   justify-content: center;
   align-items: center;
 }
+.pitch a {
+  color: inherit;
+}
 
 .quote {
   padding: 2em;
