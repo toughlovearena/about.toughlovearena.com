@@ -103,6 +103,12 @@ export const YouTubeVideos: YouTubeLink[] = [{
   title: `Tough Love Arena & Character Overlap: a Case Study`,
   vid: 'IOfN2jKnnKQ',
 }, {
+  date: '2023-08-19',
+  channel: 'GekkoSquirrel',
+  title: `5 Cheap (Or Free) Fighting Games You Should Try Now!`,
+  vid: 'vH7gKHmbyxk',
+  timestamp: 806,
+}, {
   date: '2021-05-14',
   channel: 'GekkoSquirrel',
   title: `Why NOW Is The Best Time To Get Into Fighting Games`,
