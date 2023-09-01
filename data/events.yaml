@@ -19,6 +19,17 @@ events:
 
   # 2023
 
+  - title: TLA Halloween Tournament
+    description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tlahalloween23
+    when:
+      - date: 2023/10/20
+        time: 19:00
+        hours: 3
+
   - title: Tough Love Gauntlet 126
     description: Free online tournament every Friday night
     type: tournament
