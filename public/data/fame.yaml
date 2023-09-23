@@ -1,6 +1,16 @@
 ---
 events:
   # recent
+  - date: 2023/09/22
+    name: "Tough Love Gauntlet #128"
+    entrants: 6
+    winner: Mari
+    challonge: ToughLoveGauntlet128
+  - date: 2023/09/15
+    name: "Tough Love Gauntlet #127"
+    entrants: 11
+    winner: Joro
+    challonge: ToughLoveGauntlet127
   - date: 2023/09/08
     name: "Tough Love Gauntlet #126"
     entrants: 17
