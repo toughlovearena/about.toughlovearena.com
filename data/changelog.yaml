@@ -1,5 +1,15 @@
 ---
 versions:
+  - v: 0.105.0
+    date: 2023/10/01
+    notes:
+      - "Matchmaking has been rewritten to now run in the background"
+      - "Now when you start matchmaking, you can back out and go do other things like Local VS or Training"
+      - "There is a new matchmaking indicator in the bottom left, above the game version"
+      - "When the matchmaker is idle, click the indicator to start searching for a Casual Match"
+      - "When the matchmaker it in progress, click the indicator to stop searching"
+      - "Whenever you finish fighting, you will now have an option to requeue"
+      - "Ranked: You can now see the MMR you gained from an opponent rage quitting"
   - v: 0.104.3
     date: 2023/08/08
     notes:
