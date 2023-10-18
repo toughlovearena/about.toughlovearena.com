@@ -10,24 +10,6 @@ export const GalleryAssets: GalleryItem[] = [{
   file: 'welcomepage_beta.jpg',
   description: 'Beta splash screen',
 }, {
-  file: 'stage_notebook.jpg',
-  description: 'Notebook Stage',
-}, {
-  file: 'stage_apartment.jpg',
-  description: 'Apartment Stage',
-}, {
-  file: 'stage_playground.jpg',
-  description: 'Playground Stage',
-}, {
-  file: 'stage_grocery.jpg',
-  description: 'Grocery Store Stage',
-}, {
-  file: 'stage_parkinglot.jpg',
-  description: 'Parking Lot Stage',
-}, {
-  file: 'stage_random.jpg',
-  description: 'Random Stage',
-}, {
   file: '2023_promo_wonderville.jpg',
   description: 'Promo art for Wonderville',
   when: 'January 2023',
@@ -64,8 +46,32 @@ export const GalleryAssets: GalleryItem[] = [{
   description: 'Promo art for Balance Patch event',
   when: 'October 2021',
 }, {
+  file: 'stage_notebook.jpg',
+  description: 'Notebook Stage',
+}, {
+  file: 'stage_apartment.jpg',
+  description: 'Apartment Stage',
+}, {
+  file: 'stage_playground.jpg',
+  description: 'Playground Stage',
+}, {
+  file: 'stage_grocery.jpg',
+  description: 'Grocery Store Stage',
+}, {
+  file: 'stage_parkinglot.jpg',
+  description: 'Parking Lot Stage',
+}, {
+  file: 'stage_random.jpg',
+  description: 'Random Stage',
+}, {
+  file: 'welcomepage_bday.jpg',
+  description: 'Birthday Theme',
+}, {
   file: 'welcomepage_apf.jpg',
-  description: 'April Fools 2021',
+  description: 'April Fools Theme',
+}, {
+  file: 'welcomepage_halloween.jpg',
+  description: 'Halloween Theme',
 }].map(item => ({
   original: `/asset/gallery/maxres/${item.file}`,
   preview: `/asset/gallery/720p/${item.file}`,
