@@ -1,6 +1,21 @@
 ---
 events:
   # recent
+  - date: 2023/10/13
+    name: "Tough Love Gauntlet #131"
+    entrants: 11
+    winner: Bloop
+    challonge: ToughLoveGauntlet131
+  - date: 2023/10/06
+    name: "Tough Love Gauntlet #130"
+    entrants: 16
+    winner: Mari
+    challonge: ToughLoveGauntlet130
+  - date: 2023/09/29
+    name: "Tough Love Gauntlet #129"
+    entrants: 6
+    winner: JoRo
+    challonge: ToughLoveGauntlet129
   - date: 2023/08/13
     name: Triangle Kevin 6
     entrants: 6
