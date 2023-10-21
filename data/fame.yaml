@@ -1,6 +1,12 @@
 ---
 events:
   # recent
+  - date: 2023/10/20
+    name: Halloween Tournament 2023
+    entrants: 37
+    winner: Handsome Phil
+    category: official
+    challonge: tlahalloween23
   - date: 2023/10/13
     name: "Tough Love Gauntlet #131"
     entrants: 11
