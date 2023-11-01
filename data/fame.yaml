@@ -1,6 +1,12 @@
 ---
 events:
   # recent
+  - date: 2023/10/27
+    name: "Tough Love Gauntlet #132"
+    entrants: 14
+    winner: Table
+    challonge: ToughLoveGauntlet132
+    youtube: n7AlNu7TyTc
   - date: 2023/10/20
     name: Halloween Tournament 2023
     entrants: 37
@@ -8,6 +14,12 @@ events:
     category: official
     challonge: tlahalloween23
     youtube: avgV65E7IFE
+  - date: 2023/10/18
+    name: FEJEF
+    entrants: 40
+    winner: Porta Falante
+    challonge: FEJEF_TLA
+    youtube: gorBO58XA_U
   - date: 2023/10/13
     name: "Tough Love Gauntlet #131"
     entrants: 11
