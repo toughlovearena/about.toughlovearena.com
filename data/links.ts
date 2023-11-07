@@ -77,6 +77,10 @@ export const Documentary: YouTubeLink = {
   vid: '4p1uCwywgj4',
 };
 
+export const Playlists = {
+  StateOfTheGame: 'https://www.youtube.com/playlist?list=PLMxwAGIp4IIiia5E9d8MvqYbClpqlgPNZ',
+}
+
 export const YouTubeVideos: YouTubeLink[] = [{
   date: '2022-08-05',
   channel: 'EVO',

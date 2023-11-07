@@ -1,8 +1,8 @@
-import { CommunityResources, Documentary, YouTubeVideos } from "../../data/links";
+import { CommunityResources, Documentary, Playlists, YouTubeVideos } from "../../data/links";
 import { sortArrayOfObjects } from "../../utils/list";
 import { Column } from "../Column";
 import { ExternalLink } from "../ExternalLink";
-import { YouTubePreview } from "../YouTubePreview";
+import { YouTubePlaylist, YouTubePreview } from "../YouTubePreview";
 import styles from './Community.module.css';
 
 export const Community = () => {
@@ -30,6 +30,15 @@ export const Community = () => {
         </section>
         <section>
           <YouTubePreview link={Documentary} />
+        </section>
+
+        <section>
+          <div className={styles.large}>
+            State of the Game Playlist
+          </div>
+        </section>
+        <section>
+          <YouTubePlaylist url={Playlists.StateOfTheGame} />
         </section>
 
         <section>

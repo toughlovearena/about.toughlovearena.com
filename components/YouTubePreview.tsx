@@ -1,10 +1,12 @@
-import { CSSProperties, ReactNode } from "react";
+import { CSSProperties } from "react";
 import { YouTubeLink } from "../interfaces";
 import { ExternalLink } from "./ExternalLink";
 import styles from './YouTubePreview.module.css';
 
 const YouTubeEmbed = (props: { url: string; }) => {
-  const embedUrl = props.url.replace('/watch?v=', '/embed/').replace('&t=', '?start=');
+  const embedUrl = props.url
+    .replace('/watch?v=', '/embed/')
+    .replace('&t=', '?start=');
   return (
     <iframe
       className={styles.iframe}
@@ -12,10 +14,22 @@ const YouTubeEmbed = (props: { url: string; }) => {
       title="YouTube video player"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen>
-    </iframe>
+      allowFullScreen={true}
+    />
   )
 };
+
+export function YouTubePlaylist(props: { url: string; }) {
+  // https://www.youtube.com/embed/videoseries?si=R6LPO8cK-0bh0w0p&amp;list=PLMxwAGIp4IIiia5E9d8MvqYbClpqlgPNZ
+  // https://www.youtube.com/playlist?list=PLMxwAGIp4IIiia5E9d8MvqYbClpqlgPNZ
+  const embedUrl = props.url
+    .replace('/playlist', '/embed/videoseries');
+  return (
+    <div className={styles.block}>
+      <YouTubeEmbed url={embedUrl} />
+    </div>
+  );
+}
 
 export const YouTubePreview = (props: {
   link: YouTubeLink;
