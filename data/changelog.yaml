@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.106.1
+    date: 2023/11/23
+    notes:
+      - "Gameplay: Fixed bug where non-training game modes wouldn't start"
   - v: 0.106.0
     date: 2023/11/23
     notes:
