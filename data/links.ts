@@ -118,6 +118,12 @@ export const YouTubeVideos: YouTubeLink[] = [{
   vid: 'vH7gKHmbyxk',
   timestamp: 806,
 }, {
+  date: '2021-05-28',
+  channel: 'Mike Levesque',
+  title: `Potential Limiters: Creative Roadblocks in Fighting Games`,
+  vid: 'GtMHUcKcJ7E',
+  timestamp: 233,
+}, {
   date: '2021-05-14',
   channel: 'GekkoSquirrel',
   title: `Why NOW Is The Best Time To Get Into Fighting Games`,
