@@ -102,6 +102,11 @@ export const YouTubeVideos: YouTubeLink[] = [{
   title: `Tough Love Arena CMV 「Good Life」`,
   vid: 'MitNyQut6cA',
 }, {
+  date: '2023-11-24',
+  channel: 'TableLol',
+  title: `「Sheep Will Sleep」A Rice TLA CMV`,
+  vid: 'gHb36uIFx54',
+}, {
   date: '2022-04-19',
   channel: 'EllingtonReborn',
   title: `Tough Love Arena & Character Overlap: a Case Study`,
