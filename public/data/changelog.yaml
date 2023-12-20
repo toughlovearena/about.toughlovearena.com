@@ -1,5 +1,15 @@
 ---
 versions:
+  - v: 0.106.2
+    date: 2023/12/19
+    notes:
+      - "Noodle: Frenzy pushback increased by 50% to limit oki options"
+      - "Rice: Teleport can now cancel the end of their recovery into throw"
+      - "Rice: Removed startup invulnerability from Swat"
+      - "Rice: 5H > 5H > 4S now teleports back a fixed distance away from the opponent"
+      - "Pork: Fixed Caber Toss to auto tech when thrown out of the run animation"
+      - "Pork: Fixed Caber Toss tech to put characters at the same distance as a normal throw tech"
+      - "Modding: CancelConfig.onHitTumbling added"
   - v: 0.106.1
     date: 2023/11/23
     notes:
