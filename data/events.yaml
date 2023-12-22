@@ -17,6 +17,20 @@ events:
 
   # please put new events at the top of the file
 
+  # 2024
+  - title: Game Dev Stream
+    description: Watch the game development process and chat with the creators of TLA
+    type: stream
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    when:
+      - date: 2024/01/09
+        time: 20:00
+        hours: 2
+    repeat:
+      - 2024/01/16
+      - 2024/01/23
+
   # 2023
 
   - title: Tough Love Gauntlet 141
