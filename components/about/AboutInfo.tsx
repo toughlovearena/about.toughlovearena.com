@@ -27,6 +27,7 @@ const playtesters = [
 const specialThanks = [
   'shygybeats',
   'Phil Cogar',
+  'Highrow',
   'David "UltraDavid" Graham',
 ];
 
