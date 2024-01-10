@@ -54,6 +54,12 @@ function convertEventDTO(dto: EventDTO): EventData[] {
       ...dto,
       series: [],
       ...newEvent,
+      when: newEvent.when
+        ? newEvent.when.map(when => ({
+          ...w,
+          ...when,
+        }))
+        : dto.when,
     })).flat();
 
     return [eventData, ...repeats, ...series];
