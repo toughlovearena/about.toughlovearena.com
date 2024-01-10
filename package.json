@@ -6,11 +6,11 @@
   "dependencies": {
     "calendar-link": "2.2.0",
     "copy-to-clipboard": "3.3.2",
-    "next": "12.1.6",
+    "next": "^14.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-linkify": "1.0.0-alpha",
-    "yaml": "2.1.1"
+    "yaml": "^2.3.4"
   },
   "devDependencies": {
     "@types/node": "18.7.0",
