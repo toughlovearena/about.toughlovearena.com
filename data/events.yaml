@@ -29,6 +29,56 @@ events:
       - date: 2024/01/12
         time: 18:30
         hours: 3
+    series:
+      - title: Tough Love Gauntlet 143
+        challonge: ToughLoveGauntlet143
+        when:
+          - date: 2024/01/19
+            time: 18:30
+            hours: 3
+      - title: Tough Love Gauntlet 144
+        challonge: ToughLoveGauntlet144
+        when:
+          - date: 2024/01/26
+            time: 18:30
+            hours: 3
+      - title: Tough Love Gauntlet 145
+        challonge: ToughLoveGauntlet145
+        when:
+          - date: 2024/02/02
+            time: 18:30
+            hours: 3
+      - title: Tough Love Gauntlet 146
+        challonge: ToughLoveGauntlet146
+        when:
+          - date: 2024/02/09
+            time: 18:30
+            hours: 3
+      - title: Tough Love Gauntlet 147
+        challonge: ToughLoveGauntlet147
+        when:
+          - date: 2024/02/16
+            time: 18:30
+            hours: 3
+      - title: Tough Love Gauntlet 148
+        challonge: ToughLoveGauntlet148
+        when:
+          - date: 2024/02/23
+            time: 18:30
+            hours: 3
+      - title: Tough Love Gauntlet 149
+        challonge: ToughLoveGauntlet149
+        when:
+          - date: 2024/03/01
+            time: 18:30
+            hours: 3
+      - title: Tough Love Gauntlet 150
+        challonge: ToughLoveGauntlet150
+        description: Celebrating 150 TLGs with a big tourney!
+        when:
+          - date: 2024/03/08
+            time: 18:30
+            hours: 3
 
   - title: TLA Birthday Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
@@ -430,7 +480,7 @@ events:
       - date: 2023/06/09
         time: 18:30
         hours: 3
-  
+
   - title: TLA @ Combo Breaker
     description: "Come meet the devs at Combo Breaker"
     type: meetup
@@ -447,7 +497,7 @@ events:
     links:
       - label: website
         url: https://combobreaker.org/
-  
+
   - title: Side Tournament @ Combo Breaker
     description: "Come play at the booth! Top4 will be on stream at 4pm CST"
     type: tournament
@@ -1104,7 +1154,6 @@ events:
       - date: 2022/12/19
         time: 20:00
         hours: 2
-
 
   - title: Tough Love Gauntlet 075
     description: Free online tournament every Friday night
