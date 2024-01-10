@@ -1,5 +1,5 @@
-import { AllEvents, EventData, EventDTO, EventWhenDTO } from '../interfaces';
-import { flatten, sortArrayOfObjects } from './list';
+import { EventData, EventDTO, EventWhenDTO } from '../interfaces';
+import { flatten } from './list';
 
 // https://stackoverflow.com/a/57842203
 function dateWithTimeZone(timeZone: string, year: number, month: number, day: number, hour: number, minute: number, second: number) {
@@ -50,7 +50,13 @@ function convertEventDTO(dto: EventDTO): EventData[] {
       };
     });
 
-    return [eventData, ...repeats];
+    const series = (dto.series ?? []).map<EventData[]>(newEvent => convertEventDTO({
+      ...dto,
+      series: [],
+      ...newEvent,
+    })).flat();
+
+    return [eventData, ...repeats, ...series];
   }));
 }
 

@@ -50,6 +50,7 @@ export interface EventDTO {
 
   when: EventWhenDTO[];
   repeat?: string[];
+  series?: Partial<EventDTO>[];
 }
 export interface EventsYaml {
   events: EventDTO[];
