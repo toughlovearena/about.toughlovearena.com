@@ -6,7 +6,7 @@ module.exports = {
     dev: 'next',
 
     // build
-    build: 'next build && next export',
+    build: 'next build',
     typeCheck: 'tsc',
 
     // tools
