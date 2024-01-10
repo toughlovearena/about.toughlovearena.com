@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Router, useRouter } from "next/router";
 import { useEffect } from "react";
 import { pageview } from "../utils/gtag";
@@ -23,5 +24,15 @@ export default function AboutApp({ Component, pageProps }) {
     }
   }, [router.events])
 
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Head>
+        {/* universal meta */}
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="theme-color" content="#000000" />
+      </Head>
+      <Component {...pageProps} />;
+    </>
+  );
 }

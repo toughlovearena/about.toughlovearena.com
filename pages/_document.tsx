@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Head, Html, Main, NextScript } from 'next/document'
 import { isProd } from '../data/constants'
 import { GTAG_ID } from '../utils/gtag'
 
@@ -8,6 +8,10 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          {/* stylesheets */}
+          <link rel="stylesheet" href="/styles.css" />
+
+          {/* gtag */}
           {isProd && (
             <>
               <script

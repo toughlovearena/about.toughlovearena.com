@@ -1,12 +1,12 @@
-import React, { ReactNode } from 'react'
-import Head from 'next/head'
-import NavDesktop from './NavDesktop';
-import { InternalPageData } from '../../interfaces';
-import NavMobile from './NavMobile';
+import Head from 'next/head';
+import { ReactNode } from 'react';
 import { InternalPages } from '../../data/nav';
+import { InternalPageData } from '../../interfaces';
+import styles from './Layout.module.css';
+import NavDesktop from './NavDesktop';
+import NavMobile from './NavMobile';
 import { SectionTitle } from './SectionTitle';
 import { Subtitle } from './Subtitle';
-import styles from './Layout.module.css';
 
 type Props = {
   children: ReactNode;
@@ -33,14 +33,11 @@ const Layout = (props: Props) => {
     <div>
       <Head>
         <title>{Meta.Title}</title>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
-        {/* meta */}
+        {/* page-specific meta */}
         <meta name="description" content={Meta.Description} />
         <link rel="shortcut icon" href={Meta.Favicon} />
         <link rel="apple-touch-icon" href={Meta.Favicon} />
-        <meta name="theme-color" content="#000000" />
 
         {/* Open Graph https://ogp.me/ */}
         <meta property="og:title" content={Meta.Title} />
@@ -48,9 +45,6 @@ const Layout = (props: Props) => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content={Meta.Url} />
         <meta property="og:image" content="https://about.toughlovearena.com/favicon.png" />
-
-        {/* stylesheets */}
-        <link rel="stylesheet" href="/styles.css" />
       </Head>
       <div className={[styles.container, props.pattern ? styles.pattern : ''].join(' ')}>
         <div className={styles.inner}>
