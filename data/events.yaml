@@ -14,6 +14,13 @@ events:
   #   links:
   #     - label: tweet
   #       url: https://twitter.com/...
+  #   repeat:
+  #     - 2022/01/02
+  #     - 2022/01/03
+  #   series:
+  #     - title: The Redux
+  #       when:
+  #         - date: 2022/02/01
 
   # please put new events at the top of the file
 
@@ -34,51 +41,35 @@ events:
         challonge: ToughLoveGauntlet143
         when:
           - date: 2024/01/19
-            time: 18:30
-            hours: 3
       - title: Tough Love Gauntlet 144
         challonge: ToughLoveGauntlet144
         when:
           - date: 2024/01/26
-            time: 18:30
-            hours: 3
       - title: Tough Love Gauntlet 145
         challonge: ToughLoveGauntlet145
         when:
           - date: 2024/02/02
-            time: 18:30
-            hours: 3
       - title: Tough Love Gauntlet 146
         challonge: ToughLoveGauntlet146
         when:
           - date: 2024/02/09
-            time: 18:30
-            hours: 3
       - title: Tough Love Gauntlet 147
         challonge: ToughLoveGauntlet147
         when:
           - date: 2024/02/16
-            time: 18:30
-            hours: 3
       - title: Tough Love Gauntlet 148
         challonge: ToughLoveGauntlet148
         when:
           - date: 2024/02/23
-            time: 18:30
-            hours: 3
       - title: Tough Love Gauntlet 149
         challonge: ToughLoveGauntlet149
         when:
           - date: 2024/03/01
-            time: 18:30
-            hours: 3
       - title: Tough Love Gauntlet 150
         challonge: ToughLoveGauntlet150
         description: Celebrating 150 TLGs with a big tourney!
         when:
           - date: 2024/03/08
-            time: 18:30
-            hours: 3
 
   - title: TLA Birthday Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
@@ -97,7 +88,7 @@ events:
     image: mpaulweeks.jpg
     twitch: mpaulweeks
     when:
-      - date: 2024/01/07
+      - date: 2024/01/09
         time: 20:00
         hours: 2
     repeat:
@@ -119,11 +110,10 @@ events:
     image: mpaulweeks.jpg
     twitch: mpaulweeks
     when:
-      - date: 2024/01/09
+      - date: 2024/01/16
         time: 20:00
         hours: 2
     repeat:
-      - 2024/01/16
       - 2024/01/23
       - 2024/01/30
       - 2024/02/13
