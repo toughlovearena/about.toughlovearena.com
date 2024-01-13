@@ -1,6 +1,18 @@
 ---
 events:
   # recent
+  - date: 2024/01/05
+    name: Birthday Tournament 2024
+    entrants: 33
+    winner: Askadoodle
+    category: official
+    challonge: tlabday24
+  - date: 2023/12/29
+    name: "Tough Love Gauntlet #141"
+    challonge: ToughLoveGauntlet141
+    entrants: 12
+    winner: Askadoodle
+    youtube: Rg-a0tfS7EA
   - date: 2023/12/22
     name: "Tough Love Gauntlet #140"
     challonge: ToughLoveGauntlet140
