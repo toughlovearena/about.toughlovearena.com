@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.106.3
+    date: 2024/01/16
+    notes:
+      - 'Lobbies: Added new host feature "Prevent Start" that lets the host prevent the game from automatically starting when both players mark themselves READY'
+      - "Lobbies: Fixed bug where the P2's READY status wasn't being reset when P1 left the queue"
+      - "Mobile: Hid the matchmaking button during gameplay since it was interfering with the controls"
+      - "Mobile: Made the social icons closer on the main menu to make it easier to click the matchmaking button"
   - v: 0.106.2
     date: 2023/12/19
     notes:
