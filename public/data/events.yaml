@@ -26,6 +26,17 @@ events:
 
   # 2024
 
+  - title: TLA April Fools 24
+    description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tlafools24
+    when:
+      - date: 2024/04/05
+        time: 19:00
+        hours: 3
+
   - title: TLA @ Wonderville
     description: "Come meet the devs at Wonderville in Brooklyn, NY"
     type: meetup
