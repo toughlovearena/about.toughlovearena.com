@@ -1,14 +1,13 @@
+import fs from 'fs';
 import { GetStaticProps } from "next";
+import { useState } from "react";
+import YAML from 'yaml';
+import { FameHeader } from "../components/fame/FameHeader";
+import { FameSearch } from "../components/fame/FameSearch";
+import { FameTable } from "../components/fame/FameTable";
 import Layout from "../components/layout/Layout";
 import { InternalPage } from "../data/nav";
-import YAML from 'yaml';
 import { DefaultHallOfFameType, HallOfFameData, ViewAll, ViewOption } from "../interfaces";
-import fs from 'fs';
-import { Column } from "../components/Column";
-import { useState } from "react";
-import { FameTable } from "../components/fame/FameTable";
-import { FameSearch } from "../components/fame/FameSearch";
-import { FameHeader } from "../components/fame/FameHeader";
 
 interface Props {
   fame: HallOfFameData;
@@ -47,17 +46,15 @@ const FamePage = (props: Props) => {
   const filtered = filteredBySearch;
 
   return (
-    <Layout page={InternalPage.HallOfFame} pattern={true}>
-      <Column>
-        <FameHeader />
-        <FameSearch
-          filtered={filtered}
-          view={view}
-          query={query}
-          setView={setView}
-          setQuery={setQuery}
-        />
-      </Column>
+    <Layout page={InternalPage.HallOfFame} column={true}>
+      <FameHeader />
+      <FameSearch
+        filtered={filtered}
+        view={view}
+        query={query}
+        setView={setView}
+        setQuery={setQuery}
+      />
       <FameTable filtered={filtered} view={view} query={query} />
     </Layout>
   )
