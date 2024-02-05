@@ -1,9 +1,9 @@
 import Layout from '../components/layout/Layout'
-import { Welcome } from '../components/welcome/Welcome'
+import { WelcomeInfo } from '../components/welcome/WelcomeInfo'
 
 const IndexPage = () => (
   <Layout column={false}>
-    <Welcome />
+    <WelcomeInfo />
   </Layout>
 )
 

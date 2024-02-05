@@ -1,5 +1,6 @@
-import { Social } from "../../data/links";
+import { Articles, Social } from "../../data/links";
 import { useDocumentSize } from "../../hooks/useDocumentSize";
+import { ArticleLink } from "../../interfaces";
 import { ExternalLink } from "../ExternalLink";
 import { SocialButton } from "../welcome/SocialButton";
 import styles from './AboutInfo.module.css';
@@ -30,6 +31,19 @@ const specialThanks = [
   'David "UltraDavid" Graham',
 ];
 
+const ArticleQuote = (article: ArticleLink) => (
+  <div className={styles.quoteBox}>
+    <div className={styles.quoteSnippet}>
+      {article.quote}
+    </div>
+    <div className={styles.quoteAuthor}>
+      <i>{article.author}</i>
+      {' '}
+      [<ExternalLink href={article.url}>{article.site}</ExternalLink>]
+    </div>
+  </div>
+);
+
 export const AboutInfo = () => {
   const { width } = useDocumentSize();
   const minWidth = 150;
@@ -53,8 +67,30 @@ export const AboutInfo = () => {
 
       <section>
         <div className={styles.large}>
+          Praise for Tough Love Arena
+        </div>
+      </section>
+
+      <section>
+        <div className={styles.quoteSection}>
+          <aside className={styles.quoteColumn}>
+            {Articles.filter((a, i) => i % 2 === 0).map(ArticleQuote)}
+          </aside>
+          <aside className={styles.quoteColumn}>
+            {Articles.filter((a, i) => i % 2 === 1).map(ArticleQuote)}
+          </aside>
+        </div>
+      </section>
+
+      <div className={styles.gap}></div>
+
+      <section>
+        <div className={styles.large}>
           About the Team
         </div>
+      </section>
+
+      <section>
         <img
           className={styles.team}
           src="/asset/team.jpg"
