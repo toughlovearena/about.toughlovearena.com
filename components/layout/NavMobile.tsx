@@ -1,11 +1,12 @@
 import Link from 'next/link';
+import { CSSProperties } from 'react';
 import { InternalPage } from '../../data/nav';
 import { NavProps } from '../../interfaces';
 import { ExternalLink } from '../ExternalLink';
 import styles from './NavMobile.module.css';
 
-export const NavMobile = ({ currentHref, links, }: NavProps) => (
-  <nav className={styles.container}>
+const NavMobileComp = ({ currentHref, links, style }: NavProps & { style: CSSProperties }) => (
+  <nav className={styles.container} style={style}>
     <div className={styles.navLogo}>
       <Link href={InternalPage.Home.href} className={styles.navAnchor}>
         <img src="/logo_v01.png" />
@@ -30,4 +31,11 @@ export const NavMobile = ({ currentHref, links, }: NavProps) => (
       </ExternalLink>
     </div>
   </nav>
+)
+
+export const NavMobile = (props: NavProps) => (
+  <>
+    <NavMobileComp {...props} style={{ visibility: 'hidden', }} />
+    <NavMobileComp {...props} style={{ position: 'absolute', }} />
+  </>
 )

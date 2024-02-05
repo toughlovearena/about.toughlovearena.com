@@ -1,5 +1,11 @@
 .container {
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+
   box-sizing: border-box;
+  background: var(--back);
   border-bottom: 1px solid var(--fore);
 
   padding: 1em;
@@ -41,10 +47,7 @@
 .navLink {
   cursor: pointer;
   font-size: 1em;
-  margin: 0.5em;
-  padding: 0.5em 1em;
-  background-color: white;
-  border-radius: 0.5em;
+  margin: 0.5em 1em;
 }
 
 .navAnchor {

@@ -118,7 +118,9 @@ export const AboutInfo = () => {
       </section>
 
       <section>
-        Have a question or issue? Send an email to <b>hello (at) toughlovearena (dot) com</b>
+        Have a question or issue?
+        <br/>
+        Send an email to <b>hello (at) toughlovearena (dot) com</b>
       </section>
 
       <div className={styles.gap}></div>
