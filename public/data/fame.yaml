@@ -1,6 +1,42 @@
 ---
 events:
   # recent
+  - date: 2024/01/27
+    name: "Roundhorsin 20"
+    challonge: roundhorsin20
+    entrants: 10
+    winner: Askadoodle
+    youtube: p7nmWDXFQXU
+  - date: 2024/01/26
+    name: "Tough Love Gauntlet #144"
+    challonge: ToughLoveGauntlet144
+    entrants: 28
+    winner: Table
+    youtube: mszKdpKiJ0o
+  - date: 2024/01/19
+    name: "Tough Love Gauntlet #143"
+    challonge: ToughLoveGauntlet143
+    entrants: 15
+    winner: Meep
+    youtube: diKXiWqLLOw
+  - date: 2024/01/12
+    name: "Tough Love Gauntlet #142"
+    challonge: ToughLoveGauntlet142
+    entrants: 12
+    winner: Meep
+    youtube: f7AB4ghd2vQ
+  - date: 2024/01/05
+    name: Birthday Tournament 2024
+    entrants: 33
+    winner: Askadoodle
+    category: official
+    challonge: tlabday24
+  - date: 2023/12/29
+    name: "Tough Love Gauntlet #141"
+    challonge: ToughLoveGauntlet141
+    entrants: 12
+    winner: Askadoodle
+    youtube: Rg-a0tfS7EA
   - date: 2023/12/22
     name: "Tough Love Gauntlet #140"
     challonge: ToughLoveGauntlet140
@@ -17,13 +53,13 @@ events:
     name: "Tough Love Gauntlet #138"
     challonge: ToughLoveGauntlet138
     entrants: 9
-    winner: freduary
+    winner: fredruary
     youtube: z-V6WD3XVWU
   - date: 2023/12/01
     name: "Tough Love Gauntlet #137"
     challonge: ToughLoveGauntlet137
     entrants: 9
-    winner: freduary
+    winner: fredruary
     youtube: aNNIsxI47AM
   - date: 2023/11/24
     name: "Tough Love Gauntlet #136"

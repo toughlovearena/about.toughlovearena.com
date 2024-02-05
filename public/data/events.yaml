@@ -26,6 +26,18 @@ events:
 
   # 2024
 
+  - title: TLA @ Wonderville
+    description: "Come meet the devs at Wonderville in Brooklyn, NY"
+    type: meetup
+    when:
+      - date: 2024/02/13
+        time: 19:00
+        hours: 4
+    links:
+      - label: RSVP
+        url: https://www.wonderville.nyc/events/tournament-tuesday-tough-love-arena
+    
+
   - title: Tough Love Gauntlet 142
     description: Free online tournament every Friday night
     type: tournament
@@ -67,6 +79,7 @@ events:
           - date: 2024/03/01
       - title: Tough Love Gauntlet 150
         challonge: ToughLoveGauntlet150
+        matcherino: 109289
         description: Celebrating 150 TLGs with a big tourney!
         when:
           - date: 2024/03/08
