@@ -10,6 +10,7 @@
   font-style: normal;
   src: url('Exo2-VariableFont_wght.ttf');
 }
+
 @font-face {
   font-family: 'Exo 2';
   font-style: italic;
@@ -22,7 +23,7 @@ html {
   --fore: black;
   --back: white;
   --heart: rgb(234, 119, 248);
-  --navHeight: 4rem;
+  --navHeight: 6rem;
 }
 
 @media (max-width: 1150px) {
