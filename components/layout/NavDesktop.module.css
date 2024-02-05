@@ -36,9 +36,6 @@
 .navRight {
   flex-grow: 1;
   flex-basis: 0;
-}
-
-.navRight>section {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -74,6 +71,6 @@
 
 .navLeft img {
   cursor: pointer;
-  height: 5rem;
+  height: 3rem;
   width: auto;
 }

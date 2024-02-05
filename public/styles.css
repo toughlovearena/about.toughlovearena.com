@@ -23,7 +23,7 @@ html {
   --fore: black;
   --back: white;
   --heart: rgb(234, 119, 248);
-  --navHeight: 6rem;
+  --navHeight: 4rem;
 }
 
 @media (max-width: 1150px) {

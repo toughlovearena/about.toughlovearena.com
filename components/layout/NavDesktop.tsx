@@ -1,9 +1,7 @@
 import Link from 'next/link';
-import { Social } from '../../data/links';
 import { InternalPage } from '../../data/nav';
 import { NavProps } from '../../interfaces';
 import { ExternalLink } from '../ExternalLink';
-import { SocialButton } from '../SocialButton';
 import styles from './NavDesktop.module.css';
 
 export default ({ currentHref, links, }: NavProps) => (
@@ -16,31 +14,20 @@ export default ({ currentHref, links, }: NavProps) => (
         </Link>
       </div>
       <div className={styles.navRight}>
-        <section>
-          {links.map((li, i) => (
-            <Link key={i} href={li.href} className={styles.navAnchor}>
-              <div className={styles.navLink} style={currentHref === li.href ? {
-                fontWeight: 'bold',
-              } : {}}>
-                {li.label}
-              </div>
-            </Link>
-          ))}
-          <ExternalLink className={styles.navAnchor} href="https://toughlovearena.com">
-            <div className={styles.navLink}>
-              Play Now!
+        {links.map((li, i) => (
+          <Link key={i} href={li.href} className={styles.navAnchor}>
+            <div className={styles.navLink} style={currentHref === li.href ? {
+              fontWeight: 'bold',
+            } : {}}>
+              {li.label}
             </div>
-          </ExternalLink>
-        </section>
-        <section className={styles.navSocials}>
-          {Social.map(link =>
-            <SocialButton
-              key={link.url}
-              img={link.imageSrc}
-              url={link.url}
-            />
-          )}
-        </section>
+          </Link>
+        ))}
+        <ExternalLink className={styles.navAnchor} href="https://toughlovearena.com">
+          <div className={styles.navLink}>
+            Play Now!
+          </div>
+        </ExternalLink>
       </div>
     </nav>
   </div>
