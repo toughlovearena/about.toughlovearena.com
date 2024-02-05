@@ -25,7 +25,7 @@ export default ({ currentHref, links, }: NavProps) => (
         ))}
         <ExternalLink className={styles.navAnchor} href="https://toughlovearena.com">
           <div className={styles.navLink}>
-            Play Now!
+            <b><u>PLAY</u></b>
           </div>
         </ExternalLink>
       </div>

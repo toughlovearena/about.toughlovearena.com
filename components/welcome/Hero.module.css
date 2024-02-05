@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: calc(80vh - var(--navHeight));
+  height: calc(90vh - var(--navHeight));
   width: 100%;
   background-position: center;
   background-size: cover;

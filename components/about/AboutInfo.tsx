@@ -1,7 +1,7 @@
 import { Social } from "../../data/links";
 import { useDocumentSize } from "../../hooks/useDocumentSize";
 import { ExternalLink } from "../ExternalLink";
-import { SocialButton } from "../SocialButton";
+import { SocialButton } from "../welcome/SocialButton";
 import styles from './AboutInfo.module.css';
 import { TextColumns } from "./TextColumns";
 
@@ -40,32 +40,33 @@ export const AboutInfo = () => {
   return (
     <div className={styles.container}>
       <section>
-        <img
-          className={styles.team}
-          src="/asset/team.jpg"
-          alt="dev team portrait"
-        />
-      </section>
-      <section>
-        <div className={styles.large}>
-          Coding and game design by M. Paul Weeks
-          <br/>
-          Art and animation by Amy Xu
-        </div>
-      </section>
-      <section>
-        <div className={styles.medium}>
-          Original music and sound design by Josie Brechner and M Gewehr
-        </div>
-      </section>
-
-      <section>
         <div className={styles.social}>
           {Social.map(link => <SocialButton
             key={link.url}
             img={link.imageSrc}
             url={link.url}
           />)}
+        </div>
+      </section>
+
+      <div className={styles.gap}></div>
+
+      <section>
+        <div className={styles.large}>
+          About the Team
+        </div>
+        <img
+          className={styles.team}
+          src="/asset/team.jpg"
+          alt="dev team portrait"
+        />
+        <div className={styles.medium}>
+          Coding and game design by M. Paul Weeks
+          <br/>
+          Art and animation by Amy Xu
+        </div>
+        <div >
+          Original music and sound design by Josie Brechner and M Gewehr
         </div>
       </section>
 

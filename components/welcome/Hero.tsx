@@ -1,8 +1,8 @@
 import { CSSProperties, useCallback, useEffect, useRef, useState } from 'react';
-import { Articles } from '../data/links';
-import { sleep } from '../utils/async';
-import { getNextInArray, shuffleArray } from '../utils/list';
-import { ExternalLink } from './ExternalLink';
+import { Articles } from '../../data/links';
+import { sleep } from '../../utils/async';
+import { getNextInArray, shuffleArray } from '../../utils/list';
+import { ExternalLink } from '../ExternalLink';
 import styles from './Hero.module.css';
 
 export default () => {
