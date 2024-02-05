@@ -83,35 +83,6 @@ export const AboutInfo = () => {
       </section>
 
       <div className={styles.gap}></div>
-
-      <section>
-        <div className={styles.large}>
-          About the Team
-        </div>
-      </section>
-
-      <section>
-        <img
-          className={styles.team}
-          src="/asset/team.jpg"
-          alt="dev team portrait"
-        />
-        <div className={styles.medium}>
-          Coding and game design by M. Paul Weeks
-          <br/>
-          Art and animation by Amy Xu
-        </div>
-        <div >
-          Original music and sound design by Josie Brechner and M Gewehr
-        </div>
-      </section>
-
-      <section>
-        Send emails to <b>hello (at) toughlovearena (dot) com</b>
-      </section>
-
-      <div className={styles.gap}></div>
-
       {/* mirrors */}
       <section>
         <div className={styles.large}>
@@ -146,10 +117,36 @@ export const AboutInfo = () => {
         </div>
       </section>
 
+      <section>
+        Have a question or issue? Send an email to <b>hello (at) toughlovearena (dot) com</b>
+      </section>
+
       <div className={styles.gap}></div>
 
       <section>
         <div className={styles.large}>
+          About the Team
+        </div>
+      </section>
+
+      <section>
+        <img
+          className={styles.team}
+          src="/asset/team.jpg"
+          alt="dev team portrait"
+        />
+        <div className={styles.medium}>
+          Coding and game design by M. Paul Weeks
+          <br/>
+          Art and animation by Amy Xu
+        </div>
+        <div >
+          Original music and sound design by Josie Brechner and M Gewehr
+        </div>
+      </section>
+
+      <section>
+        <div className={styles.medium}>
           Alpha Playtesters
         </div>
       </section>
@@ -157,11 +154,11 @@ export const AboutInfo = () => {
         <TextColumns columns={columns} text={playtesters} />
       </section>
       <section>
-        <div className={styles.large}>
+        <div className={styles.medium}>
           Special Thanks
         </div>
       </section>
-      <section className={styles.medium}>
+      <section>
         <TextColumns columns={1} text={specialThanks} />
       </section>
 

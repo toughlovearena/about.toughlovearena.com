@@ -3,7 +3,7 @@
 }
 
 .container section {
-  margin: 0.8em;
+  margin: 1em;
 }
 
 .container .gap {
@@ -36,6 +36,7 @@ img.team {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 0.5em;
 }
 
 .quoteSection {
