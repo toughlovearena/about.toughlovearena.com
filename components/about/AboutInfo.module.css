@@ -1,9 +1,11 @@
 .container {
   text-align: center;
 }
+
 .container section {
   margin: 0.8em;
 }
+
 .container .gap {
   height: 0;
   width: 50%;
@@ -33,4 +35,5 @@ img.team {
 
 .medium {
   font-size: 1.2em;
+  margin: 0.4em 0;
 }

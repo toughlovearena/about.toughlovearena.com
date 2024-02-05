@@ -1,12 +1,4 @@
-.container {}
-@media (min-width: 1151px) {
-  .container {
-    display: none;
-  }
-}
-
-.nav {
-  height: var(--navHeight);
+.container {
   box-sizing: border-box;
   border-bottom: 1px solid var(--fore);
 
@@ -15,18 +7,28 @@
   justify-content: center;
   align-items: center;
 }
-.nav a {
+
+@media (min-width: 1151px) {
+  .container {
+    display: none;
+  }
+}
+
+.container a {
   color: inherit;
 }
+
 .navLogo {
   text-align: center;
 }
+
 .navLogo img {
   cursor: pointer;
   height: auto;
   width: 80%;
   max-width: 30em;
 }
+
 .navLinks {
   display: flex;
   flex-direction: row;
@@ -38,8 +40,12 @@
 .navLink {
   cursor: pointer;
   font-size: 1em;
-  margin: 0.5em 1em;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  background-color: white;
+  border-radius: 0.5em;
 }
+
 .navAnchor {
   text-decoration: none;
 }

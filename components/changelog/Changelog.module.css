@@ -7,7 +7,6 @@
 .anchor {
   display: block;
   position: relative;
-  top: calc(-1rem - var(--navHeight));
   visibility: hidden;
 }
 

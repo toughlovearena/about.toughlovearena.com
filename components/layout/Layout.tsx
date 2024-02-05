@@ -4,8 +4,8 @@ import { InternalPages } from '../../data/nav';
 import { InternalPageData } from '../../interfaces';
 import styles from './Layout.module.css';
 import { LayoutColumn } from './LayoutColumn';
-import NavDesktop from './NavDesktop';
-import NavMobile from './NavMobile';
+import { NavDesktop } from './NavDesktop';
+import { NavMobile } from './NavMobile';
 import { SectionTitle } from './SectionTitle';
 import { Subtitle } from './Subtitle';
 
