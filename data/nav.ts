@@ -28,10 +28,6 @@ export const InternalPage = {
     href: "/community",
     label: 'Community',
   },
-  About: {
-    href: "/about",
-    label: 'About',
-  },
 };
 export const InternalPages: InternalPageData[] = [
   InternalPage.PatchNotes,
@@ -39,5 +35,4 @@ export const InternalPages: InternalPageData[] = [
   InternalPage.HallOfFame,
   InternalPage.Community,
   InternalPage.Gallery,
-  InternalPage.About,
 ];

@@ -41,7 +41,7 @@ const LogPage = (props: Props) => {
   }, []);
 
   return (
-    <Layout page={InternalPage.PatchNotes} pattern={true}>
+    <Layout page={InternalPage.PatchNotes} column={true}>
       <Changelog data={changelog ?? props.initialChangelog} />
       {loading && (
         <div style={{ textAlign: 'center' }}>loading more, please wait...</div>

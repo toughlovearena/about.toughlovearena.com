@@ -3,16 +3,16 @@ import { ReactNode } from 'react';
 import { InternalPages } from '../../data/nav';
 import { InternalPageData } from '../../interfaces';
 import styles from './Layout.module.css';
-import NavDesktop from './NavDesktop';
-import NavMobile from './NavMobile';
+import { LayoutColumn } from './LayoutColumn';
+import { NavDesktop } from './NavDesktop';
+import { NavMobile } from './NavMobile';
 import { SectionTitle } from './SectionTitle';
 import { Subtitle } from './Subtitle';
 
 type Props = {
   children: ReactNode;
   page?: InternalPageData;
-  hideTitle?: boolean;
-  pattern?: boolean;
+  column: boolean;
 }
 
 
@@ -46,14 +46,14 @@ const Layout = (props: Props) => {
         <meta property="og:url" content={Meta.Url} />
         <meta property="og:image" content="https://about.toughlovearena.com/favicon.png" />
       </Head>
-      <div className={[styles.container, props.pattern ? styles.pattern : ''].join(' ')}>
-        <div className={styles.inner}>
-          <header className={styles.header}>
-            <NavDesktop currentHref={props.page?.href} links={InternalPages} />
-            <NavMobile currentHref={props.page?.href} links={InternalPages} />
-          </header>
-          <main className={styles.main}>
-            {props.page && !props.hideTitle && (
+      <main className={styles.container}>
+        <header>
+          <NavDesktop currentHref={props.page?.href} links={InternalPages} />
+          <NavMobile currentHref={props.page?.href} links={InternalPages} />
+        </header>
+        {props.column ? (
+          <LayoutColumn>
+            {props.page && (
               <SectionTitle>
                 {props.page.label}
               </SectionTitle>
@@ -64,9 +64,9 @@ const Layout = (props: Props) => {
               </Subtitle>
             )}
             {props.children}
-          </main>
-        </div>
-      </div>
+          </LayoutColumn>
+        ) : props.children}
+      </main>
     </div>
   );
 }

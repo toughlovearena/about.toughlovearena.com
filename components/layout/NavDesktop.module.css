@@ -1,22 +1,8 @@
-.container {}
-
-@media (max-width: 1150px) {
-  .container {
-    display: none;
-  }
-}
-
-.spacer {
-  height: var(--navHeight);
-}
-
-.nav {
+.container {
   z-index: 9;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: var(--navHeight);
   box-sizing: border-box;
   padding: 0 1em;
 
@@ -29,24 +15,23 @@
   align-items: center;
 }
 
-.nav a {
+@media (max-width: 1150px) {
+  .container {
+    display: none;
+  }
+}
+
+.container a {
   color: inherit;
 }
 
 .navRight {
   flex-grow: 1;
   flex-basis: 0;
-}
-
-.navRight>section {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-}
-
-.navSocials {
-  font-size: 2.5em;
 }
 
 .navLink {
@@ -74,6 +59,6 @@
 
 .navLeft img {
   cursor: pointer;
-  height: 5rem;
+  height: 3rem;
   width: auto;
 }

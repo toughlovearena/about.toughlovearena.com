@@ -1,11 +1,10 @@
-import { ChangelogData, VersionLog } from "../../interfaces";
-import Linkify from 'react-linkify';
 import copyToClipboard from 'copy-to-clipboard';
-import styles from './Changelog.module.css';
-import { Column } from "../Column";
+import Linkify from 'react-linkify';
 import { useKeyPress } from "../../hooks/useKeyPress";
+import { ChangelogData, VersionLog } from "../../interfaces";
 import { ChangelogUtils } from "../../utils/changelog";
 import { ExternalLink } from "../ExternalLink";
+import styles from './Changelog.module.css';
 
 const utils = new ChangelogUtils();
 
@@ -78,12 +77,10 @@ export default (props: {
 }) => {
   const showSocialLinks = useKeyPress('`');
   return (
-    <Column>
-      <div className={styles.log}>
-        {props.data.versions.map(log => (
-          <Version key={log.v} log={log} showSocialLinks={showSocialLinks} />
-        ))}
-      </div>
-    </Column>
+    <div className={styles.container}>
+      {props.data.versions.map(log => (
+        <Version key={log.v} log={log} showSocialLinks={showSocialLinks} />
+      ))}
+    </div>
   );
 }

@@ -4,10 +4,13 @@
   justify-content: flex-start;
   align-items: center;
 }
+
 .column {
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: center;
   margin: 0 auto;
+  padding: 0 4em 4em;
 }

@@ -1,5 +1,5 @@
 import { CSSProperties, HTMLAttributes } from "react";
-import { ExternalLink } from "./ExternalLink";
+import { ExternalLink } from "../ExternalLink";
 import styles from './SocialButton.module.css';
 
 export function SocialButton(props: {

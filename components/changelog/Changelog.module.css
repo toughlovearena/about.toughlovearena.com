@@ -1,28 +1,33 @@
-.log {
+.container {
   text-align: left;
   padding: 1em;
+  max-width: 750px;
 }
 
 .anchor {
   display: block;
   position: relative;
-  top: calc(-1rem - var(--navHeight));
   visibility: hidden;
 }
+
 .version {
   font-size: 1.17em;
 }
+
 .version a {
   color: var(--fore);
   text-decoration: none;
 }
+
 .version a:hover,
 .version .socialLink:hover {
   text-decoration: underline;
 }
+
 .minor {
   font-size: 2em;
 }
+
 .patch {
   font-size: 1.2em;
 }
@@ -32,6 +37,7 @@
   font-style: italic;
   margin-left: 0.5em;
 }
+
 .socialLink {
   cursor: pointer;
   padding-left: 1em;
