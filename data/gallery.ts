@@ -14,9 +14,17 @@ export const GalleryAssets: GalleryItem[] = [{
   description: 'Promo art for Wonderville',
   when: 'January 2023',
 }, {
+  file: '2022_promo_garlic_halloween.jpg',
+  description: 'Promo art for Halloween Tournament',
+  when: 'October 2022',
+}, {
   file: '2022_promo_evo.jpg',
   description: 'Promo art for EVO',
   when: 'August 2022',
+}, {
+  file: '2022_promo_tlg_69.gif',
+  description: 'Tough Love Gauntlet #69',
+  when: 'June 2022',
 }, {
   file: '2022_promo_combobreaker.jpg',
   description: 'Promo art for Combo Breaker',
@@ -33,6 +41,10 @@ export const GalleryAssets: GalleryItem[] = [{
   file: '2022_promo_apf_tournament.jpg',
   description: 'Surprise promo art for April Fools Tournament',
   when: 'April 2022',
+}, {
+  file: '2022_promo_tlg_50.gif',
+  description: 'Tough Love Gauntlet #50',
+  when: 'February 2022',
 }, {
   file: '2022_promo_bday.jpg',
   description: 'Promo art for Birthday Tournament',
