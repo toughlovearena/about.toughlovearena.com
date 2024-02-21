@@ -38,7 +38,7 @@ events:
         hours: 3
 
   - title: Roundhorsin 21
-    description: Free online tournament
+    description: "Roundhorsin is a monthly tournament series, with a PR List, Livestreams, and a Community server"
     type: tournament
     twitch: squidslash36
     challonge: roundhorsin21
