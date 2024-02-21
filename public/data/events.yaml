@@ -37,6 +37,16 @@ events:
         time: 19:00
         hours: 3
 
+  - title: Roundhorsin 21
+    description: Free online tournament
+    type: tournament
+    twitch: squidslash36
+    challonge: roundhorsin21
+    when:
+      - date: 2024/02/24
+        time: 16:00
+        hours: 3
+
   - title: TLA @ Wonderville
     description: "Come meet the devs at Wonderville in Brooklyn, NY"
     type: meetup
