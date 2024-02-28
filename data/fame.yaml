@@ -6,6 +6,9 @@ events:
     challonge: roundhorsin21
     entrants: 12
     winner: Askadoodle
+    links:
+      - label: Video
+        url: "https://www.twitch.tv/videos/2072704303"
   - date: 2024/02/23
     name: "Tough Love Gauntlet #148"
     challonge: ToughLoveGauntlet148
