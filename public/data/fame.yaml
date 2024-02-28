@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2024/02/25
+    name: "Mid Tier Rebooted"
+    challonge: MidTierReboot1
+    entrants: 10
+    winner: Anathema
   - date: 2024/02/24
     name: "Roundhorsin 21"
     challonge: roundhorsin21
