@@ -32,7 +32,7 @@ const specialThanks = [
 ];
 
 const ArticleQuote = (article: ArticleLink) => (
-  <div className={styles.quoteBox}>
+  <div key={article.url} className={styles.quoteBox}>
     <div className={styles.quoteSnippet}>
       {article.quote}
     </div>
@@ -153,7 +153,7 @@ export const AboutInfo = () => {
         </div>
       </section>
       <section>
-        <TextColumns columns={columns} text={playtesters} />
+        <TextColumns id="playtesters" columns={columns} text={playtesters} />
       </section>
       <section>
         <div className={styles.medium}>
@@ -161,7 +161,7 @@ export const AboutInfo = () => {
         </div>
       </section>
       <section>
-        <TextColumns columns={1} text={specialThanks} />
+        <TextColumns id="thanks" columns={1} text={specialThanks} />
       </section>
 
       <section>
