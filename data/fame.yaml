@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2024/03/01
+    name: "Tough Love Gauntlet #149"
+    challonge: ToughLoveGauntlet149
+    entrants: 17
+    winner: Table
   - date: 2024/02/25
     name: "Mid Tier Rebooted"
     challonge: MidTierReboot1
