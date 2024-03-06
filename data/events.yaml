@@ -104,6 +104,46 @@ events:
         description: Celebrating 150 TLGs with a big tourney!
         when:
           - date: 2024/03/08
+      - title: Tough Love Gauntlet 151
+        challonge: ToughLoveGauntlet151
+        when:
+          - date: 2024/03/15
+      - title: Tough Love Gauntlet 152
+        challonge: ToughLoveGauntlet152
+        when:
+          - date: 2024/03/22
+      - title: Tough Love Gauntlet 153
+        challonge: ToughLoveGauntlet153
+        when:
+          - date: 2024/03/29
+      - title: Tough Love Gauntlet 154
+        challonge: ToughLoveGauntlet154
+        when:
+          - date: 2024/04/12
+      - title: Tough Love Gauntlet 155
+        challonge: ToughLoveGauntlet155
+        when:
+          - date: 2024/04/19
+      - title: Tough Love Gauntlet 156
+        challonge: ToughLoveGauntlet156
+        when:
+          - date: 2024/04/26
+      - title: Tough Love Gauntlet 157
+        challonge: ToughLoveGauntlet157
+        when:
+          - date: 2024/05/03
+      - title: Tough Love Gauntlet 158
+        challonge: ToughLoveGauntlet158
+        when:
+          - date: 2024/05/10
+      - title: Tough Love Gauntlet 159
+        challonge: ToughLoveGauntlet159
+        when:
+          - date: 2024/05/17
+      - title: Tough Love Gauntlet 160
+        challonge: ToughLoveGauntlet160
+        when:
+          - date: 2024/05/24
 
   - title: TLA Birthday Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
