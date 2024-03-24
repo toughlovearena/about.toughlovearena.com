@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.107.0
+    date: 2024/03/24
+    notes:
+      - "Modding: Added combo trials! Test with the new Combo button in the top right of the Mod Menu. Updated docs coming soon"
+      - "Modding: Fixed ProjectileConfig.displayHide"
+      - "Lobbies: Fixed bug where copy/pasting a URL would retain any periods"
   - v: 0.106.5
     date: 2024/03/13
     notes:
