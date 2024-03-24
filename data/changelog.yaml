@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.107.1
+    date: 2024/03/24
+    notes:
+      - "Modding/Combo: Fixed display names not working on new seqIds"
+      - "Modding/Combo: Fixed Garlic's combos being accidentally added to Secret Spice"
+      - "Modding: Removed duplicate boss configs in main header"
   - v: 0.107.0
     date: 2024/03/24
     notes:
