@@ -1,6 +1,16 @@
 ---
 events:
   # recent
+  - date: 2024/03/22
+    name: "Tough Love Gauntlet #152"
+    challonge: ToughLoveGauntlet152
+    entrants: 27
+    winner: Boostio
+  - date: 2024/03/15
+    name: "Tough Love Gauntlet #151"
+    challonge: ToughLoveGauntlet151
+    entrants: 16
+    winner: Table
   - date: 2024/03/08
     name: "Tough Love Gauntlet #150"
     challonge: ToughLoveGauntlet150
