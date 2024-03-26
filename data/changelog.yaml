@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.107.2
+    date: 2024/03/26
+    notes:
+      - "Combo Trials: Reworked some Noodle and Beef trials to be less flaky"
+      - "Modding/Combo: Adding auto scaling so longer combo trials will fit on screen"
+      - "Modding/Combo: Added experimental new trial system for the April Fools event"
   - v: 0.107.1
     date: 2024/03/24
     notes:
