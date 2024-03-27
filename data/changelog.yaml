@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.107.3
+    date: 2024/03/26
+    notes:
+      - "Combo Trials: You can now press 0 on the keyboard to reset position"
+      - "Maintenance: Misc changes in prep for upcoming April Fools event"
   - v: 0.107.2
     date: 2024/03/26
     notes:
