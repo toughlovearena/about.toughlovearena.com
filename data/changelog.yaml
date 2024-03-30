@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.107.4
+    date: 2024/03/30
+    notes:
+      - "Maintenance: More changes in prep for upcoming April Fools event"
   - v: 0.107.3
     date: 2024/03/26
     notes:
