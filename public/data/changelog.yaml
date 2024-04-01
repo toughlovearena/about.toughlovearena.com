@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.108.0
+    date: 2024/04/01
+    notes:
+      - "April Fools patch! All characters have been swapped with modified versions for the next week"
   - v: 0.107.5
     date: 2024/03/31
     notes:
