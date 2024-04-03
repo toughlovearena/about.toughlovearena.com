@@ -1,10 +1,14 @@
 ---
 versions:
+  - v: 0.108.2
+    date: 2024/04/02
+    notes:
+      - "April Fools: Updated Rice, Beef, Pork, and Garlic with bugfixes and balancing"
   - v: 0.108.1
     date: 2024/04/02
     notes:
-      - "April Fools: Update Noodle, Rice, Pork, and Garlic with bugfixes and balancing"
-      - 'April Fools: Disable "Account Favorite" allowing players to access base characters'
+      - "April Fools: Updated Noodle, Rice, Pork, and Garlic with bugfixes and balancing"
+      - 'April Fools: Disabled "Account Favorite" allowing players to access base characters'
   - v: 0.108.0
     date: 2024/04/01
     notes:
