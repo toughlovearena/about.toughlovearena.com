@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.108.4
+    date: 2024/04/04
+    notes:
+      - "April Fools: Updated Rice and Pork with bugfixes and balancing"
   - v: 0.108.3
     date: 2024/04/03
     notes:
