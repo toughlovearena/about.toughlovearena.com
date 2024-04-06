@@ -1,6 +1,17 @@
 ---
 events:
   # recent
+  - date: 2024/04/05
+    name: April Fools Tournament 2024
+    entrants: 49
+    winner: The Grum
+    category: official
+    challonge: tlabday24
+  - date: 2024/03/29
+    name: "Tough Love Gauntlet #153"
+    challonge: ToughLoveGauntlet153
+    entrants: 22
+    winner: Table
   - date: 2024/03/22
     name: "Tough Love Gauntlet #152"
     challonge: ToughLoveGauntlet152
