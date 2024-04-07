@@ -58,6 +58,10 @@ export const GalleryAssets: GalleryItem[] = [{
   description: 'Promo art for Balance Patch event',
   when: 'October 2021',
 }, {
+  file: '2021_promo_desktop.jpg',
+  description: 'Promo art for desktop application',
+  when: 'September 2021',
+}, {
   file: 'stage_notebook.jpg',
   description: 'Notebook Stage',
 }, {
