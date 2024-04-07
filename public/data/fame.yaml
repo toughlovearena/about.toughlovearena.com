@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2024/03/24
+    name: "Mid Tier Rebooted 2"
+    challonge: MidTierReboot2
+    entrants: 14
+    winner: SavoryBuns1658
   - date: 2024/04/05
     name: April Fools Tournament 2024
     entrants: 49
