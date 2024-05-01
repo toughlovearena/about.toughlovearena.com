@@ -1,6 +1,24 @@
 ---
 events:
   # recent
+  - date: 2024/04/26
+    name: "Tough Love Gauntlet #156"
+    challonge: ToughLoveGauntlet156
+    entrants: 10
+    winner: DoomMerky
+    youtube: GNdxe3fYfYA
+  - date: 2024/04/19
+    name: "Tough Love Gauntlet #155"
+    challonge: ToughLoveGauntlet155
+    entrants: 12
+    winner: Boostio
+    youtube: FuUJqZTyfJY
+  - date: 2024/04/12
+    name: "Tough Love Gauntlet #154"
+    challonge: ToughLoveGauntlet154
+    entrants: 19
+    winner: Mari
+    youtube: MOF_Mr2s15Y
   - date: 2024/03/24
     name: "Mid Tier Rebooted 2"
     challonge: MidTierReboot2
