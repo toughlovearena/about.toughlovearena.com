@@ -25,6 +25,17 @@ events:
   # please put new events at the top of the file
 
   # 2024
+
+  - title: Summer Tournament
+    description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tlasummer24
+    when:
+      - date: 2024/06/12
+        time: 19:00
+        hours: 3
   
   - title: TLA @ Combo Breaker
     description: "Come play at the booth! Exact time TBA"
