@@ -1,6 +1,14 @@
 ---
 events:
   # recent
+  - date: 2024/05/03
+    name: "Tough Love Gauntlet #157"
+    challonge: ToughLoveGauntlet157
+    entrants: 11
+    winner: KevinKryptonite
+    links:
+      - label: YouTube
+        url: https://youtube.com/playlist?list=PLcWCnbfPSBmO_ntwXfZAz8HG3kKorXNdV
   - date: 2024/04/26
     name: "Tough Love Gauntlet #156"
     challonge: ToughLoveGauntlet156
