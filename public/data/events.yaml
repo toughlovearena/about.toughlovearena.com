@@ -33,10 +33,10 @@ events:
     twitch: mpaulweeks
     challonge: tlasummer24
     when:
-      - date: 2024/06/12
+      - date: 2024/07/12
         time: 19:00
         hours: 3
-  
+
   - title: TLA @ Combo Breaker
     description: "Come play at the booth! Exact time TBA"
     type: tournament
@@ -79,7 +79,6 @@ events:
     links:
       - label: RSVP
         url: https://www.wonderville.nyc/events/tournament-tuesday-tough-love-arena
-    
 
   - title: Tough Love Gauntlet 142
     description: Free online tournament every Friday night
@@ -166,6 +165,46 @@ events:
         challonge: ToughLoveGauntlet160
         when:
           - date: 2024/05/24
+      - title: Tough Love Gauntlet 161
+        challonge: ToughLoveGauntlet161
+        when:
+          - date: 2024/05/31
+      - title: Tough Love Gauntlet 162
+        challonge: ToughLoveGauntlet162
+        when:
+          - date: 2024/06/07
+      - title: Tough Love Gauntlet 163
+        challonge: ToughLoveGauntlet163
+        when:
+          - date: 2024/06/14
+      - title: Tough Love Gauntlet 164
+        challonge: ToughLoveGauntlet164
+        when:
+          - date: 2024/06/21
+      - title: Tough Love Gauntlet 165
+        challonge: ToughLoveGauntlet165
+        when:
+          - date: 2024/06/28
+      - title: Tough Love Gauntlet 166
+        challonge: ToughLoveGauntlet166
+        when:
+          - date: 2024/07/05
+      - title: Tough Love Gauntlet 167
+        challonge: ToughLoveGauntlet167
+        when:
+          - date: 2024/07/19
+      - title: Tough Love Gauntlet 168
+        challonge: ToughLoveGauntlet168
+        when:
+          - date: 2024/07/26
+      - title: Tough Love Gauntlet 169
+        challonge: ToughLoveGauntlet169
+        when:
+          - date: 2024/08/02
+      - title: Tough Love Gauntlet 170
+        challonge: ToughLoveGauntlet170
+        when:
+          - date: 2024/08/09
 
   - title: TLA Birthday Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
