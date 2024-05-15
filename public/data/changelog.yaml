@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.109.2
+    date: 2023/05/14
+    notes:
+      - "Gameplay: Adjusted inescapable multi-hits (Rice Swat) to only KO on the last hit"
+      - 'Combo Trials: You can now verify that a hit was a "punish" or "antiair" (see Rice #4)'
+      - "Combo Trials: Fixed bug where some combo progress persisted across position resets"
+      - "Modding: AttackConfig.cannotKO added"
   - v: 0.109.1
     date: 2023/04/16
     notes:
