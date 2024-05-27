@@ -1,6 +1,18 @@
 ---
 events:
   # recent
+  - date: 2024/05/24
+    name: "Tough Love Gauntlet #160"
+    challonge: ToughLoveGauntlet160
+    entrants: 12
+    winner: Boostio
+    youtube: gqHPRuo8Gmo
+  - date: 2024/05/17
+    name: "Tough Love Gauntlet #159"
+    challonge: ToughLoveGauntlet159
+    entrants: 10
+    winner: Joro
+    youtube: 26f0ptM7EkY
   - date: 2024/05/10
     name: "Tough Love Gauntlet #158"
     challonge: ToughLoveGauntlet158
@@ -730,6 +742,14 @@ events:
     youtube: 8NIJ9zwaiuE
 
   # official
+  - date: 2024/05/25
+    name: Combo Breaker
+    entrants: 13
+    winner: Handsome Phil
+    category: official
+    links:
+      - label: Bracket
+        url: "https://www.start.gg/tournament/all-in-together-2024-combo-breaker-community-tournaments/event/tough-love-arena/standings"
   - date: 2023/07/28
     name: Summer Tournament
     entrants: 33
