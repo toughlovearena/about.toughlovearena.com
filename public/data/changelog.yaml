@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.110.1
+    date: 2024/06/09
+    notes:
+      - "Pork: Chop blockstun increased by 1, making it no longer punishable by Onion/Garlic Sweep"
+      - "Onion: Flick can now cancel into Hopkick (L > S)"
+      - "Cryptic Carb: Shrunk hitbox on Shockwave to make it easier to low profile"
   - v: 0.110.0
     date: 2024/06/09
     notes:
