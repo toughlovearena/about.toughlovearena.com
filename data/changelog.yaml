@@ -1,21 +1,26 @@
 ---
 versions:
+  - v: 0.110.0
+    date: 2024/06/09
+    notes:
+      - 'Versus CPU: Added boss character "Cryptic Carb"'
+      - "Modding: CancelConfig.onContact added for convenience"
   - v: 0.109.2
-    date: 2023/05/14
+    date: 2024/05/14
     notes:
       - "Gameplay: Adjusted inescapable multi-hits (Rice Swat) to only KO on the last hit"
       - 'Combo Trials: You can now verify that a hit was a "punish" or "antiair" (see Rice #4)'
       - "Combo Trials: Fixed bug where some combo progress persisted across position resets"
       - "Modding: AttackConfig.cannotKO added"
   - v: 0.109.1
-    date: 2023/04/16
+    date: 2024/04/16
     notes:
       - 'Ranked: Search range for "Similar Opponents" expanded 150 > 200'
       - 'Ranked: Search range for "Stronger Opponents" expanded 400 > 9999'
       - "Steam: Disable clicking on the version modal to open up the status page"
       - "Modding: FighterStatsConfig.startMeter added"
   - v: 0.109.0
-    date: 2023/04/08
+    date: 2024/04/08
     notes:
       - April Fools gameplay changes have been reverted
   - v: 0.108.4
