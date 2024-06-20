@@ -26,6 +26,17 @@ events:
 
   # 2024
 
+  - title: Wonderville Cabinet Premiere
+    description: "Come meet the devs at Wonderville in Brooklyn, NY"
+    type: meetup
+    when:
+      - date: 2024/07/02
+        time: 19:00
+        hours: 3
+    links:
+      - label: RSVP
+        url: https://www.wonderville.nyc/events/tough-love-arena-cabinet-premiere-tournament
+
   - title: Summer Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
     type: tournament
@@ -232,7 +243,7 @@ events:
       - 2024/04/02
       - 2024/05/07
       - 2024/06/04
-      - 2024/07/09
+      - 2024/07/03
       - 2024/08/06
       - 2024/09/03
       - 2024/10/08
