@@ -1,6 +1,30 @@
 ---
 events:
   # recent
+  - date: 2024/06/21
+    name: "Tough Love Gauntlet #164"
+    challonge: ToughLoveGauntlet164
+    entrants: 10
+    winner: Boostio
+    youtube: 9TdCrKZ25MA
+  - date: 2024/06/14
+    name: "Tough Love Gauntlet #163"
+    challonge: ToughLoveGauntlet163
+    entrants: 13
+    winner: Askadoodle
+    youtube: 5PGccH-hGUo
+  - date: 2024/06/07
+    name: "Tough Love Gauntlet #162"
+    challonge: ToughLoveGauntlet162
+    entrants: 11
+    winner: SavoryBuns
+    youtube: qSG-b-qJg5A
+  - date: 2024/05/31
+    name: "Tough Love Gauntlet #161"
+    challonge: ToughLoveGauntlet161
+    entrants: 7
+    winner: SavoryBuns
+    youtube: m3TiyYvCElE
   - date: 2024/05/24
     name: "Tough Love Gauntlet #160"
     challonge: ToughLoveGauntlet160
