@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.110.3
+    date: 2024/07/01
+    notes:
+      - "Gameplay: Fixed bug where missing asset prevented matches from loading"
   - v: 0.110.2
     date: 2024/07/01
     notes:
