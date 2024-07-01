@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.110.2
+    date: 2024/07/01
+    notes:
+      - "Cabinet Mode added under Advanced Extras"
+      - "Cabinet Mode, like Event Mode, locks the game into an alternative menu system that restricts game modes and is ideal for specific offline gameplay scenarios"
+      - "If you wish to exit Cabinet Mode, you must use your mouse to click the P button in the bottom right"
+      - "Modding: Updated docs to cleanup removed fields and fix typos"
   - v: 0.110.1
     date: 2024/06/09
     notes:
