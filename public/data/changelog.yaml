@@ -1,5 +1,14 @@
 ---
 versions:
+  - v: 0.110.4
+    date: 2024/07/02
+    notes:
+      - "Character Select: Fixed bug where you had to pick characters for both players despite it not mattering (playing online, tutorial, etc)"
+      - "Cabinet Mode: Fixed bug where it was loading the incorrect default settings"
+      - "Cabinet Mode: Stage now automatically changes between each match"
+      - "Cabinet Mode: Hide Boss characters from Character Select even if unlocked / playing on Steam"
+      - "Menus: Fixed bug where mouse cursor wouldn't auto hide unless you've moved it at least once"
+      - "Menus: Decreased time for the mouse cursor to auto hide from 5 seconds to 3 seconds"
   - v: 0.110.3
     date: 2024/07/01
     notes:
