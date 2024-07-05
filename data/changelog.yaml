@@ -1,5 +1,14 @@
 ---
 versions:
+  - v: 0.111.0
+    date: 2024/07/05
+    notes:
+      - "Animation: Garlic has been fully animated and polished"
+      - "Animation: Garlic has new options for alternate colors"
+      - "Cabinet Mode: Fixed bug where you could not access all the flavors"
+      - "Cabinet Mode: Fixed bug with the Winner screen still accepting rematch inputs"
+      - "Modding: Upgraded engine to 18"
+      - "Modding: Garlic mods made before engine 18 will be upgraded to use new sprites"
   - v: 0.110.4
     date: 2024/07/02
     notes:
