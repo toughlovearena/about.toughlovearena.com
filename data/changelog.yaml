@@ -1,5 +1,15 @@
 ---
 versions:
+  - v: 0.112.0
+    date: 2024/07/09
+    notes:
+      - Summer patch!
+      - Six new Summer skins have been added (one for each character)
+      - The skins will be freely playable online for the month of July, then locked to offline only starting August 1
+      - Check out the free online tournament for a chance to permanently unlock summer skins! challonge.com/tlasummer24
+      - "Cabinet Mode: Enabled faster rematch during the win screen"
+      - "Cabinet Mode: Changed Character Select to make it more obvious how to play local versus"
+      - "Cabinet Mode: Disabled pressing Heavy to exit Character Select"
   - v: 0.111.0
     date: 2024/07/05
     notes:
