@@ -86,6 +86,9 @@ export const GalleryAssets: GalleryItem[] = [{
   file: 'welcomepage_apf.jpg',
   description: 'April Fools Theme',
 }, {
+  file: 'welcomepage_summer.jpg',
+  description: 'Summer Theme',
+}, {
   file: 'welcomepage_halloween.jpg',
   description: 'Halloween Theme',
 }].map(item => ({
