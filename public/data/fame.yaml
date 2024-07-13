@@ -1,6 +1,12 @@
 ---
 events:
   # recent
+  - date: 2024/07/12
+    name: Summer Tournament 2024
+    entrants: 45
+    winner: Mari
+    category: official
+    challonge: tlasummer24
   - date: 2024/07/09
     name: "Tuesday Tournament of Death and Doom #1"
     challonge: deathanddoom
