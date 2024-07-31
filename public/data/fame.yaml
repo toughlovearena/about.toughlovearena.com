@@ -1,6 +1,18 @@
 ---
 events:
   # recent
+  - date: 2024/07/26
+    name: "Tough Love Gauntlet #168"
+    challonge: ToughLoveGauntlet168
+    entrants: 13
+    winner: NamelessKingIV
+    youtube: DI4J6XmaIBE
+  - date: 2024/07/19
+    name: "Tough Love Gauntlet #167"
+    challonge: ToughLoveGauntlet167
+    entrants: 10
+    winner: SavoryBuns
+    youtube: cNVbIDUqScs
   - date: 2024/07/12
     name: Summer Tournament 2024
     entrants: 45
