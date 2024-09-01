@@ -1,5 +1,13 @@
 ---
 versions:
+  - v: 0.112.1
+    date: 2024/09/01
+    notes:
+      - "Summer skins: Fixed missing texture in Beef's uppercut"
+      - "Versus CPU: Adjusted AI to reduce the number of random parries in neutral"
+      - 'Modding: Fixed bug with configs not loading when "projectiles" was left undefined'
+      - "Modding: Fixed bug where FrameConfig.behind was ignored outside of particles"
+      - "Modding: RemoteAnimationConfig.behind added"
   - v: 0.112.0
     date: 2024/07/09
     notes:
