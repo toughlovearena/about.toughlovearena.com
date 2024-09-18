@@ -26,6 +26,29 @@ events:
 
   # 2024
 
+  - title: Halloween Tournament
+    description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tlahalloween24
+    when:
+      - date: 2024/10/18
+        time: 19:00
+        hours: 3
+    matcherino: 130579
+
+  - title: TLA @ East Coast Throwdown
+    description: "Come practice at the booth! Winner gets cash + free merch"
+    type: tournament
+    when:
+      - date: 2024/10/11
+        time: 12:00
+        hours: 4
+    links:
+      - label: bracket
+        url: https://www.start.gg/tournament/community-throwdown-ect-2024/event/tough-love-arena-pc
+
   - title: Wonderville Cabinet Premiere
     description: "Come meet the devs at Wonderville in Brooklyn, NY"
     type: meetup
