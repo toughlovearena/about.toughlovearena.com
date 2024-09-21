@@ -1,6 +1,11 @@
 ---
 events:
   # recent
+  - date: 2024/09/20
+    name: "Tough Love Gauntlet #176"
+    challonge: ToughLoveGauntlet176
+    entrants: 15
+    winner: KevinKryptonite
   - date: 2024/09/13
     name: "Tough Love Gauntlet #175"
     challonge: ToughLoveGauntlet175
