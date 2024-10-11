@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.112.2
+    date: 2024/10/10
+    notes:
+      - "Summer skins: Fixed missing texture in Noodle's Whip Splash"
+      - "Cabinet Mode: Added separate DipSwitches and editor in Debug Tools"
+      - "Removed TODO page"
   - v: 0.112.1
     date: 2024/09/01
     notes:
