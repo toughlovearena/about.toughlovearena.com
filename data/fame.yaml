@@ -868,6 +868,15 @@ events:
     youtube: 8NIJ9zwaiuE
 
   # official
+  - date: 2024/10/13
+    name: East Coast Throwdown
+    entrants: 12
+    winner: Focus
+    category: official
+    youtube: TSLpCedQWCY
+    links:
+      - label: Bracket
+        url: "https://www.start.gg/tournament/community-throwdown-ect-2024/event/tough-love-arena-pc/standings"
   - date: 2024/07/22
     name: Wonderville Cabinet Premiere
     entrants: 16
@@ -878,10 +887,10 @@ events:
     entrants: 13
     winner: Handsome Phil
     category: official
+    youtube: fenu-hop940
     links:
       - label: Bracket
         url: "https://www.start.gg/tournament/all-in-together-2024-combo-breaker-community-tournaments/event/tough-love-arena/standings"
-    youtube: fenu-hop940
   - date: 2023/07/28
     name: Summer Tournament
     entrants: 33
