@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.112.3
+    date: 2024/10/23
+    notes:
+      - "Modding: InstallConfig.input fixed (never worked, whoops)"
+      - "Modding: SequenceConfig.canTech added"
+      - 'Modding: TumbleConfig.juggle = "keep" added'
+      - "Modding: TumbleConfig.restandStun added"
   - v: 0.112.2
     date: 2024/10/10
     notes:
