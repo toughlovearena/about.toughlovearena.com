@@ -1,11 +1,17 @@
 ---
 events:
   # recent
+  - date: 2024/11/29
+    name: "Tough Love Gauntlet #185"
+    challonge: ToughLoveGauntlet185
+    entrants: 11
+    winner: Hitaka
   - date: 2024/11/22
     name: "Tough Love Gauntlet #184"
     challonge: ToughLoveGauntlet184
     entrants: 12
     winner: Hitaka
+    youtube: Alvs3IkjS8k
   - date: 2024/11/15
     name: "Tough Love Gauntlet #183"
     challonge: ToughLoveGauntlet183
