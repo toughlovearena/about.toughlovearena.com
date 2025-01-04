@@ -1,11 +1,17 @@
 ---
 events:
   # recent
+  - date: 2025/01/03
+    name: "Tough Love Gauntlet #190"
+    challonge: ToughLoveGauntlet190
+    entrants: 17
+    winner: Savory Buns
   - date: 2024/12/27
     name: "Tough Love Gauntlet #189"
     challonge: ToughLoveGauntlet189
     entrants: 11
     winner: Rosie
+    youtube: TkyPtp6JZN0
   - date: 2024/12/20
     name: "Tough Love Gauntlet #188"
     challonge: ToughLoveGauntlet188
