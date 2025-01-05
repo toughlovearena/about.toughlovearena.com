@@ -25,7 +25,7 @@ events:
   # please put new events at the top of the file
 
   # 2025
-  
+
   - title: Birthday Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
     type: tournament
@@ -332,6 +332,46 @@ events:
         challonge: ToughLoveGauntlet190
         when:
           - date: 2025/01/03
+      - title: Tough Love Gauntlet 191
+        challonge: ToughLoveGauntlet191
+        when:
+          - date: 2025/01/17
+      - title: Tough Love Gauntlet 192
+        challonge: ToughLoveGauntlet192
+        when:
+          - date: 2025/01/24
+      - title: Tough Love Gauntlet 193
+        challonge: ToughLoveGauntlet193
+        when:
+          - date: 2025/01/31
+      - title: Tough Love Gauntlet 194
+        challonge: ToughLoveGauntlet194
+        when:
+          - date: 2025/02/07
+      - title: Tough Love Gauntlet 195
+        challonge: ToughLoveGauntlet195
+        when:
+          - date: 2025/02/14
+      - title: Tough Love Gauntlet 196
+        challonge: ToughLoveGauntlet196
+        when:
+          - date: 2025/02/21
+      - title: Tough Love Gauntlet 197
+        challonge: ToughLoveGauntlet197
+        when:
+          - date: 2025/02/28
+      - title: Tough Love Gauntlet 198
+        challonge: ToughLoveGauntlet198
+        when:
+          - date: 2025/03/07
+      - title: Tough Love Gauntlet 199
+        challonge: ToughLoveGauntlet199
+        when:
+          - date: 2025/03/14
+      - title: Tough Love Gauntlet 200
+        challonge: ToughLoveGauntlet200
+        when:
+          - date: 2025/03/21
 
   - title: TLA Birthday Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
@@ -365,6 +405,9 @@ events:
       - 2024/10/08
       - 2024/11/05
       - 2024/12/10
+      - 2025/01/07
+      - 2025/02/04
+      - 2025/03/04
 
   - title: Game Dev Stream
     description: Watch the game development process and chat with the creators of TLA
