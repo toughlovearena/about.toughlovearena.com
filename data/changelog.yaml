@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.112.5
+    date: 2025/01/08
+    notes:
+      - "Update theme skins (Birthday, Summer, Halloween) to last the entire month"
   - v: 0.112.4
     date: 2024/11/12
     notes:
