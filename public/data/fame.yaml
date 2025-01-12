@@ -933,6 +933,12 @@ events:
     youtube: 8NIJ9zwaiuE
 
   # official
+  - date: 2025/01/10
+    name: Birthday Tournament
+    entrants: 24
+    winner: ESGR
+    category: official
+    challonge: tlabday25
   - date: 2024/10/18
     name: Halloween Tournament
     entrants: 29
