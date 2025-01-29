@@ -1,5 +1,14 @@
 ---
 versions:
+  - v: 0.113.0
+    date: 2025/01/29
+    notes:
+      - "Noodle: Frenzy is now unburstable until the final hit"
+      - "Noodle: Fixed bug where you could spawn a 3rd bowl of Soup with a Whip Splash cancel"
+      - "Beef: Added a damage scaling penalty to combos starting with Lemon or Air Lemon"
+      - "Pork: Caber Toss will now auto tech enemy throws during startup"
+      - "Onion: Added a damage scaling penalty to combos starting with Hopkick"
+      - "Onion: Reduced hurtbox during Long Jump to better match the animation"
   - v: 0.112.5
     date: 2025/01/08
     notes:
