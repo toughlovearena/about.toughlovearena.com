@@ -1,11 +1,17 @@
 ---
 events:
   # recent
+  - date: 2025/01/31
+    name: "Tough Love Gauntlet #193"
+    challonge: ToughLoveGauntlet193
+    entrants: 5
+    winner: Savory Buns
   - date: 2025/01/24
     name: "Tough Love Gauntlet #192"
     challonge: ToughLoveGauntlet192
     entrants: 8
     winner: KevinKryptonite
+    youtube: hAZ1P2NacRo
   - date: 2025/01/17
     name: "Tough Love Gauntlet #191"
     challonge: ToughLoveGauntlet191
