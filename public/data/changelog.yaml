@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.113.1
+    date: 2025/02/03
+    notes:
+      - "Cabinet Mode: Added support for coin-op behavior"
+      - "Cabinet Mode: Added Cabinet Options to Pause Menu, where you can configure the cost to play"
+      - "Cabinet Mode: Hide Pause Menu button (P in bottom right) when cursor is inactive"
+      - "Maintenance: Fixed copyright date"
   - v: 0.113.0
     date: 2025/01/29
     notes:
