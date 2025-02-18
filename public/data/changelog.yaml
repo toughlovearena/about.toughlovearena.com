@@ -1,11 +1,15 @@
 ---
 versions:
+  - v: 0.113.3
+    date: 2025/02/17
+    notes:
+      - "Menus: Revert autohide [P] button change when playing on mobile"
+      - "Modding: Start work on supporting random cancels"
   - v: 0.113.2
     date: 2025/02/10
     notes:
       - "Menus: Autohide mouse cursor + the [P] button immediately, show both on mouse movement"
       - "Lobbies: Fixed bug where P2 could not navigate the modding menu with their controller"
-      - "Cabinet Mode: Increased idle timeout 60 > 180 seconds when NOT on freeplay"
       - "Cabinet Mode: Merged p1/p2 coin pool into shared coin pool"
       - "Cabinet Mode: Added options for making SFX/Music quieter during Attract"
       - "Cabinet Mode: Increased idle timeout 60 > 180 seconds when NOT on freeplay"
