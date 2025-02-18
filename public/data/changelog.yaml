@@ -1,10 +1,14 @@
 ---
 versions:
+  - v: 0.113.4
+    date: 2025/02/18
+    notes:
+      - "Frame Data: Fixed crash caused by WIP modding features"
   - v: 0.113.3
     date: 2025/02/17
     notes:
-      - "Menus: Revert autohide [P] button change when playing on mobile"
-      - "Modding: Start work on supporting random cancels"
+      - "Menus: Reverted autohide [P] button change when playing on mobile"
+      - "Modding: Started work on supporting random cancels"
   - v: 0.113.2
     date: 2025/02/10
     notes:
