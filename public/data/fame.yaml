@@ -1,6 +1,16 @@
 ---
 events:
   # recent
+  - date: 2025/02/28
+    name: "Tough Love Gauntlet #197"
+    challonge: ToughLoveGauntlet197
+    entrants: 10
+    winner: KevinKryptonite
+  - date: 2025/02/21
+    name: "Tough Love Gauntlet #196"
+    challonge: ToughLoveGauntlet196
+    entrants: 10
+    winner: DabsR
   - date: 2025/02/14
     name: "Tough Love Gauntlet #195"
     challonge: ToughLoveGauntlet195
