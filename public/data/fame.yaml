@@ -1,11 +1,17 @@
 ---
 events:
   # recent
+  - date: 2025/03/07
+    name: "Tough Love Gauntlet #198"
+    challonge: ToughLoveGauntlet198
+    entrants: 10
+    winner: Mean Bean
   - date: 2025/02/28
     name: "Tough Love Gauntlet #197"
     challonge: ToughLoveGauntlet197
     entrants: 10
     winner: KevinKryptonite
+    youtube: SGgOgPCbnoU
   - date: 2025/02/21
     name: "Tough Love Gauntlet #196"
     challonge: ToughLoveGauntlet196
