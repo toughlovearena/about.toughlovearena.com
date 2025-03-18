@@ -1,5 +1,13 @@
 ---
 versions:
+  - v: 0.113.5
+    date: 2025/03/18
+    notes:
+      - "Mobile/Desktop: Fixed bug where version in the bottom left was clickable"
+      - "Mobile: Removed the initial EULA and simplified the intro screen"
+      - "Cabinet: Fixed bug where controls reminder was visible on cabinet mode"
+      - "Modding: Fixed bug where Cryptic Carb was listed twice"
+      - "Modding: Added lots of new features in prep for April Fools. Full docs coming soon!"
   - v: 0.113.4
     date: 2025/02/18
     notes:
