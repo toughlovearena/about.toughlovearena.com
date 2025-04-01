@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.114.3
+    date: 2024/04/01
+    notes:
+      - "AF Onion: Removed meterless throw loops"
+      - "AF Rice: Removed an infinite combo"
   - v: 0.114.2
     date: 2024/04/01
     notes:
