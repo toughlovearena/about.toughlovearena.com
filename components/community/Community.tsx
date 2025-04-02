@@ -1,4 +1,4 @@
-import { CommunityResources, Documentary, Playlists, YouTubeVideos } from "../../data/links";
+import { AprilFoolsArchives, CommunityResources, Documentary, Playlists, YouTubeVideos } from "../../data/links";
 import { sortArrayOfObjects } from "../../utils/list";
 import { ExternalLink } from "../ExternalLink";
 import { YouTubePlaylist, YouTubePreview } from "../YouTubePreview";
@@ -8,6 +8,23 @@ export const Community = () => {
   const videos = sortArrayOfObjects(YouTubeVideos, art => art.date).reverse();
   return (
     <div className={styles.container}>
+      <div>
+        Misc resources and community creations
+      </div>
+
+      <section>
+        <div className={styles.large}>
+          Archived versions of April Fools
+        </div>
+      </section>
+      <section>
+        {AprilFoolsArchives.map(link => (
+          <div>
+            <ExternalLink href={link.url}>{link.title}</ExternalLink>
+          </div>
+        ))}
+      </section>
+
       <section>
         <div className={styles.large}>
           Community Made Guides and Resources

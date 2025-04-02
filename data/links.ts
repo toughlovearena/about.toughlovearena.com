@@ -149,6 +149,20 @@ export const YouTubeVideos: YouTubeLink[] = [{
   timestamp: 1963,
 }];
 
+export const AprilFoolsArchives: SimpleLink[] = [{
+  title: 'April Fools 2021',
+  url: 'https://aprilfools.toughlovearena.com/',
+}, {
+  title: 'April Fools 2022',
+  url: 'https://aprilfools2022.toughlovearena.com/',
+}, {
+  title: 'April Fools 2023',
+  url: 'https://aprilfools2023.toughlovearena.com/',
+}, {
+  title: 'April Fools 2024',
+  url: 'https://aprilfools2024.toughlovearena.com/',
+}];
+
 export const CommunityResources: SimpleLink[] = [{
   title: 'mizuumi fan wiki',
   url: 'https://wiki.gbl.gg/w/Tough_Love_Arena',
