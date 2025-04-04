@@ -25,6 +25,16 @@ events:
   # please put new events at the top of the file
 
   # 2025
+  - title: April Fools 2025 Tournament
+    description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: shygybeats
+    challonge: tlafools25
+    when:
+      - date: 2024/04/11
+        time: 19:00
+        hours: 3
 
   - title: Birthday Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
@@ -380,6 +390,10 @@ events:
         challonge: ToughLoveGauntlet202
         when:
           - date: 2025/04/04
+      - title: Tough Love Gauntlet 203
+        challonge: ToughLoveGauntlet203
+        when:
+          - date: 2025/04/18
 
   - title: TLA Birthday Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
