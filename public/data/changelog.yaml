@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.114.6
+    date: 2025/04/06
+    notes:
+      - "AF Noodle: Fixed crash caused by new super move"
   - v: 0.114.5
     date: 2025/04/06
     notes:
