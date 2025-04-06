@@ -1,25 +1,31 @@
 ---
 versions:
+  - v: 0.114.5
+    date: 2025/04/06
+    notes:
+      - "AF Noodle: Removed infinite combo, added super, new items, updated combo trials"
+      - "AF Rice: Combo tweaks, added groundbounce divekick, added super, updated combo trials"
+      - "Patch Notes: Fixed dates and formatting for a few recent patches"
   - v: 0.114.4
-    date: 2024/04/03
+    date: 2025/04/03
     notes:
       - "AF Noodle: Increased enemy meter gain on certain attacks"
       - "AF Rice: Lots of small balance adjustments to make Rice more inline with the rest of the cast"
   - v: 0.114.3
-    date: 2024/04/01
+    date: 2025/04/01
     notes:
       - "AF Onion: Removed meterless throw loops"
       - "AF Rice: Removed an infinite combo"
   - v: 0.114.2
-    date: 2024/04/01
+    date: 2025/04/01
     notes:
       - Fixed issue with patch notes formatting
   - v: 0.114.1
-    date: 2024/04/01
+    date: 2025/04/01
     notes:
       - Fixed issue where Rice was loading the April 2024 version
   - v: 0.114.0
-    date: 2024/04/01
+    date: 2025/04/01
     notes:
       - April Fools patch! All characters have been swapped with modified versions until April 12
   - v: 0.113.5
