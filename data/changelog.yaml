@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.114.7
+    date: 2025/04/07
+    notes:
+      - "AF Pork: Increased meter gain on hit, removed armor from 4L but it now breaks armor and parries"
+      - "AF Rice: Miscellaneous nerfs and behavior fixes"
+      - "AF Garlic: Super Gateway cancel window shortened, meter gain on all hits increased"
   - v: 0.114.6
     date: 2025/04/06
     notes:
