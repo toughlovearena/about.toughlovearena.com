@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.114.8
+    date: 2025/04/09
+    notes:
+      - "AF Noodle: Fixed bugs related to projectiles/parry, fixed visual bugs, added and updated combo trials"
+      - "AF Rice: Changed 5HL, increased range on 4L, misc QOL fixes"
+      - "AF Beef: Reduced startup on a number of moves opening up new combo routes, fixed bug with ground bounce"
+      - "Maintenance: Prep work for the April Fools archive"
   - v: 0.114.7
     date: 2025/04/07
     notes:
