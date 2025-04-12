@@ -1,11 +1,18 @@
 ---
 events:
   # recent
+  - date: 2025/04/11
+    name: "TLA April Fools 2025"
+    challonge: tlafools25
+    entrants: 23
+    winner: TableLOL
+    category: official
   - date: 2025/04/04
     name: "Tough Love Gauntlet #202"
     challonge: ToughLoveGauntlet202
     entrants: 9
     winner: Garrahaz
+    youtube: SoTfttomzag
   - date: 2025/03/28
     name: "Tough Love Gauntlet #201"
     challonge: ToughLoveGauntlet201
