@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.115.0
+    date: 2025/04/12
+    notes:
+      - April Fools gameplay changes have been reverted
   - v: 0.114.8
     date: 2025/04/09
     notes:
