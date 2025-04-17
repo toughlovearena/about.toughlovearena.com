@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.115.1
+    date: 2025/04/17
+    notes:
+      - "Training: Input Delay will now be ignored when stepping frame-by-frame"
+      - "Maintenance: Cleaned up April Fools character code"
   - v: 0.115.0
     date: 2025/04/12
     notes:
