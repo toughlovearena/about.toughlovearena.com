@@ -1,11 +1,17 @@
 ---
 events:
   # recent
+  - date: 2025/04/25
+    name: "Tough Love Gauntlet #204"
+    challonge: ToughLoveGauntlet204
+    entrants: 10
+    winner: TheCoyle
   - date: 2025/04/18
     name: "Tough Love Gauntlet #203"
     challonge: ToughLoveGauntlet203
     entrants: 14
     winner: TableLOL
+    youtube: jWzPiSmEVEM
   - date: 2025/04/11
     name: "TLA April Fools 2025"
     challonge: tlafools25
