@@ -1,11 +1,17 @@
 ---
 events:
   # recent
+  - date: 2025/05/16
+    name: "Tough Love Gauntlet #207"
+    challonge: ToughLoveGauntlet207
+    entrants: 4
+    winner: clove
   - date: 2025/05/09
     name: "Tough Love Gauntlet #206"
     challonge: ToughLoveGauntlet206
     entrants: 10
     winner: Savory Buns
+    youtube: N4ChBIO9_ts
   - date: 2025/05/02
     name: "Tough Love Gauntlet #205"
     challonge: ToughLoveGauntlet205
