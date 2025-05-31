@@ -1,7 +1,12 @@
 ---
 events:
   # recent
-  - date: 2025/05/16
+  - date: 2025/05/30
+    name: "Tough Love Gauntlet #209"
+    challonge: ToughLoveGauntlet209
+    entrants: 13
+    winner: TableLOL
+  - date: 2025/05/23
     name: "Tough Love Gauntlet #208"
     challonge: ToughLoveGauntlet208
     entrants: 8
