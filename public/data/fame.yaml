@@ -2,6 +2,11 @@
 ---
 events:
   # recent
+  - date: 2025/06/06
+    name: "Tough Love Gauntlet #210"
+    challonge: ToughLoveGauntlet210
+    entrants: 11
+    winner: TableLOL
   - date: 2025/05/30
     name: "Tough Love Gauntlet #209"
     challonge: ToughLoveGauntlet209
@@ -2072,6 +2077,12 @@ events:
     entrants: 14
     winner: Meatloafidklol
     challonge: ToughLoveGauntlet002
+  - date: 2021/01/08
+    name: "Tough Love Gauntlet #001"
+    challonge: ToughLoveGauntlet001
+    entrants: 18
+    winner: Big Perm
+    youtube: wf8d6MH-11s
 
   # TLG EU
   - date: 2021/09/18
