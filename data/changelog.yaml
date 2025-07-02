@@ -1,5 +1,21 @@
 ---
 versions:
+  - v: 0.115.2
+    date: 2025/07/01
+    notes:
+      - "Modding: Removed matchmaker overlay from bottom left"
+      - "Modding: Added docs for the following new mod features:"
+      - "> StateTriggerConfig"
+      - "> FighterTriggerConfig"
+      - "> FighterConfig.autoSeq"
+      - "> InstallConfig.triggers"
+      - "> AttackConfig.hitsComboOnly"
+      - "> AttackConfig.noProjectileClash"
+      - "> AttackConfig.snapTowards.percent"
+      - "> ProjectileConfig.positionRelative"
+      - "> TumbleConfig.addJuggles"
+      - "> ParryConfig.onAirborne"
+      - "> ParryConfig.onGrounded"
   - v: 0.115.1
     date: 2025/04/17
     notes:
