@@ -33,13 +33,13 @@ export const Articles: ArticleLink[] = [{
   title: 'Steam Reviews',
   url: 'https://steamcommunity.com/id/notacockyname/recommended/1807330/',
   quote: 'Tough Love Arena is the best beginner fighting game experience.',
-}, {
-  date: '2022-04-27',
-  site: 'fanbyte',
-  author: 'Kenneth Shepard',
-  title: 'Six of the Coolest Games We Played at PAX East 2022',
-  url: 'https://www.fanbyte.com/features/six-of-the-coolest-games-we-played-at-pax-east-2022/',
-  quote: `It’s been awhile since I’ve seen a game so wonderfully break down fighting game mechanics to their rawest form in a way that wasn’t gimmicky.`,
+// }, {
+//   date: '2022-04-27',
+//   site: 'fanbyte',
+//   author: 'Kenneth Shepard',
+//   title: 'Six of the Coolest Games We Played at PAX East 2022',
+//   url: 'https://www.fanbyte.com/features/six-of-the-coolest-games-we-played-at-pax-east-2022/',
+//   quote: `It’s been awhile since I’ve seen a game so wonderfully break down fighting game mechanics to their rawest form in a way that wasn’t gimmicky.`,
 }, {
   date: '2022-04-23',
   site: 'The Mary Sue',
