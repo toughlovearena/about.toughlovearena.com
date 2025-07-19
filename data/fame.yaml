@@ -142,15 +142,17 @@ events:
     youtube: lyEMslbxfd0
   # Smuckers TTDD
   - date: 2024/07/09
-    name: "Tuesday Tournament of Death and Doom 1"
+    name: "Tuesday Tournament of Death and Doom #1"
     challonge: deathanddoom
     entrants: 9
     winner: Fredruary
+    youtube: ThTmJQqJ4qE
   - date: 2025/07/15
-    name: "Tuesday Tournament of Death and Doom 2"
+    name: "Tuesday Tournament of Death and Doom #2"
     challonge: TTDD2
     entrants: 11
     winner: Askadoodle
+    youtube: aa3B01tT0wg
   # roundhorsin dump
   - date: 2025/02/22
     name: "Roundhorsin 31"
