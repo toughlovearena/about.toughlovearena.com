@@ -2,6 +2,17 @@
 ---
 events:
   # recent
+  - date: 2025/07/18
+    name: "TLA Summer Tournament 2025"
+    challonge: tlasummer25
+    entrants: 22
+    winner: YC | Avarice
+  - date: 2025/07/11
+    name: "Tough Love Gauntlet #215"
+    challonge: ToughLoveGauntlet215
+    entrants: 9
+    winner: MegaS
+    youtube: g6pAuZlZq7w
   - date: 2025/07/04
     name: "Tough Love Gauntlet #214"
     challonge: ToughLoveGauntlet214
@@ -97,7 +108,7 @@ events:
     name: "Tough Love Gauntlet #200"
     challonge: ToughLoveGauntlet200
     entrants: 28
-    winner: Avarice
+    winner: YC | Avarice
     youtube: jKByvjFH9MM
   - date: 2025/03/14
     name: "Tough Love Gauntlet #199"
@@ -128,8 +139,48 @@ events:
     entrants: 12
     winner: KevinKryptonite
     youtube: lyEMslbxfd0
-
+  # Smuckers TTDD
+  - date: 2024/07/09
+    name: Tuesday Tournament of Death and Doom 1
+    challonge: deathanddoom
+    entrants: 9
+    winner: Fredruary
+  - date: 2024/07/15
+    name: Tuesday Tournament of Death and Doom 2
+    challonge: TTDD2
+    entrants: 11
+    winner: Askadoodle
   # roundhorsin dump
+  - date: 2025/02/22
+    name: Roundhorsin 31
+    challonge: roundhorsin31
+    entrants: 5
+    winner: JoRo
+    youtube: h1HcVHjXvqQ 
+  - date: 2025/03/29
+    name: Roundhorsin 32
+    challonge: roundhorsin32
+    entrants: 6
+    winner: Meep
+    youtube: ZbE6fH8Ks78
+  - date: 2025/04/26
+    name: Roundhorsin 33
+    challonge: roundhorsin33
+    entrants: 10
+    winner: TableLol
+    youtube: naybDsQGf6Q
+  - date: 2025/05/31
+    name: Roundhorsin 34
+    challonge: roundhorsin34
+    entrants: 8
+    winner: TableLol
+    youtube: 1vMLm9xY8RU 
+  - date: 2025/07/05
+    name: Roundhorsin 35
+    challonge: roundhorsin35
+    entrants: 8
+    winner: TableLol
+    youtube: aK5BwGf6Zcw
   - date: 2023/03/25
     name: Roundhorsin 10
     challonge: roundhorsin10
