@@ -7,6 +7,7 @@ events:
     challonge: tlasummer25
     entrants: 22
     winner: YC | Avarice
+    category: official
   - date: 2025/07/11
     name: "Tough Love Gauntlet #215"
     challonge: ToughLoveGauntlet215
@@ -141,162 +142,162 @@ events:
     youtube: lyEMslbxfd0
   # Smuckers TTDD
   - date: 2024/07/09
-    name: Tuesday Tournament of Death and Doom 1
+    name: "Tuesday Tournament of Death and Doom 1"
     challonge: deathanddoom
     entrants: 9
     winner: Fredruary
   - date: 2024/07/15
-    name: Tuesday Tournament of Death and Doom 2
+    name: "Tuesday Tournament of Death and Doom 2"
     challonge: TTDD2
     entrants: 11
     winner: Askadoodle
   # roundhorsin dump
   - date: 2025/02/22
-    name: Roundhorsin 31
+    name: "Roundhorsin 31"
     challonge: roundhorsin31
     entrants: 5
     winner: JoRo
     youtube: h1HcVHjXvqQ 
   - date: 2025/03/29
-    name: Roundhorsin 32
+    name: "Roundhorsin 32"
     challonge: roundhorsin32
     entrants: 6
     winner: Meep
     youtube: ZbE6fH8Ks78
   - date: 2025/04/26
-    name: Roundhorsin 33
+    name: "Roundhorsin 33"
     challonge: roundhorsin33
     entrants: 10
     winner: TableLol
     youtube: naybDsQGf6Q
   - date: 2025/05/31
-    name: Roundhorsin 34
+    name: "Roundhorsin 34"
     challonge: roundhorsin34
     entrants: 8
     winner: TableLol
     youtube: 1vMLm9xY8RU 
   - date: 2025/07/05
-    name: Roundhorsin 35
+    name: "Roundhorsin 35"
     challonge: roundhorsin35
     entrants: 8
     winner: TableLol
     youtube: aK5BwGf6Zcw
   - date: 2023/03/25
-    name: Roundhorsin 10
+    name: "Roundhorsin 10"
     challonge: roundhorsin10
     entrants: 7
     winner: Askadoodle
     youtube: SSajtOQBTp0
   - date: 2023/05/20
-    name: Roundhorsin 12
+    name: "Roundhorsin 12"
     challonge: roundhorsin12
     entrants: 4
     winner: Joro
     youtube: 9OAmD9r16iY
   - date: 2023/08/05
-    name: Roundhorsin 13
+    name: "Roundhorsin 13"
     challonge: roundhorsin13
     entrants: 9
     winner: Table
     youtube: -BHN2QSNM0Q
   - date: 2023/08/13
-    name: Roundhorsin 14
+    name: "Roundhorsin 14"
     challonge: roundhorsin14
     entrants: 9
     winner: cheeseeater
     youtube: 840GW3VS6GM
   - date: 2023/08/19
-    name: Roundhorsin 15
+    name: "Roundhorsin 15"
     challonge: roundhorsin15
     entrants: 5
     winner: Table
     youtube: xpGHyJrLQ6w
   - date: 2023/09/09
-    name: Roundhorsin 16
+    name: "Roundhorsin 16"
     challonge: roundhorsin16
     entrants: 9
     winner: Joro
     youtube: VBBDhU6U6B0
   - date: 2023/10/28
-    name: Roundhorsin 17
+    name: "Roundhorsin 17"
     challonge: roundhorsin17
     entrants: 4
     winner: Anathema
     youtube: oaa5E-ieCXU
   - date: 2023/12/21
-    name: Roundhorsin 18
+    name: "Roundhorsin 18"
     challonge: roundhorsin18
     entrants: 4
     winner: Joro
     youtube: gU7Lp5J5dFw
   - date: 2023/12/23
-    name: Roundhorsin 19
+    name: "Roundhorsin 19"
     challonge: roundhorsin19
     entrants: 7
     winner: ESGR
     youtube: 7sGuqJJqYC0
   - date: 2023/12/30
-    name: Roundhorsin Invitational 2023
+    name: "Roundhorsin Invitational 2023"
     challonge: roundhorsininvitational2023
     entrants: 12
     winner: Table
     youtube: Voju7SVp1Fk
   - date: 2024/03/30
-    name: Roundhorsin 22
+    name: "Roundhorsin 22"
     challonge: roundhorsin22
     entrants: 11
     winner: Askadoodle
     youtube: zXzARB1ELlo
   - date: 2024/04/28
-    name: Roundhorsin 23
+    name: "Roundhorsin 23"
     challonge: roundhorsin23
     entrants: 14
     winner: Table
     youtube: ID597wMSXDM
   - date: 2024/05/30
-    name: Roundhorsin 24
+    name: "Roundhorsin 24"
     challonge: roundhorsin24
     entrants: 8
     winner: fredruary
     youtube: -ZmC4cHFYEA
   - date: 2024/06/15
-    name: Roundhorsin 25
+    name: "Roundhorsin 25"
     challonge: roundhorsin25
     entrants: 9
     winner: Askadoodle
     youtube: E44gf5I-ALM
   - date: 2024/07/06
-    name: Roundhorsin 26
+    name: "Roundhorsin 26"
     challonge: roundhorsin26
     entrants: 12
     winner: Table
     youtube: n7VHj9LDq1o
   - date: 2024/08/31
-    name: Roundhorsin 27
+    name: "Roundhorsin 27"
     challonge: roundhorsin27
     entrants: 7
     winner: ESGR
     youtube: fyJib0GyhjM
   - date: 2024/09/14
-    name: Roundhorsin 28
+    name: "Roundhorsin 28"
     challonge: roundhorsin28
     entrants: 6
     winner: Table
     youtube: xwob2bsZRVA
   - date: 2024/10/26
-    name: Roundhorsin 29
+    name: "Roundhorsin 29"
     challonge: roundhorsin29
     entrants: 7
     winner: Joro
     youtube: lKHzj1MyTEQ
   - date: 2024/11/02
-    name: Roundhorsin Clutch Qualifier 2024
+    name: "Roundhorsin Clutch Qualifier 2024"
     challonge: roundhorsinclutchqualifier2024
     entrants: 7
     winner: highrow
     youtube: bcrDeDTLj00
   - date: 2024/11/30
-    name: Roundhorsin Invitational 2024
+    name: "Roundhorsin Invitational 2024"
     challonge: roundhorsininvitational2024
     entrants: 8
     winner: Table
@@ -307,7 +308,6 @@ events:
     entrants: 15
     winner: Table
     youtube: xILcT5OGokc
-
   - date: 2025/02/07
     name: "Tough Love Gauntlet #194"
     challonge: ToughLoveGauntlet194
@@ -768,30 +768,30 @@ events:
     challonge: ToughLoveGauntlet129
     youtube: by4hlezRsXk
   - date: 2023/08/13
-    name: Triangle Kevin 6
+    name: "Triangle Kevin 6"
     entrants: 6
     winner: cHEESEeATER
     challonge: trianglekevin6
   - date: 2023/08/12
-    name: Tough Lia Arena
+    name: "Tough Lia Arena"
     entrants: 12
     winner: cHEESEeATER
     challonge: TLiA
     youtube: EDpSixFwHrI
   - date: 2023/08/06
-    name: Square Kevin 5
+    name: "Square Kevin 5"
     entrants: 6
     winner: cHEESEeATER
     challonge: squarekevin5
     youtube: juJwgMD8LsM
   - date: 2023/05/28
-    name: Runkevin 3
+    name: "Runkevin 3"
     entrants: 3
     winner: moxshpox
     challonge: runkevin4
     youtube: QsDYPW3TrR0
   - date: 2023/05/10
-    name: Rounkevin 3
+    name: "Rounkevin 3"
     entrants: 4
     winner: John TLA
     challonge: rounkevin3
