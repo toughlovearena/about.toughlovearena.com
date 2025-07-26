@@ -2,6 +2,11 @@
 ---
 events:
   # recent
+  - date: 2025/07/25
+    name: "Tough Love Gauntlet #216"
+    challonge: ToughLoveGauntlet216
+    entrants: 11
+    winner: MegaS
   - date: 2025/07/18
     name: "TLA Summer Tournament 2025"
     challonge: tlasummer25
