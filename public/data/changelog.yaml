@@ -1,5 +1,16 @@
 ---
 versions:
+  - v: 0.116.0
+    date: 2025/07/27
+    notes:
+      - "Gameplay: Added throw tech lockout. Pressing any non-Throw button while getting thrown will prevent you from teching on a later frame"
+      - "Gameplay: Fixed bug where meter gain during a Rapid combo was not working on non-combat meter gain (eg walking forward)"
+      - "Gameplay: Changed meter gain during a Rapid combo to halve and then round down instead of rounding up"
+      - "Noodle/Rice: Increased 2nd hit of 5L cancel window 6 > 11 frames"
+      - "Rice: Increased Jump Drill hitstun frame advantage by 2, making it +1 on hit at point blank range"
+      - "Beef: Lemon goes away if Beef is hit"
+      - "Training: Added frame number and throw tech status to the hurtbox display"
+      - "Modding: Fixed bug where picking two different mods with the same skin would cause P2 to switch to P1's character"
   - v: 0.115.2
     date: 2025/07/01
     notes:
