@@ -2,21 +2,29 @@
 ---
 events:
   # recent
+  - date: 2025/08/08
+    name: "Tough Love Gauntlet #218"
+    challonge: ToughLoveGauntlet218
+    entrants: 11
+    youtube: EoYwVojD0Oo
   - date: 2025/08/01
     name: "Tough Love Gauntlet #217"
     challonge: ToughLoveGauntlet217
     entrants: 14
     winner: cHEESEeATER
+    youtube: BEhspF3_zps
   - date: 2025/07/25
     name: "Tough Love Gauntlet #216"
     challonge: ToughLoveGauntlet216
     entrants: 11
     winner: MegaS
+    youtube: JWvmk7CLIl0
   - date: 2025/07/18
     name: "TLA Summer Tournament 2025"
     challonge: tlasummer25
     entrants: 22
     winner: YC | Avarice
+    youtube: rd5YnbVdFDI
     category: official
   - date: 2025/07/11
     name: "Tough Love Gauntlet #215"
@@ -169,6 +177,12 @@ events:
     entrants: 9
     winner: clove
     youtube: W9AM24jJ7NE
+  - date: 2025/08/05
+    name: "Tuesday Tournament of Death and Doom #4"
+    challonge: TTDD_4
+    entrants: 5
+    winner: KevinKryptonite
+    youtube: CiE6bwsQPSw
   # roundhorsin dump
   - date: 2025/02/22
     name: "Roundhorsin 31"
