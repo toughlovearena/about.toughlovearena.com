@@ -458,6 +458,10 @@ events:
         challonge: ToughLoveGauntlet219
         when:
           - date: 2025/08/15
+      - title: Tough Love Gauntlet 220
+        challonge: ToughLoveGauntlet220
+        when:
+          - date: 2025/08/22
   - title: TLA Birthday Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
     type: tournament
