@@ -13,7 +13,7 @@ export interface HallOfFameEntry {
   date: string;
   name: string;
   entrants: number;
-  winner: string;
+  winner?: string;
   category?: HallOfFameType;
   challonge?: string;
   youtube?: string;

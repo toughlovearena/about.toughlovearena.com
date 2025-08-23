@@ -104,7 +104,7 @@ export const FameTable = (props: {
       case SortBy.TournamentName:
         return sortArrayOfObjects(props.filtered, (entry) => entry.name);
       case SortBy.WinnerName:
-        return sortArrayOfObjects(props.filtered, (entry) => entry.winner);
+        return sortArrayOfObjects(props.filtered, (entry) => entry.winner ?? '');
       case SortBy.EntrantNum:
         return sortArrayOfObjects(props.filtered, (entry) => entry.entrants);
     }
