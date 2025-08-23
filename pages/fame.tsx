@@ -35,9 +35,9 @@ const FamePage = (props: Props) => {
   const filteredBySearch = query
     ? filteredByCategory.filter((entry) => {
         const toMatch = [
-          entry.name.toLowerCase(),
-          entry.winner.toLowerCase(),
-        ];
+          entry.name?.toLowerCase(),
+          entry.winner?.toLowerCase(),
+        ].flatMap(e => e ? [e] : []);
         return terms.every((searchTerm) =>
           toMatch.some((data) => data.includes(searchTerm)),
         );
