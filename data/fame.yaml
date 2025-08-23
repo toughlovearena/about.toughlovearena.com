@@ -2,14 +2,22 @@
 ---
 events:
   # recent
+  - date: 2025/08/22
+    name: "Tough Love Gauntlet #220"
+    challonge: ToughLoveGauntlet220
+    entrants: 6
+    winner: lifelessgray
   - date: 2025/08/15
     name: "Tough Love Gauntlet #219"
     challonge: ToughLoveGauntlet219
     entrants: 13
+    winner: MegaS
+    youtube: cDPvPRwv73s
   - date: 2025/08/08
     name: "Tough Love Gauntlet #218"
     challonge: ToughLoveGauntlet218
     entrants: 11
+    winner: KevinKryptonite
     youtube: EoYwVojD0Oo
   - date: 2025/08/01
     name: "Tough Love Gauntlet #217"
@@ -187,6 +195,18 @@ events:
     entrants: 5
     winner: KevinKryptonite
     youtube: CiE6bwsQPSw
+  - date: 2025/08/12
+    name: "Tuesday Tournament of Death and Doom #5"
+    challonge: TTDD5
+    entrants: 4
+    winner: KevinKryptonite
+    youtube: b_aW4m4tzUU
+  - date: 2025/08/19
+    name: "Tuesday Tournament of Death and Doom: Doomsday"
+    challonge: TTDD6
+    entrants: 13
+    winner: Askadoodle
+    youtube: bxIYjMaO6uA
   # roundhorsin dump
   - date: 2025/02/22
     name: "Roundhorsin 31"
