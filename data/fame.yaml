@@ -2,11 +2,17 @@
 ---
 events:
   # recent
+  - date: 2025/09/19
+    name: "Tough Love Gauntlet #224"
+    challonge: ToughLoveGauntlet224
+    entrants: 6
+    winner: KevinKryptonite
   - date: 2025/09/12
     name: "Tough Love Gauntlet #223"
     challonge: ToughLoveGauntlet223
     entrants: 25
     winner: TableLOL
+    youtube: Hc8Un9ZqtJQ
   - date: 2025/09/05
     name: "Tough Love Gauntlet #222"
     challonge: ToughLoveGauntlet222
