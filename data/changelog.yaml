@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 0.116.2
+    date: 2025/10/11
+    notes:
+      - "Lobbies: VIP users can now make lobbies with custom IDs"
   - v: 0.116.1
     date: 2025/10/11
     notes:
