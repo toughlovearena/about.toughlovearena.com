@@ -1,5 +1,14 @@
 ---
 versions:
+  - v: 0.116.1
+    date: 2025/10/11
+    notes:
+      - "Mobile: Fixed bug where holding touch controls sometimes tried to select an image rendered below the canvas"
+      - "Maintenance: Prep work for story mode launch"
+      - "Maintenance: Fixed some dev tools (thanks clove)"
+      - "Maintenance: Fixed bug with April Fools code when interacting with Cabinet Mode"
+      - "Maintenance: Added admin tools for experimental lobby features"
+      - "Maintenance: Added admin tools for screen recording"
   - v: 0.116.0
     date: 2025/07/27
     notes:
