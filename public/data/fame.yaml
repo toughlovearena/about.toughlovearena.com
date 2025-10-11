@@ -2,6 +2,24 @@
 ---
 events:
   # recent
+  - date: 2025/10/10
+    name: "TLA Halloween Tournament 20255"
+    challonge: tlahalloween25
+    entrants: 14
+    winner: TableLOL
+    category: official
+  - date: 2025/09/26
+    name: "Tough Love Gauntlet #226"
+    challonge: ToughLoveGauntlet226
+    entrants: 16
+    winner: MegaS
+    youtube: CkLlff8nSeQ
+  - date: 2025/09/26
+    name: "Tough Love Gauntlet #225"
+    challonge: ToughLoveGauntlet225
+    entrants: 15
+    winner: MegaS
+    youtube: Jl_Roq4v04E
   - date: 2025/09/19
     name: "Tough Love Gauntlet #224"
     challonge: ToughLoveGauntlet224
