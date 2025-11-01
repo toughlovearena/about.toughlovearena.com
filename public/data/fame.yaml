@@ -2,6 +2,11 @@
 ---
 events:
   # recent
+  - date: 2025/10/31
+    name: "Tough Love Gauntlet #229"
+    challonge: ToughLoveGauntlet229
+    entrants: 10
+    winner: MegaS
   - date: 2025/10/24
     name: "Tough Love Gauntlet #228"
     challonge: ToughLoveGauntlet228
