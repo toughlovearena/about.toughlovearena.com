@@ -3,6 +3,11 @@
 events:
   # recent
   - date: 2025/11/07
+    name: "Tough Love Gauntlet #231"
+    challonge: ToughLoveGauntlet231
+    entrants: 7
+    winner: Askadoodle
+  - date: 2025/11/07
     name: "Tough Love Gauntlet #230"
     challonge: ToughLoveGauntlet230
     entrants: 11
