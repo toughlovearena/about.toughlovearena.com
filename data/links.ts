@@ -19,6 +19,9 @@ export const Social: {
   imageSrc: "/asset/social/musicnote.png",
   url: "https://visager.bandcamp.com/album/tough-love-arena-original-game-soundtrack",
 }, {
+  imageSrc: "/asset/social/steam.png",
+  url: "https://store.steampowered.com/app/1807330/Tough_Love_Arena/",
+}, {
   imageSrc: "/asset/social/shoppingcart.png",
   url: "https://www.redbubble.com/people/toughlovearena",
 }];
