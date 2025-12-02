@@ -21,9 +21,6 @@ export const Social: {
 }, {
   imageSrc: "/asset/social/shoppingcart.png",
   url: "https://www.redbubble.com/people/toughlovearena",
-}, {
-  imageSrc: "/asset/social/patreon.png",
-  url: "https://www.patreon.com/toughlovearena",
 }];
 
 export const Articles: ArticleLink[] = [{
