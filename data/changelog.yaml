@@ -1,5 +1,17 @@
 ---
 versions:
+  - v: 0.117.0
+    date: 2026/01/04
+    notes:
+      - "Modding Editor has been completely redesigned!"
+      - "New engine features:"
+      - "> Projectiles can now be randomized like cancels"
+      - "> RemoteAnimationConfig.offsetFromStoredPosition"
+      - "> FrameConfig.armorMultiplier"
+      - "> FighterStatsConfig.meterPartialColor"
+      - "> FighterStatsConfig.meterFullColor"
+      - "> FighterStatsConfig.meterGainedColor"
+      - "Rewrote sprite loading"
   - v: 0.116.2
     date: 2025/10/11
     notes:
