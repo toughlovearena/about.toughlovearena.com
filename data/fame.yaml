@@ -2,6 +2,11 @@
 ---
 events:
   # recent
+  - date: 2026/01/23
+    name: "Tough Love Gauntlet #241"
+    challonge: ToughLoveGauntlet241
+    entrants: 7
+    winner: TableLOL
   - date: 2026/01/16
     name: "Tough Love Gauntlet #240"
     challonge: ToughLoveGauntlet240
@@ -352,19 +357,19 @@ events:
     name: "Roundhorsin 33"
     challonge: roundhorsin33
     entrants: 10
-    winner: TableLol
+    winner: TableLOL
     youtube: naybDsQGf6Q
   - date: 2025/05/31
     name: "Roundhorsin 34"
     challonge: roundhorsin34
     entrants: 8
-    winner: TableLol
+    winner: TableLOL
     youtube: 1vMLm9xY8RU 
   - date: 2025/07/05
     name: "Roundhorsin 35"
     challonge: roundhorsin35
     entrants: 8
-    winner: TableLol
+    winner: TableLOL
     youtube: aK5BwGf6Zcw
   - date: 2023/03/25
     name: "Roundhorsin 10"
