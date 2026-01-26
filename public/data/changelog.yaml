@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.117.1
+    date: 2026/01/26
+    notes:
+      - "Added Ctrl+S, Ctrl+B shortcuts to the mod editor"
+      - "Fixed a bug where mods wouldn't compile if the last line was a comment"
+      - "Fixed error line numbers being slightly off"
+      - "Fixed a bug where WIP content was accidentally playable"
   - v: 0.117.0
     date: 2026/01/04
     notes:
