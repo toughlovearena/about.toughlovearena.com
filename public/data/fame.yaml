@@ -2,11 +2,60 @@
 ---
 events:
   # recent
+  - date: 2026/04/03
+    name: "Tough Love Gauntlet #249"
+    challonge: ToughLoveGauntlet249
+    entrants: 9
+    winner: cHEESEeATER
+    youtube: DVfXTx3Zmks
+  - date: 2026/03/27
+    name: "Tough Love Gauntlet #248"
+    challonge: ToughLoveGauntlet248
+    entrants: 9
+    winner: cHEESEeATER
+    youtube: 5h3S7dXGaBI
+  - date: 2026/03/20
+    name: "Tough Love Gauntlet #247"
+    challonge: ToughLoveGauntlet247
+    entrants: 7
+    winner: MegaS
+    youtube: ebUEkR_ktUE
+  - date: 2026/03/13
+    name: "Tough Love Gauntlet #246"
+    challonge: ToughLoveGauntlet246
+    entrants: 9
+    winner: MegaS
+    youtube: -UC6ARgsKzE
+  - date: 2026/03/06
+    name: "Tough Love Gauntlet #245"
+    challonge: ToughLoveGauntlet245
+    entrants: 7
+    winner: TableLol
+    youtube: k_6dYbRCd0
+  - date: 2026/02/27
+    name: "Tough Love Gauntlet #244"
+    challonge: ToughLoveGauntlet244
+    entrants: 5
+    winner: TableLol
+    youtube: VhUwQZG7fSQ
+  - date: 2026/02/20
+    name: "Tough Love Gauntlet #243"
+    challonge: ToughLoveGauntlet243
+    entrants: 7
+    winner: MegaS
+    youtube: TgFnYgXfZM8
+  - date: 2026/01/30
+    name: "Tough Love Gauntlet #242"
+    challonge: ToughLoveGauntlet242
+    entrants: 7
+    winner: TableLol
+    youtube: Y46lF3_b52o
   - date: 2026/01/23
     name: "Tough Love Gauntlet #241"
     challonge: ToughLoveGauntlet241
     entrants: 7
-    winner: TableLOL
+    winner: TableLol
+    youtube: OAuOmfyY4EY
   - date: 2026/01/16
     name: "Tough Love Gauntlet #240"
     challonge: ToughLoveGauntlet240
@@ -29,7 +78,7 @@ events:
     name: "Tough Love Gauntlet #237"
     challonge: ToughLoveGauntlet237
     entrants: 9
-    winner: TableLOL
+    winner: TableLol
     youtube: 7Re7tUl4AO
   - date: 2025/12/19
     name: "Tough Love Gauntlet #236"
@@ -41,7 +90,7 @@ events:
     name: "Tough Love Gauntlet #235"
     challonge: ToughLoveGauntlet235
     entrants: 7
-    winner: TableLOL
+    winner: TableLol
     youtube: tEDGckCWOAc
   - date: 2025/12/05
     name: "Tough Love Gauntlet #234"
@@ -71,7 +120,7 @@ events:
     name: "Tough Love Gauntlet #230"
     challonge: ToughLoveGauntlet230
     entrants: 11
-    winner: TableLOL
+    winner: TableLol
     youtube: 6kePxHGnxT0
   - date: 2025/10/31
     name: "Tough Love Gauntlet #229"
@@ -83,7 +132,7 @@ events:
     name: "Tough Love Gauntlet #228"
     challonge: ToughLoveGauntlet228
     entrants: 7
-    winner: TableLOL
+    winner: TableLol
     youtube: J6m33GCxJPw
   - date: 2025/10/17
     name: "Tough Love Gauntlet #227"
@@ -95,7 +144,7 @@ events:
     name: "TLA Halloween Tournament 2025"
     challonge: tlahalloween25
     entrants: 14
-    winner: TableLOL
+    winner: TableLol
     youtube: yvh1U0evKus
     category: official
   - date: 2025/10/03
@@ -120,13 +169,13 @@ events:
     name: "Tough Love Gauntlet #223"
     challonge: ToughLoveGauntlet223
     entrants: 25
-    winner: TableLOL
+    winner: TableLol
     youtube: Hc8Un9ZqtJQ
   - date: 2025/09/05
     name: "Tough Love Gauntlet #222"
     challonge: ToughLoveGauntlet222
     entrants: 27
-    winner: TableLOL
+    winner: TableLol
     youtube: X5GZ6xpR0
   - date: 2025/08/29
     name: "Tough Love Gauntlet #221"
@@ -181,7 +230,7 @@ events:
     name: "Tough Love Gauntlet #214"
     challonge: ToughLoveGauntlet214
     entrants: 12
-    winner: TableLOL
+    winner: TableLol
     youtube: g6pAuZlZq7w
   - date: 2025/06/27
     name: "Tough Love Gauntlet #213"
@@ -205,19 +254,19 @@ events:
     name: "Tough Love Gauntlet #210"
     challonge: ToughLoveGauntlet210
     entrants: 11
-    winner: TableLOL
+    winner: TableLol
     youtube: EmqGKM1IUzY
   - date: 2025/05/30
     name: "Tough Love Gauntlet #209"
     challonge: ToughLoveGauntlet209
     entrants: 13
-    winner: TableLOL
+    winner: TableLol
     youtube: vq9LyQkzkqU
   - date: 2025/05/23
     name: "Tough Love Gauntlet #208"
     challonge: ToughLoveGauntlet208
     entrants: 8
-    winner: TableLOL
+    winner: TableLol
     youtube: nGrZ4OtmyFw
   - date: 2025/05/16
     name: "Tough Love Gauntlet #207"
@@ -235,7 +284,7 @@ events:
     name: "Tough Love Gauntlet #205"
     challonge: ToughLoveGauntlet205
     entrants: 15
-    winner: TableLOL
+    winner: TableLol
     youtube: tpnJn8OuMlQ
   - date: 2025/04/25
     name: "Tough Love Gauntlet #204"
@@ -247,13 +296,13 @@ events:
     name: "Tough Love Gauntlet #203"
     challonge: ToughLoveGauntlet203
     entrants: 14
-    winner: TableLOL
+    winner: TableLol
     youtube: jWzPiSmEVEM
   - date: 2025/04/11
     name: "TLA April Fools 2025"
     challonge: tlafools25
     entrants: 23
-    winner: TableLOL
+    winner: TableLol
     category: official
     youtube: K_GtF8gQBPI
   - date: 2025/04/04
@@ -266,7 +315,7 @@ events:
     name: "Tough Love Gauntlet #201"
     challonge: ToughLoveGauntlet201
     entrants: 7
-    winner: TableLOL
+    winner: TableLol
     youtube: TWgAFJMQDWw
   - date: 2025/03/21
     name: "Tough Love Gauntlet #200"
@@ -357,19 +406,19 @@ events:
     name: "Roundhorsin 33"
     challonge: roundhorsin33
     entrants: 10
-    winner: TableLOL
+    winner: TableLol
     youtube: naybDsQGf6Q
   - date: 2025/05/31
     name: "Roundhorsin 34"
     challonge: roundhorsin34
     entrants: 8
-    winner: TableLOL
+    winner: TableLol
     youtube: 1vMLm9xY8RU 
   - date: 2025/07/05
     name: "Roundhorsin 35"
     challonge: roundhorsin35
     entrants: 8
-    winner: TableLOL
+    winner: TableLol
     youtube: aK5BwGf6Zcw
   - date: 2023/03/25
     name: "Roundhorsin 10"
@@ -1449,6 +1498,12 @@ events:
     youtube: 8NIJ9zwaiuE
 
   # official
+  - date: 2026/04/10
+    name: April Fools Tournament
+    entrants: 7
+    winner: MegaS
+    category: official
+    challonge: http://challonge.com/tlaaf26
   - date: 2025/01/10
     name: Birthday Tournament
     entrants: 24
