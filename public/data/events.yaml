@@ -550,6 +550,38 @@ events:
         challonge: ToughLoveGauntlet242
         when:
           - date: 2026/01/30
+      - title: Tough Love Gauntlet 243
+        challonge: ToughLoveGauntlet243
+        when:
+          - date: 2026/02/20
+      - title: Tough Love Gauntlet 244
+        challonge: ToughLoveGauntlet244
+        when:
+          - date: 2026/02/27
+      - title: Tough Love Gauntlet 245
+        challonge: ToughLoveGauntlet245
+        when:
+          - date: 2026/03/06
+      - title: Tough Love Gauntlet 246
+        challonge: ToughLoveGauntlet246
+        when:
+          - date: 2026/03/13
+      - title: Tough Love Gauntlet 247
+        challonge: ToughLoveGauntlet247
+        when:
+          - date: 2026/03/20
+      - title: Tough Love Gauntlet 248
+        challonge: ToughLoveGauntlet248
+        when:
+          - date: 2026/03/27
+      - title: Tough Love Gauntlet 249
+        challonge: ToughLoveGauntlet249
+        when:
+          - date: 2026/04/03
+      - title: Tough Love Gauntlet 250
+        challonge: ToughLoveGauntlet250
+        when:
+          - date: 2026/04/17
   - title: TLA Birthday Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
     type: tournament
