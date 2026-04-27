@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 0.117.2
+    date: 2026/04/27
+    notes:
+      - 'Lobbies: Named lobbies now have "Prevent Start" on by default'
+      - "Fixed visual mistake with Noodle's Glitter portrait"
+      - "Fixed a bug with music playing in the mod editor"
   - v: 0.117.1
     date: 2026/01/26
     notes:
