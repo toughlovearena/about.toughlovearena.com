@@ -164,6 +164,9 @@ export const AprilFoolsArchives: SimpleLink[] = [{
 }, {
   title: 'April Fools 2025',
   url: 'https://aprilfools2025.toughlovearena.com/',
+}, {
+  title: 'April Fools 2026',
+  url: 'https://aprilfools2026.toughlovearena.com/',
 }];
 
 export const CommunityResources: SimpleLink[] = [{
