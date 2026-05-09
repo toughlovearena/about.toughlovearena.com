@@ -2,11 +2,23 @@
 ---
 events:
   # recent
+  - date: 2026/05/08
+    name: "Tough Love Gauntlet #253"
+    challonge: ToughLoveGauntlet253
+    entrants: 7
+    winner: vomitself
+  - date: 2026/05/01
+    name: "Tough Love Gauntlet #252"
+    challonge: ToughLoveGauntlet252
+    entrants: 7
+    winner: MegaS
+    youtube: GfKL_DyfOyc
   - date: 2026/04/24
     name: "Tough Love Gauntlet #251"
     challonge: ToughLoveGauntlet251
     entrants: 9
     winner: MegaS
+    youtube: McrcC8qKLyY
   - date: 2026/04/17
     name: "Tough Love Gauntlet #250"
     challonge: ToughLoveGauntlet250
