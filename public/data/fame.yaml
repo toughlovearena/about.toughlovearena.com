@@ -2,6 +2,11 @@
 ---
 events:
   # recent
+  - date: 2026/06/05
+    name: "Tough Love Gauntlet #257"
+    challonge: ToughLoveGauntlet257
+    entrants: 8
+    winner: Savory Buns
   - date: 2026/05/29
     name: "Tough Love Gauntlet #256"
     challonge: ToughLoveGauntlet256
