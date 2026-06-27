@@ -2,11 +2,17 @@
 ---
 events:
   # recent
+  - date: 2026/06/26
+    name: "Tough Love Gauntlet #260"
+    challonge: ToughLoveGauntlet260
+    entrants: 5
+    winner: vomitself
   - date: 2026/06/19
     name: "Tough Love Gauntlet #259"
     challonge: ToughLoveGauntlet259
     entrants: 6
     winner: cHEESEeATER
+    youtube: 4bsAz2KGUzA
   - date: 2026/06/12
     name: "Tough Love Gauntlet #258"
     challonge: ToughLoveGauntlet258
