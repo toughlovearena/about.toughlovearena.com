@@ -2,6 +2,11 @@
 ---
 events:
   # recent
+  - date: 2026/07/10
+    name: "Tough Love Gauntlet #262"
+    challonge: ToughLoveGauntlet262
+    entrants: 5
+    winner: MegaS
   - date: 2026/07/03
     name: "Tough Love Gauntlet #261"
     challonge: ToughLoveGauntlet261
