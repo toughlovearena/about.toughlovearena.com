@@ -2,11 +2,16 @@
 ---
 events:
   # recent
+  - date: 2026/08/07
+    name: "Tough Love Gauntlet #266"
+    challonge: ToughLoveGauntlet266
+    entrants: 9
+    winner: highrow
   - date: 2026/07/31
     name: "Tough Love Gauntlet #265"
     challonge: ToughLoveGauntlet265
     entrants: 7
-    winner: Highrow
+    winner: highrow
     youtube: OPkVM4ZN4aI
   - date: 2026/07/24
     name: "Tough Love Gauntlet #264"
