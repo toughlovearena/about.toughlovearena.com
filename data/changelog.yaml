@@ -1,5 +1,14 @@
 ---
 versions:
+  - v: 0.118.0
+    date: 2026/08/08
+    notes:
+      - "Added Arcade Mode!!"
+      - '> Removed "Versus Boss" menu'
+      - "> Re-locked bosses for all players"
+      - "> Added three new boss characters"
+      - "Gameplay: CPUs will now attempt to perform their combo trials"
+      - "Gameplay: CPUs will now burst more randomly"
   - v: 0.117.2
     date: 2026/04/27
     notes:
