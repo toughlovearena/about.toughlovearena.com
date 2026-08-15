@@ -2,11 +2,23 @@
 ---
 events:
   # recent
+  - date: 2026/08/14
+    name: "Tough Love Gauntlet #267"
+    challonge: ToughLoveGauntlet267
+    entrants: 7
+    winner: MegaS
+  - date: 2026/08/13
+    name: "Under the Counter 2 x Tough Love Arena"
+    challonge: UTC2_TLA
+    entrants: 14
+    winner: MegaS
+    youtube: lwMCaRdPMe8
   - date: 2026/08/07
     name: "Tough Love Gauntlet #266"
     challonge: ToughLoveGauntlet266
     entrants: 9
     winner: highrow
+    youtube: pCJAGZwhUyM
   - date: 2026/07/31
     name: "Tough Love Gauntlet #265"
     challonge: ToughLoveGauntlet265
