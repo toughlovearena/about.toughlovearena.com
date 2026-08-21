@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 0.118.2
+    date: 2026/08/21
+    notes:
+      - 'Renamed "Arcade Mode" to "Story Mode" to better match the game experience'
+      - 'Added "Autoplay" option for Story Mode for those who just want to see the cutscenes'
+      - "Adjusted CPU behavior to improve ability to land juggle combos"
+      - "Extended the Summer Theme in August"
   - v: 0.118.1
     date: 2026/08/08
     notes:
