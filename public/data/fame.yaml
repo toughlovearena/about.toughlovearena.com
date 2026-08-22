@@ -2,6 +2,12 @@
 ---
 events:
   # recent
+  - date: 2026/08/21
+    name: "TLA Summer Tournament 2026"
+    challonge: tlasummer26
+    entrants: 10
+    winner: MegaS
+    category: official
   - date: 2026/08/14
     name: "Tough Love Gauntlet #267"
     challonge: ToughLoveGauntlet267
