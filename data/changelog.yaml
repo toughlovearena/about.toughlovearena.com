@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 0.118.3
+    date: 2026/08/22
+    notes:
+      - "Story: Fixed bug where Easy/Hard had CPU taking over both players"
+      - "Reverted Summer Theme to July only"
   - v: 0.118.2
     date: 2026/08/21
     notes:
