@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 1.0.0
+    date: 2026/08/26
+    notes:
+      - "Launch version! We're officially leaving Beta / Early Access"
+      - "Updated splash art and logos"
   - v: 0.118.3
     date: 2026/08/22
     notes:
