@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 1.0.1
+    date: 2026/08/26
+    notes:
+      - "Steam version now has ALL skins unlocked"
+      - "Free version now locks premium skins in offline game modes (unless already earned)"
   - v: 1.0.0
     date: 2026/08/26
     notes:
