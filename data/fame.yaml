@@ -2,17 +2,24 @@
 ---
 events:
   # recent
+  - date: 2026/08/28
+    name: "Tough Love Gauntlet #268"
+    challonge: ToughLoveGauntlet268
+    entrants: 8
+    winner: TableLol
   - date: 2026/08/21
     name: "TLA Summer Tournament 2026"
     challonge: tlasummer26
     entrants: 10
     winner: MegaS
     category: official
+    youtube: KQwtegVNJ-E
   - date: 2026/08/14
     name: "Tough Love Gauntlet #267"
     challonge: ToughLoveGauntlet267
     entrants: 7
     winner: MegaS
+    youtube: yH-9ei_uBPM
   - date: 2026/08/13
     name: "Under the Counter 2 x Tough Love Arena"
     challonge: UTC2_TLA
