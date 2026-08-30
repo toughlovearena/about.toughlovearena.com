@@ -1,10 +1,21 @@
 ---
 versions:
+  - v: 1.0.2
+    date: 2026/08/30
+    notes:
+      - "Steam: Fixed bug where new boss characters were unlocked automatically"
+      - "Steam: Fixed bug where Enter/Exit fullscreen didn't work"
+      - "Story: You can now skip stories while in cutscenes"
+      - "Frame Data: Added Synthetic Spice and Malicious Meat (when unlocked)"
+      - "Coalescent Carb: misc balance adjustments"
+      - "Synthetic Spice: misc balance adjustments and removed custom meter color"
+      - "Mystery Meat: Fixed prejump to be throw invulnerable"
+      - "Fixed bug where some remote sprites weren't loaded before the match"
   - v: 1.0.1
     date: 2026/08/26
     notes:
       - "Steam version now has ALL skins unlocked"
-      - "Free version now locks premium skins in offline game modes (unless already earned)"
+      - "Free version now defaults to locking premium skins in offline game modes"
   - v: 1.0.0
     date: 2026/08/26
     notes:
