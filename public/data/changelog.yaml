@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 1.0.4
+    date: 2026/08/31
+    notes:
+      - "Cabinet Mode: Added new bosses to the rotation"
   - v: 1.0.3
     date: 2026/08/31
     notes:
