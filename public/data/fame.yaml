@@ -2,11 +2,17 @@
 ---
 events:
   # recent
+  - date: 2026/09/04
+    name: "Tough Love Gauntlet #269"
+    challonge: ToughLoveGauntlet269
+    entrants: 7
+    winner: Aqua Fortis
   - date: 2026/08/28
     name: "Tough Love Gauntlet #268"
     challonge: ToughLoveGauntlet268
     entrants: 8
     winner: TableLol
+    youtube: 2DkvkL9RtAg
   - date: 2026/08/21
     name: "TLA Summer Tournament 2026"
     challonge: tlasummer26
