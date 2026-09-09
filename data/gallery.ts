@@ -5,10 +5,10 @@ export const GalleryAssets: GalleryItem[] = [
     file: "gameplay/0.jpg",
     description: "Gameplay screenshot",
   },
-  {
-    file: "gameplay/1.jpg",
-    description: "Gameplay screenshot",
-  },
+  // {
+  //   file: "gameplay/1.jpg",
+  //   description: "Gameplay screenshot",
+  // },
   {
     file: "gameplay/2.jpg",
     description: "Gameplay screenshot",
@@ -17,10 +17,10 @@ export const GalleryAssets: GalleryItem[] = [
     file: "gameplay/3.jpg",
     description: "Gameplay screenshot",
   },
-  {
-    file: "gameplay/4.jpg",
-    description: "Gameplay screenshot",
-  },
+  // {
+  //   file: "gameplay/4.jpg",
+  //   description: "Gameplay screenshot",
+  // },
   {
     file: "gameplay/5.jpg",
     description: "Gameplay screenshot",
