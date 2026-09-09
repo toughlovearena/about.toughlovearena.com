@@ -7,8 +7,8 @@ export const GalleryAssets: GalleryItem[] = [{
   file: 'gameplay2.jpg',
   description: 'Gameplay of Rice vs Pork',
 }, {
-  file: 'welcomepage_beta.jpg',
-  description: 'Beta splash screen',
+  file: 'welcomepage_v02.jpg',
+  description: 'Splash screen',
 }, {
   file: '2023_promo_wonderville.jpg',
   description: 'Promo art for Wonderville',
@@ -79,6 +79,9 @@ export const GalleryAssets: GalleryItem[] = [{
 }, {
   file: 'stage_random.jpg',
   description: 'Random Stage',
+}, {
+  file: 'welcomepage_beta.jpg',
+  description: 'Beta splash screen',
 }, {
   file: 'welcomepage_bday.jpg',
   description: 'Birthday Theme',
