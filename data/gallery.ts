@@ -2,12 +2,36 @@ import { GalleryItem } from "../interfaces";
 
 export const GalleryAssets: GalleryItem[] = [
   {
-    file: "gameplay1.jpg",
-    description: "Gameplay of Beef vs Noodle",
+    file: "gameplay/0.jpg",
+    description: "Gameplay screenshot",
   },
   {
-    file: "gameplay2.jpg",
-    description: "Gameplay of Rice vs Pork",
+    file: "gameplay/1.jpg",
+    description: "Gameplay screenshot",
+  },
+  {
+    file: "gameplay/2.jpg",
+    description: "Gameplay screenshot",
+  },
+  {
+    file: "gameplay/3.jpg",
+    description: "Gameplay screenshot",
+  },
+  {
+    file: "gameplay/4.jpg",
+    description: "Gameplay screenshot",
+  },
+  {
+    file: "gameplay/5.jpg",
+    description: "Gameplay screenshot",
+  },
+  {
+    file: "gameplay/6.jpg",
+    description: "Gameplay screenshot",
+  },
+  {
+    file: "gameplay/7.jpg",
+    description: "Gameplay screenshot",
   },
   {
     file: "welcomepage_v02.jpg",
