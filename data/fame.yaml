@@ -2,11 +2,17 @@
 ---
 events:
   # recent
+  - date: 2026/09/11
+    name: "Tough Love Gauntlet #270"
+    challonge: ToughLoveGauntlet270
+    entrants: 8
+    winner: SquidSlash
   - date: 2026/09/04
     name: "Tough Love Gauntlet #269"
     challonge: ToughLoveGauntlet269
     entrants: 7
     winner: Aqua Fortis
+    youtube: 8tMy7FV8_vU
   - date: 2026/08/28
     name: "Tough Love Gauntlet #268"
     challonge: ToughLoveGauntlet268
