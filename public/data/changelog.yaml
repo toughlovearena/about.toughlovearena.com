@@ -1,5 +1,11 @@
 ---
 versions:
+  - v: 1.1.0
+    date: 2026/09/15
+    notes:
+      - "Steam: Added Linux support"
+      - "Steam: Added 12 Steam Achievements"
+      - "Steam: Removed in-game EULA confirmation (since its now required by Steam before launching)"
   - v: 1.0.4
     date: 2026/08/31
     notes:
