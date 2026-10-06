@@ -1,5 +1,12 @@
 ---
 versions:
+  - v: 1.1.1
+    date: 2026/10/05
+    notes:
+      - "Steam: Fixed bugs and inconsistent behavior with external links. Now they will always open in your preferred browser"
+      - "Steam: You can now click the version number in the bottom left the open the status page (like in the browser version)"
+      - "Crashes will now automatically restart the game after 3 seconds"
+      - "Temporarily removed themed welcome screens while we make some corrections"
   - v: 1.1.0
     date: 2026/09/15
     notes:
