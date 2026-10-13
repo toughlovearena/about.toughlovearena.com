@@ -1,5 +1,10 @@
 ---
 versions:
+  - v: 1.1.2
+    date: 2026/10/12
+    notes:
+      - "Steam: Fixed a few more external link issues"
+      - "Restored the themed welcome screens with updated art"
   - v: 1.1.1
     date: 2026/10/05
     notes:
