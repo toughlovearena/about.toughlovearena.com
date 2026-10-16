@@ -1,5 +1,9 @@
 ---
 versions:
+  - v: 1.1.3
+    date: 2026/10/16
+    notes:
+      - 'Lobbies: Fixed race condition in packet handling that could sometimes cause you to get stuck at the "Retrieving data" screen'
   - v: 1.1.2
     date: 2026/10/12
     notes:
