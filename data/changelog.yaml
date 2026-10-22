@@ -1,5 +1,13 @@
 ---
 versions:
+  - v: 1.1.4
+    date: 2026/10/21
+    notes:
+      - "Fixed issues with input handling in Story Mode"
+      - "Fixed a bug where some story minigames would end instantly"
+      - "Fixed a bug where you wouldn't be able to exit the replay menu after loading a replay"
+      - "Fixed a bug where combo trials wouldn't work for modded characters"
+      - "The mod editor will no longer prompt you to save when exiting if you don't have any code"
   - v: 1.1.3
     date: 2026/10/16
     notes:
