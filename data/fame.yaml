@@ -2,11 +2,17 @@
 ---
 events:
   # recent
+  - date: 2026/11/13
+    name: "Tough Love Gauntlet #279"
+    challonge: ToughLoveGauntlet279
+    entrants: 4
+    winner: TableLol
   - date: 2026/11/06
     name: "Tough Love Gauntlet #278"
     challonge: ToughLoveGauntlet278
     entrants: 7
     winner: TableLol
+    youtube: ScKiwtK-tMc
   - date: 2026/10/30
     name: "Tough Love Gauntlet #277"
     challonge: ToughLoveGauntlet277
