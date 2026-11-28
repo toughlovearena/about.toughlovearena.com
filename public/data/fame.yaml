@@ -2,7 +2,12 @@
 ---
 events:
   # recent
-  - date: 2026/11/13
+  - date: 2026/11/27
+    name: "Tough Love Gauntlet #281"
+    challonge: ToughLoveGauntlet281
+    entrants: 7
+    winner: SquidSlash 
+  - date: 2026/11/20
     name: "Tough Love Gauntlet #280"
     challonge: ToughLoveGauntlet280
     entrants: 8
